@@ -449,7 +449,7 @@ function aww_status.update_feature_13(value)
 	return value
 end
 
-function aww_status.feature_14_was(value)
+function aww_status.update_feature_13(value)
 	local id = 14
 	value = aww_status.to_bool(value)
 	aww_status.feature_14 = value
