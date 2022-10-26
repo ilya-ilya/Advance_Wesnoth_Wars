@@ -24,7 +24,7 @@ But I will really appreciate to know my code is used on your project, and that y
 Description
 -----------
 
-Last Wesnoth version tested : 1.14.14
+Last Wesnoth version tested : 1.16.6
 
 A collection of the most-requested options to make the mechanics more realistic and tactic, for people curious to experiment a new gameplay.
 It changes the combat approach, making it easier for good tacticians, harder for the others.
