@@ -30,7 +30,7 @@ aww_status = {
 function aww_status.run()
 	aww_status.versioning()
 	aww_status.init()
-	aww_status.message_info()
+--	aww_status.message_info()
 end
 
 
@@ -438,7 +438,6 @@ end
 function aww_status.update_feature_13(value)
 	local id = 13
 	value = aww_status.to_bool(value)
-	value = aww_status.to_bool(value)
 	aww_status.feature_13 = value
 	local old_value = aww_status.get_feature_value(id, nil)
 	if value ~= old_value then
@@ -450,7 +449,7 @@ function aww_status.update_feature_13(value)
 	return value
 end
 
-function aww_status.update_feature_14(value)
+function aww_status.feature_14_was(value)
 	local id = 14
 	value = aww_status.to_bool(value)
 	aww_status.feature_14 = value

@@ -709,7 +709,7 @@ end
 function aww_duel.debug_message(msg)
 
 	if aww_status.feature_07 then
-		wesnoth.message("AWW DUEL debug", msg)
+		wesnoth.interface.add_chat_message("AWW DUEL debug", msg)
 	end
 	return false
 end
