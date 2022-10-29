@@ -4,6 +4,26 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
+## [1.16.0] - 2019-10-19	
+
+### Added	
+- Messages with portrait of the character that levels up and receives an AMLA bonus (only on spanish for now)	
+- Spanish translation (partial for now)	
+
+### Changed	
+- Epic trait now doesn't increases attack hits by 20%, only attack damage	
+- All stat bonuses now are [object] for better compatibility between maps	
+- Now on single player campaigns, the other sides (allies, enemies, neutrals, etc.) get 2*X passive experience, for balancing
+
+### Fixed	
+- Fixed some typos on the code, the included on RusackN1 fork and some others	
+- Max movement points bonus now preserved between maps	
+- Prevent Injured Sergeant to level-up by gaining passive xp (Campaigns)	
+
+#### Note:	
+I don't recommend to use the non-random combat feature because it doesn't detect the changes between night/day and other defenses/special bonuses well. Instead, Biased RNG from the base game is a perfect substitute. 	
+
+
 ## [1.14.15.1] - 2019-10-19
 
 ### Added
