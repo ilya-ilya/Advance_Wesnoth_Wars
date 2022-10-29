@@ -517,13 +517,13 @@ msgstr ""
 #: Advance_Wesnoth_Wars\mods\00_common.cfg:61
 #: Advance_Wesnoth_Wars\mods\14_levelup_notif.cfg:30
 msgid "LEVEL UP"
-msgstr "SUBE NIVEL"
+msgstr "¡SUBE NIVEL!"
 
 #. [then]
 #: Advance_Wesnoth_Wars\mods\00_common.cfg:76
 #: Advance_Wesnoth_Wars\mods\14_levelup_notif.cfg:22
 msgid "Advancement"
-msgstr "Avanzado"
+msgstr "¡Avanzado!"
 
 #. [then]
 #: Advance_Wesnoth_Wars\mods\03_promoted_leader.cfg:107
