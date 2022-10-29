@@ -6,7 +6,7 @@ local _ = wesnoth.textdomain 'aww'
 
 aww_status = {
 	title = _"Advanced Wesnoth Wars",
-	version = "1.14.15.3", -- same as in _server.pbl
+	version = "1.16.0", -- same as in _server.pbl
 	FEATURE_IDS = {
 		[1]  = "aww_01_enable_randomless_combats",
 		[2]  = "aww_02_squad_mode",
@@ -30,7 +30,7 @@ aww_status = {
 function aww_status.run()
 	aww_status.versioning()
 	aww_status.init()
---	aww_status.message_info()
+	aww_status.message_info()
 end
 
 
@@ -103,7 +103,7 @@ function aww_status.migrate(from_version)
 		aww_status.update_feature_11(wesnoth.get_variable("aww_enable_stealth_mode"))
 	end
 
-	wesnoth.message("AWW notice", string.format("migrating from version %s to %s", wesnoth.get_variable("aww_version"), aww_status.version))
+	wesnoth.interface.add_chat_message("AWW notice", string.format("migrating from version %s to %s", wesnoth.get_variable("aww_version"), aww_status.version))
 	wesnoth.set_variable("aww_migrated_version", from_version)
 end
 
@@ -138,7 +138,7 @@ function aww_status.get_info(filter_id)
 		msg = msg .. "14. ".. _"L-Up ".._"Notif" .. " | "
 	end
 	if (filter_id == nil or filter_id == 15) and aww_status.feature_15 then
-		msg = msg .. "15. L-Up ".._"AMLA".." ".. _"Increase Level Number" .. " | "
+		msg = msg .. "15. ".. _"L-Up ".._"AMLA".." ".. _"Increase Level Number" .. " | "
 	end
 	if (filter_id == nil or filter_id == 9) and aww_status.feature_09 then
 		msg = msg .. "09. ".. _"L-Up ".._"AMLA".." ".._"Bonuses" .. " | "
@@ -189,7 +189,7 @@ end
 function aww_status.get_feature_info(id)
 	local msg = string.format(" #%s. %s = [%s]", id, aww_status.feature_code(id), aww_status.get_feature_value(id, '?'))
     msg = string.gsub(msg, "true", "ON")
-    msg = string.gsub(msg, "false", "off")
+    msg = string.gsub(msg, "false", "OFF")
     msg = string.gsub(msg, "aww_", "")
     msg = string.gsub(msg, "_", " ")
 	return _"Feature" .. msg
@@ -197,7 +197,7 @@ end
 
 
 function aww_status.message_info(id)
-	wesnoth.message(aww_status.title .. " v".. aww_status.version, aww_status.get_info(id))
+	wesnoth.interface.add_chat_message(aww_status.title .. " v".. aww_status.version, aww_status.get_info(id))
 end
 
 
@@ -206,7 +206,7 @@ function aww_status.message_info_all()
 	for id = 1, #aww_status.FEATURE_IDS do
 		msg = msg .. aww_status.get_feature_info(id) .. " | "
 	end
-	wesnoth.message(aww_status.title .. " v".. aww_status.version, msg)
+	wesnoth.interface.add_chat_message(aww_status.title .. " v".. aww_status.version, msg)
 end
 
 

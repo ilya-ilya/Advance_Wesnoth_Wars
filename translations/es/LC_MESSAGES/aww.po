@@ -155,12 +155,12 @@ msgstr "Enjambre"
 #: Advance_Wesnoth_Wars\lua\aww_status.lua:146
 #: Advance_Wesnoth_Wars\lua\aww_status.lua:149
 msgid "L-Up "
-msgstr "N-Sup "
+msgstr "Subir nivel "
 
 #. [lua]: aww_status.get_info
 #: Advance_Wesnoth_Wars\lua\aww_status.lua:137
 msgid "Notif"
-msgstr "Notif"
+msgstr "Notificación"
 
 #. [lua]: aww_status.get_info
 #: Advance_Wesnoth_Wars\lua\aww_status.lua:140
@@ -172,7 +172,7 @@ msgstr "Vida Relativa"
 #: Advance_Wesnoth_Wars\lua\aww_status.lua:146
 #: Advance_Wesnoth_Wars\lua\aww_status.lua:149
 msgid "AMLA"
-msgstr "LVL+"
+msgstr "AMLA"
 
 #. [lua]: aww_status.get_info
 #. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15.
@@ -227,7 +227,7 @@ msgstr "Berserk tweak"
 #. [lua]: aww_status.get_info
 #: Advance_Wesnoth_Wars\lua\aww_status.lua:171
 msgid "Ambush tweak"
-msgstr "Ambush tweak"
+msgstr "Emboscadas modificadas"
 
 #. [lua]: aww_status.get_info
 #. [checkbox]: id=aww_11_enable_ninja, description=#11.
@@ -690,7 +690,10 @@ msgstr ""
 #: Advance_Wesnoth_Wars\mods\options.cfg:143
 #: Advance_Wesnoth_Wars\mods\options.cfg:151
 #: Advance_Wesnoth_Wars\mods\options.cfg:159
-msgid "Off"
+msgid "off"
+msgstr "NO"
+
+msgid "OFF"
 msgstr "NO"
 
 #. [checkbox]: id=aww_14_enable_levelup_notif, description=#14.
@@ -731,7 +734,7 @@ msgstr "Subir por encima del nivel máximo : "
 #. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15.
 #: Advance_Wesnoth_Wars\mods\options.cfg:75
 msgid "The unit level will continue growing with the AMLA level-ups."
-msgstr "The unit level will continue growing with the AMLA level-ups."
+msgstr "El nivel de la unidad aumentará por encima de su límite cada vez que gane experiencia completa."
 
 #. [checkbox]: id=aww_09_enable_amla_bonus, description=#09.
 #: Advance_Wesnoth_Wars\mods\options.cfg:82
@@ -1048,7 +1051,7 @@ msgstr "- Máxima defensa basada en terreno contra este ataque :"
 #~ msgstr "3. Mode Escouade"
 
 #~ msgid "5. L-Up AMLA Bonuses"
-#~ msgstr "5. N-Sup Bonus AMLA"
+#~ msgstr "5. Bonus AMLA al subir nivel"
 
 #~ msgid ""
 #~ "When used offensively :\n"

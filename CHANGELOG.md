@@ -7,21 +7,24 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.16.0] - 2019-10-19	
 
 ### Added	
-- Messages with portrait of the character that levels up and receives an AMLA bonus (only on spanish for now)	
-- Spanish translation (partial for now)	
+- Messages with portrait of the character that levels up and receives an AMLA bonus (only on spanish for now)
+- Spanish translation (partial for now)
 
-### Changed	
-- Epic trait now doesn't increases attack hits by 20%, only attack damage	
-- All stat bonuses now are [object] for better compatibility between maps	
-- Now on single player campaigns, the other sides (allies, enemies, neutrals, etc.) get 2*X passive experience, for balancing
+### Changed
+- Epic trait now doesn't increases attack hits by 20%, only attack damage
+- All stat bonuses now are [object] for better compatibility between maps
+- AI gets 2*X (double) passive experience if you activates the feature, for balancing
+- Level up increases (10*X)% (+10%, +20%, etc.) max experience (requires for next level) if you activates AMLA number increase feature and passive experience together, in addition to the +20% increase by default
+X = passive experience value you selected
 
-### Fixed	
-- Fixed some typos on the code, the included on RusackN1 fork and some others	
-- Max movement points bonus now preserved between maps	
-- Prevent Injured Sergeant to level-up by gaining passive xp (Campaigns)	
+
+### Fixed
+- Fixed some typos on the code, the included on RusackN1 fork and some others
+- Max movement points bonus now preserved between maps
+- Prevent Injured Sergeant to level-up by gaining passive xp (Campaigns)
 
 #### Note:	
-I don't recommend to use the non-random combat feature because it doesn't detect the changes between night/day and other defenses/special bonuses well. Instead, Biased RNG from the base game is a perfect substitute. 	
+I don't recommend to use the non-random combat feature because it doesn't detect the changes between night/day and other defenses/special bonuses well. Instead, Biased RNG from the base game is a perfect substitute.
 
 
 ## [1.14.15.1] - 2019-10-19
