@@ -17,6 +17,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Fixed
 - Fixed some typos on the code, the included on RusackN1 fork and some others
 - Max movement points bonus now preserved between maps
+- Prevent Injured Sergeant to level-up by gaining passive xp (Campaigns)
 
 #### Note:
 I don't recommend to use the non-random combat feature because it doesn't detect the changes between night/day and other defenses/special bonuses well. Instead, Biased RNG from the base game is a perfect substitute. 
