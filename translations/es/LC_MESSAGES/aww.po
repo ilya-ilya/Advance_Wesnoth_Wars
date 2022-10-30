@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2019-04-13 11:39 UTC\n"
-"PO-Revision-Date: 2022-10-29 20:35+0200\n"
+"PO-Revision-Date: 2022-10-30 19:06+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -12,6 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 3.2\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: .\n"
 
 #. [lua]: aww_duel.special_chance_to_hit_100
 #: Advance_Wesnoth_Wars\lua\aww_duel.lua:283
@@ -233,6 +235,9 @@ msgstr "Funcionalidad"
 msgid "regenerates"
 msgstr "regeneración"
 
+msgid "Regenerates"
+msgstr "Regeneración"
+
 #. [regenerate]: id=aww_ability_custom_regen{HP}{CURE}
 #: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:23
 msgid "poison"
@@ -321,9 +326,9 @@ msgid ""
 "proportional to the percentage of its of maximum HP the unit has. For example a unit with 45/60 HP "
 "will do only 3 strike of an attack having initially 4 strikes."
 msgstr ""
-"The number of strikes of this attack decreases when the unit is wounded. The number of strikes is "
-"proportional to the percentage of its of maximum HP the unit has. For example a unit with 45/60 HP "
-"will do only 3 strike of an attack having initially 4 strikes."
+"El número de golpes de este ataque disminuye cuando la unidad es herida. El número de golpes es "
+"proporcional al porcentaje de los PV máximos. Por ejemplo, una unidad con 45/60 PV sólo hará 3 golpes "
+"en un ataque que inicialmente tendría 4 golpes."
 
 #. [skirmisher]: id=distract
 #. [case]
@@ -332,10 +337,16 @@ msgstr ""
 msgid "distract"
 msgstr "distracción"
 
+msgid "Distract"
+msgstr "Distracción"
+
 #. [skirmisher]: id=distract
 #: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:190
 msgid "female^distract"
 msgstr "distracción"
+
+msgid "female^Distract"
+msgstr "Distracción"
 
 #. [skirmisher]: id=distract
 #: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:191
@@ -398,15 +409,14 @@ msgid ""
 "scenario.\n"
 "- A warcry related to the fury level with also be displayed when the unit attack."
 msgstr ""
-"When used offensively :\n"
-"- This attack deals more damage to the target.\n"
-"- It also causes this unit to take more damage from the target’s counterattack.\n"
-"- The damage ratio starts at 1.5, increases of 0.5 after each attack, until 3, then drop to 1, and "
-"the loop restart.\n"
-"- Rampage : when the attack kills, the unit can attack an adjacent enemy.\n"
-"- After 5 kills with that attack, it gains Bloodthirsty, an offensive drain, until end of the "
-"scenario.\n"
-"- A warcry related to the fury level with also be displayed when the unit attack."
+"Cuando se usa ofensivamente :\n"
+"- El ataque causa más daño al objetivo.\n"
+"- Recibe mayor daño del contraataque del objetivo.\n"
+"- El daño se multiplica por 1.5 en el primer ataque, aumentando un 0.5 extra cada ataque, hasta un "
+"máximo de 3, el siguiente hace daño normal, y el ciclo se reinicia.\n"
+"- Desbocado : cuando el ataque mata, la unidad puede atacar a otro enemigo adyacente.\n"
+"- Tras 5 muertes con este ataque, la unidad gana Sed de Sangre hasta el final del escenario.\n"
+"- Un grito de guerra relacionado con el nivel de furia se mostrará con cada ataque."
 
 #. [berserk]: id=berserk
 #: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:266
@@ -606,9 +616,7 @@ msgstr " : Daño ajustado %"
 msgid ""
 "To increase/reduce terrain/fixed Hit probabilities, converted in damages. Only applies for 'No Random "
 "Combats'."
-msgstr ""
-"To increase/reduce terrain/fixed Hit probabilities, converted in damages. Only applies for 'No Random "
-"Combats'."
+msgstr "Incrementar o reducir el daño. Sólo aplica para 'Combates No Aleatorios'."
 
 #. [choice]: id=aww_02_squad_mode, description=#02.
 #: Advance_Wesnoth_Wars\mods\options.cfg:31
@@ -622,9 +630,9 @@ msgid ""
 "attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account "
 "by AI. In both cases : "
 msgstr ""
-"Units lacking lot of HP do proportionally less attack strikes (or less damage for single-strike "
-"attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account "
-"by AI. In both cases : "
+"Unidades sin muchos PV hacen proporcionalmente menos golpes (o menos daño en ataques de un solo "
+"golpe). Enjambre tiene una peor proporción (-1 golpe al perder sólo 1 PV), pero es tenido en cuenta "
+"por la IA. En ambos casos : "
 
 #. [choice]: id=aww_02_squad_mode, description=#02.
 #. [checkbox]: id=aww_03_enable_promoted_leader, description=#03.
@@ -652,8 +660,8 @@ msgid ""
 "Floating text on the unit currently leveling-up. Can be helpful to know which unit is concerned by an "
 "advancement. Will display only if no other AWW mods wants to display something at this moment."
 msgstr ""
-"Floating text on the unit currently leveling-up. Can be helpful to know which unit is concerned by an "
-"advancement. Will display only if no other AWW mods wants to display something at this moment."
+"Texto flotante en la unidad que sube de nivel. Ayuda a reconocer la unidad afectada por un avance. Se "
+"muestra sólo si ningún otro mod o característica quiere mostrar texto flotante en ese momento."
 
 #. [checkbox]: id=aww_06_enable_levelup_relative_healing, description=#06.
 #: Advance_Wesnoth_Wars\mods\options.cfg:66
@@ -702,8 +710,8 @@ msgid ""
 "WARNING : Not Recommended for Campaigns, it can create bugs (like loose of unit or different recruit "
 "list). "
 msgstr ""
-"WARNING : Not Recommended for Campaigns, it can create bugs (like loose of unit or different recruit "
-"list). "
+"ADVERTENCIA  : No recomendado para Campañas, puede producir bugs (como la pérdida de la unidad o "
+"diferentes listas de reclutamiento). "
 
 #. [checkbox]: id=aww_03_enable_promoted_leader, description=#03.
 #: Advance_Wesnoth_Wars\mods\options.cfg:91
@@ -752,17 +760,17 @@ msgstr ""
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
 #: Advance_Wesnoth_Wars\mods\options.cfg:128
 msgid "Berserk tweak : Replace by Fury"
-msgstr "Berserk tweak : Replace by Fury"
+msgstr "Frenesí (Berserk) modificado: Reemplazado por Furia"
 
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
 #: Advance_Wesnoth_Wars\mods\options.cfg:129
 msgid "Replace 'berserk' by a new 'Fury' weapon special, way more interesting. "
-msgstr "Replace 'berserk' by a new 'Fury' weapon special, way more interesting. "
+msgstr "Reemplaza 'Frenesí' por el nuevo especial 'Furia\"."
 
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
 #: Advance_Wesnoth_Wars\mods\options.cfg:129
 msgid " Fury description : "
-msgstr " Fury description : "
+msgstr "Descripción de Furia : "
 
 #. [checkbox]: id=aww_13_enable_ambushed_fix, description=#13.
 #: Advance_Wesnoth_Wars\mods\options.cfg:142
@@ -792,9 +800,9 @@ msgid ""
 "villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on "
 "ambushes/ hide&seek."
 msgstr ""
-"Most of units will melee back-stabs, poison arrows, distract from ZoC, be faster and invisible in "
-"villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on "
-"ambushes/ hide&seek."
+"Muchas de las unidades con puñalada trapera, flechas venenosas, y distracción, serán más rápidas e "
+"invisibles en pueblos, bosques, agua profunda, o en todas partes de noche. Para divertidos PvP con "
+"niebla de guerra enfocados en emboscadas y escondite."
 
 #. [checkbox]: id=aww_07_enable_verbose, description=#07.
 #: Advance_Wesnoth_Wars\mods\options.cfg:158
@@ -807,8 +815,8 @@ msgid ""
 "If features #01 or #02 are enabled, will display messages about damage/hits number calculations. "
 "Useful for tests or understanding."
 msgstr ""
-"If features #01 or #02 are enabled, will display messages about damage/hits number calculations. "
-"Useful for tests or understanding."
+"Si las características #01 y #02 están activas, se mostrarán mensajes sobre cálculo de daño y golpes. "
+"Útil para pruebas o comprensión."
 
 #. [multiplayer]: id=4p_Ruvaak_Mirage_Atoll
 #: Advance_Wesnoth_Wars\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:12
@@ -842,16 +850,16 @@ msgid ""
 "island's wildlife and the others shipwrecked enemies, before finding a way to escape this heavenly "
 "hell.\n"
 msgstr ""
-"Ruvaak Mirage Atoll v1.4 : PvPvE scenario, included in Advanced Wesnoth Wars mod.\n"
+"Ruvaak Mirage Atoll v1.4 : escenario PvPvE incluido en Advanced Wesnoth Wars.\n"
 "\n"
-"This scenario was especially made for taking full potential of Advanced Wesnoth Wars features, with "
-"all features enabled. But it works also without.\n"
+"Este escenario está específicamente diseñado para tomar ventaja de todo el potencial de las "
+"características de AWW, con todas activadas. Funciona también sin ellas.\n"
 "\n"
-"Can also be played in 2v2 (North vs South or West vs East).\n"
+"También puede ser jugado 2v2 (Norte contra Sur  o Este contra Oeste).\n"
 "\n"
-"The units recruited the first turn will have special traits and will get free upkeep.\n"
+"Las unidades reclutadas el primer turno tendrán rasgos especiales y mantenimiento gratuito.\n"
 "\n"
-"~~~~ The Story ~~~~\n"
+"~~~~ Historia ~~~~\n"
 "\n"
 "During a fierce naval battle between four factions around a small atoll, a sudden storm interrupted "
 "hostilities by destroying all fleets.\n"
@@ -872,22 +880,22 @@ msgstr ""
 #: Advance_Wesnoth_Wars\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:175
 #: Advance_Wesnoth_Wars\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:201
 msgid "Wrecked ship"
-msgstr "Wrecked ship"
+msgstr "Barco naufragado"
 
 #. [side]
 #: Advance_Wesnoth_Wars\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:134
 msgid "North-East Camp"
-msgstr "North-East Camp"
+msgstr "Campo Noreste"
 
 #. [side]
 #: Advance_Wesnoth_Wars\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:160
 msgid "South-East Camp"
-msgstr "South-East Camp"
+msgstr "Campo Sudeste"
 
 #. [side]
 #: Advance_Wesnoth_Wars\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:187
 msgid "South-West Camp"
-msgstr "South-West Camp"
+msgstr "Campo Sudoeste"
 
 #. [side]
 #: Advance_Wesnoth_Wars\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:214
@@ -920,23 +928,46 @@ msgstr "Stormbringer"
 #. [modify_unit]
 #: Advance_Wesnoth_Wars\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:864
 msgid "Furious "
-msgstr "Furious "
+msgstr "Furioso "
 
 #. [event]: id=aww_rma_trigger_recruit_loyal
 #: Advance_Wesnoth_Wars\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:919
 msgid "Best friend!"
-msgstr "Meilleur ami!"
+msgstr "¡Vecino de fumarola!"
 
 #. [modification]: id=advance_wesnoth_wars, type=hybrid
 #: Advance_Wesnoth_Wars\_main.cfg:28
 msgid "Configurable mods to change the game mechanics, for an approach more realistic and tactic"
-msgstr "Configurable mods to change the game mechanics, for an approach more realistic and tactic"
+msgstr ""
+"Modificaciones configurables para alterar la mecánica del juego, para un enfoque más realista y "
+"táctico"
 
 msgid "- Damages based on defense terrain bonus where enemy is :"
-msgstr "- Daño basado en la defensa del terreno enemigo :"
+msgstr "- Daño basado en la defensa de terreno donde está el enemigo :"
 
 msgid "- Max terrain defense against this attack :"
-msgstr "- Máxima defensa basada en terreno contra este ataque :"
+msgstr "- Máxima defensa de terreno contra este ataque :"
+
+msgid "Melee damage +1"
+msgstr "Daño de melé +1"
+
+msgid "Ranged damage +1"
+msgstr "Daño a distancia +1"
+
+msgid "Melee strikes +1"
+msgstr "Golpes de melé +1"
+
+msgid "Ranged strikes +1"
+msgstr "Disparos a distancia +1"
+
+msgid "Movement points +1"
+msgstr "Puntos de movimiento +1"
+
+msgid "Poisonous bladed or pierced weapons"
+msgstr "Armas de filo o penetración venenosas"
+
+msgid "Bloodthirsty (Temporary for this scenario)"
+msgstr "Sed de sangre (Temporal para este escenario)"
 
 #~ msgid ""
 #~ "When used offensively :\n"

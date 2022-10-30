@@ -7,8 +7,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.16.0] - 2019-10-19	
 
 ### Added	
-- Messages with portrait of the character that levels up and receives an AMLA bonus (only on spanish for now)
-- Spanish translation (partial for now)
+- Messages with portrait of the character that levels up and receives an AMLA bonus (english and spanish, but not french)
+- Spanish translation (complete)
 
 ### Changed
 - Epic trait now doesn't increases attack hits by 20%, only attack damage
