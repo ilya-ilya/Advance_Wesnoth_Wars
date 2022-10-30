@@ -7,10 +7,11 @@ About
 It's a mod  for "Battle for Wesnoth" open-source videogame.
 
 * Author :  [Ruvaak](http://thomas.bondois.info)
+* Mantainer : [Toranks](http://toranks.blogspot.com/)
 * Version : see [lua/aww_status.lua:9](lua/aww_status.lua)
 * Changelog : see [CHANGELOG.md](CHANGELOG.md)
 * License : [GNU-GPL](LICENSE.md)
-* Code Repository [on GitHub](https://github.com/tbondois/Advance_Wesnoth_Wars)
+* Code Repository [on GitHub](https://github.com/Toranks/Advance_Wesnoth_Wars)
 * Dedicated [forum thread](https://forums.wesnoth.org/viewtopic.php?f=15&t=49454)
 
 
