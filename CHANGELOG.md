@@ -14,13 +14,14 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Epic trait now doesn't increases attack hits by 20%, only attack damage
 - All stat bonuses now are [object] for better compatibility between maps
 - AI gets 2*X (double) passive experience if you activates the feature, for balancing
-- Level up increases (10*X)% (+10%, +20%, etc.) max experience (requires for next level) if you activates AMLA number increase feature and passive experience together, in addition to the +20% increase by default
+- Level up increases (10*X)% (+10%, +20%, etc.) max experience (requires for next level) if you activates AMLA number increase feature, AMLA bonus, and passive experience together, in addition to the +20% increase by default, for balancing
 X = passive experience value you selected
 
 
 ### Fixed
 - Fixed some typos on the code, the included on RusackN1 fork and some others
 - Max movement points bonus now preserved between maps
+- When AMLA number increase feature is active the level is preserved when the unit is rebuilt for any reason (for example when a temporary [object] as bloodthirsty or potions is removed from the unit)
 - Prevent Injured Sergeant to level-up by gaining passive xp (Campaigns)
 
 #### Note:	

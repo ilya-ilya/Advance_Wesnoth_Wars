@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2019-04-13 11:39 UTC\n"
-"PO-Revision-Date: 2022-10-26 08:34+0200\n"
+"PO-Revision-Date: 2022-10-29 20:35+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -20,16 +20,14 @@ msgstr "sin aleatoriedad"
 
 #. [lua]: aww_duel.special_damage_multiplier
 #. [case]
-#: Advance_Wesnoth_Wars\lua\aww_duel.lua:297
-#: Advance_Wesnoth_Wars\mods\09_levelup_amla_bonus.cfg:39
+#: Advance_Wesnoth_Wars\lua\aww_duel.lua:297 Advance_Wesnoth_Wars\mods\09_levelup_amla_bonus.cfg:39
 #: Advance_Wesnoth_Wars\mods\09_levelup_amla_bonus.cfg:52
 msgid "damage"
 msgstr "daño"
 
 #. [lua]: aww_duel.special_strikes_multiplier
 #. [case]
-#: Advance_Wesnoth_Wars\lua\aww_duel.lua:311
-#: Advance_Wesnoth_Wars\mods\09_levelup_amla_bonus.cfg:66
+#: Advance_Wesnoth_Wars\lua\aww_duel.lua:311 Advance_Wesnoth_Wars\mods\09_levelup_amla_bonus.cfg:66
 #: Advance_Wesnoth_Wars\mods\09_levelup_amla_bonus.cfg:79
 msgid "strikes"
 msgstr "ataques"
@@ -48,60 +46,47 @@ msgstr "PV"
 #. [lua]: aww_status.get_info
 #. [checkbox]: id=aww_01_enable_randomless_combats, description=#01.
 #. [slider]: id=aww_08_randomless_damage_adjustment, description=#08.
-#: Advance_Wesnoth_Wars\lua\aww_duel.lua:356
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:117
-#: Advance_Wesnoth_Wars\mods\options.cfg:12
-#: Advance_Wesnoth_Wars\mods\options.cfg:23
+#: Advance_Wesnoth_Wars\lua\aww_duel.lua:356 Advance_Wesnoth_Wars\lua\aww_status.lua:117
+#: Advance_Wesnoth_Wars\mods\options.cfg:12 Advance_Wesnoth_Wars\mods\options.cfg:23
 msgid "No Random Combats"
 msgstr "Combates no aleatorios"
 
 #. [lua]: aww_duel.description_no_random_combats
 #. [checkbox]: id=aww_01_enable_randomless_combats, description=#01.
-#: Advance_Wesnoth_Wars\lua\aww_duel.lua:358
-#: Advance_Wesnoth_Wars\mods\options.cfg:13
-msgid ""
-"Attacks will never randomly miss, misses probabilities is instead used as "
-"damage reduction."
-msgstr ""
-"Los ataques nunca fallan, en su lugar la probabilidad se usa como reducción "
-"de defensa."
+#: Advance_Wesnoth_Wars\lua\aww_duel.lua:358 Advance_Wesnoth_Wars\mods\options.cfg:13
+msgid "Attacks will never randomly miss, misses probabilities is instead used as damage reduction."
+msgstr "Los ataques nunca fallan, en su lugar la probabilidad se usa como reducción de defensa."
 
 #. [lua]: aww_duel.description_squad_mode_custom
 #. [lua]: aww_status.get_info
 #. [swarm]: id=swarm
 #. [choice]: id=aww_02_squad_mode, description=#02.
-#: Advance_Wesnoth_Wars\lua\aww_duel.lua:369
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:131
-#: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:141
-#: Advance_Wesnoth_Wars\mods\options.cfg:31
+#: Advance_Wesnoth_Wars\lua\aww_duel.lua:369 Advance_Wesnoth_Wars\lua\aww_status.lua:131
+#: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:141 Advance_Wesnoth_Wars\mods\options.cfg:31
 msgid "Squad Mode"
 msgstr "Modo escuadrón"
 
 #. [lua]: aww_duel.description_squad_mode_custom
 #. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars\lua\aww_duel.lua:371
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:127
+#: Advance_Wesnoth_Wars\lua\aww_duel.lua:371 Advance_Wesnoth_Wars\lua\aww_status.lua:127
 msgid "Custom"
 msgstr "Personalizado"
 
 #. [lua]: aww_duel.description_squad_mode_custom
 #: Advance_Wesnoth_Wars\lua\aww_duel.lua:373
 msgid ""
-"The number of strikes of this attack decreases when the unit is wounded. The "
-"number of strikes is proportional to the percentage of its of maximum HP the "
-"unit has. For example a unit with 3/4 of its maximum HP will get 3/4 of the "
-"number of strikes."
+"The number of strikes of this attack decreases when the unit is wounded. The number of strikes is "
+"proportional to the percentage of its of maximum HP the unit has. For example a unit with 3/4 of its "
+"maximum HP will get 3/4 of the number of strikes."
 msgstr ""
-"The number of strikes of this attack decreases when the unit is wounded. The "
-"number of strikes is proportional to the percentage of its of maximum HP the "
-"unit has. For example a unit with 3/4 of its maximum HP will get 3/4 of the "
-"number of strikes."
+"The number of strikes of this attack decreases when the unit is wounded. The number of strikes is "
+"proportional to the percentage of its of maximum HP the unit has. For example a unit with 3/4 of its "
+"maximum HP will get 3/4 of the number of strikes."
 
 #. [lua]: aww_duel.description_squad_mode_custom
 #. [swarm]: id=swarm
 #. [choice]: id=aww_02_squad_mode, description=#02.
-#: Advance_Wesnoth_Wars\lua\aww_duel.lua:375
-#: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:142
+#: Advance_Wesnoth_Wars\lua\aww_duel.lua:375 Advance_Wesnoth_Wars\macros\abilities.mac.cfg:142
 #: Advance_Wesnoth_Wars\mods\options.cfg:33
 msgid "Minimum strikes will be 1."
 msgstr "Mínimo de ataques será 1."
@@ -109,26 +94,20 @@ msgstr "Mínimo de ataques será 1."
 #. [lua]: aww_duel.description_squad_mode_custom
 #. [swarm]: id=swarm
 #. [choice]: id=aww_02_squad_mode, description=#02.
-#: Advance_Wesnoth_Wars\lua\aww_duel.lua:376
-#: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:143
+#: Advance_Wesnoth_Wars\lua\aww_duel.lua:376 Advance_Wesnoth_Wars\macros\abilities.mac.cfg:143
 #: Advance_Wesnoth_Wars\mods\options.cfg:34
-msgid ""
-"For attack having only 1 base strike, HP ratio will be used to reduce damage."
-msgstr ""
-"For attack having only 1 base strike, HP ratio will be used to reduce damage."
+msgid "For attack having only 1 base strike, HP ratio will be used to reduce damage."
+msgstr "For attack having only 1 base strike, HP ratio will be used to reduce damage."
 
 #. [lua]: aww_duel.description_squad_mode_custom
 #. [swarm]: id=swarm
 #. [choice]: id=aww_02_squad_mode, description=#02.
-#: Advance_Wesnoth_Wars\lua\aww_duel.lua:377
-#: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:144
+#: Advance_Wesnoth_Wars\lua\aww_duel.lua:377 Advance_Wesnoth_Wars\macros\abilities.mac.cfg:144
 #: Advance_Wesnoth_Wars\mods\options.cfg:35
 msgid ""
-"Excluded for berserk & fury attack. To simulate that the lesser they are, the "
-"more furious they go."
+"Excluded for berserk & fury attack. To simulate that the lesser they are, the more furious they go."
 msgstr ""
-"Excluded for berserk & fury attack. To simulate that the lesser they are, the "
-"more furious they go."
+"Excluded for berserk & fury attack. To simulate that the lesser they are, the more furious they go."
 
 #. [modification]: id=advance_wesnoth_wars, type=hybrid
 #: Advance_Wesnoth_Wars\lua\aww_status.lua:8 Advance_Wesnoth_Wars\_main.cfg:25
@@ -143,17 +122,14 @@ msgstr "Daño incrementado"
 #. [lua]: aww_status.get_info
 #. [swarm]: id=swarm
 #. [item]
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:129
-#: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:141
+#: Advance_Wesnoth_Wars\lua\aww_status.lua:129 Advance_Wesnoth_Wars\macros\abilities.mac.cfg:141
 #: Advance_Wesnoth_Wars\mods\options.cfg:49
 msgid "Swarm"
 msgstr "Enjambre"
 
 #. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:137
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:140
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:146
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:149
+#: Advance_Wesnoth_Wars\lua\aww_status.lua:137 Advance_Wesnoth_Wars\lua\aww_status.lua:140
+#: Advance_Wesnoth_Wars\lua\aww_status.lua:146 Advance_Wesnoth_Wars\lua\aww_status.lua:149
 msgid "L-Up "
 msgstr "Subir nivel "
 
@@ -168,16 +144,14 @@ msgid "Relative Heal"
 msgstr "Vida Relativa"
 
 #. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:143
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:146
+#: Advance_Wesnoth_Wars\lua\aww_status.lua:143 Advance_Wesnoth_Wars\lua\aww_status.lua:146
 #: Advance_Wesnoth_Wars\lua\aww_status.lua:149
 msgid "AMLA"
 msgstr "AMLA"
 
 #. [lua]: aww_status.get_info
 #. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15.
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:143
-#: Advance_Wesnoth_Wars\mods\options.cfg:74
+#: Advance_Wesnoth_Wars\lua\aww_status.lua:143 Advance_Wesnoth_Wars\mods\options.cfg:74
 msgid "Increase Level Number"
 msgstr "Incrementar Nivel"
 
@@ -193,8 +167,7 @@ msgstr "Líderes Promocionados"
 
 #. [lua]: aww_status.get_info
 #. [checkbox]: id=aww_10_enable_gifted_leaders, description=#10.
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:152
-#: Advance_Wesnoth_Wars\mods\options.cfg:98
+#: Advance_Wesnoth_Wars\lua\aww_status.lua:152 Advance_Wesnoth_Wars\mods\options.cfg:98
 msgid "Epic Heroes"
 msgstr "Héroes Épicos"
 
@@ -204,8 +177,7 @@ msgid "Passive XP"
 msgstr "Exp Pasiva"
 
 #. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:157
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:164
+#: Advance_Wesnoth_Wars\lua\aww_status.lua:157 Advance_Wesnoth_Wars\lua\aww_status.lua:164
 msgid "/turn]"
 msgstr "/turno]"
 
@@ -231,8 +203,7 @@ msgstr "Emboscadas modificadas"
 
 #. [lua]: aww_status.get_info
 #. [checkbox]: id=aww_11_enable_ninja, description=#11.
-#: Advance_Wesnoth_Wars\lua\aww_status.lua:174
-#: Advance_Wesnoth_Wars\mods\options.cfg:150
+#: Advance_Wesnoth_Wars\lua\aww_status.lua:174 Advance_Wesnoth_Wars\mods\options.cfg:150
 msgid "NINJA WARS!"
 msgstr "NINJA WARS!"
 
@@ -268,8 +239,7 @@ msgid "poison"
 msgstr "veneno"
 
 #. [regenerate]: id=aww_ability_custom_regen{HP}{CURE}
-#: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:23
-#: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:29
+#: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:23 Advance_Wesnoth_Wars\macros\abilities.mac.cfg:29
 msgid "{CURE}"
 msgstr "{CURE}"
 
@@ -331,13 +301,13 @@ msgstr "camuflaje"
 #. [hides]: id=aww_ability_camouflage
 #: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:58
 msgid ""
-"This unit remains undetected by its enemies in villages, forests, deep water, "
-"or everywhere at night, except by those standing next to it. Any enemy unit "
-"that first discovers this unit immediately loses all its remaining movement."
+"This unit remains undetected by its enemies in villages, forests, deep water, or everywhere at night, "
+"except by those standing next to it. Any enemy unit that first discovers this unit immediately loses "
+"all its remaining movement."
 msgstr ""
-"Esta unidad se mantendrá indetectable por sus enemigos en pueblos, bosques, "
-"aguas profundas y de noche, excepto por las unidades adyacentes. Cualquier "
-"enemigo que descubra esta unidad pierde todos sus movimientos restantes."
+"Esta unidad se mantendrá indetectable por sus enemigos en pueblos, bosques, aguas profundas y de "
+"noche, excepto por las unidades adyacentes. Cualquier enemigo que descubra esta unidad pierde todos "
+"sus movimientos restantes."
 
 #. [swarm]: id=swarm
 #: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:140
@@ -347,15 +317,13 @@ msgstr "enjambre"
 #. [swarm]: id=swarm
 #: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:141
 msgid ""
-"The number of strikes of this attack decreases when the unit is wounded. The "
-"number of strikes is proportional to the percentage of its of maximum HP the "
-"unit has. For example a unit with 45/60 HP will do only 3 strike of an attack "
-"having initially 4 strikes."
+"The number of strikes of this attack decreases when the unit is wounded. The number of strikes is "
+"proportional to the percentage of its of maximum HP the unit has. For example a unit with 45/60 HP "
+"will do only 3 strike of an attack having initially 4 strikes."
 msgstr ""
-"The number of strikes of this attack decreases when the unit is wounded. The "
-"number of strikes is proportional to the percentage of its of maximum HP the "
-"unit has. For example a unit with 45/60 HP will do only 3 strike of an attack "
-"having initially 4 strikes."
+"The number of strikes of this attack decreases when the unit is wounded. The number of strikes is "
+"proportional to the percentage of its of maximum HP the unit has. For example a unit with 45/60 HP "
+"will do only 3 strike of an attack having initially 4 strikes."
 
 #. [skirmisher]: id=distract
 #. [case]
@@ -371,12 +339,9 @@ msgstr "distracción"
 
 #. [skirmisher]: id=distract
 #: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:191
-msgid ""
-"This unit negates enemy Zones of Control around itself for allied units (but "
-"not for itself)."
+msgid "This unit negates enemy Zones of Control around itself for allied units (but not for itself)."
 msgstr ""
-"Esta unidad niega Zonas de Control a su alrededor para unidades aliadas (pero "
-"no para sí mismo/a)"
+"Esta unidad niega Zonas de Control a su alrededor para unidades aliadas (pero no para sí mismo/a)"
 
 #. [drains]: id=aww_special_bloodthirsty
 #. [case]
@@ -402,12 +367,11 @@ msgstr "(Sólo disponible ofensivamente)"
 #. [drains]: id=aww_special_bloodthirsty
 #: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:220
 msgid ""
-"This unit drains health from living units, healing itself for half the amount "
-"of damage it deals (rounded down)."
+"This unit drains health from living units, healing itself for half the amount of damage it deals "
+"(rounded down)."
 msgstr ""
-"Esta unidad absorbe vida de unidades vivas, curándose la mitad del daño "
-"causado, redondeado hacia abajo. Nota. Si es un bonus AMLA sólo está activo "
-"durante este mapa."
+"Esta unidad absorbe vida de unidades vivas, curándose la mitad del daño causado, redondeado hacia "
+"abajo. Nota. Si es un bonus AMLA sólo está activo durante este mapa."
 
 #. [damage]: id=aww_special_fury
 #: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:245
@@ -416,39 +380,33 @@ msgstr "furia"
 
 #. [damage]: id=aww_special_fury
 #. [berserk]: id=berserk
-#: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:246
-#: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:267
+#: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:246 Advance_Wesnoth_Wars\macros\abilities.mac.cfg:267
 msgid "female^fury"
 msgstr "furia"
 
 #. [damage]: id=aww_special_fury
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
-#: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:247
-#: Advance_Wesnoth_Wars\mods\options.cfg:129
+#: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:247 Advance_Wesnoth_Wars\mods\options.cfg:129
 msgid ""
 "When used offensively :\n"
 "- This attack deals more damage to the target.\n"
-"- It also causes this unit to take more damage from the target’s "
-"counterattack.\n"
-"- The damage ratio starts at 1.5, increases of 0.5 after each attack, until "
-"3, then drop to 1, and the loop restart.\n"
+"- It also causes this unit to take more damage from the target’s counterattack.\n"
+"- The damage ratio starts at 1.5, increases of 0.5 after each attack, until 3, then drop to 1, and "
+"the loop restart.\n"
 "- Rampage : when the attack kills, the unit can attack an adjacent enemy.\n"
-"- After 5 kills with that attack, it gains Bloodthirsty, an offensive drain, "
-"until end of the scenario.\n"
-"- A warcry related to the fury level with also be displayed when the unit "
-"attack."
+"- After 5 kills with that attack, it gains Bloodthirsty, an offensive drain, until end of the "
+"scenario.\n"
+"- A warcry related to the fury level with also be displayed when the unit attack."
 msgstr ""
 "When used offensively :\n"
 "- This attack deals more damage to the target.\n"
-"- It also causes this unit to take more damage from the target’s "
-"counterattack.\n"
-"- The damage ratio starts at 1.5, increases of 0.5 after each attack, until "
-"3, then drop to 1, and the loop restart.\n"
+"- It also causes this unit to take more damage from the target’s counterattack.\n"
+"- The damage ratio starts at 1.5, increases of 0.5 after each attack, until 3, then drop to 1, and "
+"the loop restart.\n"
 "- Rampage : when the attack kills, the unit can attack an adjacent enemy.\n"
-"- After 5 kills with that attack, it gains Bloodthirsty, an offensive drain, "
-"until end of the scenario.\n"
-"- A warcry related to the fury level with also be displayed when the unit "
-"attack."
+"- After 5 kills with that attack, it gains Bloodthirsty, an offensive drain, until end of the "
+"scenario.\n"
+"- A warcry related to the fury level with also be displayed when the unit attack."
 
 #. [berserk]: id=berserk
 #: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:266
@@ -458,17 +416,15 @@ msgstr "berserk"
 #. [berserk]: id=berserk
 #: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:268
 msgid ""
-"When used offensively, this special effect presses the assault engagement for "
-"1-4 rounds, or until one of the fighters is slain ; after that the weapon "
-"damage will be increased by 1 until the end of scenario (until max +10). The "
-"attack limit is based based on health ratio and a random factor, recalculated "
-"for each new assault."
+"When used offensively, this special effect presses the assault engagement for 1-4 rounds, or until "
+"one of the fighters is slain ; after that the weapon damage will be increased by 1 until the end of "
+"scenario (until max +10). The attack limit is based based on health ratio and a random factor, "
+"recalculated for each new assault."
 msgstr ""
-"When used offensively, this special effect presses the assault engagement for "
-"1-4 rounds, or until one of the fighters is slain ; after that the weapon "
-"damage will be increased by 1 until the end of scenario (until max +10). The "
-"attack limit is based based on health ratio and a random factor, recalculated "
-"for each new assault."
+"When used offensively, this special effect presses the assault engagement for 1-4 rounds, or until "
+"one of the fighters is slain ; after that the weapon damage will be increased by 1 until the end of "
+"scenario (until max +10). The attack limit is based based on health ratio and a random factor, "
+"recalculated for each new assault."
 
 #: Advance_Wesnoth_Wars\macros\setters.mac.cfg:9
 msgid "Chief"
@@ -487,11 +443,11 @@ msgstr "épica"
 #. [trait]: id=aww_trait_gifted
 #: Advance_Wesnoth_Wars\macros\traits.mac.cfg:18
 msgid ""
-"<italic>text='Epic'</italic>, gifted with great potential or trained by the "
-"bests, this unit is unrivaled on a battlefield."
+"<italic>text='Epic'</italic>, gifted with great potential or trained by the bests, this unit is "
+"unrivaled on a battlefield."
 msgstr ""
-"<italic>text='Épico'</italic>, dotado de un gran potencial, o entrenado por "
-"los mejores, esta unidad no tiene rival en la batalla."
+"<italic>text='Épico'</italic>, dotado de un gran potencial, o entrenado por los mejores, esta unidad "
+"no tiene rival en la batalla."
 
 #. [trait]: id=aww_trait_stealthy
 #: Advance_Wesnoth_Wars\macros\traits.mac.cfg:70
@@ -506,22 +462,19 @@ msgstr "furtiva"
 #. [trait]: id=aww_trait_stealthy
 #: Advance_Wesnoth_Wars\macros\traits.mac.cfg:72
 msgid ""
-"<italic>text='Stealthy'</italic> like a ninja. Can move very fast, hide "
-"almost everywhere, attack by surprise, pass discretely behind enemies lines."
+"<italic>text='Stealthy'</italic> like a ninja. Can move very fast, hide almost everywhere, attack by "
+"surprise, pass discretely behind enemies lines."
 msgstr ""
-"<italic>text='Furtivo'</italic> como un ninja. Se puede mover rápido, "
-"esconderse en casi cualquier lugar, atacar por sorpresa, y cruzar las líneas "
-"enemigas."
+"<italic>text='Furtivo'</italic> como un ninja. Se puede mover rápido, esconderse en casi cualquier "
+"lugar, atacar por sorpresa, y cruzar las líneas enemigas."
 
 #. [then]
-#: Advance_Wesnoth_Wars\mods\00_common.cfg:61
-#: Advance_Wesnoth_Wars\mods\14_levelup_notif.cfg:30
+#: Advance_Wesnoth_Wars\mods\00_common.cfg:61 Advance_Wesnoth_Wars\mods\14_levelup_notif.cfg:30
 msgid "LEVEL UP"
 msgstr "¡SUBE NIVEL!"
 
 #. [then]
-#: Advance_Wesnoth_Wars\mods\00_common.cfg:76
-#: Advance_Wesnoth_Wars\mods\14_levelup_notif.cfg:22
+#: Advance_Wesnoth_Wars\mods\00_common.cfg:76 Advance_Wesnoth_Wars\mods\14_levelup_notif.cfg:22
 msgid "Advancement"
 msgstr "¡Avanzado!"
 
@@ -604,8 +557,7 @@ msgstr "Sed de sangre"
 
 #. [then]
 #. [else]
-#: Advance_Wesnoth_Wars\mods\12_tweak_berserk.cfg:174
-#: Advance_Wesnoth_Wars\mods\12_tweak_berserk.cfg:186
+#: Advance_Wesnoth_Wars\mods\12_tweak_berserk.cfg:174 Advance_Wesnoth_Wars\mods\12_tweak_berserk.cfg:186
 msgid "Rampage!"
 msgstr "¡Desbocado!"
 
@@ -627,8 +579,7 @@ msgstr "¡Emboscado!"
 #. [checkbox]: id=aww_01_enable_randomless_combats, description=#01.
 #. [choice]: id=aww_02_squad_mode, description=#02.
 #. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15.
-#: Advance_Wesnoth_Wars\mods\options.cfg:13
-#: Advance_Wesnoth_Wars\mods\options.cfg:36
+#: Advance_Wesnoth_Wars\mods\options.cfg:13 Advance_Wesnoth_Wars\mods\options.cfg:36
 #: Advance_Wesnoth_Wars\mods\options.cfg:75
 msgid " Default:"
 msgstr " Por defecto:"
@@ -639,12 +590,9 @@ msgstr " Por defecto:"
 #. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15.
 #. [checkbox]: id=aww_09_enable_amla_bonus, description=#09.
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
-#: Advance_Wesnoth_Wars\mods\options.cfg:13
-#: Advance_Wesnoth_Wars\mods\options.cfg:59
-#: Advance_Wesnoth_Wars\mods\options.cfg:67
-#: Advance_Wesnoth_Wars\mods\options.cfg:75
-#: Advance_Wesnoth_Wars\mods\options.cfg:83
-#: Advance_Wesnoth_Wars\mods\options.cfg:135
+#: Advance_Wesnoth_Wars\mods\options.cfg:13 Advance_Wesnoth_Wars\mods\options.cfg:59
+#: Advance_Wesnoth_Wars\mods\options.cfg:67 Advance_Wesnoth_Wars\mods\options.cfg:75
+#: Advance_Wesnoth_Wars\mods\options.cfg:83 Advance_Wesnoth_Wars\mods\options.cfg:135
 msgid "ON"
 msgstr "SI"
 
@@ -656,11 +604,11 @@ msgstr " : Daño ajustado %"
 #. [slider]: id=aww_08_randomless_damage_adjustment, description=#08.
 #: Advance_Wesnoth_Wars\mods\options.cfg:24
 msgid ""
-"To increase/reduce terrain/fixed Hit probabilities, converted in damages. "
-"Only applies for 'No Random Combats'."
+"To increase/reduce terrain/fixed Hit probabilities, converted in damages. Only applies for 'No Random "
+"Combats'."
 msgstr ""
-"To increase/reduce terrain/fixed Hit probabilities, converted in damages. "
-"Only applies for 'No Random Combats'."
+"To increase/reduce terrain/fixed Hit probabilities, converted in damages. Only applies for 'No Random "
+"Combats'."
 
 #. [choice]: id=aww_02_squad_mode, description=#02.
 #: Advance_Wesnoth_Wars\mods\options.cfg:31
@@ -670,13 +618,13 @@ msgstr " (Ataques según PV) :"
 #. [choice]: id=aww_02_squad_mode, description=#02.
 #: Advance_Wesnoth_Wars\mods\options.cfg:32
 msgid ""
-"Units lacking lot of HP do proportionally less attack strikes (or less damage "
-"for single-strike attacks). Swarm is a worse ratio (-1 strike if you miss "
-"just 1 HP), than native, but taken in account by AI. In both cases : "
+"Units lacking lot of HP do proportionally less attack strikes (or less damage for single-strike "
+"attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account "
+"by AI. In both cases : "
 msgstr ""
-"Units lacking lot of HP do proportionally less attack strikes (or less damage "
-"for single-strike attacks). Swarm is a worse ratio (-1 strike if you miss "
-"just 1 HP), than native, but taken in account by AI. In both cases : "
+"Units lacking lot of HP do proportionally less attack strikes (or less damage for single-strike "
+"attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account "
+"by AI. In both cases : "
 
 #. [choice]: id=aww_02_squad_mode, description=#02.
 #. [checkbox]: id=aww_03_enable_promoted_leader, description=#03.
@@ -684,12 +632,9 @@ msgstr ""
 #. [checkbox]: id=aww_13_enable_ambushed_fix, description=#13.
 #. [checkbox]: id=aww_11_enable_ninja, description=#11.
 #. [checkbox]: id=aww_07_enable_verbose, description=#07.
-#: Advance_Wesnoth_Wars\mods\options.cfg:36
-#: Advance_Wesnoth_Wars\mods\options.cfg:91
-#: Advance_Wesnoth_Wars\mods\options.cfg:99
-#: Advance_Wesnoth_Wars\mods\options.cfg:143
-#: Advance_Wesnoth_Wars\mods\options.cfg:151
-#: Advance_Wesnoth_Wars\mods\options.cfg:159
+#: Advance_Wesnoth_Wars\mods\options.cfg:36 Advance_Wesnoth_Wars\mods\options.cfg:91
+#: Advance_Wesnoth_Wars\mods\options.cfg:99 Advance_Wesnoth_Wars\mods\options.cfg:143
+#: Advance_Wesnoth_Wars\mods\options.cfg:151 Advance_Wesnoth_Wars\mods\options.cfg:159
 msgid "off"
 msgstr "NO"
 
@@ -704,13 +649,11 @@ msgstr "Niveles : Notificación flotante"
 #. [checkbox]: id=aww_14_enable_levelup_notif, description=#14.
 #: Advance_Wesnoth_Wars\mods\options.cfg:59
 msgid ""
-"Floating text on the unit currently leveling-up. Can be helpful to know which "
-"unit is concerned by an advancement. Will display only if no other AWW mods "
-"wants to display something at this moment."
+"Floating text on the unit currently leveling-up. Can be helpful to know which unit is concerned by an "
+"advancement. Will display only if no other AWW mods wants to display something at this moment."
 msgstr ""
-"Floating text on the unit currently leveling-up. Can be helpful to know which "
-"unit is concerned by an advancement. Will display only if no other AWW mods "
-"wants to display something at this moment."
+"Floating text on the unit currently leveling-up. Can be helpful to know which unit is concerned by an "
+"advancement. Will display only if no other AWW mods wants to display something at this moment."
 
 #. [checkbox]: id=aww_06_enable_levelup_relative_healing, description=#06.
 #: Advance_Wesnoth_Wars\mods\options.cfg:66
@@ -720,11 +663,11 @@ msgstr "Niveles : Curación relativa"
 #. [checkbox]: id=aww_06_enable_levelup_relative_healing, description=#06.
 #: Advance_Wesnoth_Wars\mods\options.cfg:67
 msgid ""
-"When an unit advances a level raising his Max HP, instead of a full healing "
-"and being cured, it keep the missing HP, but statuses are cured."
+"When an unit advances a level raising his Max HP, instead of a full healing and being cured, it keep "
+"the missing HP, but statuses are cured."
 msgstr ""
-"Cuando una unidad avanza de nivel, en vez de una curación y sanación "
-"completa, mantiene el HP perdido pero se curan sus estados."
+"Cuando una unidad avanza de nivel, en vez de una curación y sanación completa, mantiene el HP perdido "
+"pero se curan sus estados."
 
 #. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15.
 #: Advance_Wesnoth_Wars\mods\options.cfg:74
@@ -743,12 +686,10 @@ msgstr "Subir por encima del nivel máximo : Bonus aleatorios"
 
 #. [checkbox]: id=aww_09_enable_amla_bonus, description=#09.
 #: Advance_Wesnoth_Wars\mods\options.cfg:83
-msgid ""
-"Units reaching AMLA level-ups can gain an a random ability or increased stat "
-"each level."
+msgid "Units reaching AMLA level-ups can gain an a random ability or increased stat each level."
 msgstr ""
-"Las unidades que promocionan tras su nivel máximo ganan una habilidad "
-"aleatoria o incrementan una estadística cada nivel."
+"Las unidades que promocionan tras su nivel máximo ganan una habilidad aleatoria o incrementan una "
+"estadística cada nivel."
 
 #. [checkbox]: id=aww_03_enable_promoted_leader, description=#03.
 #: Advance_Wesnoth_Wars\mods\options.cfg:90
@@ -758,35 +699,31 @@ msgstr "Subir por encima del nivel máximo : Promoción a líder"
 #. [checkbox]: id=aww_03_enable_promoted_leader, description=#03.
 #: Advance_Wesnoth_Wars\mods\options.cfg:91
 msgid ""
-"WARNING : Not Recommended for Campaigns, it can create bugs (like loose of "
-"unit or different recruit list). "
+"WARNING : Not Recommended for Campaigns, it can create bugs (like loose of unit or different recruit "
+"list). "
 msgstr ""
-"WARNING : Not Recommended for Campaigns, it can create bugs (like loose of "
-"unit or different recruit list). "
+"WARNING : Not Recommended for Campaigns, it can create bugs (like loose of unit or different recruit "
+"list). "
 
 #. [checkbox]: id=aww_03_enable_promoted_leader, description=#03.
 #: Advance_Wesnoth_Wars\mods\options.cfg:91
 msgid ""
-"Post-level 3 standard units reaching their first AMLA level-up will be able "
-"to recruit the same units as the original leader, recall, and be prefixed "
-"'Chief' with a bronze crown icon. Excluded for special Heroes. Do not combine "
-"with 'Assimilation Mod' or 'Spoils of War'."
+"Post-level 3 standard units reaching their first AMLA level-up will be able to recruit the same units "
+"as the original leader, recall, and be prefixed 'Chief' with a bronze crown icon. Excluded for "
+"special Heroes. Do not combine with 'Assimilation Mod' or 'Spoils of War'."
 msgstr ""
-"Unidades en su nivel máximo que vuelven a promocionar podrán reclutar o "
-"reincorporar las mismas unidades que el líder original, y se les añadirá el "
-"prefijo \"Jefe\" con una corona de bronce. Excluidos Héroes especiales. No "
-"combinar con \"Assimilation Mod\" o \"Spoils of War\"."
+"Unidades en su nivel máximo que vuelven a promocionar podrán reclutar o reincorporar las mismas "
+"unidades que el líder original, y se les añadirá el prefijo \"Jefe\" con una corona de bronce. "
+"Excluidos Héroes especiales. No combinar con \"Assimilation Mod\" o \"Spoils of War\"."
 
 #. [checkbox]: id=aww_10_enable_gifted_leaders, description=#10.
 #: Advance_Wesnoth_Wars\mods\options.cfg:99
 msgid ""
-"The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of "
-"their attributes and some abilities like leadership and regeneration, making "
-"them harder to kill. Excluded for Promoted Leaders."
+"The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of their attributes and some "
+"abilities like leadership and regeneration, making them harder to kill. Excluded for Promoted Leaders."
 msgstr ""
-"Los Líderes y Héroes (coronas de oro y plata) aumentan un 20% sus atributos y "
-"algunas habilidades como distracción y regeneración. Se excluyen Líderes "
-"Promocionados."
+"Los Líderes y Héroes (coronas de oro y plata) aumentan un 20% sus atributos y algunas habilidades "
+"como distracción y regeneración. Se excluyen Líderes Promocionados."
 
 #. [slider]: id=aww_04_passive_xp, description=#04.
 #: Advance_Wesnoth_Wars\mods\options.cfg:109
@@ -795,7 +732,7 @@ msgstr "Aprendizaje de batalla (Exp pasiva) :"
 
 #. [slider]: id=aww_04_passive_xp, description=#04.
 #: Advance_Wesnoth_Wars\mods\options.cfg:110
-msgid "Extra XP for all units each turn. Default: 0"
+msgid "Extra XP for all units each turn (double XP for AI). Default: 0"
 msgstr "Exp para todas las unidades cada turno. Por defecto: 0"
 
 #. [slider]: id=aww_05_healing_xp, description=#05.
@@ -806,12 +743,11 @@ msgstr "Aprender sanación (Max Exp/turno por sanación) :"
 #. [slider]: id=aww_05_healing_xp, description=#05.
 #: Advance_Wesnoth_Wars\mods\options.cfg:121
 msgid ""
-"Each turn, Healers will earn 1 XP for each adjacent wounded (but not-"
-"poisoned) ally, but you can limit the max/turn. 0 will disable the feature. "
-"Default: 1"
+"Each turn, Healers will earn 1 XP for each adjacent wounded (but not-poisoned) ally, but you can "
+"limit the max/turn. 0 will disable the feature. Default: 1"
 msgstr ""
-"Cada turno, los sanadores ganarán 1 Exp por cada unidad herida adyacente(no "
-"envenenada), pero puedes limitar el máx/turno. 0 lo desactivará. Default: 1"
+"Cada turno, los sanadores ganarán 1 Exp por cada unidad herida adyacente(no envenenada), pero puedes "
+"limitar el máx/turno. 0 lo desactivará. Default: 1"
 
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
 #: Advance_Wesnoth_Wars\mods\options.cfg:128
@@ -821,8 +757,7 @@ msgstr "Berserk tweak : Replace by Fury"
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
 #: Advance_Wesnoth_Wars\mods\options.cfg:129
 msgid "Replace 'berserk' by a new 'Fury' weapon special, way more interesting. "
-msgstr ""
-"Replace 'berserk' by a new 'Fury' weapon special, way more interesting. "
+msgstr "Replace 'berserk' by a new 'Fury' weapon special, way more interesting. "
 
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
 #: Advance_Wesnoth_Wars\mods\options.cfg:129
@@ -837,13 +772,13 @@ msgstr "Emboscadas modificadas : Ataque Sorpresa"
 #. [checkbox]: id=aww_13_enable_ambushed_fix, description=#13.
 #: Advance_Wesnoth_Wars\mods\options.cfg:143
 msgid ""
-"An ambush will trigger a quick combat in which the ambushed unit can't "
-"counter-attack. Next turn, the ambusher will not be able to hide neither "
-"preparing another surprise attack. Awesome combined with NINJA WARS!."
+"An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. Next turn, the "
+"ambusher will not be able to hide neither preparing another surprise attack. Awesome combined with "
+"NINJA WARS!."
 msgstr ""
-"Una emboscada activa un combate rápido en el que la unidad emboscada no podrá "
-"contraatacar. En el siguiente turno, el emboscador no podrá esconderse ni "
-"preparar otro ataque sorpresa. Impresionante combinado con NINJA WARS!."
+"Una emboscada activa un combate rápido en el que la unidad emboscada no podrá contraatacar. En el "
+"siguiente turno, el emboscador no podrá esconderse ni preparar otro ataque sorpresa. Impresionante "
+"combinado con NINJA WARS!."
 
 #. [checkbox]: id=aww_11_enable_ninja, description=#11.
 #: Advance_Wesnoth_Wars\mods\options.cfg:150
@@ -853,13 +788,13 @@ msgstr " (unidades furtivas)"
 #. [checkbox]: id=aww_11_enable_ninja, description=#11.
 #: Advance_Wesnoth_Wars\mods\options.cfg:151
 msgid ""
-"Most of units will melee back-stabs, poison arrows, distract from ZoC, be "
-"faster and invisible in villages, forests, deep water, or everywhere at "
-"night. For funny PvP with fog-of-war focused on ambushes/ hide&seek."
+"Most of units will melee back-stabs, poison arrows, distract from ZoC, be faster and invisible in "
+"villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on "
+"ambushes/ hide&seek."
 msgstr ""
-"Most of units will melee back-stabs, poison arrows, distract from ZoC, be "
-"faster and invisible in villages, forests, deep water, or everywhere at "
-"night. For funny PvP with fog-of-war focused on ambushes/ hide&seek."
+"Most of units will melee back-stabs, poison arrows, distract from ZoC, be faster and invisible in "
+"villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on "
+"ambushes/ hide&seek."
 
 #. [checkbox]: id=aww_07_enable_verbose, description=#07.
 #: Advance_Wesnoth_Wars\mods\options.cfg:158
@@ -869,11 +804,11 @@ msgstr "Información (daño por golpe y otros cáculos)"
 #. [checkbox]: id=aww_07_enable_verbose, description=#07.
 #: Advance_Wesnoth_Wars\mods\options.cfg:159
 msgid ""
-"If features #01 or #02 are enabled, will display messages about damage/hits "
-"number calculations. Useful for tests or understanding."
+"If features #01 or #02 are enabled, will display messages about damage/hits number calculations. "
+"Useful for tests or understanding."
 msgstr ""
-"If features #01 or #02 are enabled, will display messages about damage/hits "
-"number calculations. Useful for tests or understanding."
+"If features #01 or #02 are enabled, will display messages about damage/hits number calculations. "
+"Useful for tests or understanding."
 
 #. [multiplayer]: id=4p_Ruvaak_Mirage_Atoll
 #: Advance_Wesnoth_Wars\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:12
@@ -883,59 +818,53 @@ msgstr "4p — Ruvaak Mirage Atoll"
 #. [multiplayer]: id=4p_Ruvaak_Mirage_Atoll
 #: Advance_Wesnoth_Wars\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:13
 msgid ""
-"Ruvaak Mirage Atoll v1.4 : PvPvE scenario, included in Advanced Wesnoth Wars "
-"mod.\n"
+"Ruvaak Mirage Atoll v1.4 : PvPvE scenario, included in Advanced Wesnoth Wars mod.\n"
 "\n"
-"This scenario was especially made for taking full potential of Advanced "
-"Wesnoth Wars features, with all features enabled. But it works also without.\n"
+"This scenario was especially made for taking full potential of Advanced Wesnoth Wars features, with "
+"all features enabled. But it works also without.\n"
 "\n"
 "Can also be played in 2v2 (North vs South or West vs East).\n"
 "\n"
-"The units recruited the first turn will have special traits and will get free "
-"upkeep.\n"
+"The units recruited the first turn will have special traits and will get free upkeep.\n"
 "\n"
 "~~~~ The Story ~~~~\n"
 "\n"
-"During a fierce naval battle between four factions around a small atoll, a "
-"sudden storm interrupted hostilities by destroying all fleets.\n"
+"During a fierce naval battle between four factions around a small atoll, a sudden storm interrupted "
+"hostilities by destroying all fleets.\n"
 "\n"
-"Your crew miraculously survived the havoc. You wake up on the shore of a wild "
-"island that once seemed inhabited, amid the wrecks of your ship.\n"
+"Your crew miraculously survived the havoc. You wake up on the shore of a wild island that once seemed "
+"inhabited, amid the wrecks of your ship.\n"
 "\n"
-"As you settle a survivors camp next to a ruined castle, lot of questions come "
-"at your mind. Where are you ? In a dream ? The afterlife ? Something about "
-"that storm and that big island sounds surreal.\n"
+"As you settle a survivors camp next to a ruined castle, lot of questions come at your mind. Where are "
+"you ? In a dream ? The afterlife ? Something about that storm and that big island sounds surreal.\n"
 "\n"
-"The only thing you are sure of, is that you have to prepare yourself for a "
-"last battle against the island's wildlife and the others shipwrecked enemies, "
-"before finding a way to escape this heavenly hell.\n"
+"The only thing you are sure of, is that you have to prepare yourself for a last battle against the "
+"island's wildlife and the others shipwrecked enemies, before finding a way to escape this heavenly "
+"hell.\n"
 msgstr ""
-"Ruvaak Mirage Atoll v1.4 : PvPvE scenario, included in Advanced Wesnoth Wars "
-"mod.\n"
+"Ruvaak Mirage Atoll v1.4 : PvPvE scenario, included in Advanced Wesnoth Wars mod.\n"
 "\n"
-"This scenario was especially made for taking full potential of Advanced "
-"Wesnoth Wars features, with all features enabled. But it works also without.\n"
+"This scenario was especially made for taking full potential of Advanced Wesnoth Wars features, with "
+"all features enabled. But it works also without.\n"
 "\n"
 "Can also be played in 2v2 (North vs South or West vs East).\n"
 "\n"
-"The units recruited the first turn will have special traits and will get free "
-"upkeep.\n"
+"The units recruited the first turn will have special traits and will get free upkeep.\n"
 "\n"
 "~~~~ The Story ~~~~\n"
 "\n"
-"During a fierce naval battle between four factions around a small atoll, a "
-"sudden storm interrupted hostilities by destroying all fleets.\n"
+"During a fierce naval battle between four factions around a small atoll, a sudden storm interrupted "
+"hostilities by destroying all fleets.\n"
 "\n"
-"Your crew miraculously survived the havoc. You wake up on the shore of a wild "
-"island that once seemed inhabited, amid the wrecks of your ship.\n"
+"Your crew miraculously survived the havoc. You wake up on the shore of a wild island that once seemed "
+"inhabited, amid the wrecks of your ship.\n"
 "\n"
-"As you settle a survivors camp next to a ruined castle, lot of questions come "
-"at your mind. Where are you ? In a dream ? The afterlife ? Something about "
-"that storm and that big island sounds surreal.\n"
+"As you settle a survivors camp next to a ruined castle, lot of questions come at your mind. Where are "
+"you ? In a dream ? The afterlife ? Something about that storm and that big island sounds surreal.\n"
 "\n"
-"The only thing you are sure of, is that you have to prepare yourself for a "
-"last battle against the island's wildlife and the others shipwrecked enemies, "
-"before finding a way to escape this heavenly hell.\n"
+"The only thing you are sure of, is that you have to prepare yourself for a last battle against the "
+"island's wildlife and the others shipwrecked enemies, before finding a way to escape this heavenly "
+"hell.\n"
 
 #. [unit]: type=Boat
 #: Advance_Wesnoth_Wars\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:121
@@ -1000,12 +929,8 @@ msgstr "Meilleur ami!"
 
 #. [modification]: id=advance_wesnoth_wars, type=hybrid
 #: Advance_Wesnoth_Wars\_main.cfg:28
-msgid ""
-"Configurable mods to change the game mechanics, for an approach more "
-"realistic and tactic"
-msgstr ""
-"Configurable mods to change the game mechanics, for an approach more "
-"realistic and tactic"
+msgid "Configurable mods to change the game mechanics, for an approach more realistic and tactic"
+msgstr "Configurable mods to change the game mechanics, for an approach more realistic and tactic"
 
 msgid "- Damages based on defense terrain bonus where enemy is :"
 msgstr "- Daño basado en la defensa del terreno enemigo :"
@@ -1016,27 +941,23 @@ msgstr "- Máxima defensa basada en terreno contra este ataque :"
 #~ msgid ""
 #~ "When used offensively :\n"
 #~ "- This attack deals more damage to the target.\n"
-#~ "- It also causes this unit to take more damage from the target’s "
-#~ "counterattack.\n"
-#~ "- The damage ratio starts at 1.5, increases of 0.5 after each attack, "
-#~ "until 3, then drop to 1, and the loop restart.\n"
-#~ "- If the attack kills, this attack gains a 1 extra damage per strike (max: "
-#~ "10) until the end of the scenario.\n"
+#~ "- It also causes this unit to take more damage from the target’s counterattack.\n"
+#~ "- The damage ratio starts at 1.5, increases of 0.5 after each attack, until 3, then drop to 1, and "
+#~ "the loop restart.\n"
+#~ "- If the attack kills, this attack gains a 1 extra damage per strike (max: 10) until the end of "
+#~ "the scenario.\n"
 #~ "- If the attack kills, the unit can attack an adjacent enemy.\n"
-#~ "- A warcry related to the fury level will also be displayed when the unit "
-#~ "attack."
+#~ "- A warcry related to the fury level will also be displayed when the unit attack."
 #~ msgstr ""
 #~ "When used offensively :\n"
 #~ "- This attack deals more damage to the target.\n"
-#~ "- It also causes this unit to take more damage from the target’s "
-#~ "counterattack.\n"
-#~ "- The damage ratio starts at 1.5, increases of 0.5 after each attack, "
-#~ "until 3, then drop to 1, and the loop restart.\n"
-#~ "- If the attack kills, this attack gains a 1 extra damage per strike (max: "
-#~ "10) until the end of the scenario.\n"
+#~ "- It also causes this unit to take more damage from the target’s counterattack.\n"
+#~ "- The damage ratio starts at 1.5, increases of 0.5 after each attack, until 3, then drop to 1, and "
+#~ "the loop restart.\n"
+#~ "- If the attack kills, this attack gains a 1 extra damage per strike (max: 10) until the end of "
+#~ "the scenario.\n"
 #~ "- If the attack kills, the unit can attack an adjacent enemy.\n"
-#~ "- A warcry related to the fury level will also be displayed when the unit "
-#~ "attack."
+#~ "- A warcry related to the fury level will also be displayed when the unit attack."
 
 #~ msgid "Surprise Attack!"
 #~ msgstr "Attaque surprise!"
@@ -1056,24 +977,19 @@ msgstr "- Máxima defensa basada en terreno contra este ataque :"
 #~ msgid ""
 #~ "When used offensively :\n"
 #~ "  - This attack deals more damage to the target.\n"
-#~ "  - It also causes this unit to take more damage from the target’s "
-#~ "counterattack.\n"
-#~ "  - The damage ratio starts at 1.5, increases of 0.5 after each attack, "
-#~ "until 3, then drop to 1, and the loop restart.\n"
-#~ "  - If the attack kills, this attack gains a permanent 1 extra damage per "
-#~ "strike (max: 10)\n"
+#~ "  - It also causes this unit to take more damage from the target’s counterattack.\n"
+#~ "  - The damage ratio starts at 1.5, increases of 0.5 after each attack, until 3, then drop to 1, "
+#~ "and the loop restart.\n"
+#~ "  - If the attack kills, this attack gains a permanent 1 extra damage per strike (max: 10)\n"
 #~ "  - If the attack kills, the unit can attack an adjacent enemy."
 #~ msgstr ""
 #~ "Lorsqu'utilisé en offensive :\n"
 #~ "   - Cette attaque inflige + de dégâts à la cible.\n"
-#~ "   - L'unité recevra en contrepartie des dégâts supplémentaires de contre-"
-#~ "attaques.\n"
-#~ "   - Les dégâts commencent avec un ratio de 1,5, augmentent de 0,5 après "
-#~ "chaque attaque, jusqu'à 3, ensuite repasse à 1 puis le cycle continue\n"
-#~ "   - si l'attaque tue, l'attaque gagne 1 dégât supplémentaire permanent "
-#~ "par frappe (max: 10)\n"
-#~ "   - Si l'attaque tue, l'unité gagne 1 attaque supplémentaire et 1 "
-#~ "déplacement supplémentaire."
+#~ "   - L'unité recevra en contrepartie des dégâts supplémentaires de contre-attaques.\n"
+#~ "   - Les dégâts commencent avec un ratio de 1,5, augmentent de 0,5 après chaque attaque, jusqu'à "
+#~ "3, ensuite repasse à 1 puis le cycle continue\n"
+#~ "   - si l'attaque tue, l'attaque gagne 1 dégât supplémentaire permanent par frappe (max: 10)\n"
+#~ "   - Si l'attaque tue, l'unité gagne 1 attaque supplémentaire et 1 déplacement supplémentaire."
 
 #~ msgid "born-leader"
 #~ msgstr "leader-né"
@@ -1097,8 +1013,7 @@ msgstr "- Máxima defensa basada en terreno contra este ataque :"
 #~ msgstr "Non"
 
 #~ msgid "The AMLA level-ups are considered in the unit level."
-#~ msgstr ""
-#~ "Les niveaux AMLA sont pris en considération pour le niveau de l'unité."
+#~ msgstr "Les niveaux AMLA sont pris en considération pour le niveau de l'unité."
 
 #~ msgid "estimated"
 #~ msgstr "estimé"
@@ -1110,49 +1025,44 @@ msgstr "- Máxima defensa basada en terreno contra este ataque :"
 #~ msgstr "recrute"
 
 #~ msgid ""
-#~ "<italic>text='Recruiter'</italic>, this unit was promoted and allowed "
-#~ "recruit and recall units in the name of the leader."
+#~ "<italic>text='Recruiter'</italic>, this unit was promoted and allowed recruit and recall units in "
+#~ "the name of the leader."
 #~ msgstr ""
-#~ "<italic>text='Recruiteur'</italic>, cette unité a été promue et a peut "
-#~ "recruter ou rappeler des unités."
+#~ "<italic>text='Recruiteur'</italic>, cette unité a été promue et a peut recruter ou rappeler des "
+#~ "unités."
 
 #~ msgid "female^squad"
 #~ msgstr "squad"
 
 #~ msgid ""
-#~ "<italic>text='Squad'</italic> unit, its HP represent the number of them "
-#~ "able to fight. The less they are, the less they do strikes."
+#~ "<italic>text='Squad'</italic> unit, its HP represent the number of them able to fight. The less "
+#~ "they are, the less they do strikes."
 #~ msgstr ""
-#~ "<italic>text='Escouade'</italic> les PV de cette unité représentent leur "
-#~ "nombre en capacité de se battre. Moins ils sont nombreux, moins ils "
-#~ "frappent."
+#~ "<italic>text='Escouade'</italic> les PV de cette unité représentent leur nombre en capacité de se "
+#~ "battre. Moins ils sont nombreux, moins ils frappent."
 
 #~ msgid "attacks left"
 #~ msgstr "attaques restantes"
 
 #, fuzzy
 #~| msgid ""
-#~| "When a berserk is attacked, the ability will not be triggered. But when "
-#~| "a, unit attacks with a Berserk weapon, a calculated limit (using HP-ratio "
-#~| "and a random factor) of 0-3 extra rounds will apply, he will get back "
-#~| "half the damages he did, and after each fight a permanent +1 damage will "
-#~| "apply with that berserk weapon (15 max). A warcry related to the fury "
-#~| "level will also be displayed. Default:ON"
+#~| "When a berserk is attacked, the ability will not be triggered. But when a, unit attacks with a "
+#~| "Berserk weapon, a calculated limit (using HP-ratio and a random factor) of 0-3 extra rounds will "
+#~| "apply, he will get back half the damages he did, and after each fight a permanent +1 damage will "
+#~| "apply with that berserk weapon (15 max). A warcry related to the fury level will also be "
+#~| "displayed. Default:ON"
 #~ msgid ""
-#~ "When a berserk is attacked, the ability will not be triggered. But when a, "
-#~ "unit attacks with a Berserk weapon, a calculated limit (using HP-ratio and "
-#~ "a random factor) of 0-3 extra rounds will apply, he will get back half the "
-#~ "damages he did, and after each fight a permanent +1 damage will apply with "
-#~ "that berserk weapon (20 max). A warcry related to the fury level will also "
-#~ "be displayed. Default:ON"
+#~ "When a berserk is attacked, the ability will not be triggered. But when a, unit attacks with a "
+#~ "Berserk weapon, a calculated limit (using HP-ratio and a random factor) of 0-3 extra rounds will "
+#~ "apply, he will get back half the damages he did, and after each fight a permanent +1 damage will "
+#~ "apply with that berserk weapon (20 max). A warcry related to the fury level will also be "
+#~ "displayed. Default:ON"
 #~ msgstr ""
-#~ "Quand un berserk est attaqué, la capacité ne sera pas activée. Mais quand "
-#~ "une unité attaque avec une arme Berserk, une limite calculée (en utilisant "
-#~ "le ratio HP et un facteur aléatoire) de 0-3 tours supplémentaires "
-#~ "s’applique, il se soigne la moitié des dégâts qu'il inflige, et après "
-#~ "chaque combat, un dommage permanent +1 sera appliqué avec cette arme "
-#~ "Berserk (15 max). Un cri de guerre lié au niveau de fureur sera également "
-#~ "affiché. Par défaut: ON"
+#~ "Quand un berserk est attaqué, la capacité ne sera pas activée. Mais quand une unité attaque avec "
+#~ "une arme Berserk, une limite calculée (en utilisant le ratio HP et un facteur aléatoire) de 0-3 "
+#~ "tours supplémentaires s’applique, il se soigne la moitié des dégâts qu'il inflige, et après chaque "
+#~ "combat, un dommage permanent +1 sera appliqué avec cette arme Berserk (15 max). Un cri de guerre "
+#~ "lié au niveau de fureur sera également affiché. Par défaut: ON"
 
 #~ msgid "hits"
 #~ msgstr "frappes"
@@ -1161,11 +1071,11 @@ msgstr "- Máxima defensa basada en terreno contra este ataque :"
 #~ msgstr "Tirailleur"
 
 #~ msgid ""
-#~ "Attacks will never randomly miss, misses probabilities is instead instead "
-#~ "used as base damage reducer. Default:ON"
+#~ "Attacks will never randomly miss, misses probabilities is instead instead used as base damage "
+#~ "reducer. Default:ON"
 #~ msgstr ""
-#~ "Les attaques ne manqueront jamais au hasard, et la probabilité de toucher "
-#~ "est utilisée comme réducteur de dégâts de base. Par défaut:ON"
+#~ "Les attaques ne manqueront jamais au hasard, et la probabilité de toucher est utilisée comme "
+#~ "réducteur de dégâts de base. Par défaut:ON"
 
 #~ msgid "1. No Random Combats |"
 #~ msgstr "1. Combats Non-Aléatoires |"
