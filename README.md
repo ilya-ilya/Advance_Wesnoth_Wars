@@ -11,7 +11,7 @@ It's a mod  for "Battle for Wesnoth" open-source videogame.
 * Version : see [lua/aww_status.lua:9](lua/aww_status.lua)
 * Changelog : see [CHANGELOG.md](CHANGELOG.md)
 * License : [GNU-GPL](LICENSE.md)
-* Code Repository [on GitHub](https://github.com/Toranks/Advance_Wesnoth_Wars)
+* Code Repository [on GitHub](https://github.com/tbondois/Advance_Wesnoth_Wars)
 * Dedicated [forum thread](https://forums.wesnoth.org/viewtopic.php?f=15&t=49454)
 
 
@@ -44,23 +44,23 @@ Features list :
 
 - Level-Up : Relative Healing : When an unit advance a level, instead of a full healing and being cured, it keep the missing HP, but statuses are cured. The special case when post-advancement Max-HP is smaller than pre-advanced is also handled.
 
-- Level-Up : Random Bonuses After Max Level Advancement : Units already AMLA (purple XP bar) gain an extra random ability or increased stat each time they level-up again.
+- *Updated* Level-Up : Random Bonuses After Max Level Advancement : Units already AMLA (purple XP bar) gain an extra random ability or increased stat each time they level-up again.
 
 - Level-Up : Promoted Leaders After Max Level Advancement : Post-level 3 standard units reaching their first AMLA level-up will be able to recruit the same units as the original leader, recall, and be prefixed 'Chief' with a bronze crown icon (keeping the Loyal icon in case). Excluded for special Heroes.
 
 - *Updated* Epic Heroes : The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of their attributes and a small regeneration ability, making them harder to kill. Excluded for Promoted Leaders.
 
-- Learning from battlefield (Passive XP) : Extra XP for all units each turn (except for the ones not recalled).
+- *Updated* Learning from battlefield (Passive XP) : Extra XP for all units each turn (except for the ones not recalled), and double XP for AI for balancing.
 
 - Learning from healing (Max XP/turn for Healing) : Each turn, Healers will earn 1 XP for each adjacent wounded (but not-poisoned) ally, but you can limit the max/turn.
 
-- *Updated* Berserk tweak - Fury : Replace 'berserk' by a new 'Fury' weapon special, way more interesting. A warcry related to the fury level with also be displayed.
+- Berserk tweak - Fury : Replace 'berserk' by a new 'Fury' weapon special, way more interesting. A warcry related to the fury level with also be displayed.
 
-- *Updated* Ambushed tweak - Surprise Attacks : An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. Awesome combined with NINJA WARS!
+- Ambushed tweak - Surprise Attacks : An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. Awesome combined with NINJA WARS!
 
-- *NEW* Ninja Wars (Stealthy units) : Most of units will melee back-stabs, poison arrows, distract from ZoC, be faster and invisible/ambushers in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes / hide&seek.
+- Ninja Wars (Stealthy units) : Most of units will melee back-stabs, poison arrows, distract from ZoC, be faster and invisible/ambushers in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes / hide&seek.
 
-- *NEW* Level-Up After Max Level Advancement : Increase Level Number (The unit level will continue growing with the AMLA level-ups)
+- *Updated* Level-Up After Max Level Advancement : Increase Level Number (The unit level will continue growing with the AMLA level-ups). Combined with Passive XP and AMLA Bonus, maximum experience is increased a percentaje every advancement (10% * Passive XP).
 
 - Also includes a PvPvE scenario : '4p - Ruvaak Mirage Atoll' optimized to be combined with all features.
 

@@ -4,6 +4,15 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
+## [1.16.1] - 2022-10-32	
+
+### Fixed
+- When AMLA number increase feature is active the mnaximum level is preserved when the unit is rebuilt for any reason
+- Fixed some situations when level isn't preserved
+- Typo on mod title
+- Updated and fixed some translations
+
+
 ## [1.16.0] - 2022-10-30	
 
 ### Added	
