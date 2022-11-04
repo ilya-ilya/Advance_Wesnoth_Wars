@@ -24,6 +24,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - All stat bonuses now are [object] for better compatibility between maps
 - AI gets 2*X (double) passive experience if you activates the feature, for balancing
 - Level up increases (10*X)% (+10%, +20%, etc.) max experience (requires for next level) if you activates AMLA number increase feature, AMLA bonus, and passive experience together, in addition to the +20% increase by default, for balancing
+
 X = passive experience value you selected
 
 
