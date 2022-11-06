@@ -14,7 +14,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Clearer and tidier settings menu.
 
 ### Fixed
-- When a unit levels up and gains ambush ability, now can't do surprise attacks being visible or with other adjacent enemy units. NOT FULLY TESTED, need to check more possible situations.
+- When a unit levels up and gains ambush ability, now can't do surprise attacks being visible. Also fixed false positive when the unit without cooldown stops an enemy in its zone of control being visible by a different enemy, who performs a surprise attack that it should not do.
 
 
 ## [1.16.1] - 2022-11-1	
