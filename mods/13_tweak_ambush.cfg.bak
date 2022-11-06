@@ -281,7 +281,7 @@
                         name=$unit.attack[0].name
                     [/secondary_attack]
                     experience=yes
-                    resistance_multiplier=$(1-$def_ratio)
+                    resistance_multiplier=$def_ratio
                 [/harm_unit]
 
                 #  {AWW_TERRAIN_LABEL $ambushers[$a].x $ambushers[$a].y $ambusher_w_name {COLOR_WHITE}}

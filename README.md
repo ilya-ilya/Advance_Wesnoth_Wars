@@ -48,7 +48,7 @@ Features list :
 
 - Level-Up : Promoted Leaders After Max Level Advancement : Post-level 3 standard units reaching their first AMLA level-up will be able to recruit the same units as the original leader, recall, and be prefixed 'Chief' with a bronze crown icon (keeping the Loyal icon in case). Excluded for special Heroes.
 
-- *Updated* Epic Heroes : The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of their attributes and a small regeneration ability, making them harder to kill. Excluded for Promoted Leaders.
+- *Updated* Epic Heroes : The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of their attributes, and a small regeneration ability, making them harder to kill. They also get the distraction ability, that excludes Zone of Control around for allies, but not for themselves. Excluded for Promoted Leaders.
 
 - *Updated* Learning from battlefield (Passive XP) : Extra XP for all units each turn (except for the ones not recalled), and double XP for AI for balancing.
 

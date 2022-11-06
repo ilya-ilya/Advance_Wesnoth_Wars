@@ -7,7 +7,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.16.1] - 2022-11-1	
 
 ### Fixed
-- When AMLA number increase feature is active the mnaximum level is preserved when the unit is rebuilt for any reason
+- When AMLA number increase feature is active the maximum level is preserved when the unit is rebuilt for any reason
 - New method to increase level number, more foolproof
 - Typo on mod title
 - Updated and fixed some translations

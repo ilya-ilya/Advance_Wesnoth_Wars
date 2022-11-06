@@ -697,7 +697,7 @@ end
 -- Launch only if attacker unit.side = event.$side_number - or side not defined
 function aww_duel.debug_message_side(msg)
 
-	local player_side = wesnoth.get_variable("side_number") or 0
+	local player_side = wml.variables["side_number"] or 0
 
 	if player_side > 0 and (player_side == aww_duel.unit_side) then
 		return aww_duel.debug_message(msg)

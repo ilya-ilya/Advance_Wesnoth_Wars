@@ -54,57 +54,57 @@ end
 
 
 function aww_status.versioning()
-	local prev_version = wesnoth.get_variable("aww_version")
+	local prev_version = wml.variables["aww_version"]
 	if prev_version ~= nil and prev_version ~= aww_status.version then
 		aww_status.migrate(prev_version)
 	end
-	wesnoth.set_variable("aww_version", aww_status.version)
+	wml.variables["aww_version"] = aww_status.version
 end
 
 
 -- migrate old versions name to keep options through versions of AWW on same campaign :
 function aww_status.migrate(from_version)
-	if aww_status.get_feature_value(1, nil) == nil and wesnoth.get_variable("aww_enable_randomless_combats") ~= nil then
-		aww_status.update_feature_01(wesnoth.get_variable("aww_enable_randomless_combats"))
+	if aww_status.get_feature_value(1, nil) == nil and wml.variables["aww_enable_randomless_combats"] ~= nil then
+		aww_status.update_feature_01(wml.variables["aww_enable_randomless_combats"])
 	end
-	if aww_status.get_feature_value(2, nil) == nil and wesnoth.get_variable("aww_enable_health_based_combats") ~= nil then
-		local was_enabled_02 = wesnoth.get_variable("aww_enable_health_based_combats")
+	if aww_status.get_feature_value(2, nil) == nil and wml.variables["aww_enable_health_based_combats"] ~= nil then
+		local was_enabled_02 = wml.variables["aww_enable_health_based_combats"]
 		if was_enabled_02 == true then
 			aww_status.update_feature_02(1)
 		else
 			aww_status.update_feature_02(0)
 		end
 	end
-	if aww_status.get_feature_value(3, nil) == nil and wesnoth.get_variable("aww_enable_leader_promotions")~= nil then
-		aww_status.update_feature_03(wesnoth.get_variable("aww_enable_leader_promotions"))
+	if aww_status.get_feature_value(3, nil) == nil and wml.variables["aww_enable_leader_promotions"] ~= nil then
+		aww_status.update_feature_03(wml.variables["aww_enable_leader_promotions"])
 	end
-	if aww_status.get_feature_value(4, nil) == nil and wesnoth.get_variable("aww_passive_xp") ~= nil then
-		aww_status.update_feature_04(wesnoth.get_variable("aww_passive_xp")*1)
+	if aww_status.get_feature_value(4, nil) == nil and wml.variables["aww_passive_xp"] ~= nil then
+		aww_status.update_feature_04(wml.variables["aww_passive_xp"]*1)
 	end
-	if aww_status.get_feature_value(5, nil) == nil and wesnoth.get_variable("aww_healing_xp") ~= nil  then
-		aww_status.update_feature_05(wesnoth.get_variable("aww_healing_xp")*1)
+	if aww_status.get_feature_value(5, nil) == nil and wml.variables["aww_healing_xp"] ~= nil  then
+		aww_status.update_feature_05(wml.variables["aww_healing_xp"]*1)
 	end
-	if aww_status.get_feature_value(6, nil) == nil and wesnoth.get_variable("aww_enable_advance_healing_reduced") ~= nil then
-		aww_status.update_feature_06(wesnoth.get_variable("aww_enable_advance_healing_reduced"))
+	if aww_status.get_feature_value(6, nil) == nil and wml.variables["aww_enable_advance_healing_reduced"] ~= nil then
+		aww_status.update_feature_06(wml.variables["aww_enable_advance_healing_reduced"])
 	end
-	if aww_status.get_feature_value(7, nil) == nil and wesnoth.get_variable("aww_enable_debug") ~= nil  then
-		aww_status.update_feature_07(wesnoth.get_variable("aww_enable_debug"))
+	if aww_status.get_feature_value(7, nil) == nil and wml.variables["aww_enable_debug"] ~= nil  then
+		aww_status.update_feature_07(wml.variables["aww_enable_debug"])
 	end
-	if aww_status.get_feature_value(8, nil) == nil and wesnoth.get_variable("aww_randomless_terrain_adjustment") ~= nil then
-		aww_status.update_feature_08(wesnoth.get_variable("aww_randomless_terrain_adjustment")*1)
+	if aww_status.get_feature_value(8, nil) == nil and wml.variables["aww_randomless_terrain_adjustment"] ~= nil then
+		aww_status.update_feature_08(wml.variables["aww_randomless_terrain_adjustment"]*1)
 	end
-	if aww_status.get_feature_value(9, nil) == nil and wesnoth.get_variable("aww_enable_amla_extra_bonus") ~= nil  then
-		aww_status.update_feature_09(wesnoth.get_variable("aww_enable_amla_extra_bonus"))
+	if aww_status.get_feature_value(9, nil) == nil and wml.variables["aww_enable_amla_extra_bonus"] ~= nil  then
+		aww_status.update_feature_09(wml.variables["aww_enable_amla_extra_bonus"])
 	end
-	if aww_status.get_feature_value(10, nil)== nil and wesnoth.get_variable("aww_enable_gifted_leaders") ~= nil  then
-		aww_status.update_feature_10(wesnoth.get_variable("aww_enable_gifted_leaders"))
+	if aww_status.get_feature_value(10, nil)== nil and wml.variables["aww_enable_gifted_leaders"] ~= nil  then
+		aww_status.update_feature_10(wml.variables["aww_enable_gifted_leaders"])
 	end
-	if aww_status.get_feature_value(11, nil) == nil and wesnoth.get_variable("aww_enable_stealth_mode") ~= nil  then
-		aww_status.update_feature_11(wesnoth.get_variable("aww_enable_stealth_mode"))
+	if aww_status.get_feature_value(11, nil) == nil and wml.variables["aww_enable_stealth_mode"] ~= nil  then
+		aww_status.update_feature_11(wml.variables["aww_enable_stealth_mode"])
 	end
 
-	wesnoth.interface.add_chat_message("AWW notice", string.format("migrating from version %s to %s", wesnoth.get_variable("aww_version"), aww_status.version))
-	wesnoth.set_variable("aww_migrated_version", from_version)
+	wesnoth.interface.add_chat_message("AWW notice", string.format("migrating from version %s to %s", wml.variables["aww_version"], aww_status.version))
+	wml.variables["aww_migrated_version"] = from_version
 end
 
 
@@ -218,7 +218,7 @@ function aww_status.feature_code(id)
 end
 
 function aww_status.get_feature_value(id, nil_value)
-	local value = wesnoth.get_variable(aww_status.feature_code(id))
+	local value = wml.variables[aww_status.feature_code(id)]
 	if value == nil then
 		 return nil_value
 	end
@@ -226,7 +226,7 @@ function aww_status.get_feature_value(id, nil_value)
 end
 
 function aww_status.set_feature_value(id, value)
-	wesnoth.set_variable(aww_status.feature_code(id), value)
+	wml.variables[aww_status.feature_code(id)] = value
 end
 
 function aww_status.update_feature_01(value)
