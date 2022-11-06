@@ -4,6 +4,19 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
+
+## [1.17.0] - 2022-11-1	
+
+### Changed
+- Ambush tweak behavior changed, and new method more foolproof. Now all unit can ambush normally without cooldown, but surprise attacks mantains his cooldown.
+- Better descriptions on some features.
+- Changed deprecated commands, tags and functions to the latest ones.
+- Clearer and tidier settings menu.
+
+### Fixed
+- When a unit levels up and gains ambush ability, now can't do surprise attacks being visible or with other adjacent enemy units. NOT FULLY TESTED, need to check more possible situations.
+
+
 ## [1.16.1] - 2022-11-1	
 
 ### Fixed
@@ -26,7 +39,6 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Level up increases (10*X)% (+10%, +20%, etc.) max experience (requires for next level) if you activates AMLA number increase feature, AMLA bonus, and passive experience together, in addition to the +20% increase by default, for balancing
 
 X = passive experience value you selected
-
 
 ### Fixed
 - Fixed some typos on the code, the included on RusackN1 fork and some others
@@ -52,6 +64,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 ### Fixed
 - Berserk tweak : reset ratio/kills/bloodthirsty when unit is recalled/next scenario
 
+
 ## [1.14.14.4] - 2019-04-20
 
 ### Changed
@@ -65,12 +78,14 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 ### Deleted
 - old lua/aww_combats.lua
 
+
 ## [1.14.14.3] - 2019-04-16
 
 ### Fixed
 - Bug reported by Hammerfritz where hit chance was put in 100% in the case "No Random Combats" was disabled, but "Squad Mode" was.
 - Bug on "#08 : damage adjustement" not always taken in account
 - Bug aww_status.migrate() was always executed.
+
 
 ## [1.14.14.2] - 2019-04-14
 
@@ -87,6 +102,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 - Bad display information for Passive XP on chat message.
 - Bloodthirsty was added after first kill instead of 5th on feature #12 Berserk tweak
 
+
 ## [1.14.14.1] - 2019-04-13
 
 ### Changed
@@ -98,6 +114,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 ### Fixed
 - Minor error on migrating version of a savegame
 - Bad display information for Passive XP on chat message.
+
 
 ## [1.14.14.0] - 2019-04-13 (BfW 1.14.7 released)
 
@@ -131,6 +148,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 ### Deleted
 - useless about.cfg
 
+
 ## [1.14.13.0] - 2019-04-04
 
 ### Added
@@ -153,6 +171,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 - "10. Berserk tweak : Fury" becomes : "10. Berserk tweak : Fury & Drains & Drains"
 - "7. Epic heroes" : + leadership ability
 
+
 ## [1.14.12.5] - 2019-03-31
 
 ### Added
@@ -170,10 +189,12 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 - clear aww_bonus_rand variable after each use (optimisation) (09_amla_bonus)
 - lua errors on hit_chance calculation with marksmanshit units (No Random Combats)
 
+
 ## [1.14.12.4] - 2019-03-30
 
 ### Fixed
 - fix on "Promoted Leaders" : take in account Heroes (to exclude them) not having hero ellipse but overlays icon.
+
 
 ## [1.14.12.3] - 2019-03-29
 
@@ -184,6 +205,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 - retrocompatiblity if a player update from mod in the middle of a campaign
 - bug reported by Trossknecht : The_Rise_Of_Wesnoth heroes are not declared properly as Heroes, so I put them in exception list for feature "Promoted Leaders"
 
+
 ## [1.14.12.2] - 2019-03-24
 
 ### Changed
@@ -192,6 +214,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 
 ### Fixed
 - Better retrocompatibilty for features "passive XP" and "healing XP"
+
 
 ## [1.14.12.1] - 2019-03-24
 
@@ -203,6 +226,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 - Minors changes on descriptions
 - Minors changes on scenario 4p_Ruvaak_Mirage_Atoll.cfg, passing it to v1.3
 - macro items.ma.cfg OBJ_TEMPEST_TRIDENT become AWW_OBJ_TEMPEST_TRIDENT with parameters for damages & strikes
+
 
 ## [1.14.12.0] - 2019-03-24
 
@@ -234,6 +258,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 - Ninja mode : now poison only apply on pierce-ranged weapons not having charge/berserk
 - Some edit on scenario 4p_Ruvaak_Mirage_Atoll
 
+
 ## [1.14.11.3] - 2019-03-17
 
 ### Changed
@@ -241,6 +266,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 - 'Epic heroes' now also apply to Heroes (silver crowns) and all leaders (except Promoted ones). Option name is now "Epic heroes".
 - Renamed leader-crown-promoted.png to aww-leader-crown-alt.png (Promoted Heroes) like in core name, with just a prefix.
 - Events in preload and now in start, to synchronize MP and making the map loading less long.
+
 
 ## [1.14.11.2] - 2019-03-17
 
@@ -263,6 +289,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 - Healers could get XP from wounded ennemy (Healing XP)
 - Bad variable tested in pre advance (Promoted Leaders)
 
+
 ## [1.14.11.1] - 2019-03-17
 
 ### Added
@@ -280,6 +307,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 ### Fixed
 - aww_combats.lua : Option "Health-based Hit Numbers" will never apply for "swarm" special attack.
 
+
 ## [1.14.10.2] - 2019-03-17
 
 ### Changed
@@ -289,10 +317,12 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 ### Fixed
 - fixed bug when randomless damage is enabled without option 'Health-base Hits number'
 
+
 ## [1.14.10.1] - 2019-03-17
 
 ### Changed
 - Bonuses for the new options
+
 
 ## [1.14.10.0] - 2019-03-16
 
@@ -311,6 +341,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 ### Fixed
 - bad debug function called in case of backup error (this should never happens anyway)
 
+
 ## [1.14.9.4] - 2019-03-14
 
 ### Changed
@@ -321,10 +352,12 @@ I don't recommend to use the non-random combat feature because it doesn't detect
     - Separated functions aww_calculate_* and aww_get_* (who returns rounded result)
     - all functions put in wesnoth. domain for reusability in external scripts
 
+
 ## [1.14.9.3] - 2019-03-16
 
 ### Changed
 - Relative Healing on Level-Up : statuses are cured, not maintained.
+
 
 ## [1.14.9.2] - 2019-03-16
 
@@ -350,6 +383,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 - fix issue in resume.cfg
 - fix cpp issue in 4p_Ruvaak_Mirage_Atoll.map
 
+
 ## [1.14.9.0] - 2019-03-10
 
 ### Added
@@ -360,11 +394,13 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 - Options label/descriptions
 - Sliders max values decreased to avoid it completely breaks game balance
 
+
 ## [1.14.8.2] - 2019-03-09
 
 ### Fixed
 - Healing XP : no XP points gained for poisoned units (healer don't always cures, and can be exploited to gain lot of XP)
 - aww_combats.lua : LUA error happening occasionally on array index, add index test before searching further in array
+
 
 ## [1.14.8.1] - 2019-03-09
 
@@ -390,12 +426,14 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 ### Deleted
 - previous lua scripts for combats, now they are all merged in one.
 
+
 ## [1.14.7.3] - 2019-03-09
 
 ### Changed
 - "Differential Healing on Level-Up" option label become "Relative Healing on Level-Up""
 - Changed calculation of "Differential Healing on Level-Up" to be based on reporting lack of HP (like in 1.14.1) OR  keeping current HP if new advancement have less max_hitpoints than the previous one.
 - Options descriptions are in tooltips now, not the name, so window size is not enlarged.
+
 
 ## [1.14.7.2] - 2019-03-09
 
@@ -406,11 +444,13 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 ### Fixed
 - No opportunity to do a division by 0 in aww_healthy_combats.lua and aww_randomless_healthy_combats.lua (in case of bad function parameters)
 
+
 ## [1.14.7.1] - 2019-03-09
 
 ### Changed
 - "No Full Heal on Advancement" become "Differential Healing on Level-Up"
 - Changed calculation of this feature and HP given, and description of it
+
 
 ## [1.14.7] - 2019-03-09
 
@@ -419,6 +459,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 
 ### Changed
 - Caption text for xp earned by healers, just indicate in blue XP earned for each
+
 
 ## [1.14.6] - 2019-03-09
 
@@ -430,10 +471,12 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 ### Deleted
 - images/misc/ellipse-leader-nozoc*.png copied/pasted by mistake.
 
+
 ## [1.14.5] - 2019-03-09
 
 ### Changed
 - "Promote Leader" don't force their upkeep free.
+
 
 ## [1.14.4] - 2019-03-09
 
@@ -441,16 +484,19 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 - "Health-based" option impact on number of strikes, not damage of theses strikes (except with weapon having a single big strike)
 - "Health-based Combats" option description changed
 
+
 ## [1.14.3] - 2019-03-05
 
 ### Changed
 - Promote Leader option exclude most Heroes (silver crown) from promotion, of base game & "To Lands Unknown" Campaigns.
 - Description for Promote Leader option
 
+
 ## [1.14.2] - 2019-03-09
 
 ### Fixed
 - Promoted Leader are re-prefixed "Sir" (bug introduced in version 1.14.1)
+
 
 ## [1.14.1] - 2019-03-09
 
@@ -458,6 +504,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 - Default value for "Learning from battlefield" changed from 1 to 0. Can still be change in options.
 ### Fixed
 - No messages about damage calculation
+
 
 ## [1.14.0] - 2019-03-09
 
@@ -472,6 +519,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 - "Health Damage" option can be enabled independently of "Randomless Damage"
 - Addon and options descriptions
 
+
 ## [1.0.1] - 2019-03-04
 
 ### Added
@@ -482,6 +530,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 - Dissociated "Health based Damages" and "Randomless Damages" option and script . But "Health Damage" will work only if first "Randomless Combats" is also enabled
 - Addon and options descriptions
 
+
 ## [1.0.0] - 2019-03-03
 
 ### Changed
@@ -490,6 +539,7 @@ I don't recommend to use the non-random combat feature because it doesn't detect
 
 ### Fixed
 - Various fixes
+
 
 ## [0.1.0] - 2019-03-02
 
