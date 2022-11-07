@@ -5,7 +5,7 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.0] - 2022-11-1	
+## [1.17.0] - 2022-11-7	
 
 ### Changed
 - Ambush tweak behavior changed, and new method more foolproof. Now all unit can ambush normally without cooldown, but surprise attacks mantains his cooldown.
