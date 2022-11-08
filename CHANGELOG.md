@@ -5,6 +5,17 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.1] - 2022-11-7	
+
+### Changed
+- Number of kills needed with Fury ability to gain Bloodthirsty now can be set on options menu. The set number is reflected in the ability description.
+- Compatible and released on 1.16 and 1.17
+
+### Fixed
+- Fixed multiplayer map folder, that could not be started.
+- Moving a unit that can hide now does not disables undo action.
+
+
 ## [1.17.0] - 2022-11-7	
 
 ### Changed

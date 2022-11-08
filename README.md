@@ -107,6 +107,10 @@ If you want to display all currently enabled features (and the associated number
 aww_status.message_info_all()
 ```
 
+*Update* You can set fury kills needed to gain bloodthirsty on any moment writing this with debug mode activated:
+```lua
+:set_var aww_12_fury_kills=X
+```
 
 How To Migrate a Savegame from a previous version of the mod
 -------------------------------
