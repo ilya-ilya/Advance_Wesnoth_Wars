@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2019-04-13 11:39 UTC\n"
-"PO-Revision-Date: 2022-11-08 21:18+0100\n"
+"PO-Revision-Date: 2022-11-09 00:39+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -451,6 +451,12 @@ msgstr ""
 #: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:266
 msgid "berserk"
 msgstr "berserk"
+
+msgid "Kills to Bloodthirsty (Fury)"
+msgstr "Muertes para Sed de Sangre (Furia)"
+
+msgid "Killings per map needed to gain Bloodthirsty with Fury ability."
+msgstr "Muertes por mapa necesarias para obtener Sed de Sangre con Furia."
 
 #. [berserk]: id=berserk
 #: Advance_Wesnoth_Wars\macros\abilities.mac.cfg:268

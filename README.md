@@ -54,7 +54,7 @@ Features list :
 
 - Learning from healing (Max XP/turn for Healing) : Each turn, Healers will earn 1 XP for each adjacent wounded (but not-poisoned) ally, but you can limit the max/turn.
 
-- Berserk tweak - Fury : Replace 'berserk' by a new 'Fury' weapon special, way more interesting. A warcry related to the fury level with also be displayed.
+- *Updated* Berserk tweak - Fury : Replace 'berserk' by a new 'Fury' weapon special, way more interesting. A warcry related to the fury level with also be displayed. You can gain ability 'Bloodthirsty' by killing a certain number of enemies.
 
 - *Updated* Ambushed tweak - Surprise Attacks : An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. Awesome combined with NINJA WARS!
 

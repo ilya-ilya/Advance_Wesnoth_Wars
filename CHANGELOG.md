@@ -5,7 +5,16 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.1] - 2022-11-7	
+## [1.17.2] - 2022-11-	
+
+### Changed
+- Now AMLA Bonus will not have redundant rewards (such as an ability that already exists, or ranged attack points/strikes to a unit without ranged attacks)
+
+### Fixed
+
+
+
+## [1.17.1] - 2022-11-8	
 
 ### Changed
 - Number of kills needed with Fury ability to gain Bloodthirsty now can be set on options menu. The set number is reflected in the ability description.
