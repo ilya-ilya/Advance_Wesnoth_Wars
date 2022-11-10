@@ -10,9 +10,6 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Changed
 - Now AMLA Bonus will not have redundant rewards (such as an ability that already exists, or ranged attack points/strikes to a unit without ranged attacks)
 
-### Fixed
-
-
 
 ## [1.17.1] - 2022-11-8	
 
