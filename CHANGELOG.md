@@ -8,7 +8,12 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.2] - 2022-11-	
 
 ### Changed
-- Now AMLA Bonus will not have redundant rewards (such as an ability that already exists, or ranged attack points/strikes to a unit without ranged attacks)
+- Now AMLA Bonus will not have redundant or useless rewards (such as an ability that already exists, or ranged attack points/strikes to a unit without ranged attacks, or poison when no pierce/blade weapon present)
+- New option to choice if you want regeneration and distraction for Epic Heroes by default or not (still can be acquired via AMLA Bonus).
+- New option to choice how many Passive XP can gain AI units, independent of passive XP for human players.
+
+### Fixed
+- French po file adapted to the new updates, but still need translation of the new strings (If you can help, write me)
 
 
 ## [1.17.1] - 2022-11-8	
