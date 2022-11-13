@@ -5,12 +5,16 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.2] - 2022-11-	
+## [1.17.2] - 2022-11-13	
 
 ### Changed
 - Now AMLA Bonus will not have redundant or useless rewards (such as an ability that already exists, or ranged attack points/strikes to a unit without ranged attacks, or poison when no pierce/blade weapon present)
 - New option to choice if you want regeneration and distraction for Epic Heroes by default or not (still can be acquired via AMLA Bonus).
-- New option to choice how many Passive XP can gain AI units, independent of passive XP for human players.
+- New option to choice how many Passive XP can gain AI units, independent of Passive XP for human players.
+- Learning from healing XP now can learn from poisoned units that are cured or slowed.
+- Units with AMLA Bonus now gets an icon with small bronze bracelet (except Heroes and Promoted Leaders).
+- Bronze crown on Promoted Leaders now works (before all of them gets gold crowns).
+- Bronze crown icon adjusted, now units with mixed icons can be better differentiated (Bronze+Loyal or Bronze+Crown).
 
 ### Fixed
 - French po file adapted to the new updates, but still need translation of the new strings (If you can help, write me)

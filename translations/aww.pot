@@ -769,7 +769,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:116
 msgid ""
 "Extra XP for all human player units each turn.\n"
-"If you activates this together with 'Random Bonuses' and 'Increase Level Number', every Lv-UP the max experience is increased a 10% extra for every passive XP point you set additional to the default 20% increase. Default: 0"
+"If you activates this together with 'Random Bonuses' and 'Increase Level Number', every AMLA the max. experience is increased a 10% extra for every passive XP point you set additional to the default 20% increase. Default: 0"
 msgstr ""
 
 #. [slider]: id=aww_04_passive_xp_ai, description=#04.
@@ -781,7 +781,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:128
 msgid ""
 "Extra XP for all AI units each turn.\n"
-"You can activate or deactivate (with 0) Passive XP for AI regardless of the value you choose for human players, but not triggers the 20% max experience to AMLA units. This significantly increases the difficulty. I recommend choosing twice the value chosen for human players. Default: 0"
+"You can activate or deactivate (with 0) Passive XP for AI regardless of the value you choose for human players, but not triggers the extra % max. experience to AMLA units. This significantly increases the difficulty. I recommend choosing twice the value chosen for human players. Default: 0"
 msgstr ""
 
 #. [slider]: id=aww_05_healing_xp, description=#05.
@@ -791,7 +791,7 @@ msgstr ""
 
 #. [slider]: id=aww_05_healing_xp, description=#05.
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:140
-msgid "Each turn, Healers will earn 1 XP for each adjacent wounded (but not-poisoned) ally, but you can limit the max/turn. 0 will disable the feature. Default: 1"
+msgid "Each turn, Healers will earn 1 XP for each adjacent wounded or poisoned ally, but you can limit the max/turn. 0 will disable the feature. Default: 1"
 msgstr ""
 
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.

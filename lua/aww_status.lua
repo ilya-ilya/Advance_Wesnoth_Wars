@@ -6,7 +6,7 @@ local _ = wesnoth.textdomain 'aww'
 
 aww_status = {
 	title = _"Advanced Wesnoth Wars",
-	version = "1.17.1", -- same as in _server.pbl
+	version = "1.17.2", -- same as in _server.pbl
 	FEATURE_IDS = {
 		[1]  = "aww_01_enable_randomless_combats",
 		[2]  = "aww_02_squad_mode",
@@ -23,6 +23,7 @@ aww_status = {
 		[13] = "aww_13_enable_ambushed_fix",
 		[14] = "aww_14_enable_levelup_notif",
 		[15] = "aww_15_enable_levelup_amla_inc",
+		[16] = "aww_04_passive_xp_ai",
 	},
 }
 
@@ -50,6 +51,7 @@ function aww_status.init()
 	aww_status.feature_13 = aww_status.get_feature_value(13, false)
 	aww_status.feature_14 = aww_status.get_feature_value(14, false)
 	aww_status.feature_15 = aww_status.get_feature_value(15, false)
+	aww_status.feature_16 = aww_status.get_feature_value(16, 0)
 end
 
 
@@ -153,6 +155,9 @@ function aww_status.get_info(filter_id)
 		msg = msg .. "04. ".. _"Passive XP"
 		 .. string.format(" [%s", aww_status.feature_04 )
 		.. _"/turn]"
+		 .. " |"
+		 .. string.format(" [%s", aww_status.feature_16 )
+		.. _"/turn AI]"
 		 .. " | "
 	end
 	if (filter_id == nil or filter_id == 5) and aww_status.feature_05 and aww_status.feature_05 ~= 0
