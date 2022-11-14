@@ -46,13 +46,13 @@ Features list :
 
 - *Updated* Level-Up : Random Bonuses After Max Level Advancement : Units already AMLA (purple XP bar) gain an extra random ability or increased stat each time they level-up again.
 
-- Level-Up : Promoted Leaders After Max Level Advancement : Post-level 3 standard units reaching their first AMLA level-up will be able to recruit the same units as the original leader, recall, and be prefixed 'Chief' with a bronze crown icon (keeping the Loyal icon in case). Excluded for special Heroes.
+- *Updated* Level-Up : Promoted Leaders After Max Level Advancement : Post-level 3 standard units reaching their first AMLA level-up will be able to recruit the same units as the original leader, recall, and be prefixed 'Chief' with a bronze crown icon (keeping the Loyal icon in case). Excluded for special Heroes.
 
 - *Updated* Epic Heroes : The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of their attributes, and a small regeneration ability, making them harder to kill. They also get the distraction ability, that excludes Zone of Control around for allies, but not for themselves. Excluded for Promoted Leaders.
 
 - *Updated* Learning from battlefield (Passive XP) : Extra XP for all units each turn (except for the ones not recalled), and double XP for AI for balancing.
 
-- Learning from healing (Max XP/turn for Healing) : Each turn, Healers will earn 1 XP for each adjacent wounded (but not-poisoned) ally, but you can limit the max/turn.
+- *Updated* Learning from healing (Max XP/turn for Healing) : Each turn, Healers will earn 1 XP for each adjacent wounded (but not-poisoned) ally, but you can limit the max/turn.
 
 - *Updated* Berserk tweak - Fury : Replace 'berserk' by a new 'Fury' weapon special, way more interesting. A warcry related to the fury level with also be displayed. You can gain ability 'Bloodthirsty' by killing a certain number of enemies.
 
@@ -106,11 +106,20 @@ If you want to display all currently enabled features (and the associated number
 ```lua
 aww_status.message_info_all()
 ```
+To display only activates features on a compact format, use :
+```lua
+aww_status.message_info()
+```
 
 *Update* You can set fury kills needed to gain bloodthirsty on any moment writing this with debug mode activated:
 ```lua
 :set_var aww_12_fury_kills=X
 ```
+*Update* Similarly, to change Passive XP for AI:
+```lua
+:set_var aww_04_passive_xp_ai=X
+```
+
 
 How To Migrate a Savegame from a previous version of the mod
 -------------------------------

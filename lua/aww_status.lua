@@ -31,7 +31,7 @@ aww_status = {
 function aww_status.run()
 	aww_status.versioning()
 	aww_status.init()
-	aww_status.message_info()
+	-- aww_status.message_info()
 end
 
 

@@ -5,14 +5,26 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.3] - 2022-11-13	
+
+### Added	
+- New option to set minimum level to be Promoted Leader (compatible with AMLA Increase Level Number).
+
+### Changed
+- Removed status message at every new scenario and load savegame. Still can be accesed with Lua console with aww_status.message_info()
+- Changed Bronze Crown icon for Promoted Leaders for a better one, and loyal units have a Bronze Crown + Loyal Bracelet.
+
+
 ## [1.17.2] - 2022-11-13	
+
+### Added	
+- New option to choice if you want regeneration and distraction for Epic Heroes by default or not (still can be acquired via AMLA Bonus).
+- New option to choice how many Passive XP can gain AI units, independent of Passive XP for human players.
+- Units with AMLA Bonus now gets an icon with small bronze bracelet (except Heroes and Promoted Leaders).
 
 ### Changed
 - Now AMLA Bonus will not have redundant or useless rewards (such as an ability that already exists, or ranged attack points/strikes to a unit without ranged attacks, or poison when no pierce/blade weapon present)
-- New option to choice if you want regeneration and distraction for Epic Heroes by default or not (still can be acquired via AMLA Bonus).
-- New option to choice how many Passive XP can gain AI units, independent of Passive XP for human players.
 - Learning from healing XP now can learn from poisoned units that are cured or slowed.
-- Units with AMLA Bonus now gets an icon with small bronze bracelet (except Heroes and Promoted Leaders).
 - Bronze crown on Promoted Leaders now works (before all of them gets gold crowns).
 - Bronze crown icon adjusted, now units with mixed icons can be better differentiated (Bronze+Loyal or Bronze+Crown).
 
@@ -22,8 +34,10 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## [1.17.1] - 2022-11-8	
 
-### Changed
+### Added	
 - Number of kills needed with Fury ability to gain Bloodthirsty now can be set on options menu. The set number is reflected in the ability description.
+
+### Changed
 - Compatible and released on 1.16 and 1.17
 
 ### Fixed
