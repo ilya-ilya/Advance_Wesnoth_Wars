@@ -5,15 +5,21 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.3] - 2022-11-13	
+## [1.17.3] - 2022-11-16	
 
 ### Added	
 - New option to set minimum level to be Promoted Leader (compatible with AMLA Increase Level Number).
+- New AMLA Bonus: Loyal (with debug removal support).
 
 ### Changed
-- Removed status message at every new scenario and load savegame. Still can be accesed with Lua console with aww_status.message_info()
+- Removed status message at every new scenario or loading savegame. Still can be accesed on Lua console with aww_status.message_info()
 - Changed Bronze Crown icon for Promoted Leaders for a better one, and loyal units have a Bronze Crown + Loyal Bracelet.
+- Bloodthirsty as AMLA Bonus reward nerfed to 20% absorption, can be used on offense and defense, and changed duration from only one scenario to forever. Bloodthirsty as Fury effect remains the same (Drains 50%, only offense, and 1 scenario duration).
+- Filtered 'Captured' scenario from 'Eastern Invasion' campaign, to prevent massive gain of XP due to the presence of all your army on a stage during the section without turn limit. This only affect to AI Passive XP, your three initial units and released prisoners still gains the Passive XP set for human players. 
+Note: Exploits are possible in scenarios with no turn limit in general, but it is up to the player himself not to abuse them. In the case of this scenario, it can't be avoided, so I decided to disable it.
 
+### Fixed
+- Fixed log errors with Ambush Tweak (present since old versions), that did not affect the gameplay but saturated the log file.
 
 ## [1.17.2] - 2022-11-13	
 
