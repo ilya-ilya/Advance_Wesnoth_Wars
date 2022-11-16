@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-11-14 17:32 UTC\n"
-"PO-Revision-Date: 2022-11-14 18:39+0100\n"
+"POT-Creation-Date: 2022-11-16 06:22 UTC\n"
+"PO-Revision-Date: 2022-11-16 07:23+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -402,29 +402,40 @@ msgstr ""
 "L'unité annule la Zone de Contrôle autour d'elle pour les unités alliés "
 "(mais pas pour elle-même)"
 
+#. [drains]: id=aww_special_bloodthirsty_fury
 #. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:217
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:222
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:239
 msgid "bloodthirsty"
 msgstr "soif de sang"
 
+#. [drains]: id=aww_special_bloodthirsty_fury
 #. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:218
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:223
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:240
 msgid "female^bloodthirsty"
 msgstr "soif de sang"
 
-#. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:220
+#. [drains]: id=aww_special_bloodthirsty_fury
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
 msgid "(Only available offensively)"
 msgstr "(Seulement accessible offensivement)"
 
-#. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:220
+#. [drains]: id=aww_special_bloodthirsty_fury
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
 msgid ""
 "This unit drains health from living units, healing itself for half the "
 "amount of damage it deals (rounded down)."
 msgstr ""
 "L'unité draine la vie des unités vivantes et se régénère de la moitié des "
 "dégâts causés (arrondis à l'inférieur)."
+
+#. [drains]: id=aww_special_bloodthirsty
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:242
+msgid ""
+"This unit drains health from living units, healing itself for 1/5 the amount "
+"of damage it deals (rounded down)."
+msgstr ""
 
 #. [damage]: id=aww_special_fury
 #: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:256
@@ -596,22 +607,14 @@ msgstr "Poison"
 msgid "Poisonous bladed or pierced weapons"
 msgstr ""
 
+#. [message]: speaker=unit
 #. [else]
 #. [then]
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:538
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:535
 #: Advance_Wesnoth_Wars_fork\mods\12_tweak_berserk.cfg:178
 msgid "Bloodthirsty"
 msgstr "Soif de sang"
-
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:535
-msgid " (Scenario)"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:538
-msgid "Bloodthirsty (Temporary for this scenario)"
-msgstr ""
 
 #. [event]: id=aww_10_trigger_gifted_placed
 #: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:41

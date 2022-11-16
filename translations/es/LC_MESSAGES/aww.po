@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-11-14 17:32 UTC\n"
-"PO-Revision-Date: 2022-11-14 18:37+0100\n"
+"POT-Creation-Date: 2022-11-16 06:22 UTC\n"
+"PO-Revision-Date: 2022-11-16 07:25+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -406,30 +406,42 @@ msgstr ""
 "Esta unidad niega Zonas de Control a su alrededor para unidades aliadas "
 "(pero no para sí mismo/a)"
 
+#. [drains]: id=aww_special_bloodthirsty_fury
 #. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:217
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:222
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:239
 msgid "bloodthirsty"
 msgstr "sed de sangre"
 
+#. [drains]: id=aww_special_bloodthirsty_fury
 #. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:218
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:223
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:240
 msgid "female^bloodthirsty"
 msgstr "sed de sangre"
 
-#. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:220
+#. [drains]: id=aww_special_bloodthirsty_fury
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
 msgid "(Only available offensively)"
 msgstr "(Sólo disponible ofensivamente)"
 
-#. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:220
+#. [drains]: id=aww_special_bloodthirsty_fury
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
 msgid ""
 "This unit drains health from living units, healing itself for half the "
 "amount of damage it deals (rounded down)."
 msgstr ""
 "Esta unidad absorbe vida de unidades vivas, curándose la mitad del daño "
-"causado, redondeado hacia abajo. Nota. Si es un bonus AMLA sólo está activo "
-"durante este mapa."
+"causado, redondeado hacia abajo."
+
+#. [drains]: id=aww_special_bloodthirsty
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:242
+msgid ""
+"This unit drains health from living units, healing itself for 1/5 the amount "
+"of damage it deals (rounded down)."
+msgstr ""
+"Esta unidad absorbe vida de unidades vivas, curándose 1/5 del daño causado, "
+"redondeado hacia abajo."
 
 #. [damage]: id=aww_special_fury
 #: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:256
@@ -616,22 +628,14 @@ msgstr "Veneno"
 msgid "Poisonous bladed or pierced weapons"
 msgstr "Armas de filo o penetración venenosas"
 
+#. [message]: speaker=unit
 #. [else]
 #. [then]
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:538
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:535
 #: Advance_Wesnoth_Wars_fork\mods\12_tweak_berserk.cfg:178
 msgid "Bloodthirsty"
 msgstr "Sed de sangre"
-
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:535
-msgid " (Scenario)"
-msgstr " (Temporal)"
-
-#. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:538
-msgid "Bloodthirsty (Temporary for this scenario)"
-msgstr "Sed de sangre (Temporal para este escenario)"
 
 #. [event]: id=aww_10_trigger_gifted_placed
 #: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:41

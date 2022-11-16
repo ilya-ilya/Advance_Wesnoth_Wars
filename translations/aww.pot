@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-11-14 17:32 UTC\n"
+"POT-Creation-Date: 2022-11-16 06:22 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -361,24 +361,33 @@ msgstr ""
 msgid "This unit negates enemy Zones of Control around itself for allied units (but not for itself)."
 msgstr ""
 
+#. [drains]: id=aww_special_bloodthirsty_fury
 #. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:217
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:222
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:239
 msgid "bloodthirsty"
 msgstr ""
 
+#. [drains]: id=aww_special_bloodthirsty_fury
 #. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:218
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:223
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:240
 msgid "female^bloodthirsty"
 msgstr ""
 
-#. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:220
+#. [drains]: id=aww_special_bloodthirsty_fury
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
 msgid "(Only available offensively)"
 msgstr ""
 
-#. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:220
+#. [drains]: id=aww_special_bloodthirsty_fury
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
 msgid "This unit drains health from living units, healing itself for half the amount of damage it deals (rounded down)."
+msgstr ""
+
+#. [drains]: id=aww_special_bloodthirsty
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:242
+msgid "This unit drains health from living units, healing itself for 1/5 the amount of damage it deals (rounded down)."
 msgstr ""
 
 #. [damage]: id=aww_special_fury
@@ -541,21 +550,13 @@ msgstr ""
 msgid "Poisonous bladed or pierced weapons"
 msgstr ""
 
+#. [message]: speaker=unit
 #. [else]
 #. [then]
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:538
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:535
 #: Advance_Wesnoth_Wars_fork\mods\12_tweak_berserk.cfg:178
 msgid "Bloodthirsty"
-msgstr ""
-
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:535
-msgid " (Scenario)"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:538
-msgid "Bloodthirsty (Temporary for this scenario)"
 msgstr ""
 
 #. [event]: id=aww_10_trigger_gifted_placed
