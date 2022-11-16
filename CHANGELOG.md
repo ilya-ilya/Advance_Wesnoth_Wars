@@ -5,6 +5,13 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.3.1] - 2022-11-16	
+
+### Fixed
+- Fixed serious typo on AMLA bonus that prevents for working, only present on 1.17.3
+- Loyal trait description as AMLA bonus edited to be more consistent.
+
+
 ## [1.17.3] - 2022-11-16	
 
 ### Added	
@@ -20,6 +27,7 @@ Note: Exploits are possible in scenarios with no turn limit in general, but it i
 
 ### Fixed
 - Fixed log errors with Ambush Tweak (present since old versions), that did not affect the gameplay but saturated the log file.
+- Ambushers now do an attack animation.
 
 ## [1.17.2] - 2022-11-13	
 
