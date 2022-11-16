@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-11-16 06:22 UTC\n"
-"PO-Revision-Date: 2022-11-16 07:23+0100\n"
+"POT-Creation-Date: 2022-11-16 14:37 UTC\n"
+"PO-Revision-Date: 2022-11-16 15:39+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -405,14 +405,14 @@ msgstr ""
 #. [drains]: id=aww_special_bloodthirsty_fury
 #. [drains]: id=aww_special_bloodthirsty
 #: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:222
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:239
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:240
 msgid "bloodthirsty"
 msgstr "soif de sang"
 
 #. [drains]: id=aww_special_bloodthirsty_fury
 #. [drains]: id=aww_special_bloodthirsty
 #: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:223
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:240
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:241
 msgid "female^bloodthirsty"
 msgstr "soif de sang"
 
@@ -431,24 +431,24 @@ msgstr ""
 "dégâts causés (arrondis à l'inférieur)."
 
 #. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:242
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:243
 msgid ""
-"This unit drains health from living units, healing itself for 1/5 the amount "
+"This unit drains health from living units, healing itself for 20% the amount "
 "of damage it deals (rounded down)."
 msgstr ""
 
 #. [damage]: id=aww_special_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:256
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:257
 msgid "fury"
 msgstr "fureur"
 
 #. [damage]: id=aww_special_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:257
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:258
 msgid "female^fury"
 msgstr "furie"
 
 #. [damage]: id=aww_special_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:258
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:259
 msgid ""
 "When used offensively :\n"
 "- This attack deals more damage to the target.\n"
@@ -461,7 +461,7 @@ msgid ""
 msgstr ""
 
 #. [damage]: id=aww_special_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:263
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:264
 msgid ""
 " kills with that attack, it gains Bloodthirsty, an offensive drain, until "
 "end of the scenario.\n"
@@ -535,7 +535,7 @@ msgstr "mêlée"
 
 #. [message]: speaker=unit
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:97
-msgid "Melee damage +1"
+msgid "Melee damage"
 msgstr ""
 
 #. [else]
@@ -546,17 +546,17 @@ msgstr "à distance"
 
 #. [message]: speaker=unit
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:140
-msgid "Ranged damage +1"
+msgid "Ranged damage"
 msgstr ""
 
 #. [message]: speaker=unit
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:184
-msgid "Melee strikes +1"
+msgid "Melee strikes"
 msgstr ""
 
 #. [message]: speaker=unit
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:227
-msgid "Ranged strikes +1"
+msgid "Ranged strikes"
 msgstr ""
 
 #. [case]
@@ -566,55 +566,88 @@ msgstr "Déplacements"
 
 #. [message]: speaker=unit
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:254
-msgid "Movement points +1"
+msgid "Movement points"
+msgstr ""
+
+#. [leadership]: id=leadership
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:291
+msgid "leadership"
+msgstr ""
+
+#. [leadership]: id=leadership
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:292
+msgid "female^leadership"
+msgstr ""
+
+#. [leadership]: id=leadership
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:293
+msgid ""
+"This unit can lead other troops in battle.\n"
+"\n"
+"All adjacent lower-level units from the same side deal 25% more damage for "
+"each difference in level. The maximum level will be considered 5, so units "
+"of level 5 or more cannot be led but will be able to lead as if they were "
+"level 5"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:308
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:305
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:312
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:309
 msgid "Leadership"
 msgstr "Commandement"
 
 #. [message]: speaker=unit
 #. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:356
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:353
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:360
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:357
 msgid "Distract"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:404
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:401
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:408
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:405
 msgid "Regenerates"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:449
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:446
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:459
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:456
 msgid "Firststrike"
 msgstr "Initiative"
 
 #. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:499
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:515
 msgid "Poison"
 msgstr "Poison"
 
 #. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:502
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:518
 msgid "Poisonous bladed or pierced weapons"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [else]
 #. [then]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:538
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:535
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:564
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:561
 #: Advance_Wesnoth_Wars_fork\mods\12_tweak_berserk.cfg:178
 msgid "Bloodthirsty"
 msgstr "Soif de sang"
+
+#. [message]: speaker=unit
+#. [else]
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:658
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:655
+msgid "Fearless"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:659
+msgid "female^Fearless"
+msgstr ""
 
 #. [event]: id=aww_10_trigger_gifted_placed
 #: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:41
