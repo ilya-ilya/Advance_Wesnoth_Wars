@@ -341,8 +341,9 @@ function aww_duel.special_estimation_dummy(base_damage, base_strikes, hit_chance
 
 	local display_damage  =  math.floor(estim_damage)
 	local display_strikes =  math.floor(estim_strikes)
+	local max_damage  =  math.floor(estim_damage)
 
-	local min_damage = aww_duel.round(.2 * estim_damage) -- .2 to simulate 20% terrain bonus (the minimum in core game)
+	local min_damage = math.floor(aww_duel.round(.2 * estim_damage)) -- .2 to simulate 20% terrain bonus (the minimum in core game)
 	if aww_status.feature_01 then
 		if hit_chance < 100 then
 			min_damage = display_damage
@@ -352,35 +353,21 @@ function aww_duel.special_estimation_dummy(base_damage, base_strikes, hit_chance
 		display_damage = string.format("(%s-%s)", min_damage, display_damage)
 	end
 
-	local descr = _"estimated with" .. string.format(" %s x %s (defense %s%%)", estim_damage, estim_strikes, hit_chance)
+	local descr = _"Estimated from" .. string.format(" %s x %s (" .. _"Hit chance" .. " %s%%)", max_damage, display_strikes, hit_chance)
 	if aww_status.feature_01 and aww_status.feature_08  ~= 0 then
-		descr =  descr .. "\n - " .. _"Increased Damage" .. _" (option) : ".. aww_status.feature_08 .. "%"
+		descr =  descr .. "\n - " .. _"Increased Damage" .. " : ".. aww_status.feature_08 .. "%"
 	end
 	if aww_status.feature_02 > 0 then
-		descr =  descr .. "\n - " .. _"HP ratio" .. string.format(" %s%%", hp_ratio)
+		descr =  descr .. "\n - " .. _"HP ratio" .. string.format(" %s", hp_ratio)
 	end
 
-	descr = descr .. "\n" .. aww_duel.description_no_random_combats() .. aww_duel.description_squad_mode_custom()
-	if hit_chance >= 100 then
-		-- todo see if core game use a round or a math.floor
-		descr = descr .. "\n" .. _"- Damages based on defense terrain bonus where enemy is :"
-		descr = descr .. "\n" .. aww_duel.info_quick_estim(base_damage, base_strikes, 100, hp_ratio, ignore_strike_edit)
-		descr = descr .. "\n" .. aww_duel.info_quick_estim(base_damage, base_strikes, 80, hp_ratio, ignore_strike_edit)
-		descr = descr .. "\n" .. aww_duel.info_quick_estim(base_damage, base_strikes, 70, hp_ratio, ignore_strike_edit)
-		descr = descr .. "\n" .. aww_duel.info_quick_estim(base_damage, base_strikes, 60, hp_ratio, ignore_strike_edit)
-		descr = descr .. "\n" .. aww_duel.info_quick_estim(base_damage, base_strikes, 50, hp_ratio, ignore_strike_edit)
-		descr = descr .. "\n" .. aww_duel.info_quick_estim(base_damage, base_strikes, 40, hp_ratio, ignore_strike_edit)
-		descr = descr .. "\n" .. aww_duel.info_quick_estim(base_damage, base_strikes, 30, hp_ratio, ignore_strike_edit)
-		descr = descr .. "\n" .. aww_duel.info_quick_estim(base_damage, base_strikes, 20, hp_ratio, ignore_strike_edit)
-	else
-		descr = descr .. "\n" .. _"- Max terrain defense against this attack :" .. string.format("%s%%", 100 - hit_chance)
-	end
+	descr = descr .. "\n" .. aww_duel.description_no_random_combats(base_damage, base_strikes, hit_chance, hp_ratio, ignore_strike_edit) .. aww_duel.description_squad_mode_custom()
 
 	return {
 		"dummy" , {
 			id=aww_duel.SPECIAL_ESTIMATION_DUMMY_ID,
-			name = "<span color='#7FFFD4'>"
-				.. aww_duel.ARROW_CHAR
+			name = "<span color='#00FFFF'>"
+				.. "→ "
 				.. string.format("%sx%s ", display_damage, display_strikes)
 				.. "</span>",
 			cumulative = true,
@@ -407,15 +394,35 @@ function aww_duel.info_quick_estim(base_damage, base_strikes, hit_chance, hp_rat
 	return string.format("%s%% : %sx%s", defense, display_damage, display_strikes)
 end
 
-function aww_duel.description_no_random_combats()
+function aww_duel.description_no_random_combats(base_damage, base_strikes, hit_chance, hp_ratio, ignore_strike_edit)
 	local descr = ""
 	if aww_status.feature_01 then
-		descr = "- "
+
+		descr = " - "
 			.. _"No Random Combats"
 			.. " : "
-			.. _"Attacks will never randomly miss, misses probabilities is instead used as damage reduction."
+			.. _"Attacks always hits and terrain defense is used as damage reduction"
 			.. "\n"
+		if hit_chance >= 100 then
+			-- todo see if core game use a round or a math.floor
+			descr = descr .. _" - Base damage based on enemy terrain defense :"
+			descr = descr .. "<span color='#00E600'>" .. "\n          " .. aww_duel.info_quick_estim(base_damage, base_strikes, 100, hp_ratio, ignore_strike_edit) .. "</span>"
+			descr = descr .. "<span color='#70FF00'>" .. "\n          " .. aww_duel.info_quick_estim(base_damage, base_strikes, 80, hp_ratio, ignore_strike_edit) .. "</span>"
+			descr = descr .. "<span color='#B0FF00'>" .. "\n          " .. aww_duel.info_quick_estim(base_damage, base_strikes, 70, hp_ratio, ignore_strike_edit) .. "</span>"
+			descr = descr .. "<span color='#FFFF00'>" .. "\n          " .. aww_duel.info_quick_estim(base_damage, base_strikes, 60, hp_ratio, ignore_strike_edit) .. "</span>"
+			descr = descr .. "<span color='#FFAF00'>" .. "\n          " .. aww_duel.info_quick_estim(base_damage, base_strikes, 50, hp_ratio, ignore_strike_edit) .. "</span>"
+			descr = descr .. "<span color='#FF8000'>" .. "\n          " .. aww_duel.info_quick_estim(base_damage, base_strikes, 40, hp_ratio, ignore_strike_edit) .. "</span>"
+			descr = descr .. "<span color='#FF5000'>" .. "\n          " .. aww_duel.info_quick_estim(base_damage, base_strikes, 30, hp_ratio, ignore_strike_edit) .. "</span>"
+			descr = descr .. "<span color='#FF0000'>" .. "\n          " .. aww_duel.info_quick_estim(base_damage, base_strikes, 20, hp_ratio, ignore_strike_edit) .. "</span>"
+			descr = descr .. "\n"
+		else
+			descr = descr .. _" - Max terrain defense against this attack : " .. "<span color='#00AAFF'>" .. string.format("%s%%", 100 - hit_chance) .. "</span>"
+			descr = descr .. "\n"
+		end
 	end
+	
+
+	
 	return descr
 end
 
@@ -423,16 +430,18 @@ end
 function aww_duel.description_squad_mode_custom()
 	local descr = ""
 	if aww_status.feature_02 == 1 then
-		descr = "- "
+		descr = " - "
 			.. _"Squad Mode"
 			.. " : "
 			.. _"Custom"
-			.. " - "
-			.. _"The number of strikes of this attack decreases when the unit is wounded. The number of strikes is proportional to the percentage of its of maximum HP the unit has. For example a unit with 3/4 of its maximum HP will get 3/4 of the number of strikes."
-			.. " "
-			.. _"Minimum strikes will be 1."
-     		.. _"For attack having only 1 base strike, HP ratio will be used to reduce damage."
-			.. _"Excluded for berserk & fury attack. To simulate that the lesser they are, the more furious they go."
+			.. "\n - "
+			.. _"Less HP > Less strikes"
+			.. "\n - "
+			.. _"Minimum strikes will be 1"
+			.. "\n - "
+     		.. _"Attacks with 1 strike uses HP ratio damage reduction"
+			.. "\n - "
+			.. _"Excluded for berserk & fury attack"
 	end
 	return descr
 end

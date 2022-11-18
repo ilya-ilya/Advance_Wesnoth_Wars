@@ -5,11 +5,30 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.4] - 2022-11-19	
+
+### Added
+- New AMLA Bonus: Fearless. Only for non-neutral units.
+
+### Changed
+- AMLA Bonus Melee and Ranged Damage value increased (+3 Melee and +2 Ranged) and reduced their respective probabilities.
+- AMLA Bonus loyal, poison, leadership and first strike are now shown in italics, like the rest of the traits and abilities granted by this addon. This mean that can be removed via debug commands.
+- With AMLA Leadership bonus now max leadership value used is 5 on the calculation. Original game leadership still can lead a 0 level unit with an 10-level unit with an amazing 250% extra damage bonus. I suggest you to change the code by yourself (read forum).
+- Leadership bonus only for units with level 3 or superior. Only to units with level 5 or superior with AMLA increment number active. This bonus on low-level units is a waste and unrealistic.
+- Bloodthirsty as AMLA Bonus changed by Adrenaline, that heals on every hit 4 points instead of drains % from living units only, and only applies to melee. This is more usable for all factions, because Bloodthirsty is useless against undead. Bloodthirsty Fury effect still remains untouched.
+- Renamed swarm squad to squad. Type swarm is specified on description.
+- More compact and legible help with No Random Combats and Squad Mode.3
+
+### Fixed
+- Loyal trait translations
+- Better text and translations on some places
+- Fixed misbehavior on Ambush script with "illuminates" units when are ambushed by units hiding on the night. Now this type of units can suffer a Surprise attack.
+- Fixed traits Loyal and Fearless that can be duplicated.
+
 ## [1.17.3.1] - 2022-11-16	
 
 ### Fixed
 - Fixed serious typo on AMLA bonus that prevents for working, only present on 1.17.3
-- Loyal trait description as AMLA bonus edited to be more consistent.
 
 
 ## [1.17.3] - 2022-11-16	
@@ -27,6 +46,8 @@ Note: Exploits are possible in scenarios with no turn limit in general, but it i
 
 ### Fixed
 - Fixed log errors with Ambush Tweak (present since old versions), that did not affect the gameplay but saturated the log file.
+- Ambushers now do an attack animation.
+
 
 ## [1.17.2] - 2022-11-13	
 
@@ -98,9 +119,6 @@ X = passive experience value you selected
 - Max movement points bonus now preserved between maps
 - When AMLA number increase feature is active the level is preserved when the unit is rebuilt for any reason (for example when a temporary [object] as bloodthirsty or potions is removed from the unit)
 - Prevent Injured Sergeant to level-up by gaining passive xp (Campaigns)
-
-#### Note:	
-I don't recommend to use the non-random combat feature because it doesn't detect the changes between night/day and other defenses/special bonuses well. Instead, Biased RNG from the base game is a perfect substitute.
 
 
 ## [1.14.15.1] - 2019-10-19
