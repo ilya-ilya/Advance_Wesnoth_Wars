@@ -22,9 +22,10 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Fixed
 - Loyal trait translations
-- Better text and translations on some places
+- Better text and translations on some places, included french
 - Fixed misbehavior on Ambush script with "illuminates" units when are ambushed by units hiding on the night. Now this type of units can suffer a Surprise attack.
 - Fixed traits Loyal and Fearless that can be duplicated.
+
 
 ## [1.17.3.1] - 2022-11-16	
 
