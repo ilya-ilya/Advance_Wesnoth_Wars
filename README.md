@@ -60,7 +60,7 @@ Features list :
 
 - Ninja Wars (Stealthy units) : Most of units will melee back-stabs, poison arrows, distract from ZoC, be faster and invisible/ambushers in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes / hide&seek.
 
-- *Updated* Level-Up After Max Level Advancement : Increase Level Number (The unit level will continue growing with the AMLA level-ups). Combined with Passive XP and AMLA Bonus, maximum experience is increased a percentaje every advancement (10% * Passive XP).
+- *Updated* Level-Up After Max Level Advancement : Increase Level Number (The unit level will continue growing with the AMLA level-ups). This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit.
 
 - Also includes a PvPvE scenario : '4p - Ruvaak Mirage Atoll' optimized to be combined with all features.
 

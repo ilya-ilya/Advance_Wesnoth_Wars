@@ -17,7 +17,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Leadership bonus only for units with level 3 or superior. Only to units with level 5 or superior with AMLA increment number active. This bonus on low-level units is a waste and unrealistic.
 - Bloodthirsty as AMLA Bonus changed by Adrenaline, that heals on every hit 4 points instead of drains % from living units only, and only applies to melee. This is more usable for all factions, because Bloodthirsty is useless against undead. Bloodthirsty Fury effect still remains untouched.
 - Renamed swarm squad to squad. Type swarm is specified on description.
-- More compact and legible help with No Random Combats and Squad Mode.3
+- More compact and legible help with No Random Combats and Squad Mode.
+- Removed the extra % of increasing every AMLA level (1.16.0), because with separated extra XP between IA and human can be balanced better.
 
 ### Fixed
 - Loyal trait translations
