@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-11-19 01:30 UTC\n"
-"PO-Revision-Date: 2022-11-19 18:33+0100\n"
+"POT-Creation-Date: 2022-11-19 19:26 UTC\n"
+"PO-Revision-Date: 2022-11-19 20:29+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -425,6 +425,11 @@ msgstr ""
 "L'unité draine la vie des unités vivantes et se régénère de la moitié des "
 "dégâts causés (arrondis à l'inférieur)."
 
+#. [drains]: id=aww_special_bloodthirsty_fury
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
+msgid " Duration until the end of the scenario."
+msgstr ""
+
 #. [drains]: id=aww_special_bloodthirsty
 #: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:243
 msgid ""
@@ -604,7 +609,6 @@ msgstr "commandement"
 
 #. [leadership]: id=leadership
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:300
-#, fuzzy
 msgid ""
 "This unit can lead other troops in battle.\n"
 "\n"
@@ -613,10 +617,6 @@ msgid ""
 "of level 5 or more cannot be led but will be able to lead as if they were "
 "level 5."
 msgstr ""
-"Cette unité peut commander les troupes à la bataille.\n"
-"\n"
-"Toutes les unités de niveau inférieur du même camp infligent 25% de dégâts "
-"de plus pour chaque différence de niveau."
 
 #. [message]: speaker=unit
 #. [else]
@@ -831,7 +831,7 @@ msgstr ""
 #. [item]
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:38
 msgid "No"
-msgstr "Non"
+msgstr ""
 
 #. [item]
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:42
@@ -984,7 +984,6 @@ msgstr "Apprentissage sur le terrain (XP passive pour les joueurs) :"
 
 #. [slider]: id=aww_04_passive_xp, description=#04.
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:127
-#, fuzzy
 msgid "Extra XP for all human player units each turn. Default: 0"
 msgstr ""
 "XP supplémentaire pour chaque unité de joueurs humains à chaque tour. Par "

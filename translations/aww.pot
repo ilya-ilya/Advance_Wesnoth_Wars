@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-11-19 01:30 UTC\n"
+"POT-Creation-Date: 2022-11-19 19:26 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -388,6 +388,11 @@ msgstr ""
 #. [drains]: id=aww_special_bloodthirsty_fury
 #: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
 msgid "This unit drains health from living units, healing itself for half the amount of damage it deals (rounded down)."
+msgstr ""
+
+#. [drains]: id=aww_special_bloodthirsty_fury
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
+msgid " Duration until the end of the scenario."
 msgstr ""
 
 #. [drains]: id=aww_special_bloodthirsty
