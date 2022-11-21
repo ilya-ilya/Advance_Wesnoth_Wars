@@ -5,6 +5,18 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.5] - 2022-11-XX
+
+### Added
+- New option: Help Menu. You can read help about all features, and current status of every option. Accesible via right-click at any moment.
+
+### Changed
+- With Ninja Wars!, now units receives basic Skirmisher ability instead of Distract, as the description of Ninja trait says.
+
+### Fixed
+- Typo on Fearless. Now it is not gifted to neutrals.
+
+
 ## [1.17.4] - 2022-11-19	
 
 ### Added

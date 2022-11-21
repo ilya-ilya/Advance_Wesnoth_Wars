@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-11-21 19:09 UTC\n"
-"PO-Revision-Date: 2022-11-21 20:43+0100\n"
+"POT-Creation-Date: 2022-11-19 19:26 UTC\n"
+"PO-Revision-Date: 2022-11-21 04:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -73,13 +73,10 @@ msgstr "Ratio PV"
 
 #. [lua]: aww_duel.description_no_random_combats
 #. [lua]: aww_status.get_info
-#. [message]: speaker=narrator
 #. [checkbox]: id=aww_01_enable_randomless_combats, description=#01.
 #. [slider]: id=aww_08_randomless_damage_adjustment, description=#08.
 #: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:402
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:117
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:228
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:231
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:12
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:23
 msgid "No Random Combats"
@@ -98,17 +95,15 @@ msgstr " - Dégâts de base basés sur le bonus défensif du terrain de l'ennemi
 #. [lua]: aww_duel.description_no_random_combats
 #: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:419
 msgid " - Max terrain defense against this attack : "
-msgstr " - Défense max de terrain contre cette attaque : "
+msgstr " - Défense max de terrain contre cette attaque :"
 
 #. [lua]: aww_duel.description_squad_mode_custom
 #. [lua]: aww_status.get_info
 #. [swarm]: id=swarm
-#. [message]: speaker=narrator
 #. [choice]: id=aww_02_squad_mode, description=#02.
 #: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:434
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:131
 #: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:141
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:241
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:31
 msgid "Squad Mode"
 msgstr "Mode Escouade"
@@ -123,12 +118,12 @@ msgstr "Personnalisé"
 #. [lua]: aww_duel.description_squad_mode_custom
 #: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:438
 msgid "Less HP > Less strikes"
-msgstr "Nombre de frappes lié aux PV"
+msgstr " Nombre de frappes lié aux PV"
 
 #. [lua]: aww_duel.description_squad_mode_custom
 #: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:440
 msgid "Minimum strikes will be 1"
-msgstr "Le minimum de frappes sera 1"
+msgstr "Le minimum de frappes sera 1."
 
 #. [lua]: aww_duel.description_squad_mode_custom
 #: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:442
@@ -138,7 +133,7 @@ msgstr ""
 #. [lua]: aww_duel.description_squad_mode_custom
 #: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:444
 msgid "Excluded for berserk & fury attack"
-msgstr "Exclu pour les capacité berserk & fureur"
+msgstr "Exclu pour les capacité berserk & fureur."
 
 #. [lua]: aww_status.get_info
 #. [swarm]: id=swarm
@@ -173,13 +168,11 @@ msgstr "Notif"
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:146
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:149
 msgid "AMLA"
-msgstr "AMLA"
+msgstr ""
 
 #. [lua]: aww_status.get_info
-#. [message]: speaker=narrator
 #. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15.
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:143
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:278
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:71
 msgid "Increase Level Number"
 msgstr "Monter le Numéro de Niveau"
@@ -195,12 +188,9 @@ msgid "Promoted Leaders"
 msgstr "Promus Leaders"
 
 #. [lua]: aww_status.get_info
-#. [message]: speaker=narrator
 #. [checkbox]: id=aww_10_enable_gifted_leaders, description=#10.
 #. [checkbox]: id=aww_epic_object_opt
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:152
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:305
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:308
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:107
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:115
 msgid "Epic Heroes"
@@ -212,17 +202,13 @@ msgid "Passive XP"
 msgstr "XP Passive"
 
 #. [lua]: aww_status.get_info
-#. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:157
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:167
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:319
 msgid "/turn]"
 msgstr "/tour]"
 
 #. [lua]: aww_status.get_info
-#. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:160
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:323
 msgid "/turn AI]"
 msgstr "/tour IA]"
 
@@ -247,10 +233,8 @@ msgid "Ambush tweak"
 msgstr "Tweak Embuscade"
 
 #. [lua]: aww_status.get_info
-#. [message]: speaker=narrator
 #. [checkbox]: id=aww_11_enable_ninja, description=#11.
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:177
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:376
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:192
 msgid "NINJA WARS!"
 msgstr "GUERRES NINJA!"
@@ -371,10 +355,8 @@ msgstr ""
 "faisant initialement 4."
 
 #. [swarm]: id=swarm
-#. [message]: speaker=narrator
 #. [choice]: id=aww_02_squad_mode, description=#02.
 #: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:142
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:243
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:33
 msgid "Minimum strikes will be 1."
 msgstr "Le minimum de frappes sera 1."
@@ -388,10 +370,8 @@ msgstr ""
 "utilisé pour réduire les dégâts."
 
 #. [swarm]: id=swarm
-#. [message]: speaker=narrator
 #. [choice]: id=aww_02_squad_mode, description=#02.
 #: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:144
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:245
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:35
 msgid ""
 "Excluded for berserk & fury attack. To simulate that the lesser they are, "
@@ -417,34 +397,27 @@ msgstr ""
 "L'unité annule la Zone de Contrôle autour d'elle pour les unités alliés "
 "(mais pas pour elle-même)"
 
-#. [skirmisher]: id=distract
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:192
-msgid ""
-"This unit is capable of distracting opponents, allowing allied units to "
-"trespass their Zones of Control and move unhindered around them."
-msgstr ""
-
 #. [drains]: id=aww_special_bloodthirsty_fury
 #. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:223
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:241
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:222
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:240
 msgid "bloodthirsty"
 msgstr "soif de sang"
 
 #. [drains]: id=aww_special_bloodthirsty_fury
 #. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:224
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:242
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:223
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:241
 msgid "female^bloodthirsty"
 msgstr "soif de sang"
 
 #. [drains]: id=aww_special_bloodthirsty_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:226
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
 msgid "(Only available offensively)"
 msgstr "(Seulement accessible offensivement)"
 
 #. [drains]: id=aww_special_bloodthirsty_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:226
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
 msgid ""
 "This unit drains health from living units, healing itself for half the "
 "amount of damage it deals (rounded down)."
@@ -453,12 +426,12 @@ msgstr ""
 "dégâts causés (arrondis à l'inférieur)."
 
 #. [drains]: id=aww_special_bloodthirsty_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:226
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
 msgid " Duration until the end of the scenario."
 msgstr ""
 
 #. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:244
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:243
 msgid ""
 "This unit drains health from living units, healing itself for 20% the amount "
 "of damage it deals (rounded down)."
@@ -467,29 +440,27 @@ msgstr ""
 "causés (arrondis à l'inférieur)."
 
 #. [heal_on_hit]: id=aww_special_adrenaline
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:260
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:259
 msgid "adrenaline"
 msgstr "adrénaline"
 
 #. [heal_on_hit]: id=aww_special_adrenaline
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:261
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:260
 msgid "This unit gains 4 HP every time this attack hits."
 msgstr ""
 
 #. [damage]: id=aww_special_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:274
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:273
 msgid "fury"
 msgstr "fureur"
 
 #. [damage]: id=aww_special_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:275
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:274
 msgid "female^fury"
 msgstr "furie"
 
 #. [damage]: id=aww_special_fury
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:276
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:350
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:275
 msgid ""
 "When used offensively :\n"
 "- This attack deals more damage to the target.\n"
@@ -511,9 +482,7 @@ msgstr ""
 "- après "
 
 #. [damage]: id=aww_special_fury
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:281
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:355
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:280
 msgid ""
 " kills with that attack, it gains Bloodthirsty, an offensive drain, until "
 "end of the scenario.\n"
@@ -529,383 +498,6 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:26
 msgid "Chief"
 msgstr "Chef"
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_03_enable_promoted_leader, description=#03.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:215
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:87
-msgid "Level-Up After Max Level Advancement : Promoted Leaders"
-msgstr "Niveau Sup Après Avancement Niveau Max : Promus Leaders"
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_03_enable_promoted_leader, description=#03.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:215
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:88
-msgid ""
-"Standard units reaching their first AMLA level-up will be able to recruit "
-"the same units as the original leader, recall, and be prefixed 'Chief' with "
-"a bronze crown icon. Excluded for special Heroes."
-msgstr ""
-"Les unités standards qui atteignent leur premier niveau supérieur AMLA "
-"seront en mesure de recruter et rappeler les mêmes unités que le chef "
-"d'origine, et porteront le titre de «Chef» avec l'icône de couronne en "
-"bronze. Exclu pour les héros spéciaux."
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:216
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:219
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:229
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:232
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:247
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:258
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:269
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:282
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:296
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:306
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:309
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:319
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:323
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:334
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:344
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:347
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:367
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:378
-msgid "Set to"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_03_level_promoted_leader, description=#03.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:218
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:99
-msgid "Promoted Leaders : Mininum level"
-msgstr "Promus Leaders: Niveau minimum"
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_03_level_promoted_leader, description=#03.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:218
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:100
-msgid ""
-"Set the minimum level to be promoted to Chief. Only units with this level or "
-"higher on their first AMLA will be promoted."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_01_enable_randomless_combats, description=#01.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:228
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:13
-msgid ""
-"Attacks will never randomly miss, misses probabilities is instead used as "
-"damage reduction."
-msgstr ""
-"Les attaques ne manqueront jamais au hasard, et la probabilité de rater sera "
-"utilisée comme réduction de dégâts."
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_08_randomless_damage_adjustment, description=#08.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:231
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:23
-msgid " : Adjusted Damage %"
-msgstr " : Ajustement dégâts %"
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_08_randomless_damage_adjustment, description=#08.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:231
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:24
-msgid ""
-"To increase/reduce terrain/fixed Hit probabilities, converted in damages. "
-"Only applies for 'No Random Combats'."
-msgstr ""
-"Pour augmenter/réduire les bonus de probabilités de terrain / capacités. "
-"S'applique uniquement à 'Combats Non-aléatoires'."
-
-#. [message]: speaker=narrator
-#. [choice]: id=aww_02_squad_mode, description=#02.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:241
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:32
-msgid ""
-"Units do proportionally less attack strikes with less HP (or less damage for "
-"single-strike attacks). Swarm is a worse ratio (-1 strike if you miss just 1 "
-"HP) than native, but taken in account by AI. In both cases : "
-msgstr ""
-"Les unités n'ayant pas beaucoup de HP effectuent proportionnellement moins "
-"de frappes (ou moins de dégâts pour les attaques à une seule frappe). "
-"'Swarm' est un calcul plus approximatif (-1 frappes si vous manquez 1 PV), "
-"mais natif, donc interprété par l'IA. Dans les deux cas : "
-
-#. [message]: speaker=narrator
-#. [choice]: id=aww_02_squad_mode, description=#02.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:244
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:34
-msgid ""
-"For attack having only 1 base strike, HP ratio will be used to reduce "
-"damage. The number of strikes is proportional to the percentage of its of "
-"maximum HP the unit has. For example a unit with 3/4 of its maximum HP will "
-"get 3/4 of the number of strikes."
-msgstr ""
-"Le nombre de frappes de cette attaque diminue lorsque l'unité est blessée. "
-"Ce nombre est proportionnel aux PV restants. Par exemple une unité avec 3/4 "
-"de ses points de vie aura 3/4 de ses frappes."
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:247
-msgid " (0 = No, 1 = Squad, 2 = Swarm)"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_06_enable_levelup_relative_healing, description=#06.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:256
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:55
-msgid "Level-Up : Relative Healing"
-msgstr "Niveau Sup : Soin Relatif"
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_06_enable_levelup_relative_healing, description=#06.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:256
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:56
-msgid ""
-"When an unit advances a level raising his Max HP, instead of a full healing "
-"and being cured, it keep the missing HP, but statuses are cured."
-msgstr ""
-"Lorsqu'une unité progresse d'un niveau augmentant ses PV maximum, au lieu "
-"d'être complètement soignée et guérie, elle conserve les PV manquants, mais "
-"les statuts sont guéris."
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_14_enable_levelup_notif, description=#14.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:267
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:63
-msgid "Level-Up : Floating Notification"
-msgstr "Niveau Sup : Notification flottante"
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_14_enable_levelup_notif, description=#14.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:267
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:64
-msgid ""
-"Floating text on the unit currently leveling-up. Can be helpful to know "
-"which unit is concerned by an advancement. Will display only if no other AWW "
-"mods wants to display something at this moment."
-msgstr ""
-"Texte flottant sur l'unité en cours d'évolution. Utile pour savoir quelle "
-"unité est concernée par un avancement. Ne s'affichera que si aucun autre mod "
-"AWW ne souhaite afficher quelque chose à ce moment."
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:278
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:71
-msgid "Level-Up After Max Level Advancement : "
-msgstr "Niveau Sup Après Avancement Niveau Max : "
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:278
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:72
-msgid "The unit level will continue growing with the AMLA level-ups."
-msgstr ""
-"Le niveau de l'unité continuera d'augmenter après l'avancement maximum."
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:280
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:72
-msgid ""
-"This affect to some abilities as leadership, upkeep cost, and experience the "
-"enemies get fighting or killing the unit."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_09_enable_amla_bonus, description=#09.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:291
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:79
-msgid "Level-Up After Max Level Advancement : Random Bonuses"
-msgstr "Niveau Sup Après Avancement Niveau Max : Bonus aléatoires"
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_09_enable_amla_bonus, description=#09.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:291
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:80
-msgid ""
-"Units reaching AMLA level-ups can gain an a random ability or increased stat "
-"each level."
-msgstr ""
-"Les unités qui augmentent leurs niveaux AMLA peuvent acquérir un bonus "
-"aléatoire à chaque niveau, comme une augmenter d'un attribut ou une capacité "
-"spéciale."
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:293
-msgid "To identify them, they will have a bracelet icon."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:294
-msgid ""
-"Possible rewards: Melee damage +3, Melee strikes +1, Ranged damage +2, "
-"Ranged strikes +1, Movement points +1, First strike, Poison (blade and "
-"piercing), Leadership (lvl 3 minimum, lvl 5 minimum with AMLA Increase Level "
-"Number), Distract (negates ZOC around the unit for allies), Regenerates (+4 "
-"HP and slow poison), Adrenaline (+4 HP every hit), Loyal or Fearless."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_10_enable_gifted_leaders, description=#10.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:305
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:108
-msgid ""
-"The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of "
-"their attributes, making them harder to kill. Excluded for Promoted Leaders."
-msgstr ""
-"Les Leaders et les Héros (couronnes en or ou en argent) obtiennent une "
-"augmentation de 20% de leurs attributs, ce qui les rend plus difficiles à "
-"tuer. Exclu pour les Leaders Promus."
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_epic_object_opt
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:308
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:115
-msgid "Regeneration and distraction"
-msgstr "Régénération et distraction"
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_epic_object_opt
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:308
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:116
-msgid ""
-"Epic Heroes also acquires regeneration and distraction abilities by default. "
-"Only applies if Epic Heroes is active."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_04_passive_xp, description=#04.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:318
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:126
-msgid "Learning from the battlefield (Passive XP for players)"
-msgstr "Apprentissage sur le terrain (XP passive pour les joueurs)"
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_04_passive_xp, description=#04.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:318
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:127
-msgid "Extra XP for all human player units each turn."
-msgstr "XP supplémentaire pour chaque unité de joueurs humains à chaque tour."
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_04_passive_xp_ai, description=#04.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:321
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:137
-msgid "Learning from the battlefield (Passive XP for AI)"
-msgstr "Apprentissage sur le terrain (XP passive pour IA)"
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_04_passive_xp_ai, description=#04.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:321
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:138
-msgid ""
-"Extra XP for all AI units each turn.\n"
-"You can activate or deactivate (with 0) Passive XP for AI regardless of the "
-"value you choose for human players. I recommend choosing twice the value "
-"chosen for human players."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_05_healing_xp, description=#05.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:332
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:149
-msgid "Learning from healing (Max XP/turn for Healing)"
-msgstr "Apprentissage en soignant (max XP/tour)"
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_05_healing_xp, description=#05.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:332
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:150
-msgid ""
-"Each turn, Healers will earn 1 XP for each adjacent wounded or poisoned "
-"ally, but you can limit the max/turn. 0 will disable the feature."
-msgstr ""
-"Chaque tour, les soigneurs gagneront 1 XP pour chaque allié blessé ou "
-"empoisonné adjacent, mais vous pouvez limiter le nombre maximum / tour. 0 "
-"désactivera la fonctionnalité."
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:343
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:157
-msgid "Berserk tweak : Replaced by Fury"
-msgstr "Modification Berserk : Remplacer par Fureur"
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:343
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:158
-msgid ""
-"Replace 'berserk' by a new 'Fury' weapon special, way more interesting. "
-msgstr ""
-"Remplace 'berserk' par une nouvelle capacité spéciale 'fureur', bien plus "
-"intéressante. "
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_12_fury_kills
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:346
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:176
-#, fuzzy
-msgid "Kills to Bloodthirsty (Fury)"
-msgstr "soif de sang"
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_12_fury_kills
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:346
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:177
-msgid "Killings per map needed to gain Bloodthirsty with Fury ability."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:349
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:159
-msgid " Fury description : "
-msgstr " À propos de Fureur : "
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_13_enable_ambushed_fix, description=#13.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:365
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:184
-msgid "Ambush tweak : Surprise Attacks"
-msgstr "Modification Embuscades : Attaques Surprises"
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_13_enable_ambushed_fix, description=#13.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:365
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:185
-msgid ""
-"An ambush will trigger a quick combat in which the ambushed unit can't "
-"counter-attack. This surprise attack have a 1 extra turn cooldown, but can "
-"ambush as normally. Awesome combined with NINJA WARS!."
-msgstr ""
-"Une embuscade déclenchera un combat rapide dans lequel l'unité prise dans "
-"une embuscade ne pourra pas contre-attaquer. Le prochain tour, le piégeur ne "
-"pourra préparer une autre attaque surprise. Se combine très bien avec "
-"GUERRES NINJA!."
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_11_enable_ninja, description=#11.
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:376
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:192
-msgid " (stealthy units)"
-msgstr " (unités furtives)"
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:376
-msgid ""
-"Most of units will melee back-stabs, poison arrows, distract from ZoC, be "
-"faster and invisible in villages, forests, deep water, or everywhere at "
-"night. For funny PvP with fog-of-war focused on ambushes/ hide&seek."
-msgstr ""
-"La plupart des unités auront des attaques de mêlée, des flèches "
-"empoisonnées, brouilleront les Zones de Contrôles, seront plus rapides, et "
-"invisibles dans les villages, les forêts, dans les eaux profondes ou partout "
-"la nuit. Pour des PvP amusants avec brouillard de guerre axés sur des "
-"embuscades / cache-cache."
 
 #. [trait]: id=aww_trait_gifted
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:15
@@ -929,12 +521,12 @@ msgstr ""
 #. [trait]: id=aww_trait_stealthy
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:67
 msgid "ninja"
-msgstr "ninja"
+msgstr ""
 
 #. [trait]: id=aww_trait_stealthy
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:68
 msgid "female^ninja"
-msgstr "ninja"
+msgstr ""
 
 #. [trait]: id=aww_trait_stealthy
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:69
@@ -967,18 +559,18 @@ msgstr "Promu!"
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:93
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:178
 msgid "melee"
-msgstr "Mêlée"
+msgstr "mêlée"
 
 #. [message]: speaker=unit
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:96
 msgid "Melee damage"
-msgstr "Mêlée dégâts"
+msgstr "mêlée dégâts"
 
 #. [else]
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:135
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:220
 msgid "ranged"
-msgstr "À distance"
+msgstr "à distance"
 
 #. [message]: speaker=unit
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:138
@@ -1131,6 +723,15 @@ msgid "Surprise!"
 msgstr "Surprise!"
 
 #. [checkbox]: id=aww_01_enable_randomless_combats, description=#01.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:13
+msgid ""
+"Attacks will never randomly miss, misses probabilities is instead used as "
+"damage reduction."
+msgstr ""
+"Les attaques ne manqueront jamais au hasard, et la probabilité de rater sera "
+"utilisée comme réduction de dégâts."
+
+#. [checkbox]: id=aww_01_enable_randomless_combats, description=#01.
 #. [slider]: id=aww_08_randomless_damage_adjustment, description=#08.
 #. [choice]: id=aww_02_squad_mode, description=#02.
 #. [checkbox]: id=aww_06_enable_levelup_relative_healing, description=#06.
@@ -1141,13 +742,10 @@ msgstr "Surprise!"
 #. [slider]: id=aww_03_level_promoted_leader, description=#03.
 #. [checkbox]: id=aww_10_enable_gifted_leaders, description=#10.
 #. [checkbox]: id=aww_epic_object_opt
-#. [slider]: id=aww_04_passive_xp, description=#04.
-#. [slider]: id=aww_05_healing_xp, description=#05.
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
 #. [slider]: id=aww_12_fury_kills
 #. [checkbox]: id=aww_13_enable_ambushed_fix, description=#13.
 #. [checkbox]: id=aww_11_enable_ninja, description=#11.
-#. [checkbox]: id=aww_enable_help, description=Add a contextual menu on right click with help for all features
 #. [checkbox]: id=aww_07_enable_verbose, description=#07.
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:13
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:24
@@ -1160,14 +758,11 @@ msgstr "Surprise!"
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:100
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:108
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:116
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:127
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:150
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:166
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:177
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:185
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:193
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:201
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:209
 msgid " Default:"
 msgstr " Par défaut:"
 
@@ -1186,50 +781,260 @@ msgstr " Par défaut:"
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:108
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:185
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:193
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:209
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:201
 msgid " Off"
 msgstr " Off"
+
+#. [slider]: id=aww_08_randomless_damage_adjustment, description=#08.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:23
+msgid " : Adjusted Damage %"
+msgstr " : Ajustement dégâts %"
+
+#. [slider]: id=aww_08_randomless_damage_adjustment, description=#08.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:24
+msgid ""
+"To increase/reduce terrain/fixed Hit probabilities, converted in damages. "
+"Only applies for 'No Random Combats'."
+msgstr ""
+"Pour augmenter/réduire les bonus de probabilités de terrain / capacités. "
+"S'applique uniquement à 'Combats Non-aléatoires'."
 
 #. [choice]: id=aww_02_squad_mode, description=#02.
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:31
 msgid " (HP-related strikes) :"
 msgstr " (Nombre de frappes lié aux PV)"
 
+#. [choice]: id=aww_02_squad_mode, description=#02.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:32
+msgid ""
+"Units do proportionally less attack strikes with less HP (or less damage for "
+"single-strike attacks). Swarm is a worse ratio (-1 strike if you miss just 1 "
+"HP) than native, but taken in account by AI. In both cases : "
+msgstr ""
+"Les unités n'ayant pas beaucoup de HP effectuent proportionnellement moins "
+"de frappes (ou moins de dégâts pour les attaques à une seule frappe). "
+"'Swarm' est un calcul plus approximatif (-1 frappes si vous manquez 1 PV), "
+"mais natif, donc interprété par l'IA. Dans les deux cas : "
+
+#. [choice]: id=aww_02_squad_mode, description=#02.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:34
+msgid ""
+"For attack having only 1 base strike, HP ratio will be used to reduce "
+"damage. The number of strikes is proportional to the percentage of its of "
+"maximum HP the unit has. For example a unit with 3/4 of its maximum HP will "
+"get 3/4 of the number of strikes."
+msgstr ""
+"Le nombre de frappes de cette attaque diminue lorsque l'unité est blessée. "
+"Ce nombre est proportionnel aux PV restants. Par exemple une unité avec 3/4 "
+"de ses points de vie aura 3/4 de ses frappes."
+
 #. [item]
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:38
 msgid "No"
-msgstr "Non"
+msgstr ""
 
 #. [item]
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:42
 msgid "Squad"
 msgstr "Escouade"
 
+#. [checkbox]: id=aww_06_enable_levelup_relative_healing, description=#06.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:55
+msgid "Level-Up : Relative Healing"
+msgstr "Niveau Sup : Soin Relatif"
+
+#. [checkbox]: id=aww_06_enable_levelup_relative_healing, description=#06.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:56
+msgid ""
+"When an unit advances a level raising his Max HP, instead of a full healing "
+"and being cured, it keep the missing HP, but statuses are cured."
+msgstr ""
+"Lorsqu'une unité progresse d'un niveau augmentant ses PV maximum, au lieu "
+"d'être complètement soignée et guérie, elle conserve les PV manquants, mais "
+"les statuts sont guéris."
+
+#. [checkbox]: id=aww_14_enable_levelup_notif, description=#14.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:63
+msgid "Level-Up : Floating Notification"
+msgstr "Niveau Sup : Notification flottante"
+
+#. [checkbox]: id=aww_14_enable_levelup_notif, description=#14.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:64
+msgid ""
+"Floating text on the unit currently leveling-up. Can be helpful to know "
+"which unit is concerned by an advancement. Will display only if no other AWW "
+"mods wants to display something at this moment."
+msgstr ""
+"Texte flottant sur l'unité en cours d'évolution. Utile pour savoir quelle "
+"unité est concernée par un avancement. Ne s'affichera que si aucun autre mod "
+"AWW ne souhaite afficher quelque chose à ce moment."
+
 #. [checkbox]: id=aww_14_enable_levelup_notif, description=#14.
 #. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15.
 #. [checkbox]: id=aww_09_enable_amla_bonus, description=#09.
 #. [checkbox]: id=aww_epic_object_opt
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
-#. [checkbox]: id=aww_enable_help, description=Add a contextual menu on right click with help for all features
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:64
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:72
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:80
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:116
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:166
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:201
 msgid " ON"
 msgstr ""
+
+#. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:71
+msgid "Level-Up After Max Level Advancement : "
+msgstr "Niveau Sup Après Avancement Niveau Max : "
+
+#. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:72
+msgid "The unit level will continue growing with the AMLA level-ups."
+msgstr ""
+"Le niveau de l'unité continuera d'augmenter après l'avancement maximum."
+
+#. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:72
+msgid ""
+"This affect to some abilities as leadership, upkeep cost, and experience the "
+"enemies get fighting or killing the unit."
+msgstr ""
+
+#. [checkbox]: id=aww_09_enable_amla_bonus, description=#09.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:79
+msgid "Level-Up After Max Level Advancement : Random Bonuses"
+msgstr "Niveau Sup Après Avancement Niveau Max : Bonus aléatoires"
+
+#. [checkbox]: id=aww_09_enable_amla_bonus, description=#09.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:80
+msgid ""
+"Units reaching AMLA level-ups can gain an a random ability or increased stat "
+"each level."
+msgstr ""
+"Les unités qui augmentent leurs niveaux AMLA peuvent acquérir un bonus "
+"aléatoire à chaque niveau, comme une augmenter d'un attribut ou une capacité "
+"spéciale."
+
+#. [checkbox]: id=aww_03_enable_promoted_leader, description=#03.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:87
+msgid "Level-Up After Max Level Advancement : Promoted Leaders"
+msgstr "Niveau Sup Après Avancement Niveau Max : Promus Leaders"
+
+#. [checkbox]: id=aww_03_enable_promoted_leader, description=#03.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:88
+msgid ""
+"Standard units reaching their first AMLA level-up will be able to recruit "
+"the same units as the original leader, recall, and be prefixed 'Chief' with "
+"a bronze crown icon. Excluded for special Heroes. Do not combine with "
+"'Assimilation Mod' or 'Spoils of War'."
+msgstr ""
+"Les unités standards qui atteignent leur premier niveau supérieur AMLA "
+"seront en mesure de recruter et rappeler les mêmes unités que le chef "
+"d'origine, et porteront le titre de «Chef» avec l'icône de couronne en "
+"bronze. Exclu pour les héros spéciaux. Ne pas combinez pas avec "
+"'Assimilation Mod' ou 'Spoils of War'."
 
 #. [checkbox]: id=aww_03_enable_promoted_leader, description=#03.
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:89
 msgid ""
 "WARNING : Not Recommended for Campaigns, it can create bugs (like loose of "
-"unit or different recruit list). Do not combine with 'Assimilation Mod' or "
-"'Spoils of War'."
+"unit or different recruit list). "
 msgstr ""
 "ATTENTION : Non-recommandé pour les Campagnes, peut déclencher des bugs (ex: "
-"perte de l'unité, différente liste de recrues). Ne pas combinez pas avec "
-"'Assimilation Mod' ou 'Spoils of War'."
+"perte de l'unité, différente liste de recrues). "
+
+#. [slider]: id=aww_03_level_promoted_leader, description=#03.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:99
+msgid "Promoted Leaders : Mininum level"
+msgstr "Promus Leaders: Niveau minimum"
+
+#. [slider]: id=aww_03_level_promoted_leader, description=#03.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:100
+msgid ""
+"Set the minimum level to be promoted to Chief. Only units with this level or "
+"higher on their first AMLA will be promoted."
+msgstr ""
+
+#. [checkbox]: id=aww_10_enable_gifted_leaders, description=#10.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:108
+msgid ""
+"The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of "
+"their attributes, making them harder to kill. Excluded for Promoted Leaders."
+msgstr ""
+"Les Leaders et les Héros (couronnes en or ou en argent) obtiennent une "
+"augmentation de 20% de leurs attributs, ce qui les rend plus difficiles à "
+"tuer. Exclu pour les Leaders Promus."
+
+#. [checkbox]: id=aww_epic_object_opt
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:115
+msgid "Regeneration and distraction"
+msgstr "Régénération et distraction"
+
+#. [checkbox]: id=aww_epic_object_opt
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:116
+msgid ""
+"Epic Heroes also acquires regeneration and distraction abilities by default. "
+"Only applies if Epic Heroes is active."
+msgstr ""
+
+#. [slider]: id=aww_04_passive_xp, description=#04.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:126
+msgid "Learning from the battlefield (Passive XP for players) :"
+msgstr "Apprentissage sur le terrain (XP passive pour les joueurs) :"
+
+#. [slider]: id=aww_04_passive_xp, description=#04.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:127
+msgid "Extra XP for all human player units each turn. Default: 0"
+msgstr ""
+"XP supplémentaire pour chaque unité de joueurs humains à chaque tour. Par "
+"défaut: 0"
+
+#. [slider]: id=aww_04_passive_xp_ai, description=#04.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:137
+msgid "Learning from the battlefield (Passive XP for AI) :"
+msgstr "Apprentissage sur le terrain (XP passive pour IA) :"
+
+#. [slider]: id=aww_04_passive_xp_ai, description=#04.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:138
+msgid ""
+"Extra XP for all AI units each turn.\n"
+"You can activate or deactivate (with 0) Passive XP for AI regardless of the "
+"value you choose for human players. I recommend choosing twice the value "
+"chosen for human players. Default: 0"
+msgstr ""
+
+#. [slider]: id=aww_05_healing_xp, description=#05.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:149
+msgid "Learning from healing (Max XP/turn for Healing) :"
+msgstr "Apprentissage en soignant (max XP/tour) :"
+
+#. [slider]: id=aww_05_healing_xp, description=#05.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:150
+msgid ""
+"Each turn, Healers will earn 1 XP for each adjacent wounded or poisoned "
+"ally, but you can limit the max/turn. 0 will disable the feature. Default: 1"
+msgstr ""
+"Chaque tour, les soigneurs gagneront 1 XP pour chaque allié blessé ou "
+"empoisonné adjacent, mais vous pouvez limiter le nombre maximum / tour. 0 "
+"désactivera la fonctionnalité. Par défaut: 1"
+
+#. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:157
+msgid "Berserk tweak : Replace by Fury"
+msgstr "Modification Berserk : Remplacer par Fureur"
+
+#. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:158
+msgid ""
+"Replace 'berserk' by a new 'Fury' weapon special, way more interesting. "
+msgstr ""
+"Remplace 'berserk' par une nouvelle capacité spéciale 'fureur', bien plus "
+"intéressante. "
+
+#. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:159
+msgid " Fury description : "
+msgstr " À propos de Fureur : "
 
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12.
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:160
@@ -1259,31 +1064,59 @@ msgstr ""
 " - Un cri de guerre représentatif du niveau de furie sera aussi affiché "
 "quand l'unité attaque."
 
+#. [slider]: id=aww_12_fury_kills
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:176
+#, fuzzy
+msgid "Kills to Bloodthirsty (Fury)"
+msgstr "soif de sang"
+
+#. [slider]: id=aww_12_fury_kills
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:177
+msgid "Killings per map needed to gain Bloodthirsty with Fury ability."
+msgstr ""
+
+#. [checkbox]: id=aww_13_enable_ambushed_fix, description=#13.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:184
+msgid "Ambush tweak : Surprise Attacks"
+msgstr "Modification Embuscades : Attaques Surprises"
+
+#. [checkbox]: id=aww_13_enable_ambushed_fix, description=#13.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:185
+msgid ""
+"An ambush will trigger a quick combat in which the ambushed unit can't "
+"counter-attack. This surprise attack have a 1 extra turn cooldown, but can "
+"ambush as normally. Awesome combined with NINJA WARS!."
+msgstr ""
+"Une embuscade déclenchera un combat rapide dans lequel l'unité prise dans "
+"une embuscade ne pourra pas contre-attaquer. Le prochain tour, le piégeur ne "
+"pourra préparer une autre attaque surprise. Se combine très bien avec "
+"GUERRES NINJA!."
+
+#. [checkbox]: id=aww_11_enable_ninja, description=#11.
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:192
+msgid " (stealthy units)"
+msgstr " (unités furtives)"
+
 #. [checkbox]: id=aww_11_enable_ninja, description=#11.
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:193
-#, fuzzy
 msgid ""
-"Most of units will melee back-stabs, poison arrows, skirmisher, be faster "
-"and invisible in villages, forests, deep water, or everywhere at night. For "
-"funny PvP with fog-of-war focused on ambushes/ hide&seek."
+"Most of units will melee back-stabs, poison arrows, distract from ZoC, be "
+"faster and invisible in villages, forests, deep water, or everywhere at "
+"night. For funny PvP with fog-of-war focused on ambushes/ hide&seek."
 msgstr ""
-"La plupart des unités auront un backstab des attaques de mêlée, des flèches "
-"empoisonnées, tirailleur, seront plus rapides, et invisibles dans les "
-"villages, les forêts, dans les eaux profondes ou partout la nuit. Pour des "
-"PvP amusants avec brouillard de guerre axés sur des embuscades / cache-cache."
-
-#. [checkbox]: id=aww_enable_help, description=Add a contextual menu on right click with help for all features
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:200
-msgid "Help menu"
-msgstr "Menu d'aide"
+"La plupart des unités auront des attaques de mêlée, des flèches "
+"empoisonnées, brouilleront les Zones de Contrôles, seront plus rapides, et "
+"invisibles dans les villages, les forêts, dans les eaux profondes ou partout "
+"la nuit. Pour des PvP amusants avec brouillard de guerre axés sur des "
+"embuscades / cache-cache."
 
 #. [checkbox]: id=aww_07_enable_verbose, description=#07.
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:208
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:200
 msgid "Verbose (damage/hits calculation etc)"
 msgstr "Verbosité (calcul dommages / coups, etc)"
 
 #. [checkbox]: id=aww_07_enable_verbose, description=#07.
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:209
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:201
 msgid ""
 "If features #01 or #02 are enabled, will display messages about damage/hits "
 "number calculations. Useful for tests or understanding."
@@ -1424,9 +1257,3 @@ msgstr "Furieux "
 #: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:918
 msgid "Best friend!"
 msgstr "Meilleur ami!"
-
-msgid "yes"
-msgstr "Oui"
-
-msgid "no"
-msgstr "Non"
