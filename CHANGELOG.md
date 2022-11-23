@@ -9,12 +9,15 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Added
 - New option: Help Menu. You can read help about all features, and current status of every option. Accesible via right-click at any moment.
+- New option: Change recall cost of level 0 units (free, 10, recruit cost+1 or not changed). Based on lua code from https://github.com/fluffbeast/Recall_Cost
 
 ### Changed
 - With Ninja Wars!, now units receives basic Skirmisher ability instead of Distract, as the description of Ninja trait says.
 
 ### Fixed
 - Typo on Fearless. Now it is not gifted to neutrals.
+- Passed wmllint and wmlindent for better code.
+- Better description of the features, adapted to new Help Menu.
 
 
 ## [1.17.4] - 2022-11-19	

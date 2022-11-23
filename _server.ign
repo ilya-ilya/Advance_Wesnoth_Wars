@@ -2,6 +2,12 @@
 dev/
 *.pot
 *.po
+.*
+!.git*
+!.editorconfig
+/_info.cfg
+/_server.pbl
+*-bak
 
 *.dev
 # Visual Studio Code :

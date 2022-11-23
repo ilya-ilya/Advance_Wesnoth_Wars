@@ -72,6 +72,7 @@ How To Enable/Disable Mod Options during a Scenario/Campaign
 -----------------------------------------------
 
 The mod works when features options are changed during a game.
+
 When you disable an option, *MOST* of the changes made on units by the features are removed. But it's experimental.
 
 1) During a game, type :
@@ -79,11 +80,17 @@ When you disable an option, *MOST* of the changes made on units by the features 
 :debug
 ``` 
 (except if you launched the game with --debug argument)
+
 2) Then open Lua Console(default : `, but you can see it in Menu > Settings > Shortcuts > Display lua console)
+
 3) Copy/paste/execute one of the following lines related to mod features. 
+
     - Change the number in parentheses : 0 (zero) means disabled, 1 enabled.
+	
     - When specified, you can replace it by another number. (like in feature 02, 04, 05, 08...)
+	
     - Most of the changes will be operational immediately, or next turn, or next scenario. But units already modified will keep theirs changes.
+	
 The commands to edit each feature and remove/re-enable changes on units :
 ```lua
 aww_status.update_feature_01(0) -- NoRandomCombats
@@ -156,5 +163,7 @@ in the addon base directory (where the _main.cfg is).
 Thanks
 -----------
 Some of theses features are inspired from existing code, saving me lot of times.
+
 A big thanks particularly to Eagle 11, Ravana, Bob_The_Mighty, Dugi, for their creation.
+
 And a huge thanks for all developers and Wesnoth WML wiki contributors !
