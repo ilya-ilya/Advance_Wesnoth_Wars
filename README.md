@@ -25,7 +25,7 @@ But I will really appreciate to know my code is used on your project, and that y
 Description
 -----------
 
-Last Wesnoth version tested : 1.17.9
+Last Wesnoth version tested : 1.17.10
 
 A collection of the most-requested options to make the mechanics more realistic and tactic, for people curious to experiment a new gameplay.
 It changes the combat approach, making it easier for good tacticians, harder for the others.
@@ -58,9 +58,13 @@ Features list :
 
 - *Updated* Ambushed tweak - Surprise Attacks : An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. Awesome combined with NINJA WARS!
 
-- Ninja Wars (Stealthy units) : Most of units will melee back-stabs, poison arrows, distract from ZoC, be faster and invisible/ambushers in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes / hide&seek.
+- *Updated* Ninja Wars (Stealthy units) : Most of units will melee back-stabs, poison arrows, distract from ZoC, be faster and invisible/ambushers in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes / hide&seek.
 
 - *Updated* Level-Up After Max Level Advancement : Increase Level Number (The unit level will continue growing with the AMLA level-ups). This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit.
+
+- *New* Recall cost of level 0 units : Choose the cost to recall level 0 units. Cost of level 1 or more units remains unchanged. You can select free cost, 10, recruit cost + 1 or no changes.
+
+- *New* Help menu : Contextual help accesible with right-click anywhere, with detailed explanation of the features, and the status or configured value for each.
 
 - Also includes a PvPvE scenario : '4p - Ruvaak Mirage Atoll' optimized to be combined with all features.
 

@@ -5,7 +5,13 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.5] - 2022-11-XX
+## [1.17.6] - 2022-11-XX
+
+### Fixed
+- New method to detect human and ai players for give passive XP, now works as intended on multiplayer.
+
+
+## [1.17.5] - 2022-11-23
 
 ### Added
 - New option: Help Menu. You can read help about all features, and current status of every option. Accesible via right-click at any moment.
