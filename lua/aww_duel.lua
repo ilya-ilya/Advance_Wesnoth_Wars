@@ -47,9 +47,9 @@ wesnoth.wml_actions.event {
 }
 function wesnoth.wml_actions.aww_attack_action(cfg)
 	local filter   = helper.get_child(cfg, "filter")
-	local att_unit = wesnoth.get_units(filter)[1]
+	local att_unit = wesnoth.units.find_on_map(filter)[1]
 	filter         = helper.get_child(cfg, "filter_second")
-	local def_unit = wesnoth.get_units(filter)[1]
+	local def_unit = wesnoth.units.find_on_map(filter)[1]
 
 	aww_duel.modify_unit_specials_multipliers(att_unit, def_unit)
 	aww_duel.modify_unit_specials_multipliers(def_unit, att_unit)
@@ -68,7 +68,7 @@ wesnoth.wml_actions.event {
 	}}
 }
 function wesnoth.wml_actions.aww_restore_properties(cfg)
-	local u = wesnoth.get_units(cfg)[1]
+	local u = wesnoth.units.find_on_map(cfg)[1]
 	if u then
 		aww_duel.remove_tmp_specials(u)
 	end
@@ -98,7 +98,7 @@ wesnoth.wml_actions.event {
 	}}
 }
 function wesnoth.wml_actions.aww_estimate_weapons_special(cfg)
-	local unit = wesnoth.get_units(cfg)[1]
+	local unit = wesnoth.units.find_on_map(cfg)[1]
 	aww_duel.estimate_weapons_special_display(unit)
 end
 

@@ -5,11 +5,17 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.6] - 2022-11-XX
+## [1.17.6] - 2022-11-25
+
+### Added
+- Some settings can be changed on any moment via help menu. Changing settings involving lua commands are left for debugging purposes, but not via help menu.
+
+## Changed
+- Distract and regenerates now is given separately, to filter if the unit already has this ability, to not duplicate.
+- Changed obsolete lua commands to their equivalents.
 
 ### Fixed
 - New method to detect human and ai players for give passive XP, now works as intended on multiplayer.
-
 
 ## [1.17.5] - 2022-11-23
 
