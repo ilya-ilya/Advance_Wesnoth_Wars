@@ -1,7 +1,7 @@
 << 
-local cost_choice = wesnoth.get_variable "aww_recall_zero_cost"
+local cost_choice = wml.variables "aww_recall_zero_cost"
 
-for _, unit in ipairs(wesnoth.get_recall_units {}) do
+for _, unit in ipairs(wesnoth.units.find_on_recall {}) do
     if unit.level == 0 then
         if cost_choice == "cost_plus_one" then
             unit.recall_cost = (1 + unit.cost)
