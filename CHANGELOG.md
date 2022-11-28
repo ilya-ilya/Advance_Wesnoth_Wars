@@ -9,6 +9,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Added
 - Some settings can be changed on any moment via help menu. Changing settings involving lua commands are left for debugging purposes, but not via help menu.
+- New feature: Villages line of sight, with configurable distance, to the owner side.
 
 ## Changed
 - Distract and regenerates now is given separately, to filter if the unit already has this ability, to not duplicate.
@@ -16,6 +17,10 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Fixed
 - New method to detect human and ai players for give passive XP, now works as intended on multiplayer.
+- When a unit gains "Epic!", the action now can't be undo.
+- Gifted Heroes now is triggered on start too, to give "Epic!" to units who receives golden crown at an event before placed.
+- Better detection of Captured scenario from Eastern Invasion, mainline and Revised.
+
 
 ## [1.17.5] - 2022-11-23
 

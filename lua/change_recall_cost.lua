@@ -1,5 +1,5 @@
 << 
-local cost_choice = wml.variables "aww_recall_zero_cost"
+local cost_choice = wml.variables["aww_recall_zero_cost"]
 
 for _, unit in ipairs(wesnoth.units.find_on_recall {}) do
     if unit.level == 0 then
