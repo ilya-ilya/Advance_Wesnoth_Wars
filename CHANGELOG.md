@@ -5,11 +5,27 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.6] - 2022-11-25
+## [1.17.7] - 2022-11-XX
+
+### Added
+
+
+## Changed
+- Fury ability changed to object, to easier and simplified management.
+- Changed Bloodthirsty exclamations for a more generic screams, non specific to Ulfsekers.
+- Bloodthirsty is not granted to weapons that already have a drain ability.
+
+
+### Fixed
+- Capture villages now can be undo (except when some fog is lifted, of course)
+
+
+## [1.17.6] - 2022-11-28
 
 ### Added
 - Some settings can be changed on any moment via help menu. Changing settings involving lua commands are left for debugging purposes, but not via help menu.
 - New feature: Villages line of sight, with configurable distance, to the owner side.
+- Villages and Change recall cost of level 0 units included on help menu.
 
 ## Changed
 - Distract and regenerates now is given separately, to filter if the unit already has this ability, to not duplicate.
@@ -17,8 +33,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Fixed
 - New method to detect human and ai players for give passive XP, now works as intended on multiplayer.
-- When a unit gains "Epic!", the action now can't be undo.
-- Gifted Heroes now is triggered on start too, to give "Epic!" to units who receives golden crown at an event before placed.
+- When a unit gains "Epic!", now the action can't be undo.
+- Gifted Heroes now is triggered on start too, to give "Epic!" to units who receives golden crown at an event before placed. If the unit receives a golden/silver crown or canrecruit=yes on mid of a scenario, receives the epic trait on the next scenario. 
 - Better detection of Captured scenario from Eastern Invasion, mainline and Revised.
 
 
