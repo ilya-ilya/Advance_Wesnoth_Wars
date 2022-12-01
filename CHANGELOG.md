@@ -9,15 +9,16 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Added
 
-
 ## Changed
 - Fury ability changed to object, to easier and simplified management.
 - Changed Bloodthirsty exclamations for a more generic screams, non specific to Ulfsekers.
 - Bloodthirsty is not granted to weapons that already have a drain ability.
-
+- Better organized Help Menu.
 
 ### Fixed
 - Capture villages now can be undo (except when some fog is lifted, of course)
+- Now ambushers get experience from the ambush just like the ambushed, a bug present from 1.14
+- Fixed typo not giving bronze bracelet to AMLA units with bonus on 1.17.6
 
 
 ## [1.17.6] - 2022-11-28
