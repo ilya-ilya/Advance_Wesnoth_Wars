@@ -5,9 +5,16 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.7] - 2022-11-XX
+## [1.17.8] - 2022-12-XX
 
-### Added
+## Changed
+- Option to set maximum level of unit getting the recall cost feature.
+
+### Fixed
+- Villages line of sight now take in account villages captured by neutrals.
+
+
+## [1.17.7] - 2022-12-2
 
 ## Changed
 - Fury ability changed to object, to easier and simplified management.

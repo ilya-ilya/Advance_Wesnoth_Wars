@@ -42,6 +42,10 @@ Features list :
 
 - *Updated* Squad Mode (HP-related strikes) : Units lacking lot of HP do proportionally less attack strikes (or less damage for single-strike attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account by AI. In both cases, minimum strikes will be 1, and will not apply for berserk.
 
+- *Updated* Level-Up : Increase Level Number : The unit level will continue growing with the AMLA level-ups. This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit.
+
+- Level-Up : Floating Notifications : Floating text on the unit currently leveling-up. Can be helpful to know which unit is concerned by an advancement.
+
 - Level-Up : Relative Healing : When an unit advance a level, instead of a full healing and being cured, it keep the missing HP, but statuses are cured. The special case when post-advancement Max-HP is smaller than pre-advanced is also handled.
 
 - *Updated* Level-Up : Random Bonuses After Max Level Advancement : Units already AMLA (purple XP bar) gain an extra random ability or increased stat each time they level-up again. To identify them, they will have a new bracelet icon. Possible rewards: Melee damage +3, Melee strikes +1, Ranged damage +2, Ranged strikes +1, Movement points +1, First strike, Poison (blade and piercing), Leadership (lvl 3 min, lvl 5 min with AMLA Increase Level Number), Distract (negates ZOC around the unit for allies), Regenerates (+4 HP and slow poison), Adrenaline (+4 HP every hit), Loyal or Fearless.
@@ -62,9 +66,11 @@ Features list :
 
 - *Updated* Level-Up After Max Level Advancement : Increase Level Number (The unit level will continue growing with the AMLA level-ups). This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit.
 
-- *New* Recall cost of level 0 units : Choose the cost to recall level 0 units. Cost of level 1 or more units remains unchanged. You can select free cost, 10, recruit cost + 1 or no changes.
+- *New* Recall cost of low level units : Choose the cost to recall units with chosen level or lower. Cost of higher level units remains unchanged. You can select free cost, 10, recruit cost + 1 or no changes.
 
-- *New* Help menu : Contextual help accesible with right-click anywhere, with detailed explanation of the features, and the status or configured value for each.
+- *New* Villages line of sight : Finally one of the most desired features in Wesnoth! Villages now can have a line of sight for the owner side, with configurable distance.
+
+- *New* Help menu : Contextual help accesible with right-click anywhere, with detailed explanation of the features, and the status or configured value for each, with options to activate, deactivate, or change values.
 
 - Also includes a PvPvE scenario : '4p - Ruvaak Mirage Atoll' optimized to be combined with all features.
 
