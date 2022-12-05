@@ -9,6 +9,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## Changed
 - Option to set maximum level of unit getting the recall cost feature.
+- Changed cooldown of ambushes from 2 turn to 1 turn when the ambusher do a normal attack. When attacking in ambushes, the cooldown is still 2 turns. Fixed the tooltip accordingly, which was also wrong (it said it had a 1 turn cooldown and it's actually 2).
 
 ### Fixed
 - Villages line of sight now take in account villages captured by neutrals.
