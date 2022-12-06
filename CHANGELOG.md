@@ -13,6 +13,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Fixed
 - Villages line of sight now take in account villages captured by neutrals.
+- Last deprecation messages fixed. Guaranteed compatibility with future 1.18
 
 
 ## [1.17.7] - 2022-12-2

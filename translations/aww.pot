@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-05 01:53 UTC\n"
+"POT-Creation-Date: 2022-12-05 22:15 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,7 +103,7 @@ msgstr ""
 #. [choice]: id=aww_02_squad_mode, description=#02. 
 #: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:434
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:131
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:133
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:141
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:254
 #: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:34
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:30
@@ -141,7 +141,7 @@ msgstr ""
 #. [swarm]: id=swarm
 #. [item]
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:129
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:133
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:141
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:46
 msgid "Swarm"
 msgstr ""
@@ -252,7 +252,7 @@ msgstr ""
 #. [option]
 #. [checkbox]: id=aww_11_enable_ninja, description=#11. 
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:177
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:822
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:824
 #: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:127
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:246
 msgid "NINJA WARS!"
@@ -308,45 +308,53 @@ msgstr ""
 msgid " instead of healing."
 msgstr ""
 
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:44
+msgid "slowed"
+msgstr ""
+
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:45
+msgid "cured"
+msgstr ""
+
 #. [hides]: id=aww_ability_camouflage
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:50
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:58
 msgid "camouflaged"
 msgstr ""
 
 #. [hides]: id=aww_ability_camouflage
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:51
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:59
 msgid "female^camouflaged"
 msgstr ""
 
 #. [hides]: id=aww_ability_camouflage
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:52
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:60
 msgid "camouflage"
 msgstr ""
 
 #. [hides]: id=aww_ability_camouflage
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:53
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:61
 msgid "female^camouflage"
 msgstr ""
 
 #. [hides]: id=aww_ability_camouflage
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:54
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:62
 msgid "This unit remains undetected by its enemies in villages, forests, deep water, or everywhere at night, except by those standing next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgstr ""
 
 #. [swarm]: id=swarm
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:132
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:140
 msgid "squad"
 msgstr ""
 
 #. [swarm]: id=swarm
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:133
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:141
 msgid "The number of strikes of this attack decreases when the unit is wounded. The number of strikes is proportional to the percentage of its of maximum HP the unit has. For example a unit with 45/60 HP will do only 3 strike of an attack having initially 4 strikes."
 msgstr ""
 
 #. [swarm]: id=swarm
 #. [message]: speaker=narrator
 #. [choice]: id=aww_02_squad_mode, description=#02. 
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:134
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:142
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:257
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:33
 msgid "Minimum strikes will be 1."
@@ -355,7 +363,7 @@ msgstr ""
 #. [swarm]: id=swarm
 #. [message]: speaker=narrator
 #. [choice]: id=aww_02_squad_mode, description=#02. 
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:135
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:143
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:258
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:34
 msgid "For attack having only 1 base strike, HP ratio will be used to reduce damage."
@@ -364,85 +372,85 @@ msgstr ""
 #. [swarm]: id=swarm
 #. [message]: speaker=narrator
 #. [choice]: id=aww_02_squad_mode, description=#02. 
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:136
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:144
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:259
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:35
 msgid "Excluded for berserk & fury attack. To simulate that the lesser they are, the more furious they go."
 msgstr ""
 
 #. [skirmisher]: id=distract
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:180
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:188
 msgid "distract"
 msgstr ""
 
 #. [skirmisher]: id=distract
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:181
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:189
 msgid "female^distract"
 msgstr ""
 
 #. [skirmisher]: id=distract
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:182
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:190
 msgid "This unit negates enemy Zones of Control around itself for allied units (but not for itself)."
 msgstr ""
 
 #. [drains]: id=aww_special_bloodthirsty_fury
 #. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:214
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:232
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:222
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:240
 msgid "bloodthirsty"
 msgstr ""
 
 #. [drains]: id=aww_special_bloodthirsty_fury
 #. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:215
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:233
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:223
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:241
 msgid "female^bloodthirsty"
 msgstr ""
 
 #. [drains]: id=aww_special_bloodthirsty_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:217
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
 msgid "(Only available offensively)"
 msgstr ""
 
 #. [drains]: id=aww_special_bloodthirsty_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:217
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
 msgid "This unit drains health from living units, healing itself for half the amount of damage it deals (rounded down)."
 msgstr ""
 
 #. [drains]: id=aww_special_bloodthirsty_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:217
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
 msgid " Duration until the end of the scenario."
 msgstr ""
 
 #. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:235
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:243
 msgid "This unit drains health from living units, healing itself for 20% the amount of damage it deals (rounded down)."
 msgstr ""
 
 #. [heal_on_hit]: id=aww_special_adrenaline
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:251
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:259
 msgid "adrenaline"
 msgstr ""
 
 #. [heal_on_hit]: id=aww_special_adrenaline
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:252
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:260
 msgid "This unit gains 4 HP every time this attack hits."
 msgstr ""
 
 #. [damage]: id=aww_special_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:264
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:272
 msgid "fury"
 msgstr ""
 
 #. [damage]: id=aww_special_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:265
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:273
 msgid "female^fury"
 msgstr ""
 
 #. [damage]: id=aww_special_fury
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:266
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:667
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:274
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:669
 msgid ""
 "When used offensively :\n"
 "- This attack deals more damage to the target.\n"
@@ -454,8 +462,8 @@ msgstr ""
 
 #. [damage]: id=aww_special_fury
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:271
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:672
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:279
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:674
 msgid ""
 " kills with that attack, it gains Bloodthirsty, an offensive drain, until end of the scenario.\n"
 "- A warcry related to the fury level with also be displayed when the unit attack."
@@ -501,10 +509,10 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:526
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:564
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:567
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:661
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:664
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:760
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:824
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:663
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:666
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:762
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:826
 msgid "Set to"
 msgstr ""
 
@@ -539,8 +547,8 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:482
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:497
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:536
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:634
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:731
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:635
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:733
 msgid "Max"
 msgstr ""
 
@@ -554,11 +562,11 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:506
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:545
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:613
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:642
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:708
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:740
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:788
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:804
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:644
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:710
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:742
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:790
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:806
 msgid "Back to help menu"
 msgstr ""
 
@@ -572,11 +580,11 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:514
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:553
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:621
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:650
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:716
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:748
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:796
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:812
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:652
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:718
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:750
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:798
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:814
 #: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:136
 msgid "Exit"
 msgstr ""
@@ -686,16 +694,16 @@ msgstr ""
 #. [option]
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:284
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:363
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:684
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:770
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:686
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:772
 msgid "Activate"
 msgstr ""
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:293
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:372
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:696
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:779
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:698
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:781
 msgid "Deactivate"
 msgstr ""
 
@@ -958,18 +966,18 @@ msgstr ""
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:629
-msgid "Change minimum level to get a recall cost reduction"
+msgid "Change maximum level to get a recall cost reduction"
 msgstr ""
 
-#. [command]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:632
-msgid "Set minimum level to get a recall cost reduction"
+#. [message]: speaker=narrator
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:633
+msgid "Set maximum level to get a recall cost reduction"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:660
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:662
 #: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:115
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:211
 msgid "Berserk tweak : Replaced by Fury"
@@ -977,56 +985,56 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:660
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:662
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:212
 msgid "Replace 'berserk' by a new 'Fury' weapon special, way more interesting. "
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_12_fury_kills
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:663
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:665
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:230
 msgid "Kills to Bloodthirsty (Fury)"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_12_fury_kills
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:663
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:665
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:231
 msgid "Killings per map needed to gain Bloodthirsty with Fury ability."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_12_enable_berserk_fix, description=#12. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:666
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:668
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:213
 msgid " Fury description : "
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:678
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:680
 msgid "Change status of Berserk tweak"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:682
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:684
 msgid "Set status of Berserk tweak"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:725
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:727
 msgid "Change number of kills needed to gain Bloodthirsty per scenario"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:729
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:731
 msgid "Set number of kills needed to gain Bloodthirsty per scenario"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
 #. [checkbox]: id=aww_13_enable_ambushed_fix, description=#13. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:758
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:760
 #: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:121
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:238
 msgid "Ambush tweak : Surprise Attacks"
@@ -1034,30 +1042,30 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_13_enable_ambushed_fix, description=#13. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:758
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:760
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:239
-msgid "An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. This surprise attack have a 1 extra turn cooldown, but can ambush as normally. Awesome combined with NINJA WARS!."
+msgid "An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. This surprise attack have a 2 extra turn cooldown, but can ambush as normally. Normal attacks adds a 1 turn cooldown to surprise attack. Awesome combined with NINJA WARS!."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:764
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:766
 msgid "Change status of Surprise Attacks"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:768
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:770
 msgid "Set status of Surprise Attacks"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_11_enable_ninja, description=#11. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:822
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:824
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:246
 msgid " (stealthy units)"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:822
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:824
 msgid "Most of units will melee back-stabs, poison arrows, distract from ZoC, be faster and invisible in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes/ hide&seek."
 msgstr ""
 
@@ -1271,8 +1279,8 @@ msgstr ""
 msgid "Rampage!"
 msgstr ""
 
-#. [message]: speaker=$ambushers[$a].id
-#: Advance_Wesnoth_Wars_fork\mods\13_tweak_ambush.cfg:281
+#. [message]: speaker=$ambusher.id
+#: Advance_Wesnoth_Wars_fork\mods\13_tweak_ambush.cfg:288
 msgid "Surprise!"
 msgstr ""
 
