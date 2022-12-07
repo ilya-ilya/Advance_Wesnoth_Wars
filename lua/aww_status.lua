@@ -6,7 +6,7 @@ local _ = wesnoth.textdomain 'aww'
 
 aww_status = {
 	title = _"Advanced Wesnoth Wars",
-	version = "1.17.7", -- same as in _server.pbl
+	version = "1.17.8", -- same as in _server.pbl
 	FEATURE_IDS = {
 		[1]  = "aww_01_enable_randomless_combats",
 		[2]  = "aww_02_squad_mode",
@@ -105,7 +105,7 @@ function aww_status.migrate(from_version)
 		aww_status.update_feature_11(wml.variables["aww_enable_stealth_mode"])
 	end
 
-	wesnoth.interface.add_chat_message("AWW notice", string.format("migrating from version %s to %s", wml.variables["aww_version"], aww_status.version))
+	wesnoth.interface.add_chat_message( _ "AWW notice", string.format( _ "migrating from version %s to %s", wml.variables["aww_version"], aww_status.version))
 	wml.variables["aww_migrated_version"] = from_version
 end
 

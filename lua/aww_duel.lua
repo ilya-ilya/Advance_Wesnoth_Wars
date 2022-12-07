@@ -7,7 +7,7 @@
 -- TODO find how to update unit without _put, because it triggered unit placed in the middle of the attack
 -- TODO manage bonuses of damage day/light and specific ennemyes ? apparently multiplier don't cover it
 
-local helper = wesnoth.require "lua/helper.lua"
+local helper = wesnoth.require "helper"
 
 local _ = wesnoth.textdomain 'aww'
 
@@ -46,9 +46,9 @@ wesnoth.wml_actions.event {
 	}}
 }
 function wesnoth.wml_actions.aww_attack_action(cfg)
-	local filter   = helper.get_child(cfg, "filter")
+	local filter   = wml.get_child(cfg, "filter")
 	local att_unit = wesnoth.units.find_on_map(filter)[1]
-	filter         = helper.get_child(cfg, "filter_second")
+	filter         = wml.get_child(cfg, "filter_second")
 	local def_unit = wesnoth.units.find_on_map(filter)[1]
 
 	aww_duel.modify_unit_specials_multipliers(att_unit, def_unit)
@@ -222,7 +222,7 @@ function aww_duel.modify_unit_specials_multipliers(att_unit, def_unit)
 
 		end --if (attribute)a=attack
 	end --foreach a (unit attribute)
-	wesnoth.put_unit(unit_data)  -- trigger unit placed, take care ! TODO find better way
+	wesnoth.units.to_map(unit_data)  -- trigger unit placed, take care ! TODO find better way
 end -- local function
 
 
@@ -278,7 +278,7 @@ function aww_duel.remove_tmp_specials(unit)
 	end --foreach a (unit attribute)
 
 	if to_update then
-		wesnoth.put_unit(unit_data)  -- trigger unit placed, take care ! TODO find better way
+		wesnoth.units.to_map(unit_data)  -- trigger unit placed, take care ! TODO find better way
 		--aww_duel.debug_message_side(string.format("restored attacks for unit [%s] %s", unit.id, unit.name))
 	else
 		aww_duel.debug_message_side(string.format("NOTHING to restore for unit [%s] %s", unit.id, unit.name))
@@ -691,7 +691,7 @@ function aww_duel.estimate_weapons_special_display(unit)
 	end --foreach a (unit attribute)
 
 	if unit_to_update == true then
-		wesnoth.put_unit(unit_data)  -- trigger unit placed, take care ! TODO find better way
+		wesnoth.units.to_map(unit_data)  -- trigger unit placed, take care ! TODO find better way
 		aww_duel.debug_message_side("weapons estimations updated for unit : ".. unit.id)
 	end
 end

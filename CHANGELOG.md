@@ -5,7 +5,15 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.8] - 2022-12-XX
+## [1.17.9] - 2022-12-XX
+
+#Added
+
+
+## [1.17.8] - 2022-12-7
+
+#Added
+- Help menu now includes possibility of change status of Non Random Combats, Squad Mode, Promoted Leaders, Increase Level Number and Floating Notifications. Rest of options can be changed on debug mode via Lua console, but are not-reversable actions and I can't guarantee stability, so I will never include them on the menu. Read Readme.md to know how to do this at your own risk.
 
 ## Changed
 - Option to set maximum level of unit getting the recall cost feature.
@@ -13,7 +21,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Fixed
 - Villages line of sight now take in account villages captured by neutrals.
-- Last deprecation messages fixed. Guaranteed compatibility with future 1.18
+- Last deprecation messages fixed. Guaranteed compatibility with future 1.19
+- Fixed an old bug when disabling Non Random Combats
 
 
 ## [1.17.7] - 2022-12-2
