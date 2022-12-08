@@ -7,15 +7,19 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## [1.17.9] - 2022-12-XX
 
-#Added
+### Added
+
+### Changed
+- Increased probability of loyal bonus, but only for level 3 units or higher.
+- General probability adjustment, after enough tests.
 
 
 ## [1.17.8] - 2022-12-7
 
-#Added
+### Added
 - Help menu now includes possibility of change status of Non Random Combats, Squad Mode, Promoted Leaders, Increase Level Number and Floating Notifications. Rest of options can be changed on debug mode via Lua console, but are not-reversable actions and I can't guarantee stability, so I will never include them on the menu. Read Readme.md to know how to do this at your own risk.
 
-## Changed
+### Changed
 - Option to set maximum level of unit getting the recall cost feature.
 - Changed cooldown of ambushes from 2 turn to 1 turn when the ambusher do a normal attack. When attacking in ambushes, the cooldown is still 2 turns. Fixed the tooltip accordingly, which was also wrong (it said it had a 1 turn cooldown and it's actually 2).
 
@@ -27,7 +31,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## [1.17.7] - 2022-12-2
 
-## Changed
+### Changed
 - Fury ability changed to object, to easier and simplified management.
 - Changed Bloodthirsty exclamations for a more generic screams, non specific to Ulfsekers.
 - Bloodthirsty is not granted to weapons that already have a drain ability.
@@ -46,7 +50,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - New feature: Villages line of sight, with configurable distance, to the owner side.
 - Villages and Change recall cost of level 0 units included on help menu.
 
-## Changed
+### Changed
 - Distract and regenerates now is given separately, to filter if the unit already has this ability, to not duplicate.
 - Changed obsolete lua commands to their equivalents.
 
