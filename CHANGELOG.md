@@ -5,10 +5,11 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.9] - 2022-12-XX
+## [1.17.9] - 2022-12-9
 
 ### Added
-- Help menu now includes possibility of change status of Epic Heroes and AMLA Bonus with guaranteed stability.
+- Help menu now includes possibility of change status of Epic Heroes and AMLA Bonus with guaranteed behavior.
+- New options to manage some features.
 - Midnight Queen from TROW added to Epic Heroes.
 
 ### Changed
@@ -17,6 +18,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Fixed
 - Now options changed via Help Menu keeps changed on next scenarios.
+- Change status of features that implies remove objects or traits, now works with the recall list, an error present from the original version. Now I can include this on Help Menu with guaranteed behavior.
+- Fixed bug when Epic Heroes without regeneration and distraction applies "epic" twelve.
 
 
 ## [1.17.8] - 2022-12-7

@@ -503,8 +503,15 @@ end
 -- used in mods/10_gifted_leader_hero.cfg, mods/11_ninja.cfg
 function wesnoth.wml_actions.aww_remove_trait(cfg)
 	local trait_id = cfg.trait_id
-	for _,unit in ipairs(wesnoth.units.find_on_map(cfg)) do
+	for _,unit in ipairs(wesnoth.units.find(cfg)) do
 		wesnoth.units.remove_modifications(unit, {id = trait_id}, "trait")
+	end
+end
+
+function wesnoth.wml_actions.aww_remove_object(cfg)
+	local object_id = cfg.object_id
+	for _,unit in ipairs(wesnoth.units.find(cfg)) do
+		wesnoth.units.remove_modifications(unit, {id = object_id})
 	end
 end
 

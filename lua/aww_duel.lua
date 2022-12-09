@@ -7,11 +7,7 @@
 -- TODO find how to update unit without _put, because it triggered unit placed in the middle of the attack
 -- TODO manage bonuses of damage day/light and specific ennemyes ? apparently multiplier don't cover it
 
-local helper = wesnoth.require "helper"
-
 local _ = wesnoth.textdomain 'aww'
-
--- W = helper.set_wml_action_metatable {}
 
 if aww_status == nil or aww_status.feature_01 == nil or aww_status.feature_02 == nil or aww_status.feature_08 == nil then
 	wesnoth.message("AWW notice", "attempt running aww_status")
