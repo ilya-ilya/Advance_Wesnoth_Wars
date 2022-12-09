@@ -13,6 +13,9 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Increased probability of loyal bonus, but only for level 3 units or higher.
 - General probability adjustment, after enough tests.
 
+### Fixed
+- Now options changed via Help Menu keeps changed on next scenarios.
+
 
 ## [1.17.8] - 2022-12-7
 
