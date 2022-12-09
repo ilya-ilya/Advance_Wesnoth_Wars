@@ -8,6 +8,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.9] - 2022-12-XX
 
 ### Added
+- Help menu now includes possibility of change status of Epic Heroes and AMLA Bonus with guaranteed stability.
+- Midnight Queen from TROW added to Epic Heroes.
 
 ### Changed
 - Increased probability of loyal bonus, but only for level 3 units or higher.
@@ -20,7 +22,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.8] - 2022-12-7
 
 ### Added
-- Help menu now includes possibility of change status of Non Random Combats, Squad Mode, Promoted Leaders, Increase Level Number and Floating Notifications. Rest of options can be changed on debug mode via Lua console, but are not-reversable actions and I can't guarantee stability, so I will never include them on the menu. Read Readme.md to know how to do this at your own risk.
+- Help menu now includes possibility of change status of Non Random Combats, Squad Mode, Promoted Leaders, Increase Level Number and Floating Notifications. Rest of options can be changed on debug mode via Lua console, but are not-reversable actions and I can't guarantee stability. Read Readme.md to know how to do this at your own risk.
 
 ### Changed
 - Option to set maximum level of unit getting the recall cost feature.
