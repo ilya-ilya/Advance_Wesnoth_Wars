@@ -9,24 +9,26 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Added
 - New Option: Leadership/Inspire max level. This abilities now have a cap level when Increase Level Number is active, applied to all units in the game, not just the ones that received the AMLA Bonus like before. It is no longer necessary to edit the leadership ability as I explained in the forum. This level can be changed at any time with immediate effect.
-- Help menu now includes possibility of change status of Epic Heroes and AMLA Bonus with guaranteed behavior.
-- New options to manage some features.
+- Help menu now includes possibility of change status of Epic Heroes, AMLA Bonus and NINJA WARS! with guaranteed behavior.
+- New options to manage some features, better presentation and usability.
 - Midnight Queen from TROW added to Epic Heroes.
 
 ### Changed
 - Increased probability of loyal bonus, but only for level 3 units or higher.
 - General probability adjustment, after enough tests.
+- Ability Camouflage from NINJA WARS! now applies on giant mushrooms too.
 
 ### Fixed
 - Now options changed via Help Menu keeps changed on next scenarios.
 - Change status of features that implies remove objects or traits, now works with the recall list, an error present from the original version. Now I can include this on Help Menu with guaranteed behavior.
 - Fixed bug when Epic Heroes without regeneration and distraction applies "epic" twelve.
+- Restored description on Ninja trait.
 
 
 ## [1.17.8] - 2022-12-7
 
 ### Added
-- Help menu now includes possibility of change status of Non Random Combats, Squad Mode, Promoted Leaders, Increase Level Number and Floating Notifications. Rest of options can be changed on debug mode via Lua console, but are not-reversable actions and I can't guarantee stability. Read Readme.md to know how to do this at your own risk.
+- Help menu now includes possibility of change status of Non Random Combats, Squad Mode, Promoted Leaders, Increase Level Number and Floating Notifications.
 
 ### Changed
 - Option to set maximum level of unit getting the recall cost feature.

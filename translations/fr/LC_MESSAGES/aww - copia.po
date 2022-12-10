@@ -518,17 +518,17 @@ msgstr ""
 "<italic>text='Épique'</italic>, doté d'un grand potentiel ou entraîné par "
 "les meilleurs, cette unité est sans égale sur un champs de bataille."
 
-#. [trait]: id=aww_trait_stealthy
+#. [trait]: id=aww_trait_ninja
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:67
 msgid "ninja"
 msgstr ""
 
-#. [trait]: id=aww_trait_stealthy
+#. [trait]: id=aww_trait_ninja
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:68
 msgid "female^ninja"
 msgstr ""
 
-#. [trait]: id=aww_trait_stealthy
+#. [trait]: id=aww_trait_ninja
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:69
 msgid ""
 "<italic>text='Ninja'</italic> can move very fast, hide almost everywhere, "
