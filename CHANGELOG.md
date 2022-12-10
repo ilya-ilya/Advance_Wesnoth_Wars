@@ -23,6 +23,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Change status of features that implies remove objects or traits, now works with the recall list, an error present from the original version. Now I can include this on Help Menu with guaranteed behavior.
 - Fixed bug when Epic Heroes without regeneration and distraction applies "epic" twelve.
 - Restored description on Ninja trait.
+- Better and cleaner code, removed unused macros, simplified functions, better and more precise text, typos fixed, etc.
 
 
 ## [1.17.8] - 2022-12-7
