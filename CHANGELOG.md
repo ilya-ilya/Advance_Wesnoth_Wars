@@ -5,9 +5,10 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.9] - 2022-12-9
+## [1.17.9] - 2022-12-10
 
 ### Added
+- New Option: Leadership/Inspire max level. This abilities now have a cap level when Increase Level Number is active, applied to all units in the game, not just the ones that received the AMLA Bonus like before. It is no longer necessary to edit the leadership ability as I explained in the forum. This level can be changed at any time with immediate effect.
 - Help menu now includes possibility of change status of Epic Heroes and AMLA Bonus with guaranteed behavior.
 - New options to manage some features.
 - Midnight Queen from TROW added to Epic Heroes.
