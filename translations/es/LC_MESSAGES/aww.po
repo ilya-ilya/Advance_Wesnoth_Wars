@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-11 08:11 UTC\n"
-"PO-Revision-Date: 2022-12-11 09:23+0100\n"
+"POT-Creation-Date: 2022-12-11 10:08 UTC\n"
+"PO-Revision-Date: 2022-12-11 11:09+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -1693,23 +1693,24 @@ msgid "Set status of Surprise Attacks."
 msgstr "Establece el estado de Ataques Sorpresa."
 
 #. [message]: speaker=narrator
+#. [checkbox]: id=aww_11, description=#11.
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1447
-msgid " (stealthy units)"
-msgstr " (unidades furtivas)"
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1447
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:258
 msgid ""
-"Most of units will have melee pierce and blade back-stabs, poison arrows, "
-"skirmisher, be invisible in villages, forests, deep water, or everywhere at "
-"night, and faster for each level. For funny PvP with fog-of-war focused on "
-"ambushes/ hide&seek."
+"Most of units will have back-stabs on melee pierce and blade weapons, poison "
+"on piercing ranged weapons, diversion on units that already have back-stabs "
+"or poison, skirmisher on units that do not have skirmisher or distraction, "
+"will be invisible in villages, forests, deep water, or everywhere at night, "
+"and will move faster for each level. For funny PvP with fog-of-war focused "
+"on ambushes/hide&seek."
 msgstr ""
-"La mayoría de las unidades tendrán puñaladas por la espalda en armas melé de "
-"filo o perforación, flechas envenenadas, hostigador, serán invisibles en "
-"aldeas, bosques, aguas profundas o en todas partes por la noche, y se "
-"moverán más rápido por cada nivel. Para divertidos PvP con niebla de guerra "
-"centrado en emboscadas/escondite."
+"\"La mayoría de las unidades tendrán puñaladas por la espalda en armas melé "
+"de filo o perforación, veneno en armas a distancia de perforación, diversión "
+"en unidades que ya tienen puñalada trapera o veneno, hostigador si no tiene "
+"previamente hostigador o distracción, serán invisibles en aldeas, bosques, "
+"aguas profundas o en todas partes por la noche, y se moverán más rápido por "
+"cada nivel. Para divertidos PvP con niebla de guerra centrado en emboscadas/"
+"escondite.\""
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1453
@@ -1761,12 +1762,12 @@ msgstr ""
 "pasar discretamente tras las líneas enemigas."
 
 #. [damage]: id=backstab
-#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:142
+#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:237
 msgid "backstab"
 msgstr "puñalada trapera"
 
 #. [damage]: id=backstab
-#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:143
+#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:238
 msgid ""
 "When used offensively, this attack deals 50% more damage if there is an "
 "enemy of the target on the opposite side of the target, and that unit is not "
@@ -2123,20 +2124,6 @@ msgstr ""
 "final del escenario.\n"
 "- Un grito de guerra relacionado con el nivel de furia se mostrará con cada "
 "ataque."
-
-#. [checkbox]: id=aww_11, description=#11.
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:258
-msgid ""
-"Most of units will have back-stabs on melee pierce and blade weapons, poison "
-"on piercing ranged weapons, skirmisher, will be invisible in villages, "
-"forests, deep water, or everywhere at night, and will move faster for each "
-"level. For funny PvP with fog-of-war focused on ambushes/hide&seek."
-msgstr ""
-"La mayoría de las unidades tendrán puñaladas por la espalda en armas melé de "
-"filo o perforación, veneno en armas a distancia de perforación, hostigador, "
-"serán invisibles en aldeas, bosques, aguas profundas o en todas partes por "
-"la noche, y se moverán más rápido por cada nivel. Para divertidos PvP con "
-"niebla de guerra centrado en emboscadas/escondite."
 
 #. [checkbox]: id=aww_18
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:265

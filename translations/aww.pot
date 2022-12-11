@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-11 08:11 UTC\n"
+"POT-Creation-Date: 2022-12-11 10:08 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1401,13 +1401,10 @@ msgid "Set status of Surprise Attacks."
 msgstr ""
 
 #. [message]: speaker=narrator
+#. [checkbox]: id=aww_11, description=#11. 
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1447
-msgid " (stealthy units)"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1447
-msgid "Most of units will have melee pierce and blade back-stabs, poison arrows, skirmisher, be invisible in villages, forests, deep water, or everywhere at night, and faster for each level. For funny PvP with fog-of-war focused on ambushes/ hide&seek."
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:258
+msgid "Most of units will have back-stabs on melee pierce and blade weapons, poison on piercing ranged weapons, diversion on units that already have back-stabs or poison, skirmisher on units that do not have skirmisher or distraction, will be invisible in villages, forests, deep water, or everywhere at night, and will move faster for each level. For funny PvP with fog-of-war focused on ambushes/hide&seek."
 msgstr ""
 
 #. [option]
@@ -1452,12 +1449,12 @@ msgid "This unit can move very fast, hide almost everywhere and pass discretely 
 msgstr ""
 
 #. [damage]: id=backstab
-#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:142
+#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:237
 msgid "backstab"
 msgstr ""
 
 #. [damage]: id=backstab
-#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:143
+#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:238
 msgid "When used offensively, this attack deals 50% more damage if there is an enemy of the target on the opposite side of the target, and that unit is not incapacitated (turned to stone or otherwise paralyzed)."
 msgstr ""
 
@@ -1772,11 +1769,6 @@ msgid ""
 "- Rampage : when the attack kills, the unit can attack an adjacent enemy.\n"
 "- After 1-10 kills with that attack, it gains Bloodthirsty, an offensive drain, until end of the scenario.\n"
 "- A warcry related to the fury level with also be displayed when the unit attack."
-msgstr ""
-
-#. [checkbox]: id=aww_11, description=#11. 
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:258
-msgid "Most of units will have back-stabs on melee pierce and blade weapons, poison on piercing ranged weapons, skirmisher, will be invisible in villages, forests, deep water, or everywhere at night, and will move faster for each level. For funny PvP with fog-of-war focused on ambushes/hide&seek."
 msgstr ""
 
 #. [checkbox]: id=aww_18
