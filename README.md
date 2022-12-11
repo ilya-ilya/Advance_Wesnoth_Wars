@@ -62,7 +62,7 @@ Features list :
 
 - *Updated* Ambushed tweak - Surprise Attacks : An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. Awesome combined with NINJA WARS!
 
-- *Updated* Ninja Wars (Stealthy units) : Most of units will melee back-stabs, poison arrows, distract from ZoC, be faster and invisible/ambushers in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes / hide&seek.
+- *Updated* Ninja Wars (Stealthy units) : Most of units will get melee back-stabs, poison arrows, diversion, skirmisher, be faster and invisible/ambushers in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes / hide&seek.
 
 - *Updated* Level-Up After Max Level Advancement : Increase Level Number (The unit level will continue growing with the AMLA level-ups). This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit.
 
