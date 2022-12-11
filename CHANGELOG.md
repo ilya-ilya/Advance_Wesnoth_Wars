@@ -17,6 +17,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Increased probability of loyal bonus, but only for level 3 units or higher.
 - General probability adjustment, after enough tests.
 - Ability Camouflage from NINJA WARS! now applies on giant mushrooms too.
+- Poison is not granted to units with charge or other attack bonus.
 
 ### Fixed
 - Now options changed via Help Menu keeps changed on next scenarios.
