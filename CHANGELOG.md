@@ -5,7 +5,7 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.9] - 2022-12-10
+## [1.17.9] - 2022-12-11
 
 ### Added
 - New Option: Leadership/Inspire max level. This abilities now have a cap level when Increase Level Number is active, applied to all units in the game, not just the ones that received the AMLA Bonus like before. It is no longer necessary to edit the leadership ability as I explained in the forum. This level can be changed at any time with immediate effect.
@@ -22,7 +22,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Now options changed via Help Menu keeps changed on next scenarios.
 - Change status of features that implies remove objects or traits, now works with the recall list, an error present from the original version. Now I can include this on Help Menu with guaranteed behavior.
 - Fixed bug when Epic Heroes without regeneration and distraction applies "epic" twelve.
-- Restored description on Ninja trait.
+- Restored description on Ninja trait, reduced backstab from +100% to +50% to units that did not have backstab, and all specials with italics, as any other special, trait or ability from AWW, indicating that it is reversible.
 - Better and cleaner code, removed unused macros, simplified functions, better and more precise text, typos fixed, etc.
 
 

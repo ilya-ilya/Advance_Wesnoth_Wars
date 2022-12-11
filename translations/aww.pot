@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-10 16:36 UTC\n"
+"POT-Creation-Date: 2022-12-11 08:11 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,7 +74,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:117
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:170
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:173
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:28
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:31
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:11
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:22
 msgid "No Random Combats"
@@ -105,7 +105,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:131
 #: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:141
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:258
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:34
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:37
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:30
 msgid "Squad Mode"
 msgstr ""
@@ -190,7 +190,7 @@ msgstr ""
 #. [checkbox]: id=aww_15, description=#15. 
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:143
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:563
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:58
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:61
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:90
 msgid "Increase Level Number"
 msgstr ""
@@ -211,9 +211,9 @@ msgstr ""
 #. [checkbox]: id=aww_10, description=#10. 
 #. [checkbox]: id=aww_10_opt
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:152
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:898
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:901
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:82
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:904
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:85
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:137
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:145
 msgid "Epic Heroes"
@@ -228,14 +228,14 @@ msgstr ""
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:157
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:167
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1067
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1070
 msgid "/turn]"
 msgstr ""
 
 #. [lua]: aww_status.get_info
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:160
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1071
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1074
 msgid "/turn AI]"
 msgstr ""
 
@@ -264,8 +264,8 @@ msgstr ""
 #. [option]
 #. [checkbox]: id=aww_11, description=#11. 
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:177
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1444
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:118
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1447
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:121
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:257
 msgid "NINJA WARS!"
 msgstr ""
@@ -459,7 +459,7 @@ msgstr ""
 #. [damage]: id=aww_special_fury
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:273
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1284
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1287
 msgid ""
 "When used offensively :\n"
 "- This attack deals more damage to the target.\n"
@@ -472,7 +472,7 @@ msgstr ""
 #. [damage]: id=aww_special_fury
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:278
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1289
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1292
 msgid ""
 " kills with that attack, it gains Bloodthirsty, an offensive drain, until end of the scenario.\n"
 "- A warcry related to the fury level with also be displayed when the unit attack."
@@ -586,21 +586,21 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:429
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:497
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:567
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:661
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:740
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:788
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:664
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:743
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:791
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:899
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:794
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:902
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1067
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1071
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1132
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1174
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:905
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1070
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1074
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1135
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1177
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1278
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1180
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1281
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1378
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1446
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1284
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1381
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1449
 msgid "Set to"
 msgstr ""
 
@@ -634,13 +634,13 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:439
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:507
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:580
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:674
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:806
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:918
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:984
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1301
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1388
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1456
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:677
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:809
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:921
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:987
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1304
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1391
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1459
 msgid "Activate"
 msgstr ""
 
@@ -650,14 +650,14 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:364
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:449
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:517
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:603
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:693
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:834
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:946
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1014
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1311
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1398
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1466
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:606
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:696
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:837
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:949
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1017
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1314
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1401
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1469
 msgid "Deactivate"
 msgstr ""
 
@@ -672,26 +672,26 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:476
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:527
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:544
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:619
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:636
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:703
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:720
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:768
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:844
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:879
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:956
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1030
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1047
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1111
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1154
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1223
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1258
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1321
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1357
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1408
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1425
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1476
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1493
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:622
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:639
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:706
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:723
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:771
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:847
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:882
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:959
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1033
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1050
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1114
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1157
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1226
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1261
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1324
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1360
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1411
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1428
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1479
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1496
 msgid "Back to help menu"
 msgstr ""
 
@@ -706,27 +706,27 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:485
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:536
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:553
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:628
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:645
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:712
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:729
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:777
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:853
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:888
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:965
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1039
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1056
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1120
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1163
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1232
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1267
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1330
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1366
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1417
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1434
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1485
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1502
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:124
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:631
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:648
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:715
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:732
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:780
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:856
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:891
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:968
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1042
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1059
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1123
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1166
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1235
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1270
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1333
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1369
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1420
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1437
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1488
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1505
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:127
 msgid "Exit"
 msgstr ""
 
@@ -748,26 +748,26 @@ msgstr ""
 #. [text_input]
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:227
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:396
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:751
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:867
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1081
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1099
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1142
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1246
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1345
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:754
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:870
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1084
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1102
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1145
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1249
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1348
 msgid "Max"
 msgstr ""
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:233
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:402
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:757
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:873
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1087
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1105
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1148
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1252
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1351
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:760
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:876
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1090
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1108
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1151
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1255
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1354
 msgid "Set"
 msgstr ""
 
@@ -811,7 +811,7 @@ msgstr ""
 #. [option]
 #. [checkbox]: id=aww_16, description=#16. 
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:341
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:40
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:43
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:55
 msgid "Villages line of sight"
 msgstr ""
@@ -868,7 +868,7 @@ msgstr ""
 #. [option]
 #. [checkbox]: id=aww_06, description=#06. 
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:427
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:46
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:49
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:74
 msgid "Level-Up : Relative Healing"
 msgstr ""
@@ -894,7 +894,7 @@ msgstr ""
 #. [option]
 #. [checkbox]: id=aww_14, description=#14. 
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:495
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:52
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:55
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:82
 msgid "Level-Up : Floating Notification"
 msgstr ""
@@ -920,7 +920,7 @@ msgstr ""
 #. [option]
 #. [checkbox]: id=aww_15, description=#15. 
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:563
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:58
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:61
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:90
 msgid "Level-Up After Max Level Advancement : "
 msgstr ""
@@ -959,52 +959,52 @@ msgid ""
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:593
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:684
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:825
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:937
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1005
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:596
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:687
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:828
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:940
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1008
 msgid "Stop"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
 #. [checkbox]: id=aww_09, description=#09. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:655
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:64
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:658
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:67
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:98
 msgid "Level-Up After Max Level Advancement : Random Bonuses"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_09, description=#09. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:655
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:658
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:99
 msgid "Units reaching AMLA level-ups can gain an a random ability or increased stat each level."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:657
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:660
 msgid "To identify them, they will have a bronze bracelet icon."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:659
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:662
 msgid "Possible Bonuses: Melee damage +3, Melee strikes +1, Ranged damage +2, Ranged strikes +1, Movement points +1, First strike, Poison (blade and piercing), Leadership (lvl 3 minimum, lvl 5 minimum with AMLA Increase Level Number), Distract (negates ZOC around the unit for allies), Regenerates (+4 HP and slow poison), Adrenaline (+4 HP every hit), Loyal or Fearless."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:665
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:668
 msgid "Change status of Random Bonuses"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:669
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:672
 msgid "Set status of Random Bonuses."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:669
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:672
 msgid ""
 "\n"
 "<b>Instructions</b>:\n"
@@ -1015,69 +1015,69 @@ msgstr ""
 #. [message]: speaker=narrator
 #. [option]
 #. [slider]: id=aww_09_15_level
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:739
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:70
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:742
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:73
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:109
 msgid "Leadership/Inspire max level"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:739
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:742
 msgid "Set the maximum level that will be considered to apply the bonus. Units with this level or higher can't be lead but will be able to lead as if they were of that level. With 'inspire' units with higher level cannot be inspired, but units of the same level can. To standard units this only applies if Increase Level Number is active, but applies to all units who receives an AMLA Bonus."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:744
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:747
 msgid "Change maximum level of Leadership/Inspire"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:748
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:751
 msgid "Set maximum level of Leadership/Inspire."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
 #. [checkbox]: id=aww_03, description=#03. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:787
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:76
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:790
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:79
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:117
 msgid "Level-Up After Max Level Advancement : Promoted Leaders"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_03, description=#03. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:787
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:790
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:118
 msgid "Standard units reaching their first AMLA level-up will be able to recruit the same units as the original leader, recall, and be prefixed 'Chief' with a bronze crown icon. Excluded for special Heroes."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_03_level, description=#03. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:790
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:793
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:129
 msgid "Promoted Leaders : Mininum level"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_03_level, description=#03. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:790
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:793
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:130
 msgid "Set the minimum level to be promoted to Chief. Only units with this level or higher on their first AMLA will be promoted."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:795
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:798
 msgid "Change status of Promoted Leaders"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:799
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:802
 msgid "Set status of Promoted Leaders."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:799
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:802
 msgid ""
 "\n"
 "<b>Instructions</b>:\n"
@@ -1088,55 +1088,55 @@ msgid ""
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:815
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:927
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:993
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:818
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:930
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:996
 msgid "Restore"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:861
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:864
 msgid "Change minimum level to be promoted to Chief"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:865
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:868
 msgid "Set minimum level to be promoted to Chief."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_10, description=#10. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:898
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:901
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:138
 msgid "The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of their attributes, making them harder to kill. Excluded for Promoted Leaders."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_10_opt
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:901
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:904
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:145
 msgid "Regeneration and distraction"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_10_opt
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:901
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:904
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:146
 msgid "Epic Heroes also acquires regeneration and distraction abilities by default. Only applies if Epic Heroes is active."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:907
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:910
 msgid "Change status of Epic Heroes"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:911
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:914
 msgid "Set status of Epic Heroes."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:911
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:914
 msgid ""
 "\n"
 "<b>Instructions</b>:\n"
@@ -1147,17 +1147,17 @@ msgid ""
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:973
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:976
 msgid "Change status of regeneration and distraction for Epic Heroes"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:977
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:980
 msgid "Set status of regeneration and distraction for Epic Heroes."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:977
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:980
 msgid ""
 "\n"
 "<b>Instructions</b>:\n"
@@ -1169,28 +1169,28 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_04, description=#04. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1066
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1069
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:156
 msgid "Learning from the battlefield (Passive XP for players)"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_04, description=#04. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1066
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1069
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:157
 msgid "Extra XP for all human player units each turn."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_04_ai, description=#04. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1069
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1072
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:167
 msgid "Learning from the battlefield (Passive XP for AI)"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_04_ai, description=#04. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1069
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1072
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:168
 msgid ""
 "Extra XP for all AI units each turn.\n"
@@ -1198,225 +1198,225 @@ msgid ""
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1075
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1078
 msgid "Change experience points for human players"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1079
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1082
 msgid "Set experience points per turn for human players."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1093
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1096
 msgid "Change experience points for AI sides"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1097
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1100
 msgid "Set experience points per turn for AI sides."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_05, description=#05. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1130
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1133
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:179
 msgid "Learning from healing (Max XP/turn for Healing)"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_05, description=#05. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1130
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1133
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:180
 msgid "Each turn, Healers will earn 1 XP for each adjacent wounded or poisoned ally, but you can limit the max/turn. 0 will disable the feature."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1136
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1139
 msgid "Change maximum experience points per turn healing units"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1140
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1143
 msgid "Set maximum experience points per turn healing units."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
 #. [choice]: id=aww_17
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1173
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:100
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1176
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:103
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:187
 msgid "Recall cost of low level units"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [choice]: id=aww_17
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1173
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1176
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:188
 msgid "Cost to recall units with chosen level or lower. Cost of higher level units remains unchanged."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1174
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1177
 msgid " (no_change = Default, cost_plus_one = Recruit cost +1, half = 10, free = 0)"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_17_max
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1176
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1179
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:214
 msgid "Max level to change recall cost"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_17_max
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1176
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1179
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:215
 msgid "Set the maximum level of the units that will get a cost reduction"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1181
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1184
 msgid "Change cost to recall low level units"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1185
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1188
 msgid "Set cost to recall low level units."
 msgstr ""
 
 #. [option]
 #. [item]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1187
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1190
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:190
 msgid "Default"
 msgstr ""
 
 #. [option]
 #. [item]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1196
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1199
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:194
 msgid "Recruit cost plus one"
 msgstr ""
 
 #. [option]
 #. [item]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1214
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1217
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:202
 msgid "Free"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1240
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1243
 msgid "Change maximum level to get a recall cost reduction"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1244
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1247
 msgid "Set maximum level to get a recall cost reduction."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
 #. [checkbox]: id=aww_12, description=#12. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1277
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:106
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1280
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:109
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:222
 msgid "Berserk tweak : Replaced by Fury"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_12, description=#12. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1277
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1280
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:223
 msgid "Replace 'berserk' by a new 'Fury' weapon special, way more interesting. "
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_12_kills
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1280
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1283
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:241
 msgid "Kills to Bloodthirsty (Fury)"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_12_kills
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1280
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1283
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:242
 msgid "Killings per map needed to gain Bloodthirsty with Fury ability."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_12, description=#12. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1283
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1286
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:224
 msgid " Fury description : "
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1295
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1298
 msgid "Change status of Berserk tweak"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1299
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1302
 msgid "Set status of Berserk tweak."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1339
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1342
 msgid "Change number of kills needed to gain Bloodthirsty per scenario"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1343
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1346
 msgid "Set number of kills needed to gain Bloodthirsty per scenario."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
 #. [checkbox]: id=aww_13, description=#13. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1376
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:112
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1379
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:115
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:249
 msgid "Ambush tweak : Surprise Attacks"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_13, description=#13. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1376
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1379
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:250
 msgid "An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. This surprise attack have a 2 extra turn cooldown, but can ambush as normally. Normal attacks adds a 1 turn cooldown to surprise attack. Awesome combined with NINJA WARS!."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1382
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1385
 msgid "Change status of Surprise Attacks"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1386
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1389
 msgid "Set status of Surprise Attacks."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1444
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1447
 msgid " (stealthy units)"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1444
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1447
 msgid "Most of units will have melee pierce and blade back-stabs, poison arrows, skirmisher, be invisible in villages, forests, deep water, or everywhere at night, and faster for each level. For funny PvP with fog-of-war focused on ambushes/ hide&seek."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1450
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1453
 msgid "Change status of NINJA WARS!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1454
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1457
 msgid "Set status of NINJA WARS!"
 msgstr ""
 
@@ -1449,6 +1449,16 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:83
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:84
 msgid "This unit can move very fast, hide almost everywhere and pass discretely behind enemies lines."
+msgstr ""
+
+#. [damage]: id=backstab
+#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:142
+msgid "backstab"
+msgstr ""
+
+#. [damage]: id=backstab
+#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:143
+msgid "When used offensively, this attack deals 50% more damage if there is an enemy of the target on the opposite side of the target, and that unit is not incapacitated (turned to stone or otherwise paralyzed)."
 msgstr ""
 
 #. [then]
@@ -1621,22 +1631,22 @@ msgid "Surprise!"
 msgstr ""
 
 #. [set_menu_item]: id=aww_help
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:9
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:12
 msgid "AWW help"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:24
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:27
 msgid "Choose the feature you want help with"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:88
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:91
 msgid "Learning from the battlefield"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:94
+#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:97
 msgid "Learning from healing"
 msgstr ""
 
