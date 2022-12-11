@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-11 10:08 UTC\n"
-"PO-Revision-Date: 2022-12-11 11:09+0100\n"
+"POT-Creation-Date: 2022-12-11 10:38 UTC\n"
+"PO-Revision-Date: 2022-12-11 12:44+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -510,7 +510,7 @@ msgid ""
 msgstr ""
 "Cuando se usa ofensivamente :\n"
 "- El ataque causa más daño al objetivo.\n"
-"- Recibe mayor daño del contraataque del objetivo.\n"
+"- Recibe más daño del contraataque del objetivo.\n"
 "- El daño se multiplica por 1.5 en el primer ataque, aumentando un 0.5 extra "
 "cada ataque, hasta un máximo de 3, el siguiente hace daño normal, y el ciclo "
 "se reinicia.\n"
@@ -1704,13 +1704,13 @@ msgid ""
 "and will move faster for each level. For funny PvP with fog-of-war focused "
 "on ambushes/hide&seek."
 msgstr ""
-"\"La mayoría de las unidades tendrán puñaladas por la espalda en armas melé "
-"de filo o perforación, veneno en armas a distancia de perforación, diversión "
-"en unidades que ya tienen puñalada trapera o veneno, hostigador si no tiene "
+"La mayoría de las unidades tendrán puñalada trapera en armas melé de filo o "
+"perforación, veneno en armas a distancia de perforación, diversión en "
+"unidades que ya tienen puñalada trapera o veneno, hostigador si no tiene "
 "previamente hostigador o distracción, serán invisibles en aldeas, bosques, "
 "aguas profundas o en todas partes por la noche, y se moverán más rápido por "
 "cada nivel. Para divertidos PvP con niebla de guerra centrado en emboscadas/"
-"escondite.\""
+"escondite."
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1453
@@ -1763,11 +1763,13 @@ msgstr ""
 
 #. [damage]: id=backstab
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:237
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:705
 msgid "backstab"
 msgstr "puñalada trapera"
 
 #. [damage]: id=backstab
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:238
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:706
 msgid ""
 "When used offensively, this attack deals 50% more damage if there is an "
 "enemy of the target on the opposite side of the target, and that unit is not "
@@ -1893,6 +1895,16 @@ msgstr "Intrépido"
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:657
 msgid "female^Fearless"
 msgstr "Intrépida"
+
+#. [else]
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:723
+msgid "Backstab"
+msgstr "Puñalada trapera"
+
+#. [message]: speaker=unit
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:726
+msgid "Melee backstab on blade or pierce weapons"
+msgstr "Melé con puñalada trapera en armas de filo o penetración"
 
 #. [event]: id=aww_10_trigger_gifted_placed
 #. [then]
@@ -2114,7 +2126,7 @@ msgid ""
 msgstr ""
 "Cuando se usa ofensivamente :\n"
 "- El ataque causa más daño al objetivo.\n"
-"- Recibe mayor daño del contraataque del objetivo.\n"
+"- Recibe más daño del contraataque del objetivo.\n"
 "- El daño se multiplica por 1.5 en el primer ataque, aumentando un 0.5 extra "
 "cada ataque, hasta un máximo de 3, el siguiente hace daño normal, y el ciclo "
 "se reinicia.\n"
