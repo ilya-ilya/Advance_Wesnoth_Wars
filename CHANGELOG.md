@@ -22,7 +22,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Now options changed via Help Menu keeps changed on next scenarios.
 - Change status of features that implies remove objects or traits, now works with the recall list, an error present from the original version. Now I can include this on Help Menu with guaranteed behavior.
 - Fixed bug when Epic Heroes without regeneration and distraction applies "epic" twelve.
-- Restored description on Ninja trait, reduced backstab from +100% to +50% to units that did not have backstab, and all specials with italics, as any other special, trait or ability from AWW, indicating that it is reversible.
+- Restored description on Ninja trait, reduced backstab from +100% to +50% to units that did not have backstab, add diversion ability to units that already have backstab or poison, and all specials with italics, as any other special, trait or ability from AWW, indicating that it is reversible.
 - Better and cleaner code, removed unused macros, simplified functions, better and more precise text, typos fixed, etc.
 
 
