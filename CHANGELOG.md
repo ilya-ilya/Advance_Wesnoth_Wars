@@ -15,7 +15,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Help Menu visually improved.
 
 ### Fixed
-- 
+- Excluded SoF Caravans from receiving the epic trait.
 
 
 ## [1.17.9] - 2022-12-11
