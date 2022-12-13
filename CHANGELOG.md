@@ -7,7 +7,6 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## [1.17.10] - 2022-12-XX
 
-
 ### Added
 - New Option: Epic Heroes for Promoted Leaders now is optional.
 
@@ -16,6 +15,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Fixed
 - Excluded SoF Caravans from receiving the epic trait.
+- Compatibility between "Captured" wound from Non-Fatal Wounds: Extended and Change Recall Cost. Now applies the captured cost.
 
 
 ## [1.17.9] - 2022-12-11
