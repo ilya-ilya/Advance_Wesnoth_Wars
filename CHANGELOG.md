@@ -15,7 +15,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Fixed
 - Excluded SoF Caravans from receiving the epic trait.
-- Compatibility between "Captured" wound from Non-Fatal Wounds: Extended and Change Recall Cost. Now applies the captured cost.
+- Compatibility between "Captured" wound from Non-Fatal Wounds: Extended and Change Recall Cost. Now applies the ransom cost.
+- Compatibility between "Insane" wound from Non-Fatal Wounds: Extended and Fury. Now fury is ommited on insane wounded units, even if already owns berserker.
 
 
 ## [1.17.9] - 2022-12-11
