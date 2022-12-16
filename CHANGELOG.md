@@ -9,15 +9,18 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Added
 - New Option: Epic Heroes for Promoted Leaders now is optional.
+- New Option: Desertions
 
 ### Changed
 - Help Menu visually improved.
 - Increase Level Number can be restored.
+- Better damage calculation on Surprise Attacks. Also, if an ambusher kills the victim, the other adjacent ambushers will not attempt to attack, and will remain hidden.
 
 ### Fixed
 - Excluded SoF Caravans from receiving the epic trait.
 - Compatibility between "Captured" wound from Non-Fatal Wounds: Extended and Change Recall Cost. Now applies the ransom cost.
 - Compatibility between "Insane" wound from Non-Fatal Wounds: Extended and Fury. Now fury is ommited on insane wounded units, even if already owns berserker.
+- Compatibility between "Fear of weapon" wound from Non-Fatal Wounds: Extended and Suprise Attacks. Now this wound doesn't applies to Surprise Attack kills.
 
 
 ## [1.17.9] - 2022-12-11

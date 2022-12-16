@@ -78,10 +78,10 @@ Feel free to contribute !
 If you experiment a bug, please report it to me on the forum, then try to disable the feature (see next section).
 
 
-How To Enable/Disable Mod Options during a Scenario/Campaign
+How To Enable/Disable Mod Options during a Scenario/Campaign (for developers)
 -----------------------------------------------
 
-The mod works when features options are changed during a game.
+Note: This guide is kept for developers, but for normal users it is no longer necessary due to the new Help Menu, which covers almost all these functions.
 
 When you disable an option, *MOST* of the changes made on units by the features are removed. But it's experimental.
 
@@ -128,14 +128,15 @@ To display only activates features on a compact format, use :
 aww_status.message_info()
 ```
 
-*Update* You can set fury kills needed to gain bloodthirsty on any moment writing this with debug mode activated:
+You can set fury kills needed to gain bloodthirsty on any moment writing this with debug mode activated:
 ```lua
 :set_var aww_12_fury_kills=X
 ```
-*Update* Similarly, to change Passive XP for AI:
+To change Passive XP for AI:
 ```lua
 :set_var aww_04_passive_xp_ai=X
 ```
+A similar method can be used to edit any of the variables used by this addon.
 
 
 How To Migrate a Savegame from a previous version of the mod
