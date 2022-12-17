@@ -105,7 +105,7 @@ function aww_status.migrate(from_version)
 		aww_status.update_feature_11(wml.variables["aww_enable_stealth_mode"])
 	end
 
-	wesnoth.interface.add_chat_message( _ "AWW notice", string.format( _ "migrating from version %s to %s", wml.variables["aww_version"], aww_status.version))
+	wesnoth.interface.add_chat_message( _ "AWW notice", string.format( _ " Migrating from version %s to %s", wml.variables["aww_version"], aww_status.version))
 	wml.variables["aww_migrated_version"] = from_version
 end
 
