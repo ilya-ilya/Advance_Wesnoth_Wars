@@ -28,11 +28,9 @@ Description
 Last Wesnoth version tested : 1.17.10
 
 A collection of the most-requested options to make the mechanics more realistic and tactic, for people curious to experiment a new gameplay.
-It changes the combat approach, making it easier for good tacticians, harder for the others.
-All theses features works for mainline Campaigns & Scenarios, Single or Multiplayer, for all sides (including AI)
-It also includes some options to give interest to level-up units after max advancement.
+All theses features works for mainline Campaigns & Scenarios, Single or Multiplayer, for all sides including AI (except for special cases).
 
-The features which keep the Campaigns balanced are enabled by default. The others features are more aimed for PvP multiplayer, or being played on campaign in a lesser difficulty.
+The features which keep the campaigns balanced are enabled by default. The others features are more aimed for PvP multiplayer, or to try greater challenges.
 
 Features list :
 

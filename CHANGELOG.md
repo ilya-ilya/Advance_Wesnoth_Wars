@@ -14,7 +14,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Changed
 - Help Menu visually improved.
 - Increase Level Number can be restored.
-- Better damage calculation on Surprise Attacks. Also, if an ambusher kills the victim, the other adjacent ambushers will not attempt to attack, and will remain hidden.
+- Better damage calculation on Surprise Attacks. All damage modifiers are taken in account, except leadership. Simplified and cleaner code. Also, if an ambusher kills the victim, the other adjacent ambushers will not attempt to attack, and will remain hidden.
+- Default status of Village line of sight changed to yes. Default status of Fury changed to no.
 
 ### Fixed
 - Excluded SoF Caravans from receiving the epic trait.

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-12-17 00:20 UTC\n"
-"PO-Revision-Date: 2022-12-17 02:02+0100\n"
+"PO-Revision-Date: 2022-12-17 02:51+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -1088,7 +1088,7 @@ msgstr "Volver al menú de ayuda"
 #: Advance_Wesnoth_Wars_fork\mods\17_help_menu.cfg:1494
 #: Advance_Wesnoth_Wars_fork\mods\17_help_menu.cfg:1630
 msgid "Exit"
-msgstr "Salida"
+msgstr "Salir"
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\mods\17_help_menu.cfg:62
