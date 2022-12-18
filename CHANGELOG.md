@@ -5,7 +5,18 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.10] - 2022-12-XX
+## [1.17.11] - 2022-12-XX
+
+### Added
+
+
+### Changed
+- Moved Leadership min level into Increase Level Number in help menu
+
+### Fixed
+
+
+## [1.17.10] - 2022-12-17
 
 ### Added
 - New Option: Epic Heroes for Promoted Leaders now is optional.

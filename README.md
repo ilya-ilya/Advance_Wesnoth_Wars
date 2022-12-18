@@ -38,7 +38,9 @@ Features list :
 
 - *Updated* Increased Damage : To compensate the high terrains defenses. Only applies for 'No Random Combats'.
 
-- *Updated* Squad Mode (HP-related strikes) : Units lacking lot of HP do proportionally less attack strikes (or less damage for single-strike attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account by AI. In both cases, minimum strikes will be 1, and will not apply for berserk.
+- *Updated* Squad Mode (HP-related strikes) : Units do proportionally less attack strikes the less HP they have 
+
+(or less damage for single-strike attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account by AI. In both cases, minimum strikes will be 1, and will not apply for berserk.
 
 - *Updated* Level-Up : Increase Level Number : The unit level will continue growing with the AMLA level-ups. This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit.
 
@@ -52,7 +54,7 @@ Features list :
 
 - *Updated* Epic Heroes : The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of their attributes, and a small regeneration ability, making them harder to kill. They also get the distraction ability, that excludes Zone of Control around for allies, but not for themselves. Excluded for Promoted Leaders.
 
-- *Updated* Learning from battlefield (Passive XP) : Extra XP for all human units each turn (except for the ones not recalled). You can choose Passive XP for AI separately.
+- *Updated* Learning from battlefield (Passive XP) : Extra XP for all player units each turn (except for the ones not recalled). You can choose Passive XP for AI separately.
 
 - *Updated* Learning from healing (Max XP/turn for Healing) : Each turn, Healers will earn 1 XP for each adjacent wounded or poisoned ally, but you can limit the max/turn.
 
