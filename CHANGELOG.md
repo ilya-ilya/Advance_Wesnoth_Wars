@@ -7,14 +7,14 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## [1.17.11] - 2022-12-XX
 
-### Added
-
+## Added
+- New Feature: Move units between campaigns, by Dugi, renamed. Translated, with some fixes, and the possibility to remove incompatible units.
 
 ### Changed
 - Moved Leadership min level into Increase Level Number in help menu
 
 ### Fixed
-
+Help menu character error, only for 1.16
 
 ## [1.17.10] - 2022-12-17
 

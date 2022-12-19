@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-18 17:39 UTC\n"
+"POT-Creation-Date: 2022-12-19 19:52 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -288,6 +288,124 @@ msgstr ""
 #. [lua]: aww_status.get_feature_info
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:200
 msgid "Feature"
+msgstr ""
+
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:7
+msgid "Import a unit"
+msgstr ""
+
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:25
+msgid "Export the unit"
+msgstr ""
+
+#. [lua]: wesnoth.message_box
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:43
+msgid "Announcement"
+msgstr ""
+
+#. [lua]: wesnoth.message_box
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:45
+msgid "Okay"
+msgstr ""
+
+#. [lua]: wesnoth.message_box
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:45
+msgid "Back to game."
+msgstr ""
+
+#. [lua]: wesnoth.wml_actions.mubc_export_unit
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:71
+msgid "Overwrite?"
+msgstr ""
+
+#. [lua]: wesnoth.wml_actions.mubc_export_unit
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:72
+msgid "A unit with that ID is already on the list of exported units. Do you want to overwrite it or give it a new ID?"
+msgstr ""
+
+#. [lua]: wesnoth.wml_actions.mubc_export_unit
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:74
+msgid "Overwrite"
+msgstr ""
+
+#. [lua]: wesnoth.wml_actions.mubc_export_unit
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:74
+msgid "The old unit with that ID will be removed and replaced by the new one."
+msgstr ""
+
+#. [lua]: wesnoth.wml_actions.mubc_export_unit
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:75
+msgid "New ID"
+msgstr ""
+
+#. [lua]: wesnoth.wml_actions.mubc_export_unit
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:75
+msgid "The old unit will be kept."
+msgstr ""
+
+#. [lua]: postshow
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:123
+msgid "The unit has been exported. It will be available to import into other campaigns."
+msgstr ""
+
+#. [lua]: user_pick
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:134
+msgid "No units have been exported, cannot import."
+msgstr ""
+
+#. [lua]: user_pick
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:145
+msgid "Import units"
+msgstr ""
+
+#. [lua]: user_pick
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:146
+msgid "Select a unit to import."
+msgstr ""
+
+#. [lua]: user_pick
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:149
+msgid "The list of units you have exported."
+msgstr ""
+
+#. [lua]: user_pick
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:158
+msgid "Show also units that aren't compatible with this campaign"
+msgstr ""
+
+#. [lua]: user_pick
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:159
+msgid "Remove the inserted unit or incompatible unit"
+msgstr ""
+
+#. [lua]: user_pick
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:161
+msgid "Import"
+msgstr ""
+
+#. [lua]: user_pick
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:162
+msgid "Cancel"
+msgstr ""
+
+#. [lua]: toggle_show_incompatible
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:202
+msgid "INCOMPATIBLE"
+msgstr ""
+
+#. [lua]: toggle_show_incompatible
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:211
+msgid "The list of units you have exported.\n\n Note: Some units are incompatible with this campaign."
+msgstr ""
+
+#. [lua]: postshow
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:229
+msgid "That unit is already in the game."
+msgstr ""
+
+#. [lua]: postshow
+#: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:232
+msgid "That unit is a part of the campaign."
 msgstr ""
 
 #. [regenerate]: id=aww_ability_custom_regen{HP}{CURE}
@@ -1789,6 +1907,7 @@ msgstr ""
 #. [slider]: id=aww_12_kills
 #. [checkbox]: id=aww_13, description=#13. 
 #. [checkbox]: id=aww_11, description=#11. 
+#. [checkbox]: id=aww_20
 #. [checkbox]: id=aww_enable_help
 #. [checkbox]: id=aww_07, description=#07. 
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:12
@@ -1818,6 +1937,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:285
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:293
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:301
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:309
 msgid " Default:"
 msgstr ""
 
@@ -1831,6 +1951,7 @@ msgstr ""
 #. [checkbox]: id=aww_10, description=#10. 
 #. [checkbox]: id=aww_13, description=#13. 
 #. [checkbox]: id=aww_11, description=#11. 
+#. [checkbox]: id=aww_20
 #. [checkbox]: id=aww_07, description=#07. 
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:12
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:36
@@ -1842,7 +1963,8 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:165
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:277
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:285
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:301
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:293
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:309
 msgid " Off"
 msgstr ""
 
@@ -1867,8 +1989,8 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:118
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:173
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:258
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:293
-msgid " ON"
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:301
+msgid " On"
 msgstr ""
 
 #. [slider]: id=aww_09_15_level
@@ -1898,23 +2020,33 @@ msgid ""
 "- A warcry related to the fury level with also be displayed when the unit attack."
 msgstr ""
 
-#. [checkbox]: id=aww_enable_help
+#. [checkbox]: id=aww_20
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:292
+msgid "Save/load units anywhere"
+msgstr ""
+
+#. [checkbox]: id=aww_20
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:293
+msgid "Add a contextual menu on right click with capability of import and export units from and to any campaign or scenario."
+msgstr ""
+
+#. [checkbox]: id=aww_enable_help
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:300
 msgid "Help menu"
 msgstr ""
 
 #. [checkbox]: id=aww_enable_help
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:293
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:301
 msgid "Add a contextual menu on right click with help and configurations for all features."
 msgstr ""
 
 #. [checkbox]: id=aww_07, description=#07. 
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:300
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:308
 msgid "Verbose (damage/hits calculation etc)"
 msgstr ""
 
 #. [checkbox]: id=aww_07, description=#07. 
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:301
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:309
 msgid "If features #01 or #02 are enabled, will display messages about damage/hits number calculations. Useful for tests or understanding."
 msgstr ""
 
