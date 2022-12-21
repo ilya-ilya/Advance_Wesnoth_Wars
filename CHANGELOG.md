@@ -12,6 +12,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Changed
 - Moved Leadership min level into Increase Level Number in help menu
+- New Surprise Attack method. Now the ambusher do all his corresponding strikes with the probability and exact damage that corresponds with all abilities and modifiers applied, without the victim being able to defend himself as before.
 
 ### Fixed
 Help menu character error, only for 1.16
