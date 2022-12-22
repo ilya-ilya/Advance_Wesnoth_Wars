@@ -9,13 +9,14 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## Added
 - New Feature: Move units between campaigns, by Dugi, renamed. Translated, with some fixes, and the possibility to remove incompatible units.
+- New Feature: Tools on Help Menu, with little utilities to Wesnoth which will be added in the future. First tool: Fast AI to speed up AI turn.
 
 ### Changed
 - Moved Leadership min level into Increase Level Number in help menu
 - New Surprise Attack method. Now the ambusher do all his corresponding strikes with the probability and exact damage that corresponds with all abilities and modifiers applied, without the victim being able to defend himself as before.
 
 ### Fixed
-Help menu character error, only for 1.16
+- Help menu character error, only for 1.16 > Published as 1.17.10.1
 
 ## [1.17.10] - 2022-12-17
 
