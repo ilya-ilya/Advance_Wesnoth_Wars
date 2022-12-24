@@ -54,7 +54,7 @@ function wesnoth.message_box(message)
 end
 
 function wesnoth.wml_actions.mubc_export_unit(cfg)
-	local unit = wesnoth.get_unit(cfg.x, cfg.y).__cfg
+	local unit = wesnoth.unit.get(cfg.x, cfg.y).__cfg
 	wesnoth.wml_actions.get_global_variable { namespace="dugi_move_units_between_campaigns", from_global="unit_list", to_local="mubc_unit_list" }
 	local units = wml.variables["mubc_unit_list"]
 	if units == "" then
