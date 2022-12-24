@@ -17,6 +17,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Fixed
 - Help menu character error, only for 1.16 > Published as 1.17.10.1
+- Better Heroes filter
 
 ## [1.17.10] - 2022-12-17
 
