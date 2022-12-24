@@ -8,8 +8,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.11] - 2022-12-XX
 
 ## Added
-- New Feature: Move units between campaigns, by Dugi, renamed. Translated, with some fixes, and the possibility to remove incompatible units.
-- New Feature: Tools on Help Menu, with little utilities to Wesnoth which will be added in the future. First tool: Fast AI to speed up AI turn.
+- New Option: Move units between campaigns, by Dugi, renamed. Translated, with some fixes, and the possibility to remove incompatible units.
+- New Feature: Tools on Help Menu. For now, move units and an utility to activate Fast AI. More will be added in the future.
 
 ### Changed
 - Moved Leadership min level into Increase Level Number in help menu
