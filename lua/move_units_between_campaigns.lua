@@ -50,13 +50,13 @@ function wesnoth.message_box(message)
 	end
 	local function message_box_postshow()
 	end
-	wesnoth.show_dialog(message_box_dialog,message_box_preshow,message_box_postshow)
+	gui.show_dialog(message_box_dialog,message_box_preshow,message_box_postshow)
 end
 
 function wesnoth.wml_actions.mubc_export_unit(cfg)
 	local unit = wesnoth.get_unit(cfg.x, cfg.y).__cfg
 	wesnoth.wml_actions.get_global_variable { namespace="dugi_move_units_between_campaigns", from_global="unit_list", to_local="mubc_unit_list" }
-	local units = wesnoth.get_variable("mubc_unit_list")
+	local units = wml.variables["mubc_unit_list"]
 	if units == "" then
 		units = {}
 	end
@@ -81,7 +81,7 @@ function wesnoth.wml_actions.mubc_export_unit(cfg)
 		end
 		local function postshow()
 		end
-		choice = wesnoth.show_dialog(dialog,preshow,postshow)
+		choice = gui.show_dialog(dialog,preshow,postshow)
 		if choice == -2 then
 			pos = #units + 1
 		end
@@ -120,7 +120,7 @@ function wesnoth.wml_actions.mubc_export_unit(cfg)
 	end
 	unit.overlays = table.concat(new_overlays,",")
 	units[pos] = { "unit" , unit }
-	wesnoth.set_variable( "mubc_unit_list", units)
+	wml.variables["mubc_unit_list"] = units
 	wesnoth.wml_actions.set_global_variable { namespace="dugi_move_units_between_campaigns", to_global="unit_list", from_local="mubc_unit_list", immediate=true }
 	wesnoth.message_box(_"The unit has been exported. It will be available to import into other campaigns.")
 	wesnoth.wml_actions.clear_variable{ name="mubc_unit_list"}
@@ -128,7 +128,7 @@ end
 
 function user_pick()
 	wesnoth.wml_actions.get_global_variable { namespace="dugi_move_units_between_campaigns", from_global="unit_list", to_local="mubc_unit_list" }
-	local units = wesnoth.get_variable("mubc_unit_list")
+	local units = wml.variables["mubc_unit_list"]
 	wesnoth.wml_actions.clear_variable{ name="mubc_unit_list"}	
 	local picked
 	
@@ -221,15 +221,15 @@ function user_pick()
 		end
 		function postshow()
 		end
-		local choice = wesnoth.show_dialog(dialog,preshow,postshow)
+		local choice = gui.show_dialog(dialog,preshow,postshow)
 		if choice == -1 then
 			if units.remove_inserted == true and slots[unit_chosen] == nil then
 				table.remove(units,unit_chosen)
 			else
-				if slots[unit_chosen] ~= nil and #wesnoth.get_units{ id=units[unit_chosen][2].id } > 0 then
+				if slots[unit_chosen] ~= nil and #wesnoth.units.find_on_map{ id=units[unit_chosen][2].id } > 0 then
 					wesnoth.message_box(_"That unit is already in the game.")
 					else
-						if slots[unit_chosen] ~= nil and #wesnoth.get_units{ id=units[unit_chosen][2].original_id } > 0 then
+						if slots[unit_chosen] ~= nil and #wesnoth.units.find_on_map{ id=units[unit_chosen][2].original_id } > 0 then
 							wesnoth.message_box(_"That unit is a part of the campaign.")
 							else
 								if slots[unit_chosen] ~= nil then
@@ -243,7 +243,7 @@ function user_pick()
 			end
 		end
 	end
-	wesnoth.set_variable( "mubc_unit_list", units)
+	wml.variables["mubc_unit_list"] = units
 	wesnoth.wml_actions.set_global_variable { namespace="dugi_move_units_between_campaigns", to_global="unit_list", from_local="mubc_unit_list", immediate=true }
 	wesnoth.wml_actions.clear_variable{ name="mubc_unit_list"}
 	
@@ -251,12 +251,12 @@ function user_pick()
 end
 
 function wesnoth.wml_actions.mubc_import_unit(cfg)
-	local picked = wesnoth.synchronize_choice(user_pick)
+	local picked = wesnoth.sync.evaluate_single(user_pick)
 	if picked.side then
 		picked.x = cfg.x
 		picked.y = cfg.y
-		picked.side = wesnoth.get_variable("side_number")
-		wesnoth.set_variable( "mubc_unit", picked )
+		picked.side = wml.variables["side_number"]
+		wml.variables["mubc_unit"] = picked
 		wesnoth.wml_actions.unstore_unit{ variable="mubc_unit" }
 		wesnoth.wml_actions.clear_variable{ name="mubc_unit"}
 	end
