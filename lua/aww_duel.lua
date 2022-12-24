@@ -113,7 +113,7 @@ function aww_duel.modify_unit_specials_multipliers(att_unit, def_unit)
 	end
 
 	-- if defender (u2) is on a terrain at 40%, att_terrain_hit_chance should be around 60 :
-	local att_terrain_hit_chance = wesnoth.unit_defense(def_unit, wesnoth.get_terrain(def_unit.x, def_unit.y)) *1
+	local att_terrain_hit_chance = wesnoth.units.chance_to_be_hit(def_unit, wesnoth.current.map[def_unit]) *1
 
 	local att_hp_ratio = aww_duel.calculate_hp_ratio(att_unit.hitpoints, att_unit.max_hitpoints)
 
@@ -437,7 +437,7 @@ function aww_duel.description_squad_mode_custom()
 			.. "\n - "
      		.. _"Attacks with 1 strike uses HP ratio damage reduction"
 			.. "\n - "
-			.. _"Excluded for berserk & fury attack"
+			.. _"Excluded for berserk, fury, or swarm"
 	end
 	return descr
 end
