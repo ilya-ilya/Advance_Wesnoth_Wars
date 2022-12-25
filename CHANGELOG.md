@@ -9,8 +9,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## Added
 - New Option: Move units between campaigns, by Dugi. Translated, with some fixes, and the possibility to remove incompatible units.
-- New Feature: Change combat rounds of standard berserk ability.
-- New Feature: Tools on Help Menu. For now, move units and an utility to activate Fast AI. More will be added in the future.
+- New Option: Change combat rounds of standard berserk ability.
+- New Feature: Tools on Help Menu. For now, Dugi move units and an utility to activate Fast AI. More will be added in the future.
 
 ### Changed
 - Moved Leadership min level into Increase Level Number in help menu.
