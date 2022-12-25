@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-12-25 07:14 UTC\n"
-"PO-Revision-Date: 2022-12-25 08:15+0100\n"
+"PO-Revision-Date: 2022-12-25 08:18+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -143,7 +143,7 @@ msgstr "Ataques de 1 golpe usan reducción de daño por ratio PV"
 #. [lua]: aww_duel.description_squad_mode_custom
 #: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:440
 msgid "Excluded for berserk, fury, or swarm"
-msgstr "Excluido en berserk, furia o enjambre"
+msgstr "Excluido en frenesí, furia o enjambre"
 
 #. [lua]: aww_status.migrate
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:108
@@ -549,7 +549,7 @@ msgid ""
 "Excluded for berserk & fury attack. To simulate that the lesser they are, "
 "the more furious they go."
 msgstr ""
-"Excluido en ataques de Berserk y Furia, para simular que cuantos menos son, "
+"Excluido en ataques de frenesí y furia, para simular que cuantos menos son, "
 "más furiosos se vuelven."
 
 #. [swarm]: id=squad
@@ -2166,12 +2166,12 @@ msgstr ""
 #. [option]
 #: Advance_Wesnoth_Wars_fork\mods\17_help_menu.cfg:1022
 msgid "Change number of rounds of berserk ability"
-msgstr "Cambiar el número de rondas de la habilidad berserk"
+msgstr "Cambiar el número de rondas de la habilidad frenesí"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\mods\17_help_menu.cfg:1026
 msgid "Set number of rounds of berserk ability."
-msgstr "Establece el número de rondas de la habilidad berserk."
+msgstr "Establece el número de rondas de la habilidad frenesí."
 
 #. [message]: speaker=narrator
 #. [option]
