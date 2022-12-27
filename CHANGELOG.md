@@ -10,11 +10,12 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## Added
 - New Option: Move units between campaigns, by Dugi. Translated, with some fixes, and the possibility to remove incompatible units.
 - New Option: Change combat rounds of standard berserk ability.
-- New Feature: Tools on Help Menu. For now, Dugi move units and an utility to activate Fast AI. More will be added in the future.
+- New Feature: Tools on Help Menu. Utility to activate Fast AI, change poison HP damage, change HP recovered by resting, change default recall cost, and change experience gained fighting or killing units.
 
 ### Changed
 - Moved Leadership min level into Increase Level Number in help menu.
 - New Surprise Attack method. Now the ambusher do all his corresponding strikes with the probability and exact damage that corresponds with all abilities and modifiers applied, without the victim being able to defend himself as before.
+- Recall cost "Half" now is true half or recall cost, instead of allways 10 (wesnoth.game_config.recall_cost / 2)
 
 ### Fixed
 - Help menu character error, fixed on 1.17 to avoid having two separate releases.

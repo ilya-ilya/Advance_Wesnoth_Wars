@@ -7,7 +7,7 @@ for _, unit in ipairs(wesnoth.units.find_on_recall {}) do
             unit.recall_cost = (1 + unit.cost)
         end
         if cost_choice == "half" then
-            unit.recall_cost = 10
+            unit.recall_cost = (wesnoth.game_config.recall_cost / 2)
         end
         if cost_choice == "free" then
             unit.recall_cost = 0
