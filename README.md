@@ -25,7 +25,7 @@ But I will really appreciate to know my code is used on your project, and that y
 Description
 -----------
 
-Last Wesnoth version tested : 1.17.10
+Last Wesnoth version tested : 1.17.11
 
 A collection of the most-requested options to make the mechanics more realistic and tactic, for people curious to experiment a new gameplay.
 All theses features works for mainline Campaigns & Scenarios, Single or Multiplayer, for all sides including AI (except for special cases).
@@ -34,9 +34,9 @@ The features which keep the campaigns balanced are enabled by default. The other
 
 Features list :
 
-- *Updated* No Random Combats : attacks never miss, terrain bonus is instead used as damage reducer.
+- No Random Combats : attacks never miss, terrain bonus is instead used as damage reducer.
 
-- *Updated* Increased Damage : To compensate the high terrains defenses. Only applies for 'No Random Combats'.
+- Increased Damage : To compensate the high terrains defenses. Only applies for 'No Random Combats'.
 
 - *Updated* Squad Mode (HP-related strikes) : Units do proportionally less attack strikes the less HP they have 
 
@@ -48,23 +48,25 @@ Features list :
 
 - Level-Up : Relative Healing : When an unit advance a level, instead of a full healing and being cured, it keep the missing HP, but statuses are cured. The special case when post-advancement Max-HP is smaller than pre-advanced is also handled.
 
-- *Updated* Level-Up : Random Bonuses After Max Level Advancement : Units already AMLA (purple XP bar) gain an extra random ability or increased stat each time they level-up again. To identify them, they will have a new bracelet icon. Possible rewards: Melee damage +3, Melee strikes +1, Ranged damage +2, Ranged strikes +1, Movement points +1, First strike, Poison (blade and piercing), Leadership (lvl 3 min, lvl 5 min with AMLA Increase Level Number), Distract (negates ZOC around the unit for allies), Regenerates (+4 HP and slow poison), Adrenaline (+4 HP every hit), Backstab (melee blade and piercing), Loyal or Fearless.
+- *Updated* Level-Up After Max Level Advancement - Increase Level Number : (The unit level will continue growing with the AMLA level-ups). This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit.
 
-- *Updated* Level-Up : Promoted Leaders After Max Level Advancement : Standard units reaching their first AMLA level-up will be able to recruit the same units as the original leader, recall, and be prefixed 'Chief' with a bronze crown icon (keeping the Loyal icon in case). You can set the minimum level to be promoted. Excluded for special Heroes.
+- *Updated* Level-Up After Max Level Advancement - Random Bonuses After Max Level Advancement : Units already AMLA (purple XP bar) gain an extra random ability or increased stat each time they level-up again. To identify them, they will have a new bracelet icon. Possible rewards: Melee damage +3, Melee strikes +1, Ranged damage +2, Ranged strikes +1, Movement points +1, First strike, Poison (blade and piercing), Leadership (lvl 3 min, lvl 5 min with AMLA Increase Level Number), Distract (negates ZOC around the unit for allies), Regenerates (+4 HP and slow poison), Adrenaline (+4 HP every hit), Backstab (melee blade and piercing), Loyal or Fearless.
 
-- *Updated* Epic Heroes : The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of their attributes, and a small regeneration ability, making them harder to kill. They also get the distraction ability, that excludes Zone of Control around for allies, but not for themselves. Excluded for Promoted Leaders.
+- Level-Up After Max Level Advancement - Promoted Leaders : Standard units reaching their first AMLA level-up will be able to recruit the same units as the original leader, recall, and be prefixed 'Chief' with a bronze crown icon (keeping the Loyal icon in case). You can set the minimum level to be promoted. Excluded for special Heroes.
 
-- *Updated* Learning from battlefield (Passive XP) : Extra XP for all player units each turn (except for the ones not recalled). You can choose Passive XP for AI separately.
+- Epic Heroes : The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of their attributes, and a small regeneration ability, making them harder to kill. They also get the distraction ability, that excludes Zone of Control around for allies, but not for themselves. Excluded for Promoted Leaders.
 
-- *Updated* Learning from healing (Max XP/turn for Healing) : Each turn, Healers will earn 1 XP for each adjacent wounded or poisoned ally, but you can limit the max/turn.
+- Learning from battlefield (Passive XP) : Extra XP for all player units each turn (except for the ones not recalled). You can choose Passive XP for AI separately.
+
+- Learning from healing (Max XP/turn for Healing) : Each turn, Healers will earn 1 XP for each adjacent wounded or poisoned ally, but you can limit the max/turn.
 
 - *Updated* Berserk tweak - Fury : Replace 'berserk' by a new 'Fury' weapon special, way more interesting. A warcry related to the fury level with also be displayed. You can gain ability 'Bloodthirsty' by killing a certain number of enemies.
 
-- *Updated* Ambushed tweak - Surprise Attacks : An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. Awesome combined with NINJA WARS!
+- *New* Berserk rounds: Change the combat rounds of standard berserk ability, making it less risky.
 
-- *Updated* Ninja Wars (Stealthy units) : Most of units will get melee back-stabs, poison arrows, diversion, skirmisher, be faster and invisible/ambushers in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes / hide&seek.
+- *Updated* Ambushed tweak - Surprise Attacks : An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. A new eye icon indicates if the surprise attack is prepared.
 
-- *Updated* Level-Up After Max Level Advancement : Increase Level Number (The unit level will continue growing with the AMLA level-ups). This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit.
+- *Updated* Ninja Wars! (Stealthy units) : Most of units will get melee back-stabs, poison arrows, diversion, skirmisher, be faster and invisible/ambushers in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes / hide&seek.
 
 - *New* Recall cost of low level units : Choose the cost to recall units with chosen level or lower. Cost of higher level units remains unchanged. You can select free cost, 10, recruit cost + 1 or no changes.
 
@@ -73,6 +75,10 @@ Features list :
 - *New* Desertions : One unit desertion will occur per turn when a human player side has less gold than a value you can specify.
 
 - *New* Help menu : Contextual help accesible with right-click anywhere, with detailed explanation of the features, and the status or configured value for each, with options to activate, deactivate, or change values.
+
+- *New* Tools : Utility to activate Fast AI, change poison HP damage, change HP recovered by resting, change default recall cost, and change experience gained fighting or killing units.
+
+- *New* Import and export units anywhere: Contextual menu accesible with right-click, with capability of import and export units from and to any campaign or scenario.
 
 - Also includes a PvPvE scenario : '4p - Ruvaak Mirage Atoll' optimized to be combined with all features.
 

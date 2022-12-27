@@ -13,14 +13,20 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - New Feature: Tools on Help Menu. Utility to activate Fast AI, change poison HP damage, change HP recovered by resting, change default recall cost, and change experience gained fighting or killing units.
 
 ### Changed
-- Moved Leadership min level into Increase Level Number in help menu.
-- New Surprise Attack method. Now the ambusher do all his corresponding strikes with the probability and exact damage that corresponds with all abilities and modifiers applied, without the victim being able to defend himself as before.
+- Reorganized help menu.
+- Reorganized options menu. All options except Floating Notifications and Help Menu defaults to deactivated or standard values.
+- Removed bloodthirsty kills from Options menu, but still can be changed via Help Menu. Defaults to 5 kills.
+- New Surprise Attack method. Now the ambusher do all his corresponding strikes with the probability, damage, and status effects that corresponds with all modifiers and abilities applied, without the victim being able to defend himself as before.
+- Surprise attack availability is indicated by an eye icon. Thanks to Jeremias.
+- Cooldown turns of Surprise Attacks can be changed via help menu. Defaults to 2 surprise attack / 1 normal attack.
+- Amount of experience gained per healed unit with Learning from healing can be changed on Help Menu.
 - Recall cost "Half" now is true half or recall cost, instead of allways 10 (wesnoth.game_config.recall_cost / 2)
 
 ### Fixed
 - Help menu character error, fixed on 1.17 to avoid having two separate releases.
 - Better Heroes filter.
 - Swarm fixed, and better code and description for Squad and Swarm. Now Swarm ignores attacks that already have swarm, as Squad does, and it is reflected in the descriptions.
+- Slightly reduced loyal AMLA bonus probability.
 
 ## [1.17.10] - 2022-12-17
 
