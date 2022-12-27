@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-27 13:45 UTC\n"
-"PO-Revision-Date: 2022-12-27 14:46+0100\n"
+"POT-Creation-Date: 2022-12-27 16:21 UTC\n"
+"PO-Revision-Date: 2022-12-27 17:25+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -820,18 +820,6 @@ msgstr "sí"
 msgid "no"
 msgstr "no"
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:166
-msgid "true"
-msgstr "Activado"
-
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:167
-msgid "false"
-msgstr "Desactivado"
-
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:168
-msgid "no_change"
-msgstr "Sin cambios"
-
 #. [trait]: id=aww_trait_gifted
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:14
 msgid "epic"
@@ -1092,7 +1080,7 @@ msgid "rounds of attacks have occurred."
 msgstr "rondas de ataques."
 
 #. [message]: speaker=$ambusher.id
-#: Advance_Wesnoth_Wars_fork\mods\13_tweak_ambush.cfg:271
+#: Advance_Wesnoth_Wars_fork\mods\13_tweak_ambush.cfg:280
 msgid "Surprise!"
 msgstr "¡Sorpresa!"
 
@@ -2280,10 +2268,13 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\mods\17_help_menu.cfg:1065
-msgid " turn/s cooldown to surprise attack. Awesome combined with NINJA WARS!."
+msgid ""
+" turn/s cooldown to surprise attack. Surprise attack availability will be "
+"indicated by a blue eye icon. Awesome combined with NINJA WARS!"
 msgstr ""
-" turno/s de recarga para poder hacer el ataque sorpresa. Impresionante "
-"combinado con ¡Guerras Ninja!."
+" turno/s de recarga al ataque sorpresa. La disponibilidad del ataque "
+"sorpresa se indicará por un icono de ojo azul. Impresionante combinado con "
+"¡Guerras Ninja!"
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\mods\17_help_menu.cfg:1071
@@ -2806,13 +2797,13 @@ msgid ""
 "An ambush will trigger a quick combat in which the ambushed unit can't "
 "counter-attack. This surprise attack have a 2 extra turn cooldown, but can "
 "ambush as normally. Normal attacks adds a 1 turn cooldown to surprise "
-"attack. Awesome combined with NINJA WARS!."
+"attack. Surprise attack availability will be indicated by a blue eye icon."
 msgstr ""
 "Una emboscada activa un combate rápido en el que la unidad emboscada no "
-"podrá contraatacar. Este ataque sorpresa tiene una recarga de dos turnos "
-"extra, pero podrá emboscar como normalmente. Los ataques normales añaden "
-"sólo un turno de recarga para poder hacer el ataque sorpresa. Impresionante "
-"combinado con ¡Guerras Ninja!."
+"podrá contraatacar. Este ataque sorpresa tiene una recarga de 2 turnos "
+"extra, pero podrá emboscar como normalmente. Los ataques normales añaden 1 "
+"turno de recarga al ataque sorpresa. La disponibilidad del ataque sorpresa "
+"se indicará por un icono de ojo azul."
 
 #. [checkbox]: id=aww_enable_help
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:312

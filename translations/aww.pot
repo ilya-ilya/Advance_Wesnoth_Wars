@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-27 13:45 UTC\n"
+"POT-Creation-Date: 2022-12-27 16:21 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -705,18 +705,6 @@ msgstr ""
 msgid "no"
 msgstr ""
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:166
-msgid "true"
-msgstr ""
-
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:167
-msgid "false"
-msgstr ""
-
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:168
-msgid "no_change"
-msgstr ""
-
 #. [trait]: id=aww_trait_gifted
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:14
 msgid "epic"
@@ -958,7 +946,7 @@ msgid "rounds of attacks have occurred."
 msgstr ""
 
 #. [message]: speaker=$ambusher.id
-#: Advance_Wesnoth_Wars_fork\mods\13_tweak_ambush.cfg:271
+#: Advance_Wesnoth_Wars_fork\mods\13_tweak_ambush.cfg:280
 msgid "Surprise!"
 msgstr ""
 
@@ -1904,7 +1892,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\mods\17_help_menu.cfg:1065
-msgid " turn/s cooldown to surprise attack. Awesome combined with NINJA WARS!."
+msgid " turn/s cooldown to surprise attack. Surprise attack availability will be indicated by a blue eye icon. Awesome combined with NINJA WARS!"
 msgstr ""
 
 #. [option]
@@ -2318,7 +2306,7 @@ msgstr ""
 
 #. [checkbox]: id=aww_13, description=#13. 
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:289
-msgid "An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. This surprise attack have a 2 extra turn cooldown, but can ambush as normally. Normal attacks adds a 1 turn cooldown to surprise attack. Awesome combined with NINJA WARS!."
+msgid "An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. This surprise attack have a 2 extra turn cooldown, but can ambush as normally. Normal attacks adds a 1 turn cooldown to surprise attack. Surprise attack availability will be indicated by a blue eye icon."
 msgstr ""
 
 #. [checkbox]: id=aww_enable_help
