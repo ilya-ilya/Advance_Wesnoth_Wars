@@ -18,7 +18,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Reorganized options menu. All options except Floating Notifications and Help Menu defaults to deactivated or standard values.
 - Removed Bloodthirsty kills from Options menu, but still can be changed via Help Menu. Defaults to 5 kills.
 - New Surprise Attack method. Now the ambusher do all his corresponding strikes with the probability, damage, and status effects that corresponds with all modifiers and abilities applied, without the victim being able to defend himself as before.
-- Surprise attack availability is indicated by an eye icon. Thanks to Jeremias.
+- Surprise attack availability is indicated by an eye icon. Thanks to Jeremias for the icon.
 - Cooldown turns of Surprise Attacks can be changed via help menu. Defaults to 2 surprise attack / 1 normal attack.
 - Amount of experience gained per healed unit with Learning from healing can be changed on Help Menu.
 - Recall cost "Half" now is true half or recall cost, instead of allways 10 (wesnoth.game_config.recall_cost / 2)
