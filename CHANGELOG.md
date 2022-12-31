@@ -11,7 +11,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - New Option: Move units between campaigns, by Dugi. Translated, with some fixes, and the possibility to remove incompatible units.
 - New Option: Change combat rounds of standard berserk ability.
 - New Feature: Tools on Help Menu. Utility to activate Fast AI, change poison HP damage, change HP recovered by resting, change default recall cost, and change experience gained fighting or killing units.
-- Icons on Help Menu. On AMLA Bonus, Promoted Leaders and Surprise Attacks, the icon is the same used on the unit.
+- Icons on Help Menu. On AMLA Bonus, Promoted Leaders and Surprise Attacks, the icon is the same used on the unit, for reference.
 - New AMLA Bonus: Marksman
 
 ### Changed
@@ -29,6 +29,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Better Heroes filter.
 - Swarm fixed, and better code and description for Squad and Swarm. Now Swarm ignores attacks that already have swarm, as Squad does, and it is reflected in the descriptions.
 - Slightly reduced loyal AMLA bonus probability.
+- Remove accumulation of leadership objects. It only saves lines of code, has no real effect.
+
 
 ## [1.17.10] - 2022-12-17
 
