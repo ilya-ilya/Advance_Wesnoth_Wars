@@ -5,9 +5,20 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.11] - 2022-12-XX
+## [1.17.12] - 2023-1-2
 
-## Added
+### Added
+
+### Changed
+
+### Fixed
+- Submerge ability now works well with Surprise attacks
+- Cleaner code for ambush icon
+
+
+## [1.17.11] - 2023-1-2
+
+### Added
 - New Option: Move units between campaigns, by Dugi. Translated, with some fixes, and the possibility to remove incompatible units.
 - New Option: Change combat rounds of standard berserk ability.
 - New Feature: Tools on Help Menu. Utility to activate Fast AI, change poison HP damage, change HP recovered by resting, change default recall cost, and change experience gained fighting or killing units.
