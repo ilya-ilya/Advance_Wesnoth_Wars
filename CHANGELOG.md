@@ -5,14 +5,10 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.12] - 2023-1-2
-
-### Added
-
-### Changed
+## [1.17.11.1] - 2023-1-3
 
 ### Fixed
-- Submerge ability now works well with Surprise attacks
+- Submerge ability is now fully compatible with Surprise Attack icon.
 - Cleaner code for ambush icon
 - Fixed recall cost when a unit level up AMLA with Increase Level Number active, exceeding the maximum level to cost reduction, that the following scenario still maintains the previous reduced recall cost.
 

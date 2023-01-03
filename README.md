@@ -38,9 +38,7 @@ Features list :
 
 - Increased Damage : To compensate the high terrains defenses. Only applies for 'No Random Combats'.
 
-- *Updated* Squad Mode (HP-related strikes) : Units do proportionally less attack strikes the less HP they have 
-
-(or less damage for single-strike attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account by AI. In both cases, minimum strikes will be 1, and will not apply for berserk.
+- *Updated* Squad Mode (HP-related strikes) : Units do proportionally less attack strikes the less HP they have (or less damage for single-strike attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account by AI. In both cases, minimum strikes will be 1, and will not apply for berserk.
 
 - *Updated* Level-Up : Increase Level Number : The unit level will continue growing with the AMLA level-ups. This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit.
 
