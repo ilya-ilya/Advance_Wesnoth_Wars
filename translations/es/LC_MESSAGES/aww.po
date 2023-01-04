@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-01-01 07:31 UTC\n"
-"PO-Revision-Date: 2023-01-01 08:34+0100\n"
+"PO-Revision-Date: 2023-01-03 08:20+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -1739,8 +1739,8 @@ msgid ""
 "a bronze crown icon. Excluded for special Heroes."
 msgstr ""
 "Unidades en su nivel máximo que vuelven a promocionar podrán reclutar o "
-"reincorporar las mismas unidades que el líder original, y se les añadirá el "
-"prefijo 'Jefe' con una corona de bronce. Excluidos Héroes especiales."
+"reincorporar las mismas unidades que el líder original, se les añadirá el "
+"prefijo 'Jefe' y un icono de corona de bronce. Excluidos Héroes especiales."
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_03_epic, description=#03.
@@ -2306,10 +2306,10 @@ msgstr "Cambiar los turnos de recarga de Ataque Sorpresa"
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\mods\17_help_menu.cfg:1109
 msgid ""
-"Set cooldown turns of Surprise Attacks. Counts the turn of the surprise "
+"Set cooldown turns of Surprise Attack. Counts the turn of the surprise "
 "attack, until finish all sides turns."
 msgstr ""
-"Establece los turnos de recarga de los Ataques Sorpresa. Cuenta el turno del "
+"Establece los turnos de recarga del Ataque Sorpresa. Cuenta el turno del "
 "ataque sorpresa, hasta que finalizan los turnos de todos los bandos."
 
 #. [option]

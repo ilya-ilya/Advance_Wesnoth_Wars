@@ -5,6 +5,12 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.11.2] - 2023-1-XX
+
+### Fixed
+- Surprise Attack now doesn't reload on unit placed or advance. Preserves the previous status correctly.
+- Surprise Attack now doesn't reload when do a normal attack, instead the cooldown turns is added to the previous accumulated.
+
 ## [1.17.11.1] - 2023-1-3
 
 ### Fixed
