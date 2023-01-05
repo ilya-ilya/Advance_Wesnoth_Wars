@@ -13,6 +13,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Fixed
 - Surprise Attack now doesn't reload on unit placed or advance. Preserves the previous status correctly.
 - Surprise Attack now doesn't reload when do a normal attack, instead the cooldown turns is added to the previous accumulated.
+- Removed Regeneration on Ras-Tabahn on SotA S16
 
 ## [1.17.11.1] - 2023-1-3
 
