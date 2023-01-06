@@ -5,7 +5,7 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.11.2] - 2023-1-XX
+## [1.17.12] - 2023-1-XX
 
 ### Added
 - New Tools: Base income, Village income and Village support. Base income applies inmediately, the others on next scenario.
@@ -18,6 +18,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Surprise Attack now doesn't reload when do a normal attack, instead the cooldown turns is added to the previous accumulated.
 - Removed Regeneration on Ras-Tabahn on SotA S16
 - Fixed acumulation of ambush icon object, no real effect.
+- Now Tools reflect the changed values inmediately, not on the next scenario.
 
 ## [1.17.11.1] - 2023-1-3
 
