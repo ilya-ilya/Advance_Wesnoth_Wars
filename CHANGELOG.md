@@ -7,6 +7,9 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## [1.17.11.2] - 2023-1-XX
 
+### Added
+- New Tools: Base income, Village income and Village support. Base income applies inmediately, the others on next scenario.
+
 ### Changed
 - First strike as AMLA Bonus now only is given to units with few attacks (1-2)
 
@@ -14,6 +17,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Surprise Attack now doesn't reload on unit placed or advance. Preserves the previous status correctly.
 - Surprise Attack now doesn't reload when do a normal attack, instead the cooldown turns is added to the previous accumulated.
 - Removed Regeneration on Ras-Tabahn on SotA S16
+- Fixed acumulation of ambush icon object, no real effect.
 
 ## [1.17.11.1] - 2023-1-3
 
@@ -39,8 +43,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - New Surprise Attack method. Now the ambusher do all his corresponding strikes with the probability, damage, and status effects that corresponds with all modifiers and abilities applied, without the victim being able to defend himself as before.
 - Surprise attack availability is indicated by an eye icon. Thanks to Jeremias for the icon. Nightstalk, ninja, some custom abilities based on hides, and doing undo may causes show the icon on wrong places. The next BoW update, 1.17.12, will fix a crash caused by a more efficient method, which will be incorporated in the future.
 - Cooldown turns of Surprise Attacks can be changed via help menu. Defaults to 2 surprise attack / 1 normal attack.
-- Amount of experience gained per healed unit with Learning from healing can be changed on Help Menu.
-- Recall cost "Half" now is true half or recall cost, instead of allways 10 (wesnoth.game_config.recall_cost / 2)
+- Amount of experience gained per healed unit with Learning from healing can be changed on Help Menu. Defaults to 1.
+- Recall cost "Half" now is true half of recall cost, instead of allways 10 (wesnoth.game_config.recall_cost / 2)
 
 ### Fixed
 - Help menu character error, fixed on 1.17 to avoid having two separate releases.
