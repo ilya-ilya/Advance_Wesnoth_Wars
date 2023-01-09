@@ -5,13 +5,15 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.12] - 2023-1-XX
+## [1.17.11.3] - 2023-1-8
 
 ### Added
 - New Tools: Base income, Village income and Village support. Base income applies inmediately, the others on next scenario.
 
 ### Changed
-- First strike as AMLA Bonus now only is given to units with few attacks (1-2)
+- First strike as AMLA Bonus now is given only to units with few attacks (1-2)
+- Melee and Ranged Strikes +1 as AMLA Bonus now is given only to units with 3 or less strikes
+- Melee and Ranged Damage +2/+3 as AMLA Bonus now is given only to units with 3 or more strikes
 
 ### Fixed
 - Surprise Attack now doesn't reload on unit placed or advance. Preserves the previous status correctly.
