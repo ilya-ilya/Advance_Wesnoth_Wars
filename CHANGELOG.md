@@ -8,10 +8,12 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.11.4] - 2023-1-XX
 
 ### Added
+- Scroll when any float text is displayed in a visible place (without fog), for example Floating Notifications feature. Only exception is "Rampage!" and screams of Fury ability.
 
 ### Changed
 
 ### Fixed
+- Some events are more foolproof.
 
 ## [1.17.11.3] - 2023-1-8
 
@@ -20,8 +22,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Changed
 - First strike as AMLA Bonus now is given only to units with few attacks (1-2)
-- Melee and Ranged Strikes +1 as AMLA Bonus now is given only to units with 3 or less strikes
-- Melee and Ranged Damage +2/+3 as AMLA Bonus now is given only to units with 3 or more strikes
+- Melee and Ranged Strikes +1 as AMLA Bonus now is given only to units with 3 or less strikes.
+- Melee and Ranged Damage +2/+3 as AMLA Bonus now is given only to units with 3 or more strikes.
 
 ### Fixed
 - Surprise Attack now doesn't reload on unit placed or advance. Preserves the previous status correctly.
@@ -34,7 +36,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Fixed
 - Submerge ability is now fully compatible with Surprise Attack icon.
-- Cleaner code for ambush icon
+- Cleaner code for ambush icon.
 - Fixed recall cost when a unit level up AMLA with Increase Level Number active, exceeding the maximum level to cost reduction, that the following scenario still maintains the previous reduced recall cost.
 
 
