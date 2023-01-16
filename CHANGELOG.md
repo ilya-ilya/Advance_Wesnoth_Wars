@@ -5,15 +5,17 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.11.4] - 2023-1-XX
+## [1.17.11.4] - 2023-1-16
 
 ### Added
 - Scroll when any float text is displayed in a visible place (without fog), for example Floating Notifications feature. Only exception is "Rampage!" and screams of Fury ability.
 
 ### Changed
+- AMLA Bonus probabilities adjusted.
 
 ### Fixed
 - Some events are more foolproof.
+- Fixed error when try to activate and deactivate some features on 1.16 because a lua command for 1.17 only.
 
 ## [1.17.11.3] - 2023-1-8
 
