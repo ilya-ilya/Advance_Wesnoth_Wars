@@ -6,7 +6,7 @@ local _ = wesnoth.textdomain 'aww'
 
 aww_status = {
 	title = _"Advanced Wesnoth Wars",
-	version = "1.17.11.3", -- same as in _server.pbl
+	version = "1.17.11.4", -- same as in _server.pbl
 	FEATURE_IDS = {
 		[1]  = "aww_01_enable_randomless_combats",
 		[2]  = "aww_02_squad_mode",
@@ -243,9 +243,9 @@ function aww_status.update_feature_01(value)
 		aww_status.feature_01_was = old_value
 		aww_status.set_feature_value(id, value)
 		aww_status.message_info(id)
-		wesnoth.game_events.fire("aww_event_01_02_reset")
+		wesnoth.fire_event("aww_event_01_02_reset")
 		if value then
-			wesnoth.game_events.fire('aww_event_reload_duel')
+			wesnoth.fire_event('aww_event_reload_duel')
 		end
 	end
 	return value
@@ -261,15 +261,15 @@ function aww_status.update_feature_02(value)
 		aww_status.feature_02_was = old_value
 		aww_status.set_feature_value(id, value)
 		aww_status.message_info(id)
-		wesnoth.game_events.fire("aww_event_01_02_reset")
+		wesnoth.fire_event("aww_event_01_02_reset")
 		if old_value == 0 then
-			wesnoth.game_events.fire('aww_event_reload_duel')
+			wesnoth.fire_event('aww_event_reload_duel')
 		end
 		if old_value == 2 then
-			wesnoth.game_events.fire("aww_event_02_swarm_disable")
+			wesnoth.fire_event("aww_event_02_swarm_disable")
 		end
 		if value == 2 then
-			wesnoth.game_events.fire("aww_event_02_swarm_enable")
+			wesnoth.fire_event("aww_event_02_swarm_enable")
 		end
 	end
 	return value
@@ -286,9 +286,9 @@ function aww_status.update_feature_03(value)
 		aww_status.set_feature_value(id, value)
 		aww_status.message_info(id)
 		if value then
-			wesnoth.game_events.fire("aww_event_03_enable")
+			wesnoth.fire_event("aww_event_03_enable")
 		else
-			wesnoth.game_events.fire("aww_event_03_disable")
+			wesnoth.fire_event("aww_event_03_disable")
 		end
 		if value == false then
 		end
@@ -345,7 +345,7 @@ function aww_status.update_feature_07(value)
 		aww_status.set_feature_value(id, value)
 		aww_status.message_info(id)
 		if (aww_status.feature_01 or aww_status.feature_02 > 0) then
-			wesnoth.game_events.fire('aww_event_reload_duel')
+			wesnoth.fire_event('aww_event_reload_duel')
 		end
 	end
 	return value
@@ -361,8 +361,8 @@ function aww_status.update_feature_08(value)
 		aww_status.set_feature_value(id, value)
 		aww_status.message_info(id)
 		if (aww_status.feature_01) then
-			wesnoth.game_events.fire('aww_event_reload_duel')
-			wesnoth.game_events.fire("aww_event_01_02_reset")
+			wesnoth.fire_event('aww_event_reload_duel')
+			wesnoth.fire_event("aww_event_01_02_reset")
 		end
 	end
 	return value
@@ -378,7 +378,7 @@ function aww_status.update_feature_09(value)
 		aww_status.set_feature_value(id, value)
 		aww_status.message_info(id)
 		if value == false then
-			wesnoth.game_events.fire("aww_event_09_disable")
+			wesnoth.fire_event("aww_event_09_disable")
 		end
 	end
 	return value
@@ -394,9 +394,9 @@ function aww_status.update_feature_10(value)
 		aww_status.set_feature_value(id, value)
 		aww_status.message_info(id)
 		if value then
-			wesnoth.game_events.fire("aww_event_10_enable")
+			wesnoth.fire_event("aww_event_10_enable")
 		else
-			wesnoth.game_events.fire("aww_event_10_disable")
+			wesnoth.fire_event("aww_event_10_disable")
 		end
 	end
 	return value
@@ -412,9 +412,9 @@ function aww_status.update_feature_11(value)
 		aww_status.set_feature_value(id, value)
 		aww_status.message_info(id)
 		if value then
-			wesnoth.game_events.fire("aww_event_11_enable")
+			wesnoth.fire_event("aww_event_11_enable")
 		else
-			wesnoth.game_events.fire("aww_event_11_disable")
+			wesnoth.fire_event("aww_event_11_disable")
 		end
 	end
 	return value
@@ -431,9 +431,9 @@ function aww_status.update_feature_12(value)
 		aww_status.set_feature_value(id, value)
 		aww_status.message_info(id)
 		if value then
-			wesnoth.game_events.fire("aww_event_12_enable")
+			wesnoth.fire_event("aww_event_12_enable")
 		else
-			wesnoth.game_events.fire("aww_event_12_disable")
+			wesnoth.fire_event("aww_event_12_disable")
 		end
 	end
 	return value
@@ -449,7 +449,7 @@ function aww_status.update_feature_13(value)
 		aww_status.feature_13_was = old_value
 		aww_status.set_feature_value(id, value)
 		aww_status.message_info(id)
-		wesnoth.game_events.fire("aww_event_13_reset")
+		wesnoth.fire_event("aww_event_13_reset")
 	end
 	return value
 end
