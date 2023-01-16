@@ -18,7 +18,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Some events are more foolproof.
 - Fixed error when try to activate and deactivate some features on 1.16 because a lua command for 1.17 only.
 - Fixed ambush doesn't do surprise attack if the unit has been ambushed the same turn or other situations when loses his remaining attacks.
-- Some fixes to Ruvaak Scenario: Better translation, avoid duplicated traits to 'Best friends', mermaids with excess of experience.
+- Some fixes to Ruvaak Scenario: Better translation, avoid duplicated and not working traits to 'Best friends', mermaids with excess of experience.
 
 
 ## [1.17.11.3] - 2023-1-8
