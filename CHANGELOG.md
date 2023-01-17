@@ -8,6 +8,16 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.11.4] - 2023-1-16
 
 ### Added
+
+### Changed
+
+### Fixed
+- Fixed AI units on recall list getting passive XP, and they shouldn't (only on single player)
+- Chief + name string to translate
+
+## [1.17.11.4] - 2023-1-16
+
+### Added
 - Scroll when any float text is displayed in a visible place (without fog), for example Floating Notifications feature. Only exception is "Rampage!" and screams of Fury ability.
 
 ### Changed
@@ -18,7 +28,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Some events are more foolproof.
 - Fixed error when try to activate and deactivate some features on 1.16 because a lua command for 1.17 only.
 - Fixed ambush doesn't do surprise attack if the unit has been ambushed the same turn or other situations when loses his remaining attacks.
-- Some fixes to Ruvaak Scenario: Better translation, avoid duplicated and not working traits to 'Best friends', mermaids with excess of experience.
+- Some fixes to 4p Ruvaak scenario: Better translation, avoid duplicated and not working traits to 'Best friends', mermaids with excess of experience.
 
 
 ## [1.17.11.3] - 2023-1-8
