@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-01-16 16:25 UTC\n"
-"PO-Revision-Date: 2023-01-16 17:27+0100\n"
+"PO-Revision-Date: 2023-01-18 00:35+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -801,8 +801,8 @@ msgstr ""
 
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:9
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:26
-msgid "Chief"
-msgstr "Jefe"
+msgid "Chief $this_unit.name"
+msgstr "Jefe $this_unit.name"
 
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:301
 msgid "slowed"
