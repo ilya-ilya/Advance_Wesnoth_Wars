@@ -5,15 +5,18 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.11.5] - 2023-1-XX
+## [1.17.12] - 2023-1-XX
 
 ### Added
 
 ### Changed
+- Restored old float text to indicated experience gaining by healing. Can be changed on help menu.
+- Adrenaline as AMLA bonus only for units with 4 or more strikes on melee attacks.
 
 ### Fixed
 - Fixed AI units on recall list getting passive XP, and they shouldn't (only on single player)
 - Chief + name string to translate
+- Delete duplication of floating notifications, and more foolproof functioning
 
 ## [1.17.11.4] - 2023-1-16
 
