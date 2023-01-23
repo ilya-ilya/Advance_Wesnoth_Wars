@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-01-23 02:43 UTC\n"
-"PO-Revision-Date: 2023-01-23 03:44+0100\n"
+"POT-Creation-Date: 2023-01-23 15:49 UTC\n"
+"PO-Revision-Date: 2023-01-23 17:19+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -804,19 +804,33 @@ msgstr ""
 msgid "Chief $this_unit.name"
 msgstr "Jefe $this_unit.name"
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:301
+#. [animate_unit]
+#. [event]: id=aww_03_trigger_gifted_placed
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:305
+#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:197
+#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:28
+msgid "Epic!"
+msgstr "¡Épico!"
+
+#. [animate_unit]
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:306
+#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:29
+msgid "female^Epic!"
+msgstr "¡Épica!"
+
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:316
 msgid "slowed"
 msgstr "ralentizado"
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:302
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:317
 msgid "cured"
 msgstr "sanado"
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:303
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:318
 msgid "yes"
 msgstr "sí"
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:304
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:319
 msgid "no"
 msgstr "no"
 
@@ -881,19 +895,6 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:76
 msgid "Promoted!"
 msgstr "¡Promocionado!"
-
-#. [event]: id=aww_03_trigger_gifted_placed
-#. [event]: id=aww_10_trigger_gifted_placed
-#. [then]
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:197
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:57
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:86
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:113
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:147
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:174
-msgid "Epic!"
-msgstr "¡Épico!"
 
 #. [then]
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:75
@@ -3147,4 +3148,4 @@ msgstr "$this_unit.name furioso"
 #. [event]: id=aww_rma_trigger_recruit_loyal
 #: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:916
 msgid "Best friend!"
-msgstr "¡Vecino de fumarola!"
+msgstr "¡Buen amigo!"

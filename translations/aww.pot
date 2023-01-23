@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-01-23 02:43 UTC\n"
+"POT-Creation-Date: 2023-01-23 15:49 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -689,19 +689,33 @@ msgstr ""
 msgid "Chief $this_unit.name"
 msgstr ""
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:301
+#. [animate_unit]
+#. [event]: id=aww_03_trigger_gifted_placed
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:305
+#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:197
+#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:28
+msgid "Epic!"
+msgstr ""
+
+#. [animate_unit]
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:306
+#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:29
+msgid "female^Epic!"
+msgstr ""
+
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:316
 msgid "slowed"
 msgstr ""
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:302
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:317
 msgid "cured"
 msgstr ""
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:303
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:318
 msgid "yes"
 msgstr ""
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:304
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:319
 msgid "no"
 msgstr ""
 
@@ -750,19 +764,6 @@ msgstr ""
 #. [then]
 #: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:76
 msgid "Promoted!"
-msgstr ""
-
-#. [event]: id=aww_03_trigger_gifted_placed
-#. [event]: id=aww_10_trigger_gifted_placed
-#. [then]
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:197
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:57
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:86
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:113
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:147
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:174
-msgid "Epic!"
 msgstr ""
 
 #. [then]
