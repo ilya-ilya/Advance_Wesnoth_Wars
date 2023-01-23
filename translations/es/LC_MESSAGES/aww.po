@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-01-23 00:39 UTC\n"
-"PO-Revision-Date: 2023-01-23 01:44+0100\n"
+"POT-Creation-Date: 2023-01-23 02:43 UTC\n"
+"PO-Revision-Date: 2023-01-23 03:44+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -1100,7 +1100,7 @@ msgstr "Volver al menú de ayuda"
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:18
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:1934
 msgid "Exit"
-msgstr "Salida"
+msgstr "Salir"
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_01, description=#01.
@@ -2045,8 +2045,8 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:788
-msgid "Float text"
-msgstr "Texto flotante"
+msgid "Animation"
+msgstr "Animación"
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:792
