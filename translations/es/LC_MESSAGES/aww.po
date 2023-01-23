@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-01-19 14:55 UTC\n"
-"PO-Revision-Date: 2023-01-20 18:03+0100\n"
+"POT-Creation-Date: 2023-01-23 00:39 UTC\n"
+"PO-Revision-Date: 2023-01-23 01:44+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -556,7 +556,7 @@ msgstr "Excluido en ataques que ya tienen enjambre."
 #. [skirmisher]: id=distract
 #: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:171
 msgid "distract"
-msgstr "distrae"
+msgstr "distraer"
 
 #. [skirmisher]: id=distract
 #: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:172
@@ -866,7 +866,7 @@ msgstr "puñalada trapera"
 
 #. [damage]: id=backstab
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:240
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:725
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:726
 msgid ""
 "When used offensively, this attack deals 50% more damage if there is an "
 "enemy of the target on the opposite side of the target, and that unit is not "
@@ -876,18 +876,6 @@ msgstr ""
 "unidad enemiga del objetivo está en su extremo opuesto, siempre y cuando esa "
 "unidad no haya sido incapacitada (p.ej., convertida en piedra o paralizada "
 "de algún otro modo)."
-
-#. [then]
-#: Advance_Wesnoth_Wars_fork\mods\00_common.cfg:65
-#: Advance_Wesnoth_Wars_fork\mods\14_levelup_notif.cfg:29
-msgid "LEVEL UP"
-msgstr "Sube nivel"
-
-#. [then]
-#: Advance_Wesnoth_Wars_fork\mods\00_common.cfg:79
-#: Advance_Wesnoth_Wars_fork\mods\14_levelup_notif.cfg:21
-msgid "Advancement"
-msgstr "Promoción"
 
 #. [then]
 #: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:76
@@ -989,40 +977,40 @@ msgstr "Armas de filo o penetración venenosas"
 
 #. [message]: speaker=unit
 #. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:561
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:558
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:562
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:559
 msgid "Adrenaline"
 msgstr "Adrenalina"
 
 #. [message]: speaker=unit
 #. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:673
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:670
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:674
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:671
 msgid "Fearless"
 msgstr "Intrépido"
 
 #. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:674
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:675
 msgid "female^Fearless"
 msgstr "Intrépida"
 
 #. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:741
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:742
 msgid "Backstab"
 msgstr "Puñalada trapera"
 
 #. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:744
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:745
 msgid "Melee backstab on blade or pierce weapons"
 msgstr "Melé con puñalada trapera en armas de filo o penetración"
 
 #. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:802
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:803
 msgid "Marksman"
 msgstr "Tirador"
 
 #. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:805
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:806
 msgid "Minimum accuracy of 60% for ranged weapons"
 msgstr "Puntería mínima del 60% para armas a distancia"
 
@@ -1093,6 +1081,16 @@ msgstr "rondas de ataques."
 msgid "Surprise!"
 msgstr "¡Sorpresa!"
 
+#. [then]
+#: Advance_Wesnoth_Wars_fork\mods\14_levelup_notif.cfg:21
+msgid "LEVEL UP"
+msgstr "Sube nivel"
+
+#. [then]
+#: Advance_Wesnoth_Wars_fork\mods\14_levelup_notif.cfg:27
+msgid "Advancement"
+msgstr "Promoción"
+
 #. [option]
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:9
 msgid "Back to help menu"
@@ -1102,7 +1100,7 @@ msgstr "Volver al menú de ayuda"
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:18
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:1934
 msgid "Exit"
-msgstr "Salir"
+msgstr "Salida"
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_01, description=#01.
@@ -2039,11 +2037,11 @@ msgstr ""
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:786
 msgid ""
-"An optional float text indicates how many experience points have earned by "
-"each healer."
+"An optional animation with float text indicates how many experience points "
+"have earned by each healer."
 msgstr ""
-"Un texto flotante opcional indica cuántos puntos de experiencia ha ganado "
-"cada sanador."
+"Una animación opcional con texto flotante indica cuántos puntos de "
+"experiencia ha ganado cada sanador."
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:788
@@ -2096,17 +2094,16 @@ msgstr ""
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:872
-msgid "Change status of float text for experience gained healing units"
-msgstr ""
-"Cambiar el estado del texto flotante indicando experiencia ganada sanando "
-"unidades"
+msgid "Change status of animation"
+msgstr "Cambiar el estado de la animación"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:876
-msgid "Set status of float text for experience gained healing units."
+msgid ""
+"Set status of animation and float text for experience gained healing units."
 msgstr ""
-"Establece el estado del texto flotante indicando experiencia ganada sanando "
-"unidades."
+"Establece el estado de la animación y el texto flotante indicando "
+"experiencia ganada sanando unidades."
 
 #. [message]: speaker=narrator
 #. [option]

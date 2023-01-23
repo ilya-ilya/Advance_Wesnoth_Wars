@@ -8,9 +8,9 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.12] - 2023-1-XX
 
 ### Added
+- Animation and float text when experience is gaining by healing. Can be changed on help menu.
 
 ### Changed
-- Restored old float text to indicated experience gaining by healing. Can be changed on help menu.
 - Adrenaline as AMLA bonus only for units with 4 or more strikes on melee attacks.
 
 ### Fixed
