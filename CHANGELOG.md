@@ -5,13 +5,14 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.12] - 2023-1-XX
+## [1.17.12] - 2023-1-25
 
 ### Added
 - Animation and float text when experience is gaining by healing. Can be changed on help menu.
 
 ### Changed
 - Adrenaline as AMLA bonus only for units with 4 or more strikes on melee attacks.
+- Epic! trait is now granted on start or later, so the player allways can see which units receive the trait
 
 ### Fixed
 - Fixed AI units on recall list getting passive XP, and they shouldn't (only on single player)
