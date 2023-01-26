@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-01-23 15:49 UTC\n"
-"PO-Revision-Date: 2023-01-23 17:19+0100\n"
+"POT-Creation-Date: 2023-01-26 01:01 UTC\n"
+"PO-Revision-Date: 2023-01-26 02:07+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -667,137 +667,37 @@ msgstr ""
 "ataque."
 
 #. [leadership]: id=leadership
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:332
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:351
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:391
-msgid "leadership"
-msgstr "liderazgo"
+#. [leadership]: id=inspire
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:338
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:340
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:361
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:363
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:383
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:387
+msgid "The maximum level will be considered "
+msgstr "El máximo nivel se considerará "
 
 #. [leadership]: id=leadership
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:333
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:352
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:392
-msgid "female^leadership"
-msgstr "liderazgo"
-
-#. [leadership]: id=leadership
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:334
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:353
-msgid ""
-"This unit can lead other troops in battle.\n"
-"All adjacent lower-level units from the same side deal 25% more damage for "
-"each difference in level. The maximum level will be considered "
-msgstr ""
-"Esta unidad puede liderar otras tropas en combate.\n"
-"Todas las unidades adyacentes del mismo bando harán 25% más de daño por cada "
-"diferencia de nivel. El máximo nivel se considerará "
-
-#. [leadership]: id=leadership
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:335
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:354
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:338
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:361
 msgid ", so units of level "
 msgstr ", por lo que unidades de nivel "
 
 #. [leadership]: id=leadership
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:335
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:354
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:338
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:361
 msgid " or more cannot be led but will be able to lead as if they were level "
 msgstr ""
 " o más no podrán ser lideradas, pero podrán liderar como si fueran de nivel "
 
-#. [leadership]: id=leadership
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:336
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:355
-msgid ""
-"The leadership of this unit enables adjacent units of the same side to deal "
-"more damage in combat, though this only applies to units of lower level. The "
-"maximum level will be considered "
-msgstr ""
-"El liderazgo de esta unidad permite que las unidades del mismo bando "
-"próximas a ésta hagan más daño en combate, aunque esto sólo se aplica a "
-"unidades de menor nivel. El nivel máximo será considerado "
-
 #. [leadership]: id=inspire
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:371
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:412
-msgid "inspire"
-msgstr "inspirar"
-
-#. [leadership]: id=inspire
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:372
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:413
-msgid "female^inspire"
-msgstr "inspirar"
-
-#. [leadership]: id=inspire
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:373
-msgid ""
-"This unit can inspire own units that are next to it, making them fight "
-"better.\n"
-"Adjacent units of lower or equal level from the same side will deal 25% more "
-"damage plus 25% for each level they are below the inspiring unit. The "
-"maximum level will be considered "
-msgstr ""
-"Esta unidad puede inspirar a unidades del mismo bando adyacentes a ella, "
-"haciendo que luchen mejor.\n"
-"Unidades propias adyacentes de igual o menor nivel causarán un 25% adicional "
-"de daño más otro 25% por cada nivel por debajo de la unidad con Inspirar. El "
-"nivel máximo se considerará "
-
-#. [leadership]: id=inspire
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:374
+#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:383
 msgid ""
 ", so units of higher level cannot be inspired but will be able to inspire as "
 "if they were level "
 msgstr ""
 ", por lo que unidades de mayor nivel no podrán ser inspiradas pero podrán "
 "inspirar como si fueran de nivel "
-
-#. [leadership]: id=inspire
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:375
-msgid ""
-"The presence of this unit inspires own units next to it to deal more damage "
-"in combat, though this only applies to units of lower or equal level. The "
-"maximum level will be considered "
-msgstr ""
-"La presencia de esta unidad hace que las unidades del mismo bando adyacentes "
-"a ella inflijan más daño en combate, aunque esto sólo se aplica a unidades "
-"de nivel inferior o igual. El nivel máximo será considerado "
-
-#. [leadership]: id=leadership
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:393
-msgid ""
-"This unit can lead other troops in battle.\n"
-"\n"
-"All adjacent lower-level units from the same side deal 25% more damage for "
-"each difference in level."
-msgstr ""
-"Esta unidad puede liderar otras tropas en combate.\n"
-"\n"
-"Todas las unidades adyacentes del mismo bando harán 25% más de daño por cada "
-"diferencia de nivel."
-
-#. [leadership]: id=inspire
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:414
-msgid ""
-"This unit can inspire own units that are next to it, making them fight "
-"better. Adjacent own units of lower or equal level will deal 25% more damage "
-"plus 25% for each level they are below the inspiring unit."
-msgstr ""
-"Esta unidad puede inspirar a unidades del mismo bando adyacentes a ella, "
-"haciendo que luchen mejor. Unidades propias adyacentes de igual o menor "
-"nivel causarán un 25% adicional de daño más otro 25% por cada nivel por "
-"debajo de la unidad con Inspirar."
-
-#. [leadership]: id=inspire
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:415
-msgid ""
-"The presence of this unit inspires own units next to it to deal more damage "
-"in combat, though this only applies to units of lower or equal level."
-msgstr ""
-"La presencia de esta unidad hace que las unidades del mismo bando adyacentes "
-"a ella inflijan más daño en combate, aunque esto sólo se aplica a unidades "
-"de nivel inferior o igual."
 
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:9
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:26
@@ -808,29 +708,29 @@ msgstr "Jefe $this_unit.name"
 #. [event]: id=aww_03_trigger_gifted_placed
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:305
 #: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:197
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:28
+#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:30
 msgid "Epic!"
 msgstr "¡Épico!"
 
 #. [animate_unit]
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:306
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:29
+#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:31
 msgid "female^Epic!"
 msgstr "¡Épica!"
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:316
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:315
 msgid "slowed"
 msgstr "ralentizado"
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:317
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:316
 msgid "cured"
 msgstr "sanado"
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:318
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:317
 msgid "yes"
 msgstr "sí"
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:319
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:318
 msgid "no"
 msgstr "no"
 
@@ -2855,7 +2755,7 @@ msgstr "No"
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:259
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:313
 msgid " On"
-msgstr " Sí"
+msgstr "On"
 
 #. [slider]: id=aww_09_15_level
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:130
