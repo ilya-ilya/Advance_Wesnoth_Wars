@@ -5,6 +5,14 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.12.1] - 2023-1-XX
+
+### Changed
+- Better translation of leadership and inspire to other languages
+
+### Fixed
+- 
+
 ## [1.17.12] - 2023-1-25
 
 ### Added

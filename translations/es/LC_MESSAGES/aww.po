@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-01-26 01:01 UTC\n"
-"PO-Revision-Date: 2023-01-26 02:07+0100\n"
+"PO-Revision-Date: 2023-01-26 02:13+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -2755,7 +2755,7 @@ msgstr "No"
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:259
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:313
 msgid " On"
-msgstr "On"
+msgstr " Sí"
 
 #. [slider]: id=aww_09_15_level
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:130
