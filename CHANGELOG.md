@@ -7,6 +7,9 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## [1.17.12.1] - 2023-1-XX
 
+### Added
+- New option: Back to reserve.
+
 ### Changed
 - Better translation of leadership and inspire to other languages
 

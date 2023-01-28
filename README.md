@@ -66,9 +66,11 @@ Features list :
 
 - *Updated* Ninja Wars! (Stealthy units) : Most of units will get melee back-stabs, poison arrows, diversion, skirmisher, be faster and invisible/ambushers in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes / hide&seek.
 
+- *New* Villages line of sight : Villages can have a line of sight for the owner side, with configurable distance.
+
 - *New* Recall cost of low level units : Choose the cost to recall units with chosen level or lower. Cost of higher level units remains unchanged. You can select free cost, 10, recruit cost + 1 or no changes.
 
-- *New* Villages line of sight : Villages can have a line of sight for the owner side, with configurable distance.
+- *New* Back to reserve : Allows you to send normal units back to the recall list with right click on keeps. Also set the cost for performing this action.
 
 - *New* Desertions : One unit desertion will occur per turn when a human player side has less gold than a value you can specify.
 
