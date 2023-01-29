@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-01-29 02:51 UTC\n"
-"PO-Revision-Date: 2023-01-29 03:53+0100\n"
+"POT-Creation-Date: 2023-01-29 16:03 UTC\n"
+"PO-Revision-Date: 2023-01-29 17:04+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -727,7 +727,7 @@ msgstr "sí"
 
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:285
 msgid "no"
-msgstr "no"
+msgstr "mo"
 
 #. [trait]: id=aww_trait_gifted
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:14
@@ -2173,10 +2173,8 @@ msgstr "Cambiar el coste de enviar la unidad a reserva"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:1037
-msgid "Set cost to send unit to reserve. Must be negative."
-msgstr ""
-"Establece el coste de enviar la unidad a reserva. Debe ser un número "
-"negativo."
+msgid "Set cost to send unit to reserve."
+msgstr "Establece el coste de enviar la unidad a reserva."
 
 #. [set_menu_item]: id=aww_unrecall
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:1050
@@ -2724,9 +2722,14 @@ msgstr ""
 "side_name por falta de mantenimiento."
 
 #. [animate_unit]
-#: Advance_Wesnoth_Wars_fork\mods\22_unrecall.cfg:57
+#: Advance_Wesnoth_Wars_fork\mods\22_unrecall.cfg:65
 msgid "Reserve"
 msgstr "Reserva"
+
+#. [message]: speaker=narrator
+#: Advance_Wesnoth_Wars_fork\mods\22_unrecall.cfg:85
+msgid "You don't have enough gold."
+msgstr "No tienes oro suficiente."
 
 #. [checkbox]: id=aww_01, description=#01.
 #. [slider]: id=aww_08, description=#08.

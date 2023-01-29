@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-01-29 02:51 UTC\n"
+"POT-Creation-Date: 2023-01-29 16:03 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1828,7 +1828,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:1037
-msgid "Set cost to send unit to reserve. Must be negative."
+msgid "Set cost to send unit to reserve."
 msgstr ""
 
 #. [set_menu_item]: id=aww_unrecall
@@ -2280,8 +2280,13 @@ msgid "$pot_deserters[$rand_deserter].name has deserted to $pot_sides[$rand_side
 msgstr ""
 
 #. [animate_unit]
-#: Advance_Wesnoth_Wars_fork\mods\22_unrecall.cfg:57
+#: Advance_Wesnoth_Wars_fork\mods\22_unrecall.cfg:65
 msgid "Reserve"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Advance_Wesnoth_Wars_fork\mods\22_unrecall.cfg:85
+msgid "You don't have enough gold."
 msgstr ""
 
 #. [checkbox]: id=aww_01, description=#01. 
