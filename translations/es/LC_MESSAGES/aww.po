@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-01-28 05:16 UTC\n"
-"PO-Revision-Date: 2023-01-28 07:18+0100\n"
+"PO-Revision-Date: 2023-01-28 13:05+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -2073,8 +2073,8 @@ msgid ""
 "Allows you to send normal units back to the recall list with right click on "
 "keeps. Also set the cost for performing this action."
 msgstr ""
-"Permite enviar unidades normales de regreso a la lista de recuperación con "
-"clic derecho en torreones. Puedes establecer el coste de realizar esta "
+"Permite enviar unidades normales de regreso a la lista de reincorporación "
+"con clic derecho en torreones. Puedes establecer el coste de realizar esta "
 "acción."
 
 #. [message]: speaker=narrator
@@ -2100,7 +2100,8 @@ msgstr "Coste para enviar la unidad a reserva"
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:262
 msgid "Set the cost on gold to send unit to recall list."
 msgstr ""
-"Establecer el coste en oro para enviar la unidad a la lista de recuperación."
+"Establecer el coste en oro para enviar la unidad a la lista de "
+"reincorporación."
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:923
@@ -2890,8 +2891,8 @@ msgid ""
 "Allows you to send normal units back to the recall list with the right click "
 "on keeps. Also set the cost for performing this action."
 msgstr ""
-"Permite enviar unidades normales de regreso a la lista de recuperación con "
-"clic derecho en torreones. Puedes establecer el coste de realizar esta "
+"Permite enviar unidades normales de regreso a la lista de reincorporación "
+"con clic derecho en torreones. Puedes establecer el coste de realizar esta "
 "acción."
 
 #. [checkbox]: id=aww_12, description=#12.
