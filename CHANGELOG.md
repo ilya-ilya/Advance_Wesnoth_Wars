@@ -12,7 +12,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Changed
 - Better translation of leadership and inspire to other languages
-- Animation and float text for Promoted Leaders
+- Animation and float text for Promoted Leaders. Removed "Chief" addition on name.
 
 ### Fixed
 - 

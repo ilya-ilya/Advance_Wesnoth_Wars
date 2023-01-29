@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-01-28 05:16 UTC\n"
-"PO-Revision-Date: 2023-01-28 13:05+0100\n"
+"POT-Creation-Date: 2023-01-29 02:51 UTC\n"
+"PO-Revision-Date: 2023-01-29 03:53+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -699,38 +699,33 @@ msgstr ""
 ", por lo que unidades de mayor nivel no podrán ser inspiradas pero podrán "
 "inspirar como si fueran de nivel "
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:9
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:26
-msgid "Chief $this_unit.name"
-msgstr "Jefe $this_unit.name"
-
 #. [animate_unit]
-#. [event]: id=aww_03_trigger_gifted_placed
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:305
-#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:197
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:272
+#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:213
 #: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:30
 msgid "Epic!"
 msgstr "¡Épico!"
 
 #. [animate_unit]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:306
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:273
+#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:214
 #: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:31
 msgid "female^Epic!"
 msgstr "¡Épica!"
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:315
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:282
 msgid "slowed"
 msgstr "ralentizado"
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:316
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:283
 msgid "cured"
 msgstr "sanado"
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:317
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:284
 msgid "yes"
 msgstr "sí"
 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:318
+#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:285
 msgid "no"
 msgstr "no"
 
@@ -791,10 +786,15 @@ msgstr ""
 "unidad no haya sido incapacitada (p.ej., convertida en piedra o paralizada "
 "de algún otro modo)."
 
-#. [then]
-#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:76
+#. [animate_unit]
+#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:48
 msgid "Promoted!"
 msgstr "¡Promocionado!"
+
+#. [animate_unit]
+#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:49
+msgid "female^Promoted!"
+msgstr "¡Promocionada!"
 
 #. [then]
 #: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:75
@@ -990,7 +990,7 @@ msgstr "Sube nivel"
 #. [then]
 #: Advance_Wesnoth_Wars_fork\mods\14_levelup_notif.cfg:27
 msgid "Advancement"
-msgstr "Promoción"
+msgstr "Avance"
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:9
@@ -1659,12 +1659,12 @@ msgstr "Subir por encima del nivel máximo : Promoción a líder"
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:138
 msgid ""
 "Standard units reaching their first AMLA level-up will be able to recruit "
-"the same units as the original leader, recall, and be prefixed 'Chief' with "
-"a bronze crown icon. Excluded for special Heroes."
+"the same units as the original leader, recall, and receives a bronze crown "
+"icon. Excluded for special Heroes."
 msgstr ""
 "Unidades en su nivel máximo que vuelven a promocionar podrán reclutar o "
-"reincorporar las mismas unidades que el líder original, se les añadirá el "
-"prefijo 'Jefe' y un icono de corona de bronce. Excluidos Héroes especiales."
+"reincorporar las mismas unidades que el líder original y recibirán un icono "
+"de corona de bronce. Excluidos Héroes especiales."
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_03_epic, description=#03.
@@ -1698,11 +1698,11 @@ msgstr "Líderes Promocionados : Nivel mínimo"
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:531
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:150
 msgid ""
-"Set the minimum level to be promoted to Chief. Only units with this level or "
-"higher on their first AMLA will be promoted."
+"Set the minimum level to be promoted. Only units with this level or higher "
+"on their first AMLA will be promoted."
 msgstr ""
-"Establece el nivel mínimo para ser promocionado a Jefe. Sólo unidades con "
-"este nivel o superior en su primer AMLA serán promocionadas."
+"Establece el nivel mínimo para ser promocionado. Sólo unidades con este "
+"nivel o superior en su primer AMLA serán promocionadas."
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:536
@@ -1772,13 +1772,13 @@ msgstr ""
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:622
-msgid "Change minimum level to be promoted to Chief"
-msgstr "Cambiar el nivel mínimo para ser promocionado a Jefe"
+msgid "Change minimum level to be promoted"
+msgstr "Cambiar el nivel mínimo para ser promocionado"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:626
-msgid "Set minimum level to be promoted to Chief."
-msgstr "Establece el nivel mínimo para ser promocionado a Jefe."
+msgid "Set minimum level to be promoted."
+msgstr "Establece el nivel mínimo para ser promocionado."
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_10, description=#10.
@@ -2068,7 +2068,9 @@ msgid "Back to reserve"
 msgstr "Enviar a reserva"
 
 #. [message]: speaker=narrator
+#. [checkbox]: id=aww_22
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:915
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:251
 msgid ""
 "Allows you to send normal units back to the recall list with right click on "
 "keeps. Also set the cost for performing this action."
@@ -2162,7 +2164,7 @@ msgstr "Cambiar el estado de Enviar a reserva"
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:1008
 msgid "Set status of Back to reserve."
-msgstr "Establece el estado de Enviar a reserva"
+msgstr "Establece el estado de Enviar a reserva."
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:1033
@@ -2884,16 +2886,6 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:216
 msgid "Default (no change)"
 msgstr "Por defecto (sin cambios)"
-
-#. [checkbox]: id=aww_22
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:251
-msgid ""
-"Allows you to send normal units back to the recall list with the right click "
-"on keeps. Also set the cost for performing this action."
-msgstr ""
-"Permite enviar unidades normales de regreso a la lista de reincorporación "
-"con clic derecho en torreones. Puedes establecer el coste de realizar esta "
-"acción."
 
 #. [checkbox]: id=aww_12, description=#12.
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:272
