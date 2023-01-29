@@ -9,13 +9,14 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Added
 - New option: Back to reserve.
+- Eloh and Yatchagoth can be epic now too. Note that Eloh will regenerates after Kaleh attack.
 
 ### Changed
 - Better translation of leadership and inspire to other languages
 - Animation and float text for Promoted Leaders. Removed "Chief" addition on name.
 
 ### Fixed
-- 
+- Restored old support for addon "Heroes: The Iron Bulwark", available on 1.16
 
 ## [1.17.12] - 2023-1-25
 
