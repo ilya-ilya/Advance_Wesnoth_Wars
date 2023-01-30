@@ -15,7 +15,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Changed
 - Better translation of leadership and inspire to other languages
-- Animation and float text for Promoted Leaders. Removed "Chief" addition on name.
+- Animation (levelin) and float text for Promoted Leaders. Removed "Chief" addition on name.
+- On 1.17, changed method of upload addon. Reset downloads: 83
 
 ### Fixed
 - Restored old support for addon "Heroes: The Iron Bulwark", available on 1.16
@@ -24,7 +25,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.12] - 2023-1-25
 
 ### Added
-- Animation and float text when experience is gaining by healing. Can be changed on help menu.
+- Animation (healing) and float text when experience is gaining by healing. Can be changed on help menu.
 
 ### Changed
 - Adrenaline as AMLA bonus only for units with 4 or more strikes on melee attacks.

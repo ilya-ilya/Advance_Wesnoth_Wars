@@ -25,14 +25,16 @@ But I will really appreciate to know my code is used on your project, and that y
 Description
 -----------
 
-Last Wesnoth version tested : 1.17.11
+Last Wesnoth version tested : 1.17.12
 
 A collection of the most-requested options to make the mechanics more realistic and tactic, for people curious to experiment a new gameplay.
 All theses features works for mainline Campaigns & Scenarios, Single or Multiplayer, for all sides including AI (except for special cases).
 
 The features which keep the campaigns balanced are enabled by default. The others features are more aimed for PvP multiplayer, or to try greater challenges.
 
-Features list :
+
+Features list
+-----------
 
 - No Random Combats : attacks never miss, terrain bonus is instead used as damage reducer.
 
@@ -160,7 +162,6 @@ aww_status.update_feature_XX(0)
 aww_status.update_feature_XX(1)
 ```
 See previous section to know how to open console or when the changes will applies.
-
 
 
 Developer Mode

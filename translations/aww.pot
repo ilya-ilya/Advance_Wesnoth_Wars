@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-01-29 21:24 UTC\n"
+"POT-Creation-Date: 2023-01-30 19:43 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -627,14 +627,14 @@ msgstr ""
 
 #. [animate_unit]
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:272
-#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:213
+#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:217
 #: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:30
 msgid "Epic!"
 msgstr ""
 
 #. [animate_unit]
 #: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:273
-#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:214
+#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:218
 #: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:31
 msgid "female^Epic!"
 msgstr ""
@@ -2298,8 +2298,18 @@ msgstr ""
 msgid "Tools"
 msgstr ""
 
+#. [animate_unit]
+#: Advance_Wesnoth_Wars_fork\mods\19_deserters.cfg:98
+msgid "Deserter"
+msgstr ""
+
+#. [animate_unit]
+#: Advance_Wesnoth_Wars_fork\mods\19_deserters.cfg:99
+msgid "female^Deserter"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\mods\19_negative_gold_deserters.cfg:101
+#: Advance_Wesnoth_Wars_fork\mods\19_deserters.cfg:116
 msgid "$pot_deserters[$rand_deserter].name has deserted to $pot_sides[$rand_side].side_name due to not receiving enough maintenance."
 msgstr ""
 
@@ -2331,6 +2341,7 @@ msgstr ""
 #. [checkbox]: id=aww_10, description=#10. 
 #. [checkbox]: id=aww_10_opt, description=#10. 
 #. [slider]: id=aww_04, description=#04. 
+#. [slider]: id=aww_04_ai, description=#04. 
 #. [slider]: id=aww_05, description=#05. 
 #. [choice]: id=aww_17, description=#17. 
 #. [slider]: id=aww_17_max, description=#17. 
@@ -2360,6 +2371,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:166
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:174
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:185
+#: Advance_Wesnoth_Wars_fork\mods\options.cfg:197
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:208
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:216
 #: Advance_Wesnoth_Wars_fork\mods\options.cfg:243
