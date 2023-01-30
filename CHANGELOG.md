@@ -5,11 +5,13 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.12.1] - 2023-1-XX
+## [1.17.12.1] - 2023-1-30
 
 ### Added
 - New option: Back to reserve.
 - Eloh and Yechnagoth can be epic now too. Note that Eloh will regenerates after Kaleh attack.
+- Added support to define, to allow other mods detect AWW. Symbol: ADVANCED_WESNOTH_WARS
+- Animation (recruit) and float text on deserters.
 
 ### Changed
 - Better translation of leadership and inspire to other languages
