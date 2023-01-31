@@ -5,6 +5,18 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.12.2] - 2023-1-XX
+
+### Added
+- New option: Experience to IA leaders. Only available on Help Menu.
+
+### Changed
+- Berserk rounds on options menu changed to 1-30. On help menu still can be changed to 0 or higuer numbers
+
+### Fixed
+-
+
+
 ## [1.17.12.1] - 2023-1-30
 
 ### Added
