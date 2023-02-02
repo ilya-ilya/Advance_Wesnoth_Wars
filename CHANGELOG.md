@@ -11,10 +11,10 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - New option: Experience to IA leaders. Only available on Help Menu.
 
 ### Changed
-- Berserk rounds on options menu changed to 1-30. On help menu still can be changed to 0 or higuer numbers
+- Berserk rounds on options menu changed to 1-30. On help menu still can be changed to 0 or higher numbers
 
 ### Fixed
--
+- (Provisional) Fixed bug when in some situations a unit with ambush icon would lose its status.
 
 
 ## [1.17.12.1] - 2023-1-30
