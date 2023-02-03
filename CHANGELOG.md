@@ -9,6 +9,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Added
 - New option: Experience to IA leaders. Only available on Help Menu.
+- New option: optional AMLA Bonus on wound healing. Only with Non Fatal Wounds extended active.
 
 ### Changed
 - Berserk rounds on options menu changed to 1-30. On help menu still can be changed to 0 or higher numbers
