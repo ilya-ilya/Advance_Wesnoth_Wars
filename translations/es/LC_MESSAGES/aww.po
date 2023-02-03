@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-03 03:42 UTC\n"
-"PO-Revision-Date: 2023-02-03 04:49+0100\n"
+"POT-Creation-Date: 2023-02-03 04:18 UTC\n"
+"PO-Revision-Date: 2023-02-03 05:20+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -1670,9 +1670,19 @@ msgid "Non-Fatal Wounds Extended"
 msgstr "Heridas no fatales: Extendida"
 
 #. [message]: speaker=narrator
+#: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:544
+msgid "Active"
+msgstr "Activo"
+
+#. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:545
 msgid "Bonus on healing"
 msgstr "Bonus en curación"
+
+#. [message]: speaker=narrator
+#: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:549
+msgid "Inactive"
+msgstr "Inactivo"
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:553
