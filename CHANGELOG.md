@@ -17,7 +17,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Fixed
 - (Provisional) Fixed bug when in some situations a unit with ambush icon would lose its status.
-- Tallin leadership with Increase Level Number loads correctly on NR S06a
+- Fix leadership with Increase Level Number doesn't applies correctly on NR S06a and other similar situations.
 
 
 ## [1.17.12.1] - 2023-1-30
