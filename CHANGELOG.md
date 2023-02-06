@@ -19,6 +19,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Fixed
 - (Provisional) Fixed bug when in some situations a unit with ambush icon would lose its status.
 - Fix leadership with Increase Level Number doesn't applies correctly on NR S06a and other similar situations.
+- Ro'Sothian now is an Epic hero when is a enemy too (NR S07)
 - Prevent regeneration of Starlag on NR S07 if becomes Epic.
 
 
