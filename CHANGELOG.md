@@ -13,7 +13,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - New AMLA Bonuses: Slows on cold type attacks, camouflage (all hides abilities together on one) on units that have any hidden ability.
 
 ### Changed
-- Berserk rounds on options menu changed to 1-30. On help menu still can be changed to 0 or higher numbers
+- Berserk rounds on options menu changed to 1-30. On help menu still can be changed to 0 or higher numbers.
+- Loyal as AMLA bonus now only for units with level 4 or higher.
 
 ### Fixed
 - (Provisional) Fixed bug when in some situations a unit with ambush icon would lose its status.
