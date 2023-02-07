@@ -40,27 +40,25 @@ Features list
 
 - Increased Damage : To compensate the high terrains defenses. Only applies for 'No Random Combats'.
 
-- *Updated* Squad Mode (HP-related strikes) : Units do proportionally less attack strikes the less HP they have (or less damage for single-strike attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account by AI. In both cases, minimum strikes will be 1, and will not apply for berserk.
+- Squad Mode (HP-related strikes) : Units do proportionally less attack strikes the less HP they have (or less damage for single-strike attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account by AI. In both cases, minimum strikes will be 1, and will not apply for berserk.
 
-- *Updated* Level-Up : Increase Level Number : The unit level will continue growing with the AMLA level-ups. This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit.
+- *Updated* Level-Up : Increase Level Number : The unit level will continue growing with the AMLA level-ups. This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit. You can change the maximul level of leadership and inspire abilities with this feature active.
 
 - Level-Up : Floating Notifications : Floating text on the unit currently leveling-up. Can be helpful to know which unit is concerned by an advancement.
 
 - Level-Up : Relative Healing : When an unit advance a level, instead of a full healing and being cured, it keep the missing HP, but statuses are cured. The special case when post-advancement Max-HP is smaller than pre-advanced is also handled.
 
-- *Updated* Level-Up After Max Level Advancement - Increase Level Number : (The unit level will continue growing with the AMLA level-ups). This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit.
-
-- *Updated* Level-Up After Max Level Advancement - Random Bonuses After Max Level Advancement : Units already AMLA (purple XP bar) gain an extra random ability or increased stat each time they level-up again. To identify them, they will have a new bracelet icon. Possible rewards: Melee damage +3, Melee strikes +1, Ranged damage +2, Ranged strikes +1, Movement points +1, First strike, Poison, Leadership, Distract, Regenerates, Adrenaline, Backstab, Marskman, Loyal or Fearless.
+- *Updated* Level-Up After Max Level Advancement - Random Bonuses After Max Level Advancement : Units already AMLA (purple XP bar) gain an extra random ability or increased stat each time they level-up again. To identify them, they will have a new bracelet icon. Possible rewards: Melee damage +3, Melee strikes +1, Ranged damage +2, Ranged strikes +1, Movement points +1, First strike, Poison, Leadership, Distract, Regenerates, Adrenaline, Backstab, Marskman, Loyal, Fearless, Slows or Camouflage.
 
 - Level-Up After Max Level Advancement - Promoted Leaders : Standard units reaching their first AMLA level-up will be able to recruit the same units as the original leader, recall, and be prefixed 'Chief' with a bronze crown icon (keeping the Loyal icon in case). You can set the minimum level to be promoted. Excluded for special Heroes.
 
 - Epic Heroes : The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of their attributes, and a small regeneration ability, making them harder to kill. They also get the distraction ability, that excludes Zone of Control around for allies, but not for themselves. Excluded for Promoted Leaders.
 
-- Learning from battlefield (Passive XP) : Extra XP for all player units each turn (except for the ones not recalled). You can choose Passive XP for AI separately.
+- *Updated* Learning from battlefield (Passive XP) : Extra XP for all player units each turn (except for the ones not recalled). You can choose Passive XP for AI and for AI leaders separately.
 
 - Learning from healing (Max XP/turn for Healing) : Each turn, Healers will earn 1 XP for each adjacent wounded or poisoned ally, but you can limit the max/turn.
 
-- *Updated* Berserk tweak - Fury : Replace 'berserk' by a new 'Fury' weapon special, way more interesting. A warcry related to the fury level with also be displayed. You can gain ability 'Bloodthirsty' by killing a certain number of enemies.
+- Berserk tweak - Fury : Replace 'berserk' by a new 'Fury' weapon special, way more interesting. A warcry related to the fury level with also be displayed. You can gain ability 'Bloodthirsty' by killing a certain number of enemies.
 
 - *New* Berserk rounds: Change the combat rounds of standard berserk ability, making it less risky.
 
