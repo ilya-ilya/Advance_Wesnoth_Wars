@@ -16,12 +16,14 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Changed
 - Berserk rounds on options menu changed to 1-30. On help menu still can be changed to 0 or higher numbers.
 - Loyal as AMLA bonus now only for units with level 4 or higher.
+- Passive XP now is received at the end of every turn for the current side instead of at the end of all turns for all sides (part of multiplayer fix).
 
 ### Fixed
 - Fixed bug when in some situations a unit with ambush icon would lose its status.
 - Fix leadership with Increase Level Number doesn't applies correctly on NR S06a and other similar situations.
 - Ro'Sothian now is an Epic hero when is a enemy too (NR S07)
 - Prevent regeneration of Starlag on NR S07 if becomes Epic.
+- Best compatibility with multiplayer for AMLA Bonus and Passive XP.
 
 
 ## [1.17.12.1] - 2023-1-30
