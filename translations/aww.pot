@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-10 02:13 UTC\n"
+"POT-Creation-Date: 2023-02-10 04:13 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,16 +29,16 @@ msgstr ""
 #. [lua]: aww_duel.special_damage_multiplier
 #. [then]
 #: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:305
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:138
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:178
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:139
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:179
 msgid "damage"
 msgstr ""
 
 #. [lua]: aww_duel.special_strikes_multiplier
 #. [then]
 #: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:319
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:219
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:259
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:220
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:260
 msgid "strikes"
 msgstr ""
 
@@ -289,6 +289,11 @@ msgstr ""
 #. [lua]: aww_status.get_feature_info
 #: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:200
 msgid "Feature"
+msgstr ""
+
+#. [lua]: wesnoth.wml_actions.aww_remove_object
+#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:519
+msgid "Give Advancements"
 msgstr ""
 
 #: Advance_Wesnoth_Wars_fork\lua\move_units_between_campaigns.lua:7
@@ -696,8 +701,8 @@ msgstr ""
 
 #. [damage]: id=backstab
 #: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:244
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:795
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1796
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:796
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1802
 msgid "When used offensively, this attack deals 50% more damage if there is an enemy of the target on the opposite side of the target, and that unit is not incapacitated (turned to stone or otherwise paralyzed)."
 msgstr ""
 
@@ -712,165 +717,167 @@ msgid "female^Promoted!"
 msgstr ""
 
 #. [then]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:138
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:219
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:139
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:220
 msgid "melee"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:141
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:142
 msgid "Melee damage"
 msgstr ""
 
 #. [then]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:178
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:259
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:179
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:260
 msgid "ranged"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:181
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:182
 msgid "Ranged damage"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:222
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:223
 msgid "Melee strikes"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:262
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:263
 msgid "Ranged strikes"
 msgstr ""
 
 #. [case]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:292
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:293
 msgid "Moves"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [advancement]: id=aww_amla_movement_points_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:295
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:2045
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:296
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:2052
 msgid "Movement points"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [else]
 #. [advancement]: id=aww_amla_leadership_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:352
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:349
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1307
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:353
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:350
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1312
 msgid "Leadership"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [else]
 #. [advancement]: id=aww_amla_distract_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:401
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:398
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1355
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:402
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:399
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1361
 msgid "Distract"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [else]
 #. [advancement]: id=aww_amla_regen_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:433
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:430
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1399
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:434
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:431
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1405
 msgid "Regenerates"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [else]
 #. [advancement]: id=aww_amla_firststrike_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:511
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:508
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1468
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:512
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:509
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1474
 msgid "Firststrike"
 msgstr ""
 
 #. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:574
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:575
 msgid "Poison"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [advancement]: id=aww_amla_poison_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:577
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1540
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:578
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1546
 msgid "Poisonous bladed or pierced weapons"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [else]
 #. [advancement]: id=aww_amla_adrenaline_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:630
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:627
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1614
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:631
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:628
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1620
 msgid "Adrenaline"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [else]
 #. [advancement]: id=aww_amla_fearless_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:743
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:740
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1727
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:744
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:741
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1733
 msgid "Fearless"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:744
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:745
 msgid "female^Fearless"
 msgstr ""
 
 #. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:811
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:812
 msgid "Backstab"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [advancement]: id=aww_amla_backstab_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:814
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1783
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:815
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1789
 msgid "Melee backstab on blade or pierce weapons"
 msgstr ""
 
 #. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:872
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:873
 msgid "Marksman"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [advancement]: id=aww_amla_marksman_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:875
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1859
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:876
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1865
 msgid "Minimum accuracy of 60% for ranged weapons"
 msgstr ""
 
 #. [then]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:922
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:923
 msgid "Slows"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:925
+#. [advancement]: id=aww_amla_slows_advancement
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:926
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1933
 msgid "Slows on cold type attacks"
 msgstr ""
 
 #. [message]: speaker=unit
 #. [then]
 #. [advancement]: id=aww_amla_camouflage_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:989
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:986
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1982
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:990
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:987
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1989
 msgid "Camouflage"
 msgstr ""
 
 #. [advancement]: id=aww_amla_melee_damage_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1104
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1105
 msgid "Melee damage +3"
 msgstr ""
 
@@ -887,38 +894,40 @@ msgstr ""
 #. [advancement]: id=aww_amla_fearless_advancement
 #. [advancement]: id=aww_amla_backstab_advancement
 #. [advancement]: id=aww_amla_marksman_advancement
+#. [advancement]: id=aww_amla_slows_advancement
 #. [advancement]: id=aww_amla_camouflage_advancement
 #. [advancement]: id=aww_amla_movement_points_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1104
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1152
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1200
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1248
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1307
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1355
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1399
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1468
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1540
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1614
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1727
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1783
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1859
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1982
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:2045
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1105
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1154
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1203
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1252
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1312
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1361
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1405
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1474
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1546
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1620
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1733
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1789
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1865
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1933
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1989
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:2052
 msgid ", Max XP +$aww_09_bonus_exp_percentage%"
 msgstr ""
 
 #. [advancement]: id=aww_amla_ranged_damage_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1152
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1154
 msgid "Ranged damage +2"
 msgstr ""
 
 #. [advancement]: id=aww_amla_melee_strike_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1200
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1203
 msgid "Melee strikes +1"
 msgstr ""
 
 #. [advancement]: id=aww_amla_ranged_strike_advancement
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1248
+#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:1252
 msgid "Ranged strikes +1"
 msgstr ""
 
@@ -1535,7 +1544,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork\mods\18_help_menu.cfg:536
 msgid ""
 "max XP (configurable).\n"
-"	- You can't use more than 3 times the Bonus Melee and Ranged damage, Melee and Ranged strikes, and Movement points, but there's no limit with Random Bonuses."
+"	- You can't use more than 3 times the Bonus Melee and Ranged damage and Movement points, but there's no limit with Random Bonuses."
 msgstr ""
 
 #. [message]: speaker=narrator
