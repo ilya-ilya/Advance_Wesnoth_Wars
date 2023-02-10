@@ -515,5 +515,20 @@ function wesnoth.wml_actions.aww_remove_object(cfg)
 	end
 end
 
+wesnoth.wml_actions.set_menu_item { id="give_advancements" ,
+	description=_"Give Advancements" ,
+	{ "show_if" , {
+		{ "lua", { code=[[return wesnoth.game_config.debug]] } }
+	}},
+	{ "command" , { 
+		{ "fire_event" ,{
+			name="aww_09_bonus_asignation",{
+			"primary_unit",{			
+			x="$x1",
+			y="$y1"
+		}}}}
+	}  }
+}
+
 -- aww_status.run() -- load aww_status.up.lua instead
 -->>
