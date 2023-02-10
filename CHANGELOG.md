@@ -8,8 +8,9 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.12.2] - 2023-1-XX
 
 ### Added
+- Changed/Added option: Random Bonuses are now simply Bonuses. You can choose if you want them random or manual.
 - New option: Experience to IA leaders. Only available on Help Menu.
-- New option: optional AMLA Bonus on wound healing. Only with Non Fatal Wounds extended active.
+- New option: optional Random Bonuses on wound healing. Only with Non Fatal Wounds extended active.
 - New AMLA Bonuses: Slows on cold type attacks, camouflage (all hides abilities together on one) on units that have any hidden ability.
 
 ### Changed
@@ -17,7 +18,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Loyal as AMLA bonus now only for units with level 4 or higher.
 
 ### Fixed
-- (Provisional) Fixed bug when in some situations a unit with ambush icon would lose its status.
+- Fixed bug when in some situations a unit with ambush icon would lose its status.
 - Fix leadership with Increase Level Number doesn't applies correctly on NR S06a and other similar situations.
 - Ro'Sothian now is an Epic hero when is a enemy too (NR S07)
 - Prevent regeneration of Starlag on NR S07 if becomes Epic.
