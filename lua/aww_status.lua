@@ -508,10 +508,15 @@ function wesnoth.wml_actions.aww_remove_trait(cfg)
 	end
 end
 
+
 function wesnoth.wml_actions.aww_remove_object(cfg)
-	local object_id = cfg.object_id
-	for _,unit in ipairs(wesnoth.units.find(cfg)) do
-		wesnoth.units.remove_modifications(unit, {id = object_id})
+	local object_id_list = stringx.split(cfg.object_id)
+	for _,unit in ipairs(wesnoth.units.find(cfg))
+	do
+		for i in ipairs(object_id_list)
+		do
+			wesnoth.units.remove_modifications(unit, {id = object_id_list[i]})
+		end
 	end
 end
 
