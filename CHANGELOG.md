@@ -15,7 +15,6 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Changed
 - Berserk rounds on options menu changed to 1-30. On help menu still can be changed to 0 or higher numbers.
-- Loyal as AMLA bonus now only for units with level 4 or higher.
 - Passive XP now is received at the end of every turn for the current side instead of at the end of all turns for all sides (part of multiplayer fix).
 - [aww_remove_object] changed to list separated by commas, less code and more readable.
 
