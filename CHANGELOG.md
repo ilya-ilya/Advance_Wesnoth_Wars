@@ -11,7 +11,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Changed/Added option: Random Bonuses are now simply Bonuses. You can choose if you want them random or manual and the % of max exp increased. All of them have icons.
 - New option: optional Random Bonuses on wound healing. Only with Non Fatal Wounds extended active.
 - New option: Experience to IA leaders. Only available on Help Menu.
-- New AMLA Bonuses: Slows on cold type attacks, camouflage (all hides abilities together on one) on units that have any hidden ability.
+- New AMLA Bonuses: Slows on cold type attacks, camouflage (all hides abilities together on one) on units that have any hidden ability or ghosts.
 
 ### Changed
 - Berserk rounds on options menu changed to 1-30. On help menu still can be changed to 0 or higher numbers.
