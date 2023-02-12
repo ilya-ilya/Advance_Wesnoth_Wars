@@ -185,3 +185,5 @@ Some of theses features are inspired from existing code, saving me lot of times.
 A big thanks particularly to Eagle 11, Ravana, Bob_The_Mighty, Dugi, for their creation.
 
 And a huge thanks for all developers and Wesnoth WML wiki contributors !
+
+(Toranks): I say the same and add thanks to CelticMinstrel, Octalot and Pentarctagon without whom the code would not have improved as much as it has in recent versions.
