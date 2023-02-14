@@ -15,7 +15,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Changed
 - Berserk rounds on options menu changed to 1-30. On help menu still can be changed to 0 or higher numbers.
-- Passive XP now is received at the end of every turn for the current side instead of at the end of all turns for all sides (part of multiplayer fix).
+- Learning from Battlefield now is received at the end of every turn for the current side instead of at the end of all turns for all sides (part of multiplayer fix).
 - [aww_remove_object] changed to list separated by commas, less code and more readable.
 
 ### Fixed
@@ -249,6 +249,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Better text and translations on some places, included french
 - Fixed misbehavior on Ambush script with "illuminates" units when are ambushed by units hiding on the night. Now this type of units can suffer a Surprise attack.
 - Fixed traits Loyal and Fearless that can be duplicated.
+- Support of float text with experience gained on Healing XP for healers without healing animation.
 
 
 ## [1.17.3.1] - 2022-11-16	
