@@ -12,6 +12,9 @@ for _, unit in ipairs(wesnoth.units.find_on_recall {}) do
         if cost_choice == "free" then
             unit.recall_cost = 0
         end
+        if cost_choice == "percentage" then
+            unit.recall_cost = (unit.cost * wml.variables["aww_recall_percentage"])
+        end
     end
 end
 >>

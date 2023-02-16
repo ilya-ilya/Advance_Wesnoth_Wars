@@ -5,7 +5,15 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.12.2] - 2023-1-XX
+## [1.17.12.3] - 2023-1-XX
+
+### Added
+- New option of Recall cost: Recruit cost percentage. Now you can set the unit recall cost as a percentage of the recruit cost.
+
+### Fixed
+- Fixed error with recall cost of Captured units (non fatal wounds) when Recruit cost is changed on mid of a scenario.
+
+## [1.17.12.2] - 2023-1-15
 
 ### Added
 - Changed/Added option: Random Bonuses are now simply Bonuses. You can choose if you want them random or manual and the % of max exp increased. All of them have icons.
