@@ -534,5 +534,20 @@ wesnoth.wml_actions.set_menu_item { id="give_advancements" ,
 	}  }
 }
 
+-- wesnoth.wml_actions.set_menu_item { id="reset_regeneration" ,
+	-- description=_"Reset Regeneration" ,
+	-- { "show_if" , {
+		-- { "lua", { code=[[return wesnoth.game_config.debug]] } }
+	-- }},
+	-- { "command" , { 
+		-- { "fire_event" ,{
+			-- name="aww_10_regeneration_reset",{
+			-- "primary_unit",{			
+			-- x="$x1",
+			-- y="$y1"
+		-- }}}}
+	-- }  }
+-- }
+
 -- aww_status.run() -- load aww_status.up.lua instead
 -->>
