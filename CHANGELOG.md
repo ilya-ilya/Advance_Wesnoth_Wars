@@ -10,6 +10,9 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Added
 - New option of Recall cost: Recruit cost percentage. Now you can set the unit recall cost as a percentage of the recruit cost.
 
+### Changed
+- Level Up Notification now has 2 variants (Level up, AMLA, and Advance)
+
 ### Fixed
 - Fixed error with recall cost of Captured units (non fatal wounds) when Recruit cost is changed on mid of a scenario.
 - Removed regeneration or distraction of epic heroes if gains the same or better ability on advancements or events.
