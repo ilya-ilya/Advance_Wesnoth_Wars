@@ -7,67 +7,40 @@ email="toranksmervat@gmail.com"
 [feedback]
     topic_id=49454
 [/feedback]
-forum_auth=true
+#forum_auth=true
 description="Last Wesnoth version tested : 1.17.12 (Read CHANGELOG.md or the forum link for this fork changes)
+NOTE: DO NOT INSTALL THIS FORK AND ORIGINAL VERSION TOGETHER, UNINSTALL ONE
 
-Note: DO NOT INSTALL THIS FORK AND ORIGINAL VERSION TOGETHER, UNINSTALL ONE
-
-
-Description:
-
+DESCRIPTION:
 A collection of the most-requested options to make the mechanics more realistic and tactic, for people curious to experiment a new gameplay.
 All theses features works for mainline Campaigns & Scenarios, Single or Multiplayer, for all sides including AI (except for special cases).
 
-
-Features list :
-
+FEATURES LIST :
 - No Random Combats : attacks never miss, terrain bonus is instead used as damage reducer.
-
 - Increased Damage : To compensate the high terrains defenses. Only applies for 'No Random Combats'.
-
 - Squad Mode (HP-related strikes) : Units do proportionally less attack strikes the less HP they have (or less damage for single-strike attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account by AI. In both cases, minimum strikes will be 1, and will not apply for berserk.
-
 - *Updated* Level-Up : Increase Level Number : The unit level will continue growing with the AMLA level-ups. This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit. You can change the maximum level of leadership and inspire abilities with this feature active.
-
 - Level-Up : Floating Notifications : Floating text on the unit currently leveling-up. Can be helpful to know which unit is concerned by an advancement.
-
 - Level-Up : Relative Healing : When an unit advance a level, instead of a full healing and being cured, it keep the missing HP, but statuses are cured. The special case when post-advancement Max-HP is smaller than pre-advanced is also handled.
-
-- *Updated* Level-Up After Max Level Advancement - Manual or Random Bonuses After Max Level Advancement : Units already AMLA (purple XP bar) gain an extra random ability or increased stat each time they level-up again. To identify them, they will have a new bracelet icon. Possible rewards: Melee damage +3, Melee strikes +1, Ranged damage +2, Ranged strikes +1, Movement points +1, First strike, Poison, Leadership, Distract, Regenerates, Adrenaline, Backstab, Marskman, Loyal, Fearless, Slows or Camouflage.
-
+- *Updated* Level-Up After Max Level Advancement - Manual or Random Bonuses : Units already AMLA (purple XP bar) gain an extra random ability or increased stat each time they level-up again. To identify them, they will have a new bracelet icon. Possible rewards: Melee damage +3, Melee strikes +1, Ranged damage +2, Ranged strikes +1, Movement points +1, First strike, Poison, Leadership, Distract, Regenerates, Adrenaline, Backstab, Marskman, Loyal, Fearless, Slows or Camouflage.
 - Level-Up After Max Level Advancement - Promoted Leaders : Standard units reaching their first AMLA level-up will be able to recruit the same units as the original leader, recall, and be prefixed 'Chief' with a bronze crown icon (keeping the Loyal icon in case). You can set the minimum level to be promoted. Excluded for special Heroes.
-
 - Epic Heroes : The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of their attributes, and a small regeneration ability, making them harder to kill. They also get the distraction ability, that excludes Zone of Control around for allies, but not for themselves. Excluded for Promoted Leaders.
-
 - *Updated* Learning from battlefield (Passive XP) : Extra XP for all player units each turn (except for the ones not recalled). You can choose Passive XP for AI and for AI leaders separately.
-
 - Learning from healing (Max XP/turn for Healing) : Each turn, Healers will earn 1 XP for each adjacent wounded or poisoned ally, but you can limit the max/turn.
-
 - *Updated* Berserk tweak - Fury : Replace 'berserk' by a new 'Fury' weapon special, way more interesting. A warcry related to the fury level with also be displayed. You can gain ability 'Bloodthirsty' by killing a certain number of enemies.
-
 - *New* Berserk rounds: Change the combat rounds of standard berserk ability, making it less risky.
-
 - *Updated* Ambushed tweak - Surprise Attacks : An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. A new eye icon indicates if the surprise attack is prepared.
-
 - *Updated* Ninja Wars! (Stealthy units) : Most of units will get melee back-stabs, poison arrows, diversion, skirmisher, be faster and invisible/ambushers in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes / hide&seek.
-
 - *New* Villages line of sight : Villages can have a line of sight for the owner side, with configurable distance.
-
-- *New* Recall cost of low level units : Choose the cost to recall units with chosen level or lower. Cost of higher level units remains unchanged. You can select free cost, 10, recruit cost + 1 or no changes.
-
+- *New* Recall cost of units : Choose the cost to recall units with chosen level or lower. Cost of higher level units remains unchanged. You can select free cost, 10, recruit cost + 1, percentage of recruit cost, or no changes.
 - *New* Back to reserve : Allows you to send normal units back to the recall list with right click on keeps. Also set the cost for performing this action.
-
 - *New* Desertions : One unit desertion will occur per turn when a human player side has less gold than a value you can specify.
-
 - *New* Help menu : Contextual help accesible with right-click anywhere, with detailed explanation of the features, and the status or configured value for each, with options to activate, deactivate, or change values.
-
 - *New* Tools : Utility to activate Fast AI, change poison HP damage, HP recovered by resting, default recall cost, base gold income, village income, village support and experience gained fighting or killing units.
-
 - *New* Import and export units anywhere: Contextual menu accesible with right-click, with capability of import and export units from and to any campaign or scenario.
-
 - Also includes a PvPvE scenario : '4p - Ruvaak Mirage Atoll' optimized to be combined with all features.
 
-Feel free to contribute ! If you experiment a bug, please report it to me on the forum, then try to disable the feature"
+Feel free to contribute! If you experiment a bug, please report it to me on the forum, then try to disable the feature"
 
 [translation]
     language="es"

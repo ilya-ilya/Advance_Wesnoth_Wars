@@ -48,7 +48,7 @@ Features list
 
 - Level-Up : Relative Healing : When an unit advance a level, instead of a full healing and being cured, it keep the missing HP, but statuses are cured. The special case when post-advancement Max-HP is smaller than pre-advanced is also handled.
 
-- *Updated* Level-Up After Max Level Advancement - Manual or Random Bonuses After Max Level Advancement : Units already AMLA (purple XP bar) gain an extra random ability or increased stat each time they level-up again. To identify them, they will have a new bracelet icon. Possible rewards: Melee damage +3, Melee strikes +1, Ranged damage +2, Ranged strikes +1, Movement points +1, First strike, Poison, Leadership, Distract, Regenerates, Adrenaline, Backstab, Marskman, Loyal, Fearless, Slows or Camouflage.
+- *Updated* Level-Up After Max Level Advancement - Manual or Random Bonuses : Units already AMLA (purple XP bar) gain an extra random ability or increased stat each time they level-up again. To identify them, they will have a new bracelet icon. Possible rewards: Melee damage +3, Melee strikes +1, Ranged damage +2, Ranged strikes +1, Movement points +1, First strike, Poison, Leadership, Distract, Regenerates, Adrenaline, Backstab, Marskman, Loyal, Fearless, Slows or Camouflage.
 
 - Level-Up After Max Level Advancement - Promoted Leaders : Standard units reaching their first AMLA level-up will be able to recruit the same units as the original leader, recall, and be prefixed 'Chief' with a bronze crown icon (keeping the Loyal icon in case). You can set the minimum level to be promoted. Excluded for special Heroes.
 
@@ -68,7 +68,7 @@ Features list
 
 - *New* Villages line of sight : Villages can have a line of sight for the owner side, with configurable distance.
 
-- *New* Recall cost of low level units : Choose the cost to recall units with chosen level or lower. Cost of higher level units remains unchanged. You can select free cost, 10, recruit cost + 1 or no changes.
+- *New* Recall cost of units : Choose the cost to recall units with chosen level or lower. Cost of higher level units remains unchanged. You can select free cost, 10, recruit cost + 1, percentage of recruit cost, or no changes.
 
 - *New* Back to reserve : Allows you to send normal units back to the recall list with right click on keeps. Also set the cost for performing this action.
 
