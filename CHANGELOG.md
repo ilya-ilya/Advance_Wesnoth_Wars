@@ -5,7 +5,7 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.12.3] - 2023-1-XX
+## [1.17.13] - 2023-2-20
 
 ### Added
 - New option of Recall cost: Recruit cost percentage. Now you can set the unit recall cost as a percentage of the recruit cost.
@@ -19,8 +19,9 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Removed regeneration or distraction of epic heroes if gains the same or better ability on advancements or events.
 - Removed unrecall menu option when is deactivated on mid of a scenario.
 - Excluded leadership changes to EoMa units with custom leadership abilities.
+- Fixed berserk rounds number change doesn't working with units recruited or spawned on mid of a scenario.
 
-## [1.17.12.2] - 2023-1-15
+## [1.17.12.2] - 2023-2-15
 
 ### Added
 - Changed/Added option: Random Bonuses are now simply Bonuses. You can choose if you want them random or manual and the % of max exp increased. All of them have icons.
