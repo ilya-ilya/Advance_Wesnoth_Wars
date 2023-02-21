@@ -5,6 +5,19 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.13.1] - 2023-2-20
+
+### Added
+-
+
+### Changed
+-
+
+### Fixed
+- Dominant leaders of WoF S03 doesn't receive AMLA icon
+- One more check to ambush icon (preload event). Now only remains 1 use case to solve, when ability_type_active=hide is active, variable preambush=yes is active, but status uncovered=yes. Reported on https://github.com/wesnoth/wesnoth/issues/7400
+
+
 ## [1.17.13] - 2023-2-20
 
 ### Added
@@ -20,7 +33,6 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Removed unrecall menu option when is deactivated on mid of a scenario.
 - Excluded leadership changes to EoMa units with custom leadership abilities.
 - Fixed berserk rounds number change doesn't working with units recruited or spawned on mid of a scenario.
-- One more check to ambush icon (preload event). Now only remains 1 use case to solve, when ability_type_active=hide is active, variable preambush=yes is active, but status uncovered=yes. Reported on https://github.com/wesnoth/wesnoth/issues/7400
 
 ## [1.17.12.2] - 2023-2-15
 
