@@ -8,7 +8,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.13.1] - 2023-2-20
 
 ### Added
--
+- New contextual menu option: Give advancements. Activable only via Help Menu. This is useful to manually give or update advancements for certain situations when the units change from AI to human, or changes his abilities, etc.
 
 ### Changed
 -
