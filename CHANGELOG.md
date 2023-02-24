@@ -5,6 +5,19 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.13.2] - 2023-2-XX
+
+### Added
+- 
+
+### Changed
+- Leader AI orders now only appears when the leader is selected (instead of on every free hexagon), except for "move here".
+- "Choose human side" option now is selected by default on Setup.
+
+### Fixed
+- 
+
+
 ## [1.17.13.1] - 2023-2-24
 
 ### Added
