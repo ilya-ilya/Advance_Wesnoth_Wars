@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-24 14:46 UTC\n"
-"PO-Revision-Date: 2023-02-24 15:50+0100\n"
+"POT-Creation-Date: 2023-02-24 15:20 UTC\n"
+"PO-Revision-Date: 2023-02-24 16:21+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -751,7 +751,7 @@ msgstr "¡Épica!"
 
 #: Advance_Wesnoth_Wars_fork/macros/setters.mac.cfg:267
 msgid "slowed"
-msgstr "ralentizado"
+msgstr "<span color='#00FFFF'>ralentizado</span>"
 
 #: Advance_Wesnoth_Wars_fork/macros/setters.mac.cfg:268
 msgid "cured"
@@ -759,7 +759,7 @@ msgstr "sanado"
 
 #: Advance_Wesnoth_Wars_fork/macros/setters.mac.cfg:269
 msgid "yes"
-msgstr "Sí"
+msgstr "sí"
 
 #: Advance_Wesnoth_Wars_fork/macros/setters.mac.cfg:270
 msgid "no"
@@ -3178,6 +3178,7 @@ msgstr "Seleccionar controlador/es humano/s"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2010
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2091
 msgid ""
 "Choose the side/s of the human controller/s. Can be a comma-separated list. "
 "In campaigns the player usually is side 1."
@@ -3216,8 +3217,9 @@ msgstr "Configurar Controlador IA de Líder"
 msgid ""
 "<b>Instructions</b>:\n"
 "Choose the side you want to activate Leader AI Controller. You can set "
-"differents sides doing the Setup again with another side. In the next step "
-"you will have to choose the human players that will control that Leader.\n"
+"differents sides doing the Setup again with another side. The side must have "
+"a defined leader, or doesn't work. In the next step you will have to choose "
+"the human players that will control that Leader.\n"
 "\n"
 "- <i>Deactivate</i> will remove all Leader AI Controllers for all sides\n"
 "\n"
@@ -3225,8 +3227,9 @@ msgstr ""
 "<b>Instrucciones</b>:\n"
 "Escoge el/los bando/s en los que quieras activar el Controlador IA de Líder. "
 "Puedes configurar diferentes bandos ejecutando de nuevo la Configuración con "
-"otro bando. En el siguiente paso tendrás que escoger los jugadores humanos "
-"que controlarán ese Líder.\n"
+"otro bando. El bando debe tener un líder definido, o no funcionará. En el "
+"siguiente paso tendrás que escoger los jugadores humanos que controlarán ese "
+"Líder.\n"
 "\n"
 "- <i>Desactivar</i> eliminará todos los Controladores IA de Líder\n"
 "\n"
@@ -3235,13 +3238,6 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2081
 msgid "Leader side"
 msgstr "Bando del líder"
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2091
-msgid ""
-"Choose the side of the human controller/s. Can be a comma-separated list. In "
-"campaigns the player usually is side 1."
-msgstr ""
 
 #. [text_input]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2094

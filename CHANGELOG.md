@@ -5,14 +5,11 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.13.1] - 2023-2-20
+## [1.17.13.1] - 2023-2-24
 
 ### Added
 - New Tool: Side AI Controller (adapted deprecated mainline MACRO) and Leader AI Controller (from Beetlenaut https://forums.wesnoth.org/viewtopic.php?t=54533)
 - New contextual menu option: Give advancements. Activable only via Help Menu. This is useful to manually give or update advancements for certain situations when the units change from AI to human, or changes his abilities, etc.
-
-### Changed
--
 
 ### Fixed
 - Dominant leaders of WoF S03 doesn't receive AMLA icon

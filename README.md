@@ -76,7 +76,7 @@ Features list
 
 - *New* Help menu : Contextual help accesible with right-click anywhere, with detailed explanation of the features, and the status or configured value for each, with options to activate, deactivate, or change values.
 
-- *New* Tools : Utility to activate Fast AI, change poison HP damage, HP recovered by resting, default recall cost, base gold income, village income, village support and experience gained fighting or killing units.
+- *New* Tools : Utility to setup an AI controller for sides and leaders, activate Fast AI, change poison HP damage, HP recovered by resting, default recall cost, base gold income, village income, village support and experience gained fighting or killing units.
 
 - *New* Import and export units anywhere: Contextual menu accesible with right-click, with capability of import and export units from and to any campaign or scenario.
 
