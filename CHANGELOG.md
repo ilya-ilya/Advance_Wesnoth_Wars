@@ -13,9 +13,11 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Changed
 - Leader AI orders now only appears when the leader is selected (instead of on every free hexagon), except for "move here".
 - "Choose human side" option now is selected by default on Setup.
+- Moved Non-Fatal Wounds option to a subsection, only active with the addon installed.
 
 ### Fixed
 - Simplified regeneration macro.
+- More confiable behavior between scenarios. AI is always removed on victory/next prestart events because is linked to side numbers and leaders id, and this can change. Setup again the AI every scenario, this is impossible to do automatically and compatible with all possible scenarios.
 
 
 ## [1.17.13.1] - 2023-2-24
