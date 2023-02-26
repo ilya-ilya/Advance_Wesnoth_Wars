@@ -15,7 +15,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - "Choose human side" option now is selected by default on Setup.
 
 ### Fixed
-- 
+- Simplified regeneration macro.
 
 
 ## [1.17.13.1] - 2023-2-24
