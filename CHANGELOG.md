@@ -8,7 +8,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.13.2] - 2023-2-XX
 
 ### Added
-- 
+- New option: Passive XP for low level units. You can set a maximum level to receive a different amount of experience than the other units, for balance.
 
 ### Changed
 - Leader AI orders now only appears when the leader is selected (instead of on every free hexagon), except for "move here".
