@@ -5,6 +5,18 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.13.3] - 2023-3-XX
+
+### Added
+-
+
+### Changed
+- Better icon, using original image of Battle of Agincourt.
+
+### Fixed
+-
+
+
 ## [1.17.13.2] - 2023-3-3
 
 ### Added
