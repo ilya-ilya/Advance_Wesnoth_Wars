@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-03-05 09:35 UTC\n"
-"PO-Revision-Date: 2023-03-05 10:36+0100\n"
+"PO-Revision-Date: 2023-03-05 16:42+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -2715,7 +2715,7 @@ msgid ""
 "Cost to recall units with chosen level or lower. Cost of higher level units "
 "remains unchanged."
 msgstr ""
-"Costo para reincorporar unidades con el nivel elegido o inferior. El costo "
+"Coste para reincorporar unidades con el nivel elegido o inferior. El coste "
 "de las unidades de nivel superior permanece sin cambios."
 
 #. [message]: speaker=narrator
@@ -2904,7 +2904,7 @@ msgstr "Gratis"
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1622
 msgid "Change maximum level to get a recall cost change"
 msgstr ""
-"Cambiar el nivel máximo para obtener un cambio del costo de reincorporar"
+"Cambiar el nivel máximo para obtener un cambio del coste de reincorporar"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1626
