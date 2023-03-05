@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-03-05 09:35 UTC\n"
+"POT-Creation-Date: 2023-03-05 19:56 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1841,18 +1841,34 @@ msgid " Default:"
 msgstr ""
 
 #. [message]: speaker=narrator
-#. [checkbox]: id=aww_14, description=#14. 
-#. [checkbox]: id=aww_15, description=#15. 
-#. [checkbox]: id=aww_10_opt, description=#10. 
-#. [checkbox]: id=aww_12, description=#12. 
-#. [checkbox]: id=aww_enable_help
+#. [checkbox]: id=aww_01, description=#01. 
+#. [choice]: id=aww_02, description=#02. 
+#. [checkbox]: id=aww_16, description=#16. 
+#. [checkbox]: id=aww_19, description=#19. 
+#. [checkbox]: id=aww_06, description=#06. 
+#. [choice]: id=aww_09, description=#09. 
+#. [checkbox]: id=aww_03, description=#03. 
+#. [checkbox]: id=aww_03_epic, description=#03. 
+#. [checkbox]: id=aww_10, description=#10. 
+#. [checkbox]: id=aww_22, description=#22. 
+#. [checkbox]: id=aww_13, description=#13. 
+#. [checkbox]: id=aww_11, description=#11. 
+#. [checkbox]: id=aww_20, description=#20. 
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:739
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:95
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:111
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:186
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:294
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:348
-msgid " On"
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:12
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:37
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:57
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:76
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:103
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:119
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:151
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:170
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:178
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:267
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:324
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:332
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:340
+msgid " Off"
 msgstr ""
 
 #. [option]
@@ -2069,7 +2085,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1212
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1172
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:196
-msgid "Learning from the battlefield (Passive XP for players)"
+msgid "Learning from the Battlefield (Passive XP for players)"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -2095,7 +2111,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1309
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1176
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:207
-msgid "Learning from the battlefield (Passive XP for AI)"
+msgid "Learning from the Battlefield (Passive XP for AI)"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -2116,7 +2132,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1397
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1181
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:219
-msgid "Learning from healing (Max XP/turn for Healing)"
+msgid "Learning from Healing (Max XP/turn for Healing)"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -3115,35 +3131,6 @@ msgstr ""
 msgid "You don't have enough gold."
 msgstr ""
 
-#. [checkbox]: id=aww_01, description=#01. 
-#. [choice]: id=aww_02, description=#02. 
-#. [checkbox]: id=aww_16, description=#16. 
-#. [checkbox]: id=aww_19, description=#19. 
-#. [checkbox]: id=aww_06, description=#06. 
-#. [choice]: id=aww_09, description=#09. 
-#. [checkbox]: id=aww_03, description=#03. 
-#. [checkbox]: id=aww_03_epic, description=#03. 
-#. [checkbox]: id=aww_10, description=#10. 
-#. [checkbox]: id=aww_22, description=#22. 
-#. [checkbox]: id=aww_13, description=#13. 
-#. [checkbox]: id=aww_11, description=#11. 
-#. [checkbox]: id=aww_20, description=#20. 
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:12
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:37
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:57
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:76
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:103
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:119
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:151
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:170
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:178
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:267
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:324
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:332
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:340
-msgid " Off"
-msgstr ""
-
 #. [slider]: id=aww_08, description=#08. 
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:23
 msgid "To increase/reduce terrain/fixed Hit probabilities, converted in damages. Only applies for 'No Random Combats'."
@@ -3158,6 +3145,19 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:39
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:121
 msgid "No"
+msgstr ""
+
+#. [checkbox]: id=aww_14, description=#14. 
+#. [checkbox]: id=aww_15, description=#15. 
+#. [checkbox]: id=aww_10_opt, description=#10. 
+#. [checkbox]: id=aww_12, description=#12. 
+#. [checkbox]: id=aww_enable_help
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:95
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:111
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:186
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:294
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:348
+msgid " On"
 msgstr ""
 
 #. [slider]: id=aww_09_15_level, description=#09. 

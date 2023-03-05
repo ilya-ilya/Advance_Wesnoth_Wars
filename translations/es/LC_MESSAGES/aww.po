@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-03-05 09:35 UTC\n"
-"PO-Revision-Date: 2023-03-05 16:42+0100\n"
+"POT-Creation-Date: 2023-03-05 19:56 UTC\n"
+"PO-Revision-Date: 2023-03-05 21:02+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -87,7 +87,7 @@ msgstr "Ratio PV"
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:11
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:22
 msgid "No Random Combats"
-msgstr "Combates no aleatorios"
+msgstr "Combates No Aleatorios"
 
 #. [lua]: aww_duel.description_no_random_combats
 #: Advance_Wesnoth_Wars_fork/lua/aww_duel.lua:400
@@ -118,7 +118,7 @@ msgstr " - Máx defensa de terreno contra este ataque: "
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2994
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:30
 msgid "Squad Mode"
-msgstr "Modo escuadrón"
+msgstr "Modo Escuadrón"
 
 #. [lua]: aww_duel.description_squad_mode_custom
 #. [lua]: aww_status.get_info
@@ -567,7 +567,7 @@ msgstr "distrae"
 #. [skirmisher]: id=aww_distract
 #: Advance_Wesnoth_Wars_fork/macros/abilities.mac.cfg:170
 msgid "female^distract"
-msgstr "distraer"
+msgstr "distrae"
 
 #. [skirmisher]: id=aww_distract
 #: Advance_Wesnoth_Wars_fork/macros/abilities.mac.cfg:171
@@ -1648,7 +1648,7 @@ msgstr "Establece el mínimo de oro para evitar deserciones."
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:391
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:94
 msgid "Level-Up : Floating Notification"
-msgstr "Niveles : Notificación flotante"
+msgstr "Niveles : Notificación Flotante"
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_14, description=#14.
@@ -2096,19 +2096,35 @@ msgid " Default:"
 msgstr " Por defecto:"
 
 #. [message]: speaker=narrator
-#. [checkbox]: id=aww_14, description=#14.
-#. [checkbox]: id=aww_15, description=#15.
-#. [checkbox]: id=aww_10_opt, description=#10.
-#. [checkbox]: id=aww_12, description=#12.
-#. [checkbox]: id=aww_enable_help
+#. [checkbox]: id=aww_01, description=#01.
+#. [choice]: id=aww_02, description=#02.
+#. [checkbox]: id=aww_16, description=#16.
+#. [checkbox]: id=aww_19, description=#19.
+#. [checkbox]: id=aww_06, description=#06.
+#. [choice]: id=aww_09, description=#09.
+#. [checkbox]: id=aww_03, description=#03.
+#. [checkbox]: id=aww_03_epic, description=#03.
+#. [checkbox]: id=aww_10, description=#10.
+#. [checkbox]: id=aww_22, description=#22.
+#. [checkbox]: id=aww_13, description=#13.
+#. [checkbox]: id=aww_11, description=#11.
+#. [checkbox]: id=aww_20, description=#20.
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:739
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:95
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:111
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:186
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:294
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:348
-msgid " On"
-msgstr " Sí"
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:12
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:37
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:57
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:76
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:103
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:119
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:151
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:170
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:178
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:267
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:324
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:332
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:340
+msgid " Off"
+msgstr " No"
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:777
@@ -2450,8 +2466,8 @@ msgstr "Restaurado"
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1212
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1172
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:196
-msgid "Learning from the battlefield (Passive XP for players)"
-msgstr "Aprendizaje de batalla (Exp. Pasiva para jugadores)"
+msgid "Learning from the Battlefield (Passive XP for players)"
+msgstr "Aprendizaje de Batalla (Exp. pasiva para jugadores)"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1172
@@ -2481,8 +2497,8 @@ msgstr "o menos"
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1309
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1176
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:207
-msgid "Learning from the battlefield (Passive XP for AI)"
-msgstr "Aprendizaje de batalla (Exp. Pasiva para IA)"
+msgid "Learning from the Battlefield (Passive XP for AI)"
+msgstr "Aprendizaje de Batalla (Exp. pasiva para IA)"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1176
@@ -2509,8 +2525,8 @@ msgstr "Extra para líderes"
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1397
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1181
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:219
-msgid "Learning from healing (Max XP/turn for Healing)"
-msgstr "Aprender de la sanación (Máx Exp/turno por sanación)"
+msgid "Learning from Healing (Max XP/turn for Healing)"
+msgstr "Aprender de la Sanación (Máx exp/turno por Sanación)"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1181
@@ -3073,7 +3089,7 @@ msgstr "Establece el estado de Ataques Sorpresa."
 #. [option]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1921
 msgid "Change cooldown turns of Surprise Attacks"
-msgstr "Cambiar los turnos de recarga de Ataque Sorpresa"
+msgstr "Cambiar los turnos de recarga del Ataque Sorpresa"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1925
@@ -3707,7 +3723,7 @@ msgstr "Modificaciones de frenesí"
 #. [option]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3071
 msgid "Ambush tweaks"
-msgstr "Ataques sorpresa"
+msgstr "Ataques Sorpresa"
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3085
@@ -3748,35 +3764,6 @@ msgstr "Reserva"
 msgid "You don't have enough gold."
 msgstr "No tienes oro suficiente."
 
-#. [checkbox]: id=aww_01, description=#01.
-#. [choice]: id=aww_02, description=#02.
-#. [checkbox]: id=aww_16, description=#16.
-#. [checkbox]: id=aww_19, description=#19.
-#. [checkbox]: id=aww_06, description=#06.
-#. [choice]: id=aww_09, description=#09.
-#. [checkbox]: id=aww_03, description=#03.
-#. [checkbox]: id=aww_03_epic, description=#03.
-#. [checkbox]: id=aww_10, description=#10.
-#. [checkbox]: id=aww_22, description=#22.
-#. [checkbox]: id=aww_13, description=#13.
-#. [checkbox]: id=aww_11, description=#11.
-#. [checkbox]: id=aww_20, description=#20.
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:12
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:37
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:57
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:76
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:103
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:119
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:151
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:170
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:178
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:267
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:324
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:332
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:340
-msgid " Off"
-msgstr " No"
-
 #. [slider]: id=aww_08, description=#08.
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:23
 msgid ""
@@ -3795,6 +3782,19 @@ msgstr " (Ataques según PV) :"
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:121
 msgid "No"
 msgstr "No"
+
+#. [checkbox]: id=aww_14, description=#14.
+#. [checkbox]: id=aww_15, description=#15.
+#. [checkbox]: id=aww_10_opt, description=#10.
+#. [checkbox]: id=aww_12, description=#12.
+#. [checkbox]: id=aww_enable_help
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:95
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:111
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:186
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:294
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:348
+msgid " On"
+msgstr " Sí"
 
 #. [slider]: id=aww_09_15_level, description=#09.
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:142
