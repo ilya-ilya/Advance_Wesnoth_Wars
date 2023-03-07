@@ -519,6 +519,5 @@ function wesnoth.wml_actions.aww_remove_object(cfg)
 	end
 end
 
-
 aww_status.run() -- load aww_status.up.lua instead
 >>

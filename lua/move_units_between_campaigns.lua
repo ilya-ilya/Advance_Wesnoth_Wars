@@ -12,7 +12,7 @@ wesnoth.wml_actions.set_menu_item { id="mubc_import" ,
 				y="$y1"
 			}}
 		}},
-		{ "variable" , { name="aww_20_dugi_mubw", equals="yes" }}
+		{ "variable" , { name="aww_21_dugi_mubw", equals="yes" }}
 	}},
 	{ "command" , { 
 		{ "mubc_import_unit" ,{
@@ -29,7 +29,7 @@ wesnoth.wml_actions.set_menu_item { id="mubc_export" ,
 			x="$x1",
 			y="$y1",
 		}},
-		{ "variable" , { name="aww_20_dugi_mubw", equals="yes" }}
+		{ "variable" , { name="aww_21_dugi_mubw", equals="yes" }}
 	}},
 	{ "command" , { 
 		{ "mubc_export_unit" ,{

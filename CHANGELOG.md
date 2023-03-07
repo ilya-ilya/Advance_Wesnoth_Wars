@@ -12,6 +12,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Changed
 - Excluded Deorien of ANO from promotable units.
+- Import/Export unit moved to Tools section and removed from initial Options menu (So, Help Menu is mandatory).
 
 ### Fixed
 
