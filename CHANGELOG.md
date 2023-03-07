@@ -7,8 +7,14 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## [1.17.13.4] - 2023-3-XX
 
+### Added
+- New Tool: Custom Labels. Allows players to create labels with custom color and category anywhere with right click.
+
 ### Changed
 - Excluded Deorien of ANO from promotable units.
+
+### Fixed
+- Import and export unit tool: If you try to delete a unit, but the unit is already part of the campaign, an error message does not appear, it is deleted directly
 
 
 ## [1.17.13.3] - 2023-3-4
