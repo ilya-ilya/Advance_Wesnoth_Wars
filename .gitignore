@@ -3,6 +3,7 @@
 !.editorconfig
 /_info.cfg
 *-bak
+*.bak
 
 *.dev
 # Visual Studio Code :

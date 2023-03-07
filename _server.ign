@@ -8,6 +8,7 @@ dev/
 /_info.cfg
 /_server.pbl
 *-bak
+*.bak
 
 *.dev
 # Visual Studio Code :

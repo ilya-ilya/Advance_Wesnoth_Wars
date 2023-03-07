@@ -24,6 +24,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Help and Tools menu with option icons.
 - Some fixes on Help Menu text.
 
+
 ## [1.17.13.2] - 2023-3-3
 
 ### Added
@@ -39,6 +40,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - More confiable behavior between scenarios. AI is always removed on victory/next prestart events because is linked to side numbers and leaders id, and this can change. Setup again the AI every scenario, this is impossible to do automatically and compatible with all possible scenarios.
 - Fixed false positives of camouflage bonus if is present a ghost from Non-Fatal Wounds.
 - Fixed error when loyal or fearless is applied multiple times with manual AMLA bonus.
+
 
 ## [1.17.13.1] - 2023-2-24
 
@@ -66,6 +68,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Removed unrecall menu option when is deactivated on mid of a scenario.
 - Excluded leadership changes to EoMa units with custom leadership abilities.
 - Fixed berserk rounds number change doesn't working with units recruited or spawned on mid of a scenario.
+
 
 ## [1.17.12.2] - 2023-2-15
 
@@ -105,6 +108,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Restored old support for addon "Heroes: The Iron Bulwark", available on 1.16
 - Verbose option moved from start menu to help menu, and fixed (before, apparently doesn't work).
 
+
 ## [1.17.12] - 2023-1-25
 
 ### Added
@@ -118,6 +122,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Fixed AI units on recall list getting passive XP, and they shouldn't (only on single player)
 - Chief + name string to translate
 - Delete duplication of floating notifications, and more foolproof functioning
+
 
 ## [1.17.11.4] - 2023-1-16
 
@@ -151,6 +156,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Removed Regeneration on Ras-Tabahn on SotA S16
 - Fixed acumulation of ambush icon object, no real effect.
 - Now Tools reflect the changed values inmediately, not on the next scenario.
+
 
 ## [1.17.11.1] - 2023-1-3
 
