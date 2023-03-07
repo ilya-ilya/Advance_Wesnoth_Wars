@@ -229,7 +229,7 @@ function user_pick()
 				if slots[unit_chosen] ~= nil and #wesnoth.units.find_on_map{ id=units[unit_chosen][2].id } > 0 then
 					wesnoth.message_box(_"That unit is already in the game.")
 					else
-						if slots[unit_chosen] ~= nil and #wesnoth.units.find_on_map{ id=units[unit_chosen][2].original_id } > 0 and units.remove_inserted ~= true then
+						if slots[unit_chosen] ~= nil and #wesnoth.units.find_on_map{ id=units[unit_chosen][2].original_id } > 0 then
 							wesnoth.message_box(_"That unit is a part of the campaign.")
 							else
 								if slots[unit_chosen] ~= nil then
