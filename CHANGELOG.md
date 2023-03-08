@@ -5,10 +5,10 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.13.4] - 2023-3-XX
+## [1.17.13.4] - 2023-3-8
 
 ### Added
-- New Tool: Custom Labels. Allows players to create labels with custom color and category anywhere with right click.
+- New Tool: Custom Labels. Allows players to create labels with custom color, tooltip and category anywhere with right click.
 
 ### Changed
 - Excluded Deorien of ANO from promotable units.
