@@ -5,6 +5,14 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.13.5] - 2023-3-XX
+
+### Added
+
+### Fixed
+- Ambush icon displays active or inactive correctly when a unit that already have the icon is placed.
+
+
 ## [1.17.13.4] - 2023-3-8
 
 ### Added
@@ -13,8 +21,6 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Changed
 - Excluded Deorien of ANO from promotable units.
 - Import/Export unit moved to Tools section and removed from initial Options menu (So, Help Menu is mandatory).
-
-### Fixed
 
 
 ## [1.17.13.3] - 2023-3-4
