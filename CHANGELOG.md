@@ -8,6 +8,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.13.5] - 2023-3-XX
 
 ### Added
+- 
 
 ### Fixed
 - Ambush icon displays active or inactive correctly when a unit that already have the icon is placed.
