@@ -17,8 +17,7 @@ A collection of the most-requested options to make the mechanics more realistic 
 All theses features works for mainline Campaigns & Scenarios, Single or Multiplayer, for all sides including AI (except for special cases).
 
 FEATURES LIST :
-- No Random Combats: attacks never miss, terrain bonus is instead used as damage reducer.
-- Increased Damage: To compensate the high terrains defenses. Only applies for 'No Random Combats'.
+- No Random Combats: attacks never miss, terrain bonus is instead used as damage reducer. You will be able to change the base damage by a percentage to balance if necessary.
 - Squad Mode (HP-related strikes): Units do proportionally less attack strikes the less HP they have (or less damage for single-strike attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account by AI. In both cases, minimum strikes will be 1, and will not apply for berserk.
 - Level-Up : Floating Notifications: Floating text on the unit currently leveling-up.
 - Level-Up : Relative Healing: When an unit advance a level, instead of a full healing and being cured, it keep the missing HP, but statuses are cured.
@@ -54,8 +53,7 @@ Una colección de las opciones más solicitadas para hacer que las mecánicas se
 Todas estas características funcionan para campañas y escenarios, para un solo jugador o multijugador, y para todos los bandos, incluida la IA (excepto en casos especiales).
 
 LISTA DE CARACTERÍSTICAS:
-- Combates No Aleatorios: los ataques nunca fallan, la bonificación de terreno se usa como reductor de daño.
-- Daño aumentado: Para compensar las defensas altas de los terrenos. Sólo aplica con 'Combates No Aleatorios'.
+- Combates No Aleatorios: los ataques nunca fallan, la bonificación de terreno se usa como reductor de daño. Podrás ajustar el daño base en un porcentaje para equilibrar si es necesario.
 - Modo escuadrón: Las unidades hacen proporcionalmente menos golpes cada ataque cuantos menos PV tengan (o menos daño en ataques de un solo golpe). Enjambre tiene una peor proporción (-1 golpe si pierdes solo 1 PV) que el modo escuadrón, pero la IA lo tiene en cuenta. En ambos casos, el mínimo de golpes será de 1, y no se aplicará al frenesí.
 - Subir nivel: Notificaciones Flotantes: Texto flotante en las unidades que suben de nivel.
 - Subir nivel: Curación Relativa: Cuando una unidad avanza un nivel, en lugar de una curación y sanación completa, mantiene los PV, pero los estados se curan.

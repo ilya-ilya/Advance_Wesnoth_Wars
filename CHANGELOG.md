@@ -5,6 +5,11 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.13.X] - 2023-3-XX
+
+### Fixed
+- Ratio of Squad feature changed from float to integer with 2 decimals.
+
 ## [1.17.13.5] - 2023-3-15
 
 ### Fixed

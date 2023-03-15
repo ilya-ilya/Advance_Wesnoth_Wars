@@ -36,9 +36,7 @@ The features which keep the campaigns balanced are enabled by default. The other
 Features list
 -----------
 
-- No Random Combats : attacks never miss, terrain bonus is instead used as damage reducer.
-
-- Increased Damage : To compensate the high terrains defenses. Only applies for 'No Random Combats'.
+- No Random Combats: attacks never miss, terrain bonus is instead used as damage reducer. You will be able to change the base damage by a percentage to balance if necessary.
 
 - Squad Mode (HP-related strikes) : Units do proportionally less attack strikes the less HP they have (or less damage for single-strike attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account by AI. In both cases, minimum strikes will be 1, and will not apply for berserk.
 

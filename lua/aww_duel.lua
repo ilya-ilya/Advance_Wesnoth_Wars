@@ -354,7 +354,7 @@ function aww_duel.special_estimation_dummy(base_damage, base_strikes, hit_chance
 		descr =  descr .. "\n - " .. _"Increased Damage" .. " : ".. aww_status.feature_08 .. "%"
 	end
 	if aww_status.feature_02 > 0 then
-		descr =  descr .. "\n - " .. _"HP ratio" .. string.format(" %s", hp_ratio)
+		descr =  descr .. "\n - " .. _"HP ratio" .. string.format(" %.2f", hp_ratio)
 	end
 
 	descr = descr .. "\n" .. aww_duel.description_no_random_combats(base_damage, base_strikes, hit_chance, hp_ratio, ignore_strike_edit) .. aww_duel.description_squad_mode_custom()
