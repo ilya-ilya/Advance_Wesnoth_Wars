@@ -218,7 +218,7 @@ function aww_duel.modify_unit_specials_multipliers(att_unit, def_unit)
 
 		end --if (attribute)a=attack
 	end --foreach a (unit attribute)
-	wesnoth.units.to_map(unit_data)  -- trigger unit placed, take care ! TODO find better way
+	wesnoth.units.to_map(unit_data,false)  -- trigger unit placed, take care ! TODO find better way -- Toranks: FOUND, adding ",false" to avoid trigger unit placed
 end -- local function
 
 
@@ -274,7 +274,7 @@ function aww_duel.remove_tmp_specials(unit)
 	end --foreach a (unit attribute)
 
 	if to_update then
-		wesnoth.units.to_map(unit_data)  -- trigger unit placed, take care ! TODO find better way
+		wesnoth.units.to_map(unit_data,false)  -- trigger unit placed, take care ! TODO find better way -- Toranks: FOUND, adding ",false" to avoid trigger unit placed
 		--aww_duel.debug_message_side(string.format("restored attacks for unit [%s] %s", unit.id, unit.name))
 	else
 		aww_duel.debug_message_side(string.format("NOTHING to restore for unit [%s] %s", unit.id, unit.name))
@@ -687,7 +687,7 @@ function aww_duel.estimate_weapons_special_display(unit)
 	end --foreach a (unit attribute)
 
 	if unit_to_update == true then
-		wesnoth.units.to_map(unit_data)  -- trigger unit placed, take care ! TODO find better way
+		wesnoth.units.to_map(unit_data,false)  -- trigger unit placed, take care ! TODO find better way -- Toranks: FOUND, adding ",false" to avoid trigger unit placed
 		aww_duel.debug_message_side("weapons estimations updated for unit : ".. unit.id)
 	end
 end
