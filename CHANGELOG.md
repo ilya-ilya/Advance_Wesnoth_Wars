@@ -9,9 +9,11 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Added
 - New Tool: Change Side Color. Allows players to change the color of any side.
+- Some warning messages on help menu when LOTI is active, on features not fully compatible with LOTI.
 
 ### Fixed
 - Ratio of Squad feature changed from float to integer with 2 decimals.
+- Make ambush icon compatible with LOTI.
 
 
 ## [1.17.13.5] - 2023-3-15
