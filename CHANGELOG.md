@@ -15,6 +15,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Ratio of Squad feature changed from float to integer with 2 decimals.
 - Make ambush icon compatible with LOTI.
 - Texdomain of Storm Trident fixed, now is translated to all languages.
+- Filtered units with some [heals] ability but with negative value, to not receive experience for healing. (Need to filter more [heals] abilities from other UMC if exists)
 
 
 ## [1.17.13.5] - 2023-3-15
