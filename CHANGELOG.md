@@ -18,6 +18,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Filtered units with some [heals] ability but with negative value, to not receive experience for healing. (Need to filter more [heals] abilities from other UMC if exists)
 - Safer unstoring of units to not interfere with advances (advance=no)
 - Added checking to poisoned status on Learning for Healing, to check the unlikely event where the unit have full HP but is poisoned.
+- Extra checking for epic trait for units that lose their variables but not their trait (LOTI for example)
 
 
 ## [1.17.13.5] - 2023-3-15
