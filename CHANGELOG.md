@@ -5,6 +5,12 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.14.1] - 2023-3-XX
+
+### Added
+- New Tool: Random Color. All units will receive a random tint of color, completely configurable in ranges of red, green, blue and opacity.
+
+
 ## [1.17.14] - 2023-3-28
 
 ### Added

@@ -36,7 +36,7 @@ FEATURES LIST :
 - *New* Back to reserve: Allows you to send normal units back to the recall list with right click on keeps. Also set the cost for performing this action.
 - *New* Desertions: One unit desertion will occur per turn when a human player side has less gold than a value you can specify.
 - *New* Help menu: Contextual help accesible with right-click anywhere, with detailed explanation of the features, and the status or configured value for each, with options to activate, deactivate, or change values.
-- *New* Tools: Utility to setup an AI controller for sides and leaders, activate Fast AI, change any side color, create labels with custom color, category and tooltip, change poison HP damage, HP recovered by resting, default recall cost, base gold income, village income, village support and experience gained fighting or killing units.
+- *New* Tools: Utility to setup an AI controller for sides and leaders, activate Fast AI, change any side color, create labels with custom color, category and tooltip, recolor units randomly to add variety, change poison HP damage, HP recovered by resting, default recall cost, base gold income, village income, village support and experience gained fighting or killing units.
 - *New* Import and export units anywhere: Contextual menu accesible with right-click, with capability of import and export units from and to any campaign or scenario.
 - Also includes a PvPvE scenario: '4p - Ruvaak Mirage Atoll' optimized to be combined with all features.
 
@@ -72,7 +72,7 @@ LISTA DE CARACTERÍSTICAS:
 - *Nuevo* Enviar a reserva: Le permite enviar unidades normales de vuelta a la lista de reincorporación con clic derecho en los torreones. También puedes establecer el coste para realizar esta acción.
 - *Nuevo* Deserciones: Se producirá la deserción de una unidad por turno cuando un jugador humano tenga menos oro del valor que especifiques.
 - *Nuevo* Menú de ayuda: Ayuda contextual accesible con clic derecho en cualquier lugar, con explicación detallada de las características y el estado o valor configurado para cada una, con opciones para activar, desactivar o cambiar valores.
-- *Nuevas* Utilidades: Herramientas para configurar un controlador de IA para bandos y líderes, activar IA rápida, cambiar el color de cualquier bando, crear etiquetas de color, categoría, y texto emergente personalizado, cambiar el daño por veneno, PV recuperados al descansar, coste de reincorporación predeterminado, ingresos de oro base, ingresos por aldea, mantenimiento por aldea y experiencia ganada luchando o matando unidades.
+- *Nuevas* Utilidades: Herramientas para configurar un controlador de IA para bandos y líderes, activar IA rápida, cambiar el color de cualquier bando, crear etiquetas de color, categoría, y texto emergente personalizado, recolorear las unidades aleatoriamente para crear variedad, cambiar el daño por veneno, PV recuperados al descansar, coste de reincorporación predeterminado, ingresos de oro base, ingresos por aldea, mantenimiento por aldea y experiencia ganada luchando o matando unidades.
 - *Nuevo* Importar y exportar unidades desde cualquier lugar: Menú contextual accesible con clic derecho, con capacidad de importar y exportar unidades desde y hacia cualquier campaña o escenario.
 - También incluye un escenario PvPvE: '4p - Ruvaak Mirage Atoll' optimizado para combinarlo con todas las funciones.
 
