@@ -10,6 +10,10 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Added
 - New Tool: Random Color. All units will receive a random tint of color, completely configurable in ranges of red, green, blue and opacity.
 
+### Fixed
+- Make Beelzebub compatible with Epic Heroes before receives any attack.
+- Ambush icon on multiplayer is now less efficient, but can't give OOS.
+
 
 ## [1.17.14] - 2023-3-28
 
