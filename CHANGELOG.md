@@ -5,7 +5,7 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.14.1] - 2023-3-XX
+## [1.17.14.1] - 2023-4-1
 
 ### Added
 - New Tool: Random Color. All units will receive a random tint of color, completely configurable in ranges of red, green, blue and opacity.
@@ -17,6 +17,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Reduced remove-putting of ambush icon object.
 - Fixed hidden units filter, more specific to units the current side can't see.
 - Filtered adjacent enemies to prevent ambushes when a unit separates and returns where there is a unit capable of ambush.
+- Fixed error on Leader AI controller with different side controllers than 1.
 
 
 ## [1.17.14] - 2023-3-28
