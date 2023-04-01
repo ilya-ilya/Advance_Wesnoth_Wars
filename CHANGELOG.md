@@ -15,6 +15,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Make Beelzebub compatible with Epic Heroes before receives any attack.
 - Ambush icon on multiplayer is now less efficient, but can't give OOS.
 - Reduced remove-putting of ambush icon object.
+- Fixed hidden units filter, more specific to units the current side can't see.
 - Filtered adjacent enemies to prevent ambushes when a unit separates and returns where there is a unit capable of ambush.
 
 
