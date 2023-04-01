@@ -36,7 +36,7 @@ FEATURES LIST :
 - *New* Back to reserve: Allows you to send normal units back to the recall list with right click on keeps. Also set the cost for performing this action.
 - *New* Desertions: One unit desertion will occur per turn when a human player side has less gold than a value you can specify.
 - *New* Help menu: Contextual help accesible with right-click anywhere, with detailed explanation of the features, and the status or configured value for each, with options to activate, deactivate, or change values.
-- *New* Tools: Utility to setup an AI controller for sides and leaders, activate Fast AI, change any side color, create labels with custom color, category and tooltip, recolor units randomly to add variety, change poison HP damage, HP recovered by resting, default recall cost, base gold income, village income, village support and experience gained fighting or killing units.
+- *New* Tools: Utility to setup an AI controller for sides and leaders, change controller of any side to human or AI, activate Fast AI, change any side color, create labels with custom color, category and tooltip, recolor units randomly to add variety, change poison HP damage, HP recovered by resting, default recall cost, base gold income, village income, village support and experience gained fighting or killing units.
 - *New* Import and export units anywhere: Contextual menu accesible with right-click, with capability of import and export units from and to any campaign or scenario.
 - Also includes a PvPvE scenario: '4p - Ruvaak Mirage Atoll' optimized to be combined with all features.
 
