@@ -5,6 +5,13 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+
+## [1.17.14.2] - 2023-4-XX
+
+### Fixed
+- Better warning about Side Controller and how to regain control of sides if all sides belong to AI.
+
+
 ## [1.17.14.1] - 2023-4-1
 
 ### Added

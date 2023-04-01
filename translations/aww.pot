@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-04-01 18:47 UTC\n"
+"POT-Creation-Date: 2023-04-01 20:19 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3139,7 +3139,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3070
 msgid ""
 "<b>Instructions</b>:\n"
-"Choose the side which you want to switch control to, and choose if you want change to AI or human. It has an effect similar to <b>:droid $aww_droid_side full</b> and <b>:droid $aww_droid_side off</b>, respectively. Keep in mind that if the only surviving sides of a campaign scenario has been given to the AI, the game will not advance to the next scenario of the campaign. If you prefer to avoid this problem, you can write directly in console <b>:droid $aww_droid_side on</b> instead of full."
+"Choose the side which you want to switch control to, and choose if you want change to AI or human. It has an effect similar to <b>:droid $aww_droid_side full</b> and <b>:droid $aww_droid_side off</b>, respectively. Keep in mind that if the only surviving sides of a campaign scenario has been given to the AI, the game will not advance to the next scenario of the campaign and you won't be able to do anything except write to the chat or console. If you prefer to avoid this problem, you can write directly in console <b>:droid $aww_droid_side on</b> instead of full to continue as observer, or write <b>:droid $aww_droid_side off</b> to regain control of the side if you can't use the contextual menu."
 msgstr ""
 
 #. [text_input]
