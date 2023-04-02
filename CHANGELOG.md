@@ -6,10 +6,11 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 
 
-## [1.17.14.2] - 2023-4-XX
+## [1.17.14.2] - 2023-4-2
 
 ### Fixed
 - Better warning about Side Controller and how to regain control of sides if all sides belong to AI.
+- Fixed Ambush Tweak on LOTI, that on some situations still need to re-equip items or attack at least once to rebuild the item effects. Better and cleaner code to that.
 
 
 ## [1.17.14.1] - 2023-4-1
