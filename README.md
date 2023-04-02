@@ -40,7 +40,7 @@ Features list
 
 - Squad Mode (HP-related strikes) : Units do proportionally less attack strikes the less HP they have (or less damage for single-strike attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP), than native, but taken in account by AI. In both cases, minimum strikes will be 1, and will not apply for berserk.
 
-- *Updated* Level-Up : Increase Level Number : The unit level will continue growing with the AMLA level-ups. This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit. You can change the maximum level of leadership and inspire abilities with this feature active.
+- Level-Up : Increase Level Number : The unit level will continue growing with the AMLA level-ups. This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit. You can change the maximum level of leadership and inspire abilities with this feature active.
 
 - Level-Up : Floating Notifications : Floating text on the unit currently leveling-up. Can be helpful to know which unit is concerned by an advancement.
 
@@ -62,7 +62,7 @@ Features list
 
 - *Updated* Ambushed tweak - Surprise Attacks : An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. A new eye icon indicates if the surprise attack is prepared.
 
-- *Updated* Ninja Wars! (Stealthy units) : Most of units will get melee back-stabs, poison arrows, diversion, skirmisher, be faster and invisible/ambushers in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes / hide&seek.
+- Ninja Wars! (Stealthy units) : Most of units will get melee back-stabs, poison arrows, diversion, skirmisher, be faster and invisible/ambushers in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes / hide&seek.
 
 - *New* Villages line of sight : Villages can have a line of sight for the owner side, with configurable distance.
 
