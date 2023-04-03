@@ -5,6 +5,16 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.14.3] - 2023-4-XX
+
+### Added
+- New Feature: Reload items on Legends of the Invincibles. (Only available on this campaign)
+
+
+
+
+### Fixed
+
 
 ## [1.17.14.2] - 2023-4-2
 
