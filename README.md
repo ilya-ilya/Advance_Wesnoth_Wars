@@ -78,6 +78,8 @@ Features list
 
 - *New* Import and export units anywhere: Contextual menu accesible with right-click, with capability of import and export units from and to any campaign or scenario.
 
+- Guaranteed compatibility with: All mainline campaigns, To Lands Unknown, A New Order, Legends of the Invincibles, Non-Fatal Wounds Extended, and most of the existing campaigns, eras and modifications.
+
 - Also includes a PvPvE scenario : '4p - Ruvaak Mirage Atoll' optimized to be combined with all features.
 
 Feel free to contribute !
