@@ -9,11 +9,10 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Added
 - New Feature: Reload items on Legends of the Invincibles. (Only available on this campaign)
-
-
-
+- New Tool option: Change controller to AI for only one turn.
 
 ### Fixed
+- 
 
 
 ## [1.17.14.2] - 2023-4-2
