@@ -5,6 +5,15 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
+## [1.17.14.4] - 2023-4-XX
+
+### Added
+-
+
+### Fixed
+- Fixed wrong display of strikes on estimations when a [attacks] special is applied to opponent and not to himself. This doesn't affect to real attacks, only to estimations display.
+
+
 ## [1.17.14.3] - 2023-4-3
 
 ### Added

@@ -548,26 +548,28 @@ end
 -- to manage specials number-based likes [chance_to_hit] (marskman, magical), [damage] (backstab, charge), [attacks] etc :
 function aww_duel.get_special_modifier_value(base_value, special_data, offense_test, defense_test)
 	local new_value = base_value
-	if special_data.active_on ~= "offense" or offense_test then
-		if special_data.active_on ~= "defense" or defense_test then
-			if special_data.value then
-				if special_data.cumulative ~= true or 0 < special_data.value then
-					new_value = special_data.value
+	if special_data.apply_to ~= "opponent" then
+		if special_data.active_on ~= "offense" or offense_test then
+			if special_data.active_on ~= "defense" or defense_test then
+				if special_data.value then
+					if special_data.cumulative ~= true or 0 < special_data.value then
+						new_value = special_data.value
+					end
 				end
-			end
-			if special_data.add then
-				new_value = new_value + special_data.add
-			end
-			if special_data.sub then
-				new_value = new_value - special_data.sub
-			end
-			if special_data.multiply then
-				new_value = new_value * special_data.multiply
-			end
-			if special_data.divide then
-				new_value = new_value - special_data.divide
-			end
+				if special_data.add then
+					new_value = new_value + special_data.add
+				end
+				if special_data.sub then
+					new_value = new_value - special_data.sub
+				end
+				if special_data.multiply then
+					new_value = new_value * special_data.multiply
+				end
+				if special_data.divide then
+					new_value = new_value - special_data.divide
+				end
 
+			end
 		end
 	end
 	return new_value
