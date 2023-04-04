@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-04-04 04:51 UTC\n"
+"POT-Creation-Date: 2023-04-04 20:42 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,7 +76,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:88
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:33
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:36
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3857
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3858
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:11
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:22
 msgid "No Random Combats"
@@ -107,7 +107,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/lua/aww_status.lua:131
 #: Advance_Wesnoth_Wars_fork/macros/abilities.mac.cfg:153
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:138
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3864
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3865
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:30
 msgid "Squad Mode"
 msgstr ""
@@ -194,7 +194,7 @@ msgstr ""
 #. [checkbox]: id=aww_15, description=#15. 
 #: Advance_Wesnoth_Wars_fork/lua/aww_status.lua:143
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:471
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3892
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3893
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:110
 msgid "Increase Level Number"
 msgstr ""
@@ -225,7 +225,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1075
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1022
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1025
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3913
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3914
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:177
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:185
 msgid "Epic Heroes"
@@ -280,7 +280,7 @@ msgstr ""
 #. [checkbox]: id=aww_11, description=#11. 
 #: Advance_Wesnoth_Wars_fork/lua/aww_status.lua:177
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2004
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3948
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3949
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:331
 msgid "NINJA WARS!"
 msgstr ""
@@ -1018,7 +1018,7 @@ msgid "rounds of attacks have occurred."
 msgstr ""
 
 #. [message]: speaker=$ambusher.id
-#: Advance_Wesnoth_Wars_fork/mods/13_tweak_ambush.cfg:563
+#: Advance_Wesnoth_Wars_fork/mods/13_tweak_ambush.cfg:567
 msgid "Surprise!"
 msgstr ""
 
@@ -1045,7 +1045,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:20
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2220
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2359
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3979
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3980
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:154
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:183
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:213
@@ -1415,7 +1415,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:251
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:266
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:229
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3871
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3872
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:56
 msgid "Villages line of sight"
 msgstr ""
@@ -1477,7 +1477,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:334
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:349
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:312
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3878
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3879
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:75
 msgid "Desertions"
 msgstr ""
@@ -2722,7 +2722,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2122
-msgid "Let you or any human player control Leader AI, giving different orders with right click. With 'move here' the leader will go to any hexagon, with 'not to move' or order them to stay stationary no matter the situation. The 'engage combat' option will order the leader to engage when its gold drops below <span color='#00FFFF'>$aww_ai_leader_gold</span>, and will increase his aggressiveness. You can reverse the order with 'take refuge in a keep', and the leader will try to reach the nearest keep. The leaders will blindly follow your orders no matter the danger they are exposed to, be careful. Only applies to allied leaders, so if an ally becomes your enemy you will no longer be able to control it, and viceversa."
+msgid "Let you or any human player control Leader AI, giving different orders with right click. With 'move here' the leader will go to any hexagon, with 'not to move' or order them to stay stationary no matter the situation. The 'engage combat' option will order the leader to engage when its gold drops to <span color='#00FFFF'>$aww_ai_leader_gold</span> or below, and will increase his aggressiveness. You can reverse the order with 'take refuge in a keep', and the leader will try to reach the nearest keep. The leaders will blindly follow your orders no matter the danger they are exposed to, be careful. Only applies to allied leaders, so if an ally becomes your enemy you will no longer be able to control it, and viceversa."
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -3198,7 +3198,7 @@ msgstr ""
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3164
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3962
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3963
 msgid "Setup AI Controllers"
 msgstr ""
 
@@ -3436,89 +3436,89 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3807
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3971
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3808
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3972
 msgid "Legend of the Invincibles : Reload items"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3807
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3808
 msgid "You can reload the items in all the units instead of unequipping and reequipping one by one, in case the effects are lost due to some feature of this or any other addon. This only applies to units in play, not in the recall list."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3809
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3810
 msgid "Reload items"
 msgstr ""
 
 #. [print]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3818
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3819
 msgid "Legend of the Invincibles"
 msgstr ""
 
 #. [print]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3818
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3819
 msgid "Items reloaded"
 msgstr ""
 
 #. [set_menu_item]: id=aww_help
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3837
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3838
 msgid "AWW Menu"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3852
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3853
 msgid "Choose the feature you want help with:"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3885
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3886
 msgid "Level-Up"
 msgstr ""
 
 #. [option]
 #. [checkbox]: id=aww_15, description=#15. 
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3892
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3893
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:110
 msgid "AMLA : "
 msgstr ""
 
 #. [option]
 #. [choice]: id=aww_09, description=#09. 
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3899
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3900
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:118
 msgid "AMLA : Bonuses"
 msgstr ""
 
 #. [option]
 #. [checkbox]: id=aww_03, description=#03. 
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3906
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3907
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:149
 msgid "AMLA : Promoted Leaders"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3920
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3921
 msgid "Learning"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3927
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3928
 msgid "Recall list"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3934
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3935
 msgid "Berserk tweaks"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3941
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3942
 msgid "Ambush tweaks"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3955
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3956
 msgid "Tools"
 msgstr ""
 
