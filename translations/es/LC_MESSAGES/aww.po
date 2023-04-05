@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-04-04 20:42 UTC\n"
-"PO-Revision-Date: 2023-04-04 22:43+0200\n"
+"POT-Creation-Date: 2023-04-06 00:46 UTC\n"
+"PO-Revision-Date: 2023-04-06 02:55+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -739,8 +739,8 @@ msgstr "Ordena a $|stored_leader.name refugiarse en torreón"
 #: Advance_Wesnoth_Wars_fork/macros/setters.mac.cfg:242
 #: Advance_Wesnoth_Wars_fork/mods/03_promoted_leader.cfg:212
 #: Advance_Wesnoth_Wars_fork/mods/10_gifted_leader_hero.cfg:30
-#: Advance_Wesnoth_Wars_fork/mods/10_gifted_leader_hero.cfg:390
-#: Advance_Wesnoth_Wars_fork/mods/10_gifted_leader_hero.cfg:466
+#: Advance_Wesnoth_Wars_fork/mods/10_gifted_leader_hero.cfg:494
+#: Advance_Wesnoth_Wars_fork/mods/10_gifted_leader_hero.cfg:570
 msgid "Epic!"
 msgstr "¡Épico!"
 
@@ -748,8 +748,8 @@ msgstr "¡Épico!"
 #: Advance_Wesnoth_Wars_fork/macros/setters.mac.cfg:243
 #: Advance_Wesnoth_Wars_fork/mods/03_promoted_leader.cfg:213
 #: Advance_Wesnoth_Wars_fork/mods/10_gifted_leader_hero.cfg:31
-#: Advance_Wesnoth_Wars_fork/mods/10_gifted_leader_hero.cfg:391
-#: Advance_Wesnoth_Wars_fork/mods/10_gifted_leader_hero.cfg:467
+#: Advance_Wesnoth_Wars_fork/mods/10_gifted_leader_hero.cfg:495
+#: Advance_Wesnoth_Wars_fork/mods/10_gifted_leader_hero.cfg:571
 msgid "female^Epic!"
 msgstr "¡Épica!"
 
@@ -1048,6 +1048,28 @@ msgstr "Disparos a distancia +1"
 #: Advance_Wesnoth_Wars_fork/mods/09_levelup_amla_bonus.cfg:2504
 msgid "Give manual advancements"
 msgstr "Dar Bonus Manuales"
+
+#. [message]: speaker=narrator
+#: Advance_Wesnoth_Wars_fork/mods/10_gifted_leader_hero.cfg:122
+msgid ""
+"<b><i>Advanced Wesnoth Wars:</i></b> This scenario has a massive amount of "
+"potential Epic Heroes, most of them from the enemy. Do you want everyone to "
+"get the Epic trait, or only the best, selected by rank and level?."
+msgstr ""
+"<b><i>Advanced Wesnoth Wars:</i></b> Este escenario tiene una enorme "
+"cantidad de potenciales Héroes Épicos, la mayoría del enemigo. ¿Quieres que "
+"todos obtengan el rasgo Épico, o sólo los mejores, seleccionados por rango y "
+"nivel?"
+
+#. [option]
+#: Advance_Wesnoth_Wars_fork/mods/10_gifted_leader_hero.cfg:125
+msgid "Give Epic to all potential Heroes"
+msgstr "Concede Épico a todos los potenciales Héroes"
+
+#. [option]
+#: Advance_Wesnoth_Wars_fork/mods/10_gifted_leader_hero.cfg:130
+msgid "Give Epic only to the best Heroes"
+msgstr "Concede Épico sólo a los mejores Héroes"
 
 #. [case]
 #: Advance_Wesnoth_Wars_fork/mods/12_tweak_berserk.cfg:80

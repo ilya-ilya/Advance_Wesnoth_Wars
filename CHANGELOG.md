@@ -9,6 +9,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Added
 - Option to move Setup AI Controller to the Main menu or Tools menu, for comfort.
+- New Event: LOTI P1C2S8, choose to give Epic trait to all Heroes or only a selection of the best.
 
 ### Fixed
 - Fixed wrong display of strikes on estimations when a [attacks] special is applied to opponent and not to himself. This doesn't affect to real attacks, only to estimations display.
