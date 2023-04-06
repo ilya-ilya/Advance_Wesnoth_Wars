@@ -24,6 +24,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Fixed
 - French translation rebuilt and ordered, 28%
+- Minor fixes with texts and variables.
 
 
 ## [1.17.14.2] - 2023-4-2
