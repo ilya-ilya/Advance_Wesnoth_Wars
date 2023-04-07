@@ -14,6 +14,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Fixed
 - Fixed wrong display of strikes on estimations when a [attacks] special is applied to opponent and not to himself. This doesn't affect to real attacks, only to estimations display.
 - Fixed wrong portrait of leader on Side AI Controller on certain situations.
+- More reliable detection of leader on Leader AI Controller.
 
 
 ## [1.17.14.3] - 2023-4-3
