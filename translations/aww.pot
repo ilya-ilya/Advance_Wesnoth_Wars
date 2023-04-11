@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-04-09 20:01 UTC\n"
+"POT-Creation-Date: 2023-04-11 02:58 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -636,42 +636,42 @@ msgid "Ask $unit_name to move here"
 msgstr ""
 
 #. [floating_text]
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:94
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:97
 msgid "$unit_name arrived"
 msgstr ""
 
 #. [floating_text]
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:140
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:143
 msgid "$unit_name finished her movement"
 msgstr ""
 
 #. [floating_text]
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:146
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:149
 msgid "$unit_name finished his movement"
 msgstr ""
 
 #. [floating_text]
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:178
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:181
 msgid "$unit_name is moving here"
 msgstr ""
 
 #. [floating_text]
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:187
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:190
 msgid "$unit_name will move here"
 msgstr ""
 
 #. [set_menu_item]: id=ai_controller_unit_freeze_$unit.underlying_id
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:203
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:206
 msgid "Ask $unit_name not to move"
 msgstr ""
 
 #. [set_menu_item]: id=ai_controller_unit_unfreeze_$unit.underlying_id
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:230
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:233
 msgid "Allow $unit_name to move"
 msgstr ""
 
 #. [set_menu_item]: id=ai_controller_unit_orders_$unit.underlying_id
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:255
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:258
 msgid "Remove $unit_name orders"
 msgstr ""
 
@@ -2775,9 +2775,8 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2120
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2125
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2132
-msgid "Human current controller/s"
+msgid "Human controller/s"
 msgstr ""
 
 #. [print]
@@ -2801,6 +2800,11 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3443
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3421
 msgid "Last side was applied to"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2125
+msgid "Last human controller/s"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -2975,7 +2979,7 @@ msgid ""
 "A 'Give orders' menu with right click on any allied AI unit of the chosen side/s will be created, where you can give him the ability to receive orders. Once the orders are activated, with 'move here' on any hex the unit will try go to that hex, or to an adjacent hex if it is already occupied by another unit. If all the adjacent hexes of the destination are fully occupied, he will still hold the objective. If you change the move order for the same unit, the previous order will be replaced. With 'not to move' the unit will stay stationary no matter the situation and it's permanent until you 'Allow' him to move again. You can remove the contextual menu orders for this unit and cancel all current orders with 'Remove'.\n"
 "The units will blindly follow your orders no matter the danger they are exposed to, be careful. Only applies to allied units, so if an ally becomes your enemy you will no longer be able to control it, and viceversa. This can be used with gold crown units (leaders) that are not already controlled with the AI Leader Controller, but movement orders will not be reliable with this controller. There is no limit to the number of units you can control at the same time, but that will fill up your contextual options menu.\n"
 "\n"
-"In the next step you will have to choose the human players that will control that Unit AI side/s.\n"
+"Each time you run this setup, the controlled and controller sides that will receive the menu for assigning orders will change, but the previous sides will not lose their assigned orders and will still be able to interact with controlled units until they manually remove their orders. In the next step you will have to choose the human players that will control that Unit AI side/s.\n"
 "\n"
 "- <i>Change method of indications</i> allows you to choose if you want a floating text every time the unit moves, or a fixed label on the destinations of the units that receive orders.\n"
 "- <i>Deactivate</i> will remove the capability to control more units, but you need to remove Unit AI Controller for existent controlled units individually."

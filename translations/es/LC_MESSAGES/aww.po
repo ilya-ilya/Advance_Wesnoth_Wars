@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-04-09 19:50 UTC\n"
-"PO-Revision-Date: 2023-04-09 22:01+0200\n"
+"POT-Creation-Date: 2023-04-11 02:58 UTC\n"
+"PO-Revision-Date: 2023-04-11 05:03+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -711,42 +711,42 @@ msgid "Ask $unit_name to move here"
 msgstr "Ordena a $unit_name moverse aquí"
 
 #. [floating_text]
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:94
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:97
 msgid "$unit_name arrived"
 msgstr "$unit_name llegó"
 
 #. [floating_text]
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:140
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:143
 msgid "$unit_name finished her movement"
 msgstr "$unit_name finalizó su movimiento"
 
 #. [floating_text]
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:146
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:149
 msgid "$unit_name finished his movement"
 msgstr "$unit_name finalizó su movimiento"
 
 #. [floating_text]
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:178
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:181
 msgid "$unit_name is moving here"
 msgstr "$unit_name moviéndose aquí"
 
 #. [floating_text]
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:187
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:190
 msgid "$unit_name will move here"
 msgstr "$unit_name se moverá aquí"
 
 #. [set_menu_item]: id=ai_controller_unit_freeze_$unit.underlying_id
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:203
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:206
 msgid "Ask $unit_name not to move"
 msgstr "Ordena a $unit_name no moverse"
 
 #. [set_menu_item]: id=ai_controller_unit_unfreeze_$unit.underlying_id
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:230
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:233
 msgid "Allow $unit_name to move"
 msgstr "Permite a $unit_name moverse"
 
 #. [set_menu_item]: id=ai_controller_unit_orders_$unit.underlying_id
-#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:255
+#: Advance_Wesnoth_Wars_fork/macros/ai_controller.cfg:258
 msgid "Remove $unit_name orders"
 msgstr "Elimina las órdenes de $unit_name"
 
@@ -3321,10 +3321,9 @@ msgstr "Bando/s controlado/s"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2120
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2125
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2132
-msgid "Human current controller/s"
-msgstr "Controlador/es humano/s actuales"
+msgid "Human controller/s"
+msgstr "Controlador/es humano/s"
 
 #. [print]
 #. [message]: speaker=narrator
@@ -3352,6 +3351,11 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3421
 msgid "Last side was applied to"
 msgstr "Último bando al que se aplicó"
+
+#. [message]: speaker=narrator
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2125
+msgid "Last human controller/s"
+msgstr "Último controlador/es humano/s"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2126
@@ -3622,8 +3626,12 @@ msgid ""
 "controller. There is no limit to the number of units you can control at the "
 "same time, but that will fill up your contextual options menu.\n"
 "\n"
-"In the next step you will have to choose the human players that will control "
-"that Unit AI side/s.\n"
+"Each time you run this setup, the controlled and controller sides that will "
+"receive the menu for assigning orders will change, but the previous sides "
+"will not lose their assigned orders and will still be able to interact with "
+"controlled units until they manually remove their orders. In the next step "
+"you will have to choose the human players that will control that Unit AI "
+"side/s.\n"
 "\n"
 "- <i>Change method of indications</i> allows you to choose if you want a "
 "floating text every time the unit moves, or a fixed label on the "
@@ -3652,6 +3660,10 @@ msgstr ""
 "No hay límite para la cantidad de unidades que se puede controlar al mismo "
 "tiempo, pero esto llenará tu menú de opciones contextuales.\n"
 "\n"
+"Cada vez que ejecutes esta configuración se cambiarán los bandos controlados "
+"y controladores que tendrán el menú para asignar órdenes, pero los "
+"anteriores bandos no perderán sus órdenes ya asignadas, y aún podrán "
+"interactuar con sus unidades controladas hasta que las eliminen manualmente. "
 "En el siguiente paso tendrás que elegir a los jugadores humanos que "
 "controlarán la IA de Unidad de ese o esos bandos.\n"
 "\n"
