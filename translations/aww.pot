@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-04-11 02:58 UTC\n"
+"POT-Creation-Date: 2023-04-11 23:21 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1454,7 +1454,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:146
-msgid " (0 = No, 1 = Squad, 2 = Swarm)"
+msgid "(0 = No, 1 = Squad, 2 = Swarm)"
 msgstr ""
 
 #. [option]
@@ -2845,6 +2845,11 @@ msgid "Method of indications"
 msgstr ""
 
 #. [message]: speaker=narrator
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2133
+msgid "(<span color='#00FFFF'>float</span> = Float text, <span color='#00FFFF'>label</span> = Labels, <span color='#00FFFF'>no</span> = None)"
+msgstr ""
+
+#. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2135
 msgid "Side Controller"
 msgstr ""
@@ -2976,12 +2981,12 @@ msgid ""
 "<b>Instructions:</b>\n"
 "Choose the side/s of the AI Units you want to control. Can be a comma-separated list.\n"
 "\n"
-"A 'Give orders' menu with right click on any allied AI unit of the chosen side/s will be created, where you can give him the ability to receive orders. Once the orders are activated, with 'move here' on any hex the unit will try go to that hex, or to an adjacent hex if it is already occupied by another unit. If all the adjacent hexes of the destination are fully occupied, he will still hold the objective. If you change the move order for the same unit, the previous order will be replaced. With 'not to move' the unit will stay stationary no matter the situation and it's permanent until you 'Allow' him to move again. You can remove the contextual menu orders for this unit and cancel all current orders with 'Remove'.\n"
-"The units will blindly follow your orders no matter the danger they are exposed to, be careful. Only applies to allied units, so if an ally becomes your enemy you will no longer be able to control it, and viceversa. This can be used with gold crown units (leaders) that are not already controlled with the AI Leader Controller, but movement orders will not be reliable with this controller. There is no limit to the number of units you can control at the same time, but that will fill up your contextual options menu.\n"
+"A 'Give orders' menu with right click on any allied AI unit of the chosen side/s will be created, where you can give him the ability to receive orders. Once the orders are activated, with 'move here' on any hex the unit will try go to that hex, or to an adjacent hex if it is already occupied by another unit. If all the adjacent hexes of the destination are fully occupied, he will still hold the objective. Only the last order received will be taken into account. With 'not to move' the unit will stay stationary until you 'Allow' him to move again. You can remove the contextual menu orders for any unit and cancel all current orders with 'Remove'.\n"
+"This have the same rules as Leader AI Controller, but using Unit AI on leaders is less reliable. There is no limit to the number of units you can control at the same time, but that will fill up your contextual options menu.\n"
 "\n"
 "Each time you run this setup, the controlled and controller sides that will receive the menu for assigning orders will change, but the previous sides will not lose their assigned orders and will still be able to interact with controlled units until they manually remove their orders. In the next step you will have to choose the human players that will control that Unit AI side/s.\n"
 "\n"
-"- <i>Change method of indications</i> allows you to choose if you want a floating text every time the unit moves, or a fixed label on the destinations of the units that receive orders.\n"
+"- <i>Change method of indications</i> allows you to choose if you want a floating text or a fixed label to indicate destinations.\n"
 "- <i>Deactivate</i> will remove the capability to control more units, but you need to remove Unit AI Controller for existent controlled units individually."
 msgstr ""
 
