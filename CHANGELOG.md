@@ -9,6 +9,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Changed
 - Disable "move" menu on frozen leaders, forcing to clear the frozen state manually (same as Unit AI Controller). This also can reduce the number of menu options.
+- Regeneration and distraction for Epic Heroes defaults to no.
 
 ### Fixed
 - Delete new menu items (engage-disengage) on Leader AI Controller between scenarios.
