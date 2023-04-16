@@ -5,11 +5,15 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features ; Y is increment for fixes/optimisations.
 
 
-## [1.17.14.5] - 2023-4-XX
+## [1.17.14.5] - 2023-4-16
+
+### Added
+- New Tool: Experience modifier, similar to experience_modifier key of [scenario], but can be changed at any moment.
 
 ### Changed
 - Disable "move" menu on frozen leaders, forcing to clear the frozen state manually (same as Unit AI Controller). This also can reduce the number of menu options.
 - Regeneration and distraction for Epic Heroes defaults to no.
+- Changed [effect] apply_to=level to native support on 1.17.15 and higher.
 
 ### Fixed
 - Delete new menu items (engage-disengage) on Leader AI Controller between scenarios.
