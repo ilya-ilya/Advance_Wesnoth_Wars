@@ -25,7 +25,7 @@ But I will really appreciate to know my code is used on your project, and that y
 Description
 -----------
 
-Last Wesnoth version tested : 1.17.14
+Last Wesnoth version tested : 1.17.16
 
 A collection of the most-requested options to make the mechanics more realistic and tactic, for people curious to experiment a new gameplay.
 All theses features works for mainline Campaigns & Scenarios, Single or Multiplayer, for all sides including AI (except for special cases).
@@ -74,7 +74,7 @@ Features list
 
 - *New* Help menu : Contextual help accesible with right-click anywhere, with detailed explanation of the features, and the status or configured value for each, with options to activate, deactivate, or change values.
 
-- *New* Tools : Utility to setup an AI controller for sides, leaders, and individual units, change controller of any side to human or AI, activate Fast AI, change any side color, create labels with custom color, category and tooltip, recolor units randomly to add variety, change poison HP damage, HP recovered by resting, default recall cost, base gold income, village income, village support and experience gained fighting or killing units.
+- *New* Tools : Utility to setup an AI controller for sides, leaders, and individual units, change controller of any side to human or AI, activate Fast AI, change any side color, create labels with custom color, category and tooltip, recolor units randomly to add variety, change poison HP damage, HP recovered by resting, default recall cost, base gold income, village income, village support, experience multiplier and experience gained fighting or killing units.
 
 - *New* Import and export units anywhere: Contextual menu accesible with right-click, with capability of import and export units from and to any campaign or scenario.
 

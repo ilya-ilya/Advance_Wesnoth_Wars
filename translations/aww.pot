@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-04-12 20:58 UTC\n"
+"POT-Creation-Date: 2023-04-26 05:17 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -281,7 +281,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/lua/aww_status.lua:177
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2004
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4245
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:331
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:320
 msgid "NINJA WARS!"
 msgstr ""
 
@@ -1773,7 +1773,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:600
-msgid "(0 = Stop, 1 = Random, 2 = Manual)"
+msgid "(<span color='#00FFFF'>0</span> = Stop, <span color='#00FFFF'>1</span> = Random, <span color='#00FFFF'>2</span> = Manual)"
 msgstr ""
 
 #. [print]
@@ -1933,10 +1933,10 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:267
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:278
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:294
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:316
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:324
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:332
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:348
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:305
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:313
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:321
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:337
 msgid " Default:"
 msgstr ""
 
@@ -1946,11 +1946,14 @@ msgstr ""
 #. [checkbox]: id=aww_16, description=#16. 
 #. [checkbox]: id=aww_19, description=#19. 
 #. [checkbox]: id=aww_06, description=#06. 
+#. [checkbox]: id=aww_15, description=#15. 
 #. [choice]: id=aww_09, description=#09. 
 #. [checkbox]: id=aww_03, description=#03. 
 #. [checkbox]: id=aww_03_epic, description=#03. 
 #. [checkbox]: id=aww_10, description=#10. 
+#. [checkbox]: id=aww_10_opt, description=#10. 
 #. [checkbox]: id=aww_22, description=#22. 
+#. [checkbox]: id=aww_12, description=#12. 
 #. [checkbox]: id=aww_13, description=#13. 
 #. [checkbox]: id=aww_11, description=#11. 
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:752
@@ -1959,13 +1962,16 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:57
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:76
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:103
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:111
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:119
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:151
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:170
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:178
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:186
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:267
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:324
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:332
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:294
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:313
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:321
 msgid " Off"
 msgstr ""
 
@@ -2603,14 +2609,14 @@ msgstr ""
 #. [slider]: id=aww_12_rounds, description=#12. 
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1884
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1785
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:315
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:304
 msgid "Berserk rounds"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_12_rounds, description=#12. 
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1785
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:316
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:305
 msgid "Combat rounds of berserk ability. Only applies with Berserk tweak disabled to standard berserk ability."
 msgstr ""
 
@@ -2654,7 +2660,7 @@ msgstr ""
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_13, description=#13. 
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1902
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:323
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:312
 msgid "Ambush tweak : Surprise Attacks"
 msgstr ""
 
@@ -3880,15 +3886,9 @@ msgid "No"
 msgstr ""
 
 #. [checkbox]: id=aww_14, description=#14. 
-#. [checkbox]: id=aww_15, description=#15. 
-#. [checkbox]: id=aww_10_opt, description=#10. 
-#. [checkbox]: id=aww_12, description=#12. 
 #. [checkbox]: id=aww_enable_help
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:95
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:111
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:186
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:294
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:348
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:337
 msgid " On"
 msgstr ""
 
@@ -3947,22 +3947,22 @@ msgid ""
 msgstr ""
 
 #. [checkbox]: id=aww_13, description=#13. 
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:324
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:313
 msgid "An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. This surprise attack have a 2 extra turn cooldown, but can ambush as normally. Normal attacks adds a 1 turn cooldown to surprise attack. Surprise attack availability will be indicated by a blue eye icon."
 msgstr ""
 
 #. [checkbox]: id=aww_11, description=#11. 
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:332
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:321
 msgid "Most of units will have back-stabs on melee pierce and blade weapons, poison on piercing ranged weapons, diversion on units that already have back-stabs or poison, skirmisher on units that do not have skirmisher or distraction, will be invisible in villages, forests, deep water, or everywhere at night, and will move faster for each level. For funny PvP with fog-of-war focused on ambushes/hide&seek."
 msgstr ""
 
 #. [checkbox]: id=aww_enable_help
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:347
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:336
 msgid "Help menu"
 msgstr ""
 
 #. [checkbox]: id=aww_enable_help
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:348
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:337
 msgid "Add a contextual menu on right click with help and configurations for all features, new sub-options for them, and a complete tools menu with many new features."
 msgstr ""
 

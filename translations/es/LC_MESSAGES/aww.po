@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-04-12 20:58 UTC\n"
-"PO-Revision-Date: 2023-04-12 22:59+0200\n"
+"POT-Creation-Date: 2023-04-26 05:17 UTC\n"
+"PO-Revision-Date: 2023-04-26 07:30+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -289,7 +289,7 @@ msgstr "Emboscadas modificadas"
 #: Advance_Wesnoth_Wars_fork/lua/aww_status.lua:177
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2004
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4245
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:331
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:320
 msgid "NINJA WARS!"
 msgstr "¡Guerras Ninja!"
 
@@ -1995,8 +1995,12 @@ msgstr "Método"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:600
-msgid "(0 = Stop, 1 = Random, 2 = Manual)"
-msgstr "(0 = Detenido, 1 = Aleatorio, 2 = Manual)"
+msgid ""
+"(<span color='#00FFFF'>0</span> = Stop, <span color='#00FFFF'>1</span> = "
+"Random, <span color='#00FFFF'>2</span> = Manual)"
+msgstr ""
+"(<span color='#00FFFF'>0</span> = Detenido, <span color='#00FFFF'>1</span> = "
+"Aleatorio, <span color='#00FFFF'>2</span> = Manual)"
 
 #. [print]
 #. [message]: speaker=narrator
@@ -2201,10 +2205,10 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:267
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:278
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:294
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:316
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:324
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:332
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:348
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:305
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:313
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:321
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:337
 msgid " Default:"
 msgstr " Por defecto:"
 
@@ -2214,11 +2218,14 @@ msgstr " Por defecto:"
 #. [checkbox]: id=aww_16, description=#16.
 #. [checkbox]: id=aww_19, description=#19.
 #. [checkbox]: id=aww_06, description=#06.
+#. [checkbox]: id=aww_15, description=#15.
 #. [choice]: id=aww_09, description=#09.
 #. [checkbox]: id=aww_03, description=#03.
 #. [checkbox]: id=aww_03_epic, description=#03.
 #. [checkbox]: id=aww_10, description=#10.
+#. [checkbox]: id=aww_10_opt, description=#10.
 #. [checkbox]: id=aww_22, description=#22.
+#. [checkbox]: id=aww_12, description=#12.
 #. [checkbox]: id=aww_13, description=#13.
 #. [checkbox]: id=aww_11, description=#11.
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:752
@@ -2227,13 +2234,16 @@ msgstr " Por defecto:"
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:57
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:76
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:103
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:111
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:119
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:151
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:170
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:178
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:186
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:267
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:324
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:332
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:294
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:313
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:321
 msgid " Off"
 msgstr " No"
 
@@ -3102,14 +3112,14 @@ msgstr "Muertes por mapa necesarias para obtener Sed de Sangre con Furia."
 #. [slider]: id=aww_12_rounds, description=#12.
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1884
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1785
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:315
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:304
 msgid "Berserk rounds"
 msgstr "Rondas de frenesí"
 
 #. [message]: speaker=narrator
 #. [slider]: id=aww_12_rounds, description=#12.
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1785
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:316
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:305
 msgid ""
 "Combat rounds of berserk ability. Only applies with Berserk tweak disabled "
 "to standard berserk ability."
@@ -3159,7 +3169,7 @@ msgstr "Establece el número de rondas de la habilidad frenesí."
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_13, description=#13.
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1902
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:323
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:312
 msgid "Ambush tweak : Surprise Attacks"
 msgstr "Emboscadas modificadas : Ataques Sorpresa"
 
@@ -4342,8 +4352,8 @@ msgstr ""
 "positivo o negativo (en %), aumentando o disminuyendo la experiencia "
 "necesaria para subir de nivel. Esto se puede cambiar en cualquier momento y "
 "todas las unidades se reajustarán, incluso las unidades en la lista de "
-"reincorporación. El efecto será acumulable con la clave "
-"<b>modificador_de_experiencia</b> del escenario o campaña, o cualquier otra "
+"reincorporación. El efecto será acumulable con el valor de "
+"<b>experience_modifier</b> del escenario o campaña, o cualquier otra "
 "configuración."
 
 #. [message]: speaker=narrator
@@ -4744,15 +4754,9 @@ msgid "No"
 msgstr "No"
 
 #. [checkbox]: id=aww_14, description=#14.
-#. [checkbox]: id=aww_15, description=#15.
-#. [checkbox]: id=aww_10_opt, description=#10.
-#. [checkbox]: id=aww_12, description=#12.
 #. [checkbox]: id=aww_enable_help
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:95
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:111
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:186
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:294
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:348
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:337
 msgid " On"
 msgstr " Sí"
 
@@ -4859,7 +4863,7 @@ msgstr ""
 "ataque."
 
 #. [checkbox]: id=aww_13, description=#13.
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:324
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:313
 msgid ""
 "An ambush will trigger a quick combat in which the ambushed unit can't "
 "counter-attack. This surprise attack have a 2 extra turn cooldown, but can "
@@ -4873,7 +4877,7 @@ msgstr ""
 "se indicará por un icono de ojo azul."
 
 #. [checkbox]: id=aww_11, description=#11.
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:332
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:321
 msgid ""
 "Most of units will have back-stabs on melee pierce and blade weapons, poison "
 "on piercing ranged weapons, diversion on units that already have back-stabs "
@@ -4891,12 +4895,12 @@ msgstr ""
 "escondite."
 
 #. [checkbox]: id=aww_enable_help
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:347
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:336
 msgid "Help menu"
 msgstr "Menú de ayuda"
 
 #. [checkbox]: id=aww_enable_help
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:348
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:337
 msgid ""
 "Add a contextual menu on right click with help and configurations for all "
 "features, new sub-options for them, and a complete tools menu with many new "
@@ -5068,6 +5072,9 @@ msgstr "$this_unit.name furioso"
 #: Advance_Wesnoth_Wars_fork/scenarios/4p_Ruvaak_Mirage_Atoll.cfg:955
 msgid "Best friend!"
 msgstr "¡Buen amigo!"
+
+#~ msgid "(0 = Stop, 1 = Random, 2 = Manual)"
+#~ msgstr "(0 = Detenido, 1 = Aleatorio, 2 = Manual)"
 
 #~ msgid "Change controller of side"
 #~ msgstr "Cambiar el controlador del bando"
