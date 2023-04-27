@@ -8,7 +8,12 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.16] - 2023-4-XX
 
 ### Changed
-- Now "Send to reserve" can be activated on any moment instead of the next scenario.
+- New and better scaled icons on contextual menu
+- Unit Controller can have the same side on controller and controlled, as the other AI Controllers, just for special cases.
+
+### Fixed
+- Now "Send to reserve" can be activated (and deactivated) on any moment instead of the next scenario.
+- Unit controller menu properly cleaned between scenarios.
 
 
 ## [1.17.15] - 2023-4-26

@@ -5,6 +5,7 @@ local _ = wesnoth.textdomain 'aww'
 
 wesnoth.wml_actions.set_menu_item { id="mubc_import" ,
 	description=_"Import a unit" ,
+	image="misc/aww-import-menu.png" ,
 	{ "show_if" , {
 		{ "not" , {
 			{ "have_unit", {
@@ -24,6 +25,7 @@ wesnoth.wml_actions.set_menu_item { id="mubc_import" ,
 
 wesnoth.wml_actions.set_menu_item { id="mubc_export" ,
 	description=_"Export the unit" ,
+	image="misc/aww-export-menu.png" ,
 	{ "show_if" , {
 		{ "have_unit", {
 			x="$x1",
