@@ -14,6 +14,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Fixed
 - Now "Send to reserve" can be activated (and deactivated) on any moment instead of the next scenario.
 - Unit controller menu properly cleaned between scenarios.
+- Fixed icon collision with Non Fatal Wounds (harmless)
+- Fixed #undef warnings of AI Controller.
 
 
 ## [1.17.15] - 2023-4-26
