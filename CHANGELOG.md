@@ -10,6 +10,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Changed
 - New and better scaled icons on contextual menu
 - Unit Controller can have the same side on controller and controlled, as the other AI Controllers, just for special cases.
+- Double max XP increase on loyal Manual Bonus, and melee and ranged strike +1 on units with 1 strike on the base attack.
+- Reduced loyal probability with Random Bonuses
 
 ### Fixed
 - Now "Send to reserve" can be activated (and deactivated) on any moment instead of the next scenario.
