@@ -16,6 +16,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Unit controller menu properly cleaned between scenarios.
 - Fixed icon collision with Non Fatal Wounds (harmless)
 - Fixed #undef warnings of AI Controller.
+- Fixed status of Leader AI (keep or engage) between scenarios
 
 
 ## [1.17.15] - 2023-4-26
