@@ -7,6 +7,9 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## [1.17.16] - 2023-4-XX
 
+# Added
+- Arrow icon for all options without icon, now is more readable
+
 ### Changed
 - New and better scaled icons on contextual menu
 - Unit Controller can have the same side on controller and controlled, as the other AI Controllers, just for special cases.
