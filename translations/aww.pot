@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-05-05 21:17 UTC\n"
+"POT-Creation-Date: 2023-05-06 15:50 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1859,7 +1859,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:761
-msgid "Set percentage of max XP increase. Every time you select a Bonus, the maximum experience to level up again will increase by that percentage, similar to the default AMLA."
+msgid "Set percentage of max XP increase. Every time you select a Bonus, the maximum experience to level up again will increase by that percentage (with a multiplier on some powerful Bonuses), similar to the default AMLA."
 msgstr ""
 
 #. [print]
