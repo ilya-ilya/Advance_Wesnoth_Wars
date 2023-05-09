@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-05-06 15:50 UTC\n"
+"POT-Creation-Date: 2023-05-09 02:36 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1671,7 +1671,7 @@ msgstr ""
 #. [checkbox]: id=aww_15, description=#15. 
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:504
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:111
-msgid "This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit."
+msgid "This will affect level-based features, such as leadership, upkeep cost and the experience that enemies will get for fighting or killing a unit."
 msgstr ""
 
 #. [print]
@@ -2671,17 +2671,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2021
-msgid "An ambush will trigger a combat in which the ambushed unit can't counter-attack. This surprise attack have a "
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2021
-msgid " extra turn/s cooldown, but can ambush as normally. Normal attacks adds "
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2021
-msgid " turn/s cooldown to surprise attack. Surprise attack availability will be indicated by a blue eye icon."
+msgid "An ambush will trigger a combat in which the ambushed unit can't counter-attack. This surprise attack has a <span color='#00FFFF'>$aww_ambush_cooldown</span>-turn cooldown, but units with their surprise attack on cooldown can still ambush normally. Normal attacks add a <span color='#00FFFF'>$aww_ambush_cooldown_attack</span>-turn cooldown to the surprise attack. Surprise attack availability will be indicated by a blue eye icon."
 msgstr ""
 
 #. [option]
@@ -3948,7 +3938,7 @@ msgstr ""
 
 #. [checkbox]: id=aww_13, description=#13. 
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:313
-msgid "An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. This surprise attack have a 2 extra turn cooldown, but can ambush as normally. Normal attacks adds a 1 turn cooldown to surprise attack. Surprise attack availability will be indicated by a blue eye icon."
+msgid "An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. This surprise attack has a 2-turn cooldown, but units with their surprise attack on cooldown can still ambush normally. Normal attacks add a 1-turn cooldown to the surprise attack. Surprise attack availability will be indicated by a blue eye icon."
 msgstr ""
 
 #. [checkbox]: id=aww_11, description=#11. 

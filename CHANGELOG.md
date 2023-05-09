@@ -11,7 +11,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.16.1] - 2023-5-XX
 
 ### Fixed
-- Two typos on help menu.
+- Various corrections on help menu text.
 
 ### Changed
 - Increased max experience per turn for human and AI to 999
