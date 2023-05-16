@@ -4,11 +4,14 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features; Y is increment for fixes/optimisations.
 
-# TO-DO
+## TO-DO
 - Split the addon on different resources, to load only the features that interest the player.
 
 
 ## [1.17.16.1] - 2023-5-XX
+
+### Added
+- New option for Custom Labels tool: Change visibility. You can specify which sides will be able to see the label.
 
 ### Fixed
 - Various corrections on help menu text.
@@ -19,7 +22,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## [1.17.16] - 2023-5-5
 
-# Added
+### Added
 - Arrow icon for all options without icon, now is more readable
 
 ### Changed

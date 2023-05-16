@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-05-09 02:36 UTC\n"
-"PO-Revision-Date: 2023-05-09 04:40+0200\n"
+"POT-Creation-Date: 2023-05-16 02:42 UTC\n"
+"PO-Revision-Date: 2023-05-16 04:49+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -1220,10 +1220,11 @@ msgstr "Volver al menú de ayuda"
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2542
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2738
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4453
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:154
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:183
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:155
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:184
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:213
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:223
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:243
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:253
 msgid "Exit"
 msgstr "Salir"
 
@@ -2138,27 +2139,26 @@ msgstr "Heridas No Fatales : Bonus en curación"
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:795
 msgid ""
-"Combined with Non-Fatal Wounds Extended, you can choose whether when a unit "
-"receives a recovery AMLA instead of its default AMLA, they also receives a "
-"random bonus or not. Does not apply with selectable advancement, you simply "
-"choose one or the other. All other features will work the same, including "
-"leveling up (if appropiate)."
+"Combined with Random Bonuses, you can choose whether when a unit receives a "
+"recovery AMLA of Non-Fatal Wounds instead of its default AMLA, they also "
+"receives a Random Bonus or not. Does not apply with Manual Bonuses, you "
+"simply choose one or the other. All other features will work the same, "
+"including leveling up (if appropiate)."
 msgstr ""
-"Combinado con Heridas No Fatales Extendida, puedes elegir si cuando una "
-"unidad recibe un AMLA de curación en lugar de su AMLA predeterminado, "
-"también recibe un bonus aleatorio o no. No aplica con avances "
-"seleccionables, simplemente eliges uno u otro. Todas las demás "
-"características funcionarán igual, incluida la subida de nivel (si "
-"corresponde)."
+"Combinado con Bonus Aleatorios, puedes elegir si cuando una unidad recibe un "
+"AMLA de curación de Heridas No Fatales en lugar de su AMLA predeterminado, "
+"también recibe un bonus aleatorio o no. No aplica con Bonus Manuales, "
+"simplemente eliges uno u otro. Todas las demás características funcionarán "
+"igual, incluida la subida de nivel (si corresponde)."
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:799
 msgid ""
-"Set status of Bonus on healing. Choose if you want to receive a Bonus when "
-"you choose an AMLA of recovery of some wound."
+"Set status of Bonus on healing. Choose if you want to receive a Random Bonus "
+"when you choose an AMLA of recovery of some wound."
 msgstr ""
-"Establece el estado de Bonus en curación. Elige si quieres recibir un bonus "
-"cuando eliges un AMLA de recuperación de alguna herida."
+"Establece el estado de Bonus en curación. Elige si quieres recibir un Bonus "
+"Aleatorio cuando eliges un AMLA de recuperación de alguna herida."
 
 #. [message]: speaker=narrator
 #. [checkbox]: id=aww_01, description=#01.
@@ -3118,8 +3118,14 @@ msgstr "Muertes para Sed de Sangre (Furia)"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1894
-msgid "Killings per map needed to gain Bloodthirsty with Fury ability."
-msgstr "Muertes por mapa necesarias para obtener Sed de Sangre con Furia."
+msgid ""
+"Killings per map needed to gain Bloodthirsty with Fury ability. This weapon "
+"special drains half the damage dealt to living units and will apply to melee "
+"weapons only."
+msgstr ""
+"Muertes por mapa necesarias para recibir Sed de sangre con la habilidad "
+"Furia. Este especial de arma drena la mitad del daño hecho a unidades vivas, "
+"y se aplica sólo en armas melé."
 
 #. [print]
 #. [message]: speaker=narrator
@@ -3503,7 +3509,7 @@ msgid ""
 "Choose the side/s of the human controller/s. Can be a comma-separated list. "
 "In campaigns the player usually is side 1."
 msgstr ""
-"Escoge el/los bando/s del/los humano/s controlador/es. Puede ser una lista "
+"Escoge el/los bandos del/los humanos controladores. Puede ser una lista "
 "separada por comas. En campañas el jugador normalmente es el bando 1."
 
 #. [text_input]
@@ -3914,7 +3920,7 @@ msgstr "Elige bando"
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2896
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:48
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:49
 msgid "Change color"
 msgstr "Cambiar color"
 
@@ -4121,9 +4127,10 @@ msgstr "Rango:"
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3491
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3478
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3503
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:62
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:176
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:63
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:177
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:206
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:236
 msgid "Continue setting"
 msgstr "Continuar configurando"
 
@@ -4617,24 +4624,27 @@ msgstr "Etiqueta personalizada"
 msgid ""
 "Create a removable custom label with the category '<b>$aww_label_category</"
 "b>' and an optional tooltip text on this position, visible for all players "
-"even on fog, but not on shroud. Leave text blank to delete the existing "
-"label. You can delete all labels via right click option."
+"or for the sides you specify, even on fog, but not on shroud. Leave text "
+"blank to delete the existing label. You can delete all labels via right "
+"click option."
 msgstr ""
 "Crea una etiqueta personalizada removible con la categoría "
 "'<b>$aww_label_category</b>' y una leyenda informativa opcional en esta "
-"posición, visible para todos los jugadores incluso en la niebla, pero no en "
-"la oscuridad. Deja el texto en blanco para borrar la etiqueta existente. "
-"Puedes borrar todas las etiquetas con la opción en botón derecho."
+"posición, visible para todos los jugadores o los bandos que especifiques, "
+"incluso en la niebla, pero no en la oscuridad. Deja el texto en blanco para "
+"borrar la etiqueta existente. Puedes borrar todas las etiquetas con la "
+"opción en botón derecho."
 
 #. [text_input]
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:26
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:170
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:199
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:171
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:200
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:229
 msgid "Text"
 msgstr "Texto"
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:52
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:53
 msgid ""
 "Choose the label color. Write it on RGB notation and select 'Continue "
 "setting', or choose any preset color."
@@ -4643,66 +4653,66 @@ msgstr ""
 "\"Continuar configurando\", o elige un color predeterminado."
 
 #. [text_input]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:55
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:56
 msgid "Notation:"
 msgstr "Notación:"
 
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:70
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:71
 msgid "Incorrect notation"
 msgstr "Notación incorrecta"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:81
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:82
 msgid "Red"
 msgstr "Rojo"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:89
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:90
 msgid "Yellow"
 msgstr "Amarillo"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:97
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:98
 msgid "Green"
 msgstr "Verde"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:105
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:106
 msgid "Blue"
 msgstr "Azul"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:113
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:114
 msgid "Cyan"
 msgstr "Celeste"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:121
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:122
 msgid "Purple"
 msgstr "Morado"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:129
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:130
 msgid "Magenta"
 msgstr "Magenta"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:137
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:138
 msgid "Black"
 msgstr "Negro"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:145
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:146
 msgid "White"
 msgstr "Blanco"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:163
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:164
 msgid "Change category"
 msgstr "Cambiar categoría"
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:167
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:168
 msgid ""
 "Choose the label category and select 'Continue setting'. This category can "
 "be filtered like all the others in the Actions menu."
@@ -4711,12 +4721,28 @@ msgstr ""
 "Esta categoría podrá ser filtrada como las demás en el menú de Acciones."
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:192
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:193
+msgid "Change visibility"
+msgstr "Cambiar visibilidad"
+
+#. [message]: speaker=narrator
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:197
+msgid ""
+"Choose the sides that will be able to see the label. Can be a comma-"
+"separated list. Leave it blank if you want all sides to be able to see this "
+"label."
+msgstr ""
+"Elige el/los bandos que podrán ver la etiqueta. Puede ser una lista separada "
+"por comas. Déjalo en blanco si quieres que todos los bandos vean esta "
+"etiqueta."
+
+#. [option]
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:222
 msgid "Change tooltip"
 msgstr "Cambiar leyenda"
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:196
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:226
 msgid ""
 "Choose the tooltip that will be displayed when you hover over the label and "
 "select 'Continue setting'. Leave it blank if you don't want anything to be "
@@ -5075,6 +5101,9 @@ msgstr "$this_unit.name furioso"
 #: Advance_Wesnoth_Wars_fork/scenarios/4p_Ruvaak_Mirage_Atoll.cfg:955
 msgid "Best friend!"
 msgstr "¡Buen amigo!"
+
+#~ msgid "Killings per map needed to gain Bloodthirsty with Fury ability."
+#~ msgstr "Muertes por mapa necesarias para obtener Sed de Sangre con Furia."
 
 #~ msgid ""
 #~ "An ambush will trigger a combat in which the ambushed unit can't counter-"
