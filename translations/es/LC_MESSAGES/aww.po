@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-05-16 02:42 UTC\n"
-"PO-Revision-Date: 2023-05-16 04:49+0200\n"
+"POT-Creation-Date: 2023-05-17 03:07 UTC\n"
+"PO-Revision-Date: 2023-05-17 05:09+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.1\n"
 
 #. [modification]: id=advance_wesnoth_wars, type=hybrid
 #: Advance_Wesnoth_Wars_fork/_main.cfg:26
@@ -1220,11 +1220,10 @@ msgstr "Volver al menú de ayuda"
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2542
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2738
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4453
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:155
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:184
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:154
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:183
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:213
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:243
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:253
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:223
 msgid "Exit"
 msgstr "Salir"
 
@@ -3920,7 +3919,7 @@ msgstr "Elige bando"
 
 #. [option]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2896
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:49
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:48
 msgid "Change color"
 msgstr "Cambiar color"
 
@@ -4127,10 +4126,9 @@ msgstr "Rango:"
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3491
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3478
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3503
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:63
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:177
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:62
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:176
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:206
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:236
 msgid "Continue setting"
 msgstr "Continuar configurando"
 
@@ -4624,27 +4622,24 @@ msgstr "Etiqueta personalizada"
 msgid ""
 "Create a removable custom label with the category '<b>$aww_label_category</"
 "b>' and an optional tooltip text on this position, visible for all players "
-"or for the sides you specify, even on fog, but not on shroud. Leave text "
-"blank to delete the existing label. You can delete all labels via right "
-"click option."
+"even on fog, but not on shroud. Leave text blank to delete the existing "
+"label. You can delete all labels via right click option."
 msgstr ""
 "Crea una etiqueta personalizada removible con la categoría "
 "'<b>$aww_label_category</b>' y una leyenda informativa opcional en esta "
-"posición, visible para todos los jugadores o los bandos que especifiques, "
-"incluso en la niebla, pero no en la oscuridad. Deja el texto en blanco para "
-"borrar la etiqueta existente. Puedes borrar todas las etiquetas con la "
-"opción en botón derecho."
+"posición, visible para todos los jugadores incluso en la niebla, pero no en "
+"la oscuridad. Deja el texto en blanco para borrar la etiqueta existente. "
+"Puedes borrar todas las etiquetas con la opción en botón derecho."
 
 #. [text_input]
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:26
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:171
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:200
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:229
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:170
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:199
 msgid "Text"
 msgstr "Texto"
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:53
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:52
 msgid ""
 "Choose the label color. Write it on RGB notation and select 'Continue "
 "setting', or choose any preset color."
@@ -4653,66 +4648,66 @@ msgstr ""
 "\"Continuar configurando\", o elige un color predeterminado."
 
 #. [text_input]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:56
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:55
 msgid "Notation:"
 msgstr "Notación:"
 
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:71
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:70
 msgid "Incorrect notation"
 msgstr "Notación incorrecta"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:82
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:81
 msgid "Red"
 msgstr "Rojo"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:90
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:89
 msgid "Yellow"
 msgstr "Amarillo"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:98
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:97
 msgid "Green"
 msgstr "Verde"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:106
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:105
 msgid "Blue"
 msgstr "Azul"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:114
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:113
 msgid "Cyan"
 msgstr "Celeste"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:122
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:121
 msgid "Purple"
 msgstr "Morado"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:130
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:129
 msgid "Magenta"
 msgstr "Magenta"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:138
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:137
 msgid "Black"
 msgstr "Negro"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:146
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:145
 msgid "White"
 msgstr "Blanco"
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:164
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:163
 msgid "Change category"
 msgstr "Cambiar categoría"
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:168
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:167
 msgid ""
 "Choose the label category and select 'Continue setting'. This category can "
 "be filtered like all the others in the Actions menu."
@@ -4721,28 +4716,12 @@ msgstr ""
 "Esta categoría podrá ser filtrada como las demás en el menú de Acciones."
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:193
-msgid "Change visibility"
-msgstr "Cambiar visibilidad"
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:197
-msgid ""
-"Choose the sides that will be able to see the label. Can be a comma-"
-"separated list. Leave it blank if you want all sides to be able to see this "
-"label."
-msgstr ""
-"Elige el/los bandos que podrán ver la etiqueta. Puede ser una lista separada "
-"por comas. Déjalo en blanco si quieres que todos los bandos vean esta "
-"etiqueta."
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:222
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:192
 msgid "Change tooltip"
 msgstr "Cambiar leyenda"
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:226
+#: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:196
 msgid ""
 "Choose the tooltip that will be displayed when you hover over the label and "
 "select 'Continue setting'. Leave it blank if you don't want anything to be "
@@ -5101,6 +5080,18 @@ msgstr "$this_unit.name furioso"
 #: Advance_Wesnoth_Wars_fork/scenarios/4p_Ruvaak_Mirage_Atoll.cfg:955
 msgid "Best friend!"
 msgstr "¡Buen amigo!"
+
+#~ msgid "Change visibility"
+#~ msgstr "Cambiar visibilidad"
+
+#~ msgid ""
+#~ "Choose the sides that will be able to see the label. Can be a comma-"
+#~ "separated list. Leave it blank if you want all sides to be able to see "
+#~ "this label."
+#~ msgstr ""
+#~ "Elige el/los bandos que podrán ver la etiqueta. Puede ser una lista "
+#~ "separada por comas. Déjalo en blanco si quieres que todos los bandos vean "
+#~ "esta etiqueta."
 
 #~ msgid "Killings per map needed to gain Bloodthirsty with Fury ability."
 #~ msgstr "Muertes por mapa necesarias para obtener Sed de Sangre con Furia."

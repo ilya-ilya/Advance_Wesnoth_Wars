@@ -11,7 +11,6 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.16.1] - 2023-5-XX
 
 ### Added
-- New option for Custom Labels tool: Change visibility. You can specify which sides will be able to see the label.
 
 ### Fixed
 - Various corrections on help menu text.
