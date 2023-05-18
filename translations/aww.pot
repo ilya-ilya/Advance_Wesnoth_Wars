@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-05-17 03:07 UTC\n"
+"POT-Creation-Date: 2023-05-18 00:22 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3232,16 +3232,13 @@ msgstr ""
 msgid "Changed color of side $aww_tools_side to black"
 msgstr ""
 
-#. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3233
-msgid "Change status of Custom Labels"
-msgstr ""
-
 #. [print]
 #. [message]: speaker=narrator
+#. [option]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3252
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3271
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3237
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3233
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:23
 msgid "Custom Labels"
 msgstr ""
@@ -3251,17 +3248,14 @@ msgstr ""
 msgid "Allows players to create labels with custom color and category anywhere with right click."
 msgstr ""
 
-#. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3284
-msgid "Change status of Random Colors"
-msgstr ""
-
 #. [print]
 #. [message]: speaker=narrator
+#. [option]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3311
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3334
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3533
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3291
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3284
 msgid "Random Colors"
 msgstr ""
 
@@ -3300,6 +3294,11 @@ msgstr ""
 msgid "Change range of color and opacity"
 msgstr ""
 
+#. [message]: speaker=narrator
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3347
+msgid "Choose the parameter you want to change the value of."
+msgstr ""
+
 #. [option]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3351
 msgid "Red tint range values"
@@ -3308,6 +3307,13 @@ msgstr ""
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3355
 msgid "Choose the minimum value of the red tint to apply."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3355
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3393
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3431
+msgid "0 means that no tint of this color will be applied, and 255 that the maximum intensity will be applied."
 msgstr ""
 
 #. [text_input]
