@@ -11,6 +11,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.16.1] - 2023-5-XX
 
 ### Added
+- New Option: Ambush Tweak - Disallow Undo. Allows to disable undo of some actions always or when there is present a unit with hides.
+- New Option: Learning XP - Excluded sides. Allows to exclude any side from receiving any form of learning XP.
 
 ### Fixed
 - Various corrections on help menu text.
