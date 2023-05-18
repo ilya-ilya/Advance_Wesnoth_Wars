@@ -15,7 +15,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - New Option: Learning XP - Excluded sides. Allows to exclude any side from receiving any form of learning XP.
 
 ### Fixed
-- Various corrections on help menu text.
+- Various corrections on help menu.
+- New [print2] tag to some sections to prevent it from appearing hidden behind the message. Only compatible with 1.17.3 and later.
 
 ### Changed
 - Increased max experience per turn for human and AI to 999

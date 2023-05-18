@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-05-18 13:36 UTC\n"
+"POT-Creation-Date: 2023-05-21 14:57 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,7 +76,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:103
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:43
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:46
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4502
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4518
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:11
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:22
 msgid "No Random Combats"
@@ -107,7 +107,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/lua/aww_status.lua:131
 #: Advance_Wesnoth_Wars_fork/macros/abilities.mac.cfg:153
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:156
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4509
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4525
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:30
 msgid "Squad Mode"
 msgstr ""
@@ -194,7 +194,7 @@ msgstr ""
 #. [checkbox]: id=aww_15, description=#15. 
 #: Advance_Wesnoth_Wars_fork/lua/aww_status.lua:143
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:512
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4537
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4553
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:110
 msgid "Increase Level Number"
 msgstr ""
@@ -225,7 +225,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1179
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1122
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1125
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4558
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4574
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:181
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:189
 msgid "Epic Heroes"
@@ -285,7 +285,7 @@ msgstr ""
 #. [checkbox]: id=aww_11, description=#11. 
 #: Advance_Wesnoth_Wars_fork/lua/aww_status.lua:177
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2301
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4593
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4609
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:344
 msgid "NINJA WARS!"
 msgstr ""
@@ -1114,8 +1114,8 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2519
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2704
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2900
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3681
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3714
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3697
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3730
 msgid "Back to help menu"
 msgstr ""
 
@@ -1124,7 +1124,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2528
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2713
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2909
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4624
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4640
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:154
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:183
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:213
@@ -1141,6 +1141,7 @@ msgstr ""
 
 #. [print]
 #. [message]: speaker=narrator
+#. [print2]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:103
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:121
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:44
@@ -1236,35 +1237,35 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3442
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3409
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3482
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3505
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3704
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3511
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3720
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3464
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3852
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3877
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3824
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3923
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3948
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3895
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3994
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4019
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3966
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4055
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4037
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4120
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4145
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4092
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4191
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4216
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4163
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4262
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4287
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4234
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4333
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4358
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4305
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4404
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4429
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4376
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3868
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3893
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3840
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3939
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3964
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3911
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4010
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4035
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3982
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4071
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4053
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4136
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4161
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4108
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4207
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4232
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4179
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4278
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4303
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4250
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4349
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4374
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4321
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4420
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4445
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4392
 msgid "Set to"
 msgstr ""
 
@@ -1319,8 +1320,8 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2762
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3413
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3472
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3763
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3749
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3779
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3765
 msgid "Activate"
 msgstr ""
 
@@ -1353,9 +1354,9 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2861
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2881
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3432
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3694
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3796
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3782
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3710
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3812
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3798
 msgid "Deactivate"
 msgstr ""
 
@@ -1373,9 +1374,9 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:93
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:402
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2642
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3829
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3900
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4042
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3845
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3916
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4058
 msgid "Min"
 msgstr ""
 
@@ -1401,17 +1402,17 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2174
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2204
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2642
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3756
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3789
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3829
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3900
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3971
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4042
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4097
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4168
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4239
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4310
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4381
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3772
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3805
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3845
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3916
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3987
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4058
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4113
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4184
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4255
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4326
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4397
 msgid "Max"
 msgstr ""
 
@@ -1439,15 +1440,15 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2181
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2211
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2649
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3836
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3907
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3978
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4049
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4104
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4175
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4246
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4317
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4388
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3852
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3923
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3994
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4065
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4120
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4191
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4262
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4333
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4404
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:31
 msgid "Set"
 msgstr ""
@@ -1513,7 +1514,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:278
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:294
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:254
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4516
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4532
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:56
 msgid "Villages line of sight"
 msgstr ""
@@ -1575,7 +1576,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:366
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:382
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:342
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4523
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4539
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:75
 msgid "Desertions"
 msgstr ""
@@ -2221,7 +2222,7 @@ msgstr ""
 msgid "Restored"
 msgstr ""
 
-#. [print]
+#. [print2]
 #. [message]: speaker=narrator
 #. [slider]: id=aww_04, description=#04. 
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1358
@@ -2252,7 +2253,7 @@ msgstr ""
 msgid "or less"
 msgstr ""
 
-#. [print]
+#. [print2]
 #. [message]: speaker=narrator
 #. [slider]: id=aww_04_ai, description=#04. 
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1431
@@ -2267,7 +2268,7 @@ msgstr ""
 msgid "Extra XP for all AI units each turn. You can set a different amount of experience for low level units, by default the same, and a extra amount of experience for leaders."
 msgstr ""
 
-#. [print]
+#. [print2]
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1495
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1328
@@ -2342,7 +2343,7 @@ msgstr ""
 msgid "Set experience points per turn for player units with level $aww_04_low_level or less. Only applies if Passive XP is active. It is recommended 1 experience point or half the others."
 msgstr ""
 
-#. [print]
+#. [print2]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1392
 msgid "Passive XP for player low level units"
 msgstr ""
@@ -2367,7 +2368,7 @@ msgstr ""
 msgid "Set experience points per turn for AI units with level $aww_04_low_level or less. Only applies if Passive XP for AI is active. It is recommended 1 experience point or half the others."
 msgstr ""
 
-#. [print]
+#. [print2]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1465
 msgid "Passive XP for AI low level units"
 msgstr ""
@@ -2461,9 +2462,9 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1801
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1824
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1691
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3994
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4019
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3965
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4010
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4035
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3981
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:231
 msgid "Recall cost"
 msgstr ""
@@ -2562,14 +2563,14 @@ msgstr ""
 #. [item]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1730
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1718
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3877
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3948
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4019
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4145
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4216
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4287
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4358
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4429
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3893
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3964
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4035
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4161
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4232
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4303
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4374
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4445
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:234
 msgid "Default"
 msgstr ""
@@ -2758,7 +2759,7 @@ msgstr ""
 #. [choice]: id=aww_13_undo, description=#13. 
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2123
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:325
-msgid "Disallow undo always or when at least one unit with the ability to hide is alive and present, which will apply to all sides in play."
+msgid "Disallow undo on move, recruit and recall. It can keep active always or when at least one unit with the ability to hide is alive and present, which will apply to all sides in play. This can be used to prevent free exploration on maps with hidden units."
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -2921,8 +2922,8 @@ msgstr ""
 #. [print]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2417
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2429
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3769
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3745
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3785
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3761
 msgid "Last side was applied to"
 msgstr ""
 
@@ -3040,7 +3041,7 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2510
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2695
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2891
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4074
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4090
 msgid "Deactivated"
 msgstr ""
 
@@ -3234,12 +3235,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3042
-msgid "<i><b>NOTE: Changing default values on some scenarios can interfere with other custom settings. Reset to default will revert to the main game default values, and will return to the custom values in the next scenario, if that's the case.</b></i>"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3042
-msgid " <i><b>Some changes only take effect on next scenario, but all values changed remains between scenarios (except AI tools) until you restore them to default.</b></i>"
+msgid "<i><b>NOTE: Changing default values on some scenarios can interfere with other custom settings. Reset to default will revert to the main game default values, and will return to the custom values in the next scenario, if that's the case. Some changes only take effect on next scenario, but all values changed remains between scenarios (except AI tools and side colors) until you restore them to default.</b></i>"
 msgstr ""
 
 #. [option]
@@ -3372,11 +3368,12 @@ msgid "Allows players to create labels with custom color and category anywhere w
 msgstr ""
 
 #. [print]
+#. [print2]
 #. [message]: speaker=narrator
 #. [option]
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3482
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3505
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3704
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3511
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3720
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3462
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3455
 msgid "Random Colors"
@@ -3412,55 +3409,60 @@ msgstr ""
 msgid "Reset all colors"
 msgstr ""
 
+#. [print2]
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3519
+msgid "Random Colors deactivated. Activate it first."
+msgstr ""
+
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3514
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3530
 msgid "Change range of color and opacity"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3518
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3534
 msgid "Choose the parameter you want to change the value of."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3522
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3538
 msgid "Red tint range values"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3526
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3542
 msgid "Choose the minimum value of the red tint to apply."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3526
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3564
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3602
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3542
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3580
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3618
 msgid "0 means that no tint of this color will be applied, and 255 that the maximum intensity will be applied."
 msgstr ""
 
 #. [text_input]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3528
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3541
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3566
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3579
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3604
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3617
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3642
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3655
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3544
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3557
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3582
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3595
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3620
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3633
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3658
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3671
 msgid "Range:"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3548
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3535
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3586
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3573
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3624
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3611
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3662
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3649
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3674
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3564
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3551
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3602
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3589
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3640
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3627
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3678
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3665
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3690
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:62
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:176
 #: Advance_Wesnoth_Wars_fork/mods/20_color_labels.cfg:206
@@ -3468,402 +3470,399 @@ msgid "Continue setting"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3539
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3555
 msgid "Choose the maximum value of the red tint to apply."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3560
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3576
 msgid "Green tint range values"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3564
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3580
 msgid "Choose the minimum value of the green tint to apply."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3577
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3593
 msgid "Choose the maximum value of the green tint to apply."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3598
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3614
 msgid "Blue tint range values"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3602
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3618
 msgid "Choose the minimum value of the blue tint to apply."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3615
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3631
 msgid "Choose the maximum value of the blue tint to apply."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3636
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3652
 msgid "Opacity range values"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3640
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3656
 msgid "Choose the minimum value of the opacity to apply all color tints, in percentaje form. 0 means completely transparent and 100 a full color replacement."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3653
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3669
 msgid "Choose the maximum value of the opacity, in percentaje form."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3731
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4607
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3747
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4623
 msgid "Setup AI Controllers"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3739
-msgid "Change status of Temporary Fast AI"
 msgstr ""
 
 #. [print]
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3769
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3802
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3743
+#. [option]
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3785
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3818
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3759
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3755
 msgid "Temporary Fast AI"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3743
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3759
 msgid "Speeds up the AI turn by temporarily using a less intelligent but much faster AI, for certain large maps with many units, on modest computers. It can be changed at any time, specifying the side to which you want to activate or deactivate, by its number."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3744
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3760
 msgid "Times activated"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3749
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3782
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3765
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3798
 msgid " (Choose side)"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3753
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3769
 msgid "Choose the side you want to activate Fast Ai to."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3786
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3802
 msgid "Choose the side you want to deactivate Fast Ai to."
 msgstr ""
 
 #. [print]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3802
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3818
 msgid "Last side was deactivated to"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3819
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3835
 msgid "Change value of Poison damage"
 msgstr ""
 
 #. [print]
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3852
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3877
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3823
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3868
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3893
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3839
 msgid "Poison damage"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3823
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3839
 msgid "Change the amount of HP that is lost by poison every turn. This doesn't affect cure or slow poison abilities, which will work the same way."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3826
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3842
 msgid "Set value of Poison damage. Must be a positive number, negative will heal instead of damage."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3861
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3932
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4003
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4064
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4129
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4200
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4271
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4342
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4413
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3877
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3948
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4019
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4080
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4145
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4216
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4287
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4358
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4429
 msgid "Reset to default"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3890
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3906
 msgid "Change value of Rest healing"
 msgstr ""
 
 #. [print]
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3923
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3948
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3894
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3939
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3964
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3910
 msgid "Rest healing"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3894
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3910
 msgid "Change the amount of HP that is recovered by rest every turn."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3897
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3913
 msgid "Set value of Rest healing. Must be a positive number, negative will damage instead of heal."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3961
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3977
 msgid "Change value of Recall cost"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3965
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3981
 msgid "Change the value of base recall cost."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3968
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:3984
 msgid "Set value of Recall cost."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4032
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4048
 msgid "Change value of Experience modifier"
 msgstr ""
 
 #. [print]
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4055
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4074
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4036
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4071
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4090
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4052
 msgid "Experience modifier"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4036
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4052
 msgid "Set the base max experience of all the units to a positive or negative percentage (in %), to increase or decrease experience needed to level up. This can be changed at any moment and all units will be readjusted, even units in recall list. The effect will be accumulated with <b>experience_modifier</b> key of the scenario or campaign, or any other configuration."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4039
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4055
 msgid "Set value of Experience modifier."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4087
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4103
 msgid "Change value of Combat experience"
 msgstr ""
 
 #. [print]
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4120
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4145
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4091
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4136
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4161
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4107
 msgid "Combat experience"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4091
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4107
 msgid "Change the amount of experience that is gained by fighting another unit. Amount of experience is <b>value*unit level</b>."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4094
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4110
 msgid "Set value of Combat experience."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4158
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4174
 msgid "Change value of Kill experience"
 msgstr ""
 
 #. [print]
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4191
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4216
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4162
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4207
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4232
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4178
 msgid "Kill experience"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4162
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4178
 msgid "Change the amount of experience that is gained by killing another unit. Amount of experience is <b>value*unit level</b> (<b>value/2</b> killing level 0 units)."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4165
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4181
 msgid "Set value of Kill experience."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4229
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4245
 msgid "Change value of Base income"
 msgstr ""
 
 #. [print]
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4262
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4287
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4233
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4278
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4303
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4249
 msgid "Base income"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4233
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4249
 msgid "Change the base amount of gold that is gained every turn."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4236
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4252
 msgid "Set value of Base income."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4300
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4316
 msgid "Change value of Village income"
 msgstr ""
 
 #. [print]
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4333
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4358
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4304
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4349
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4374
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4320
 msgid "Village income"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4304
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4320
 msgid "Change the amount of gold that is gained by each village."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4307
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4323
 msgid "Set value of Village income. Only takes effect on next scenario."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4371
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4387
 msgid "Change value of Village support"
 msgstr ""
 
 #. [print]
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4404
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4429
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4375
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4420
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4445
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4391
 msgid "Village support"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4375
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4391
 msgid "Change the amount of level that is mantained by each village."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4378
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4394
 msgid "Set value of Village support. Only takes effect on next scenario."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4450
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4616
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4466
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4632
 msgid "Legend of the Invincibles : Reload items"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4450
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4466
 msgid "You can reload the items in all the units instead of unequipping and reequipping one by one, in case the effects are lost due to some feature of this or any other addon. This only applies to units in play, not in the recall list."
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4453
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4469
 msgid "Reload items"
 msgstr ""
 
 #. [print]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4462
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4478
 msgid "Legend of the Invincibles"
 msgstr ""
 
 #. [print]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4462
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4478
 msgid "Items reloaded"
 msgstr ""
 
 #. [set_menu_item]: id=aaww_help
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4481
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4497
 msgid "AWW Menu"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4497
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4513
 msgid "Choose the feature you want help with:"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4530
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4546
 msgid "Level-Up"
 msgstr ""
 
 #. [option]
 #. [checkbox]: id=aww_15, description=#15. 
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4537
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4553
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:110
 msgid "AMLA : "
 msgstr ""
 
 #. [option]
 #. [choice]: id=aww_09, description=#09. 
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4544
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4560
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:118
 msgid "AMLA : Bonuses"
 msgstr ""
 
 #. [option]
 #. [checkbox]: id=aww_03, description=#03. 
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4551
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4567
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:153
 msgid "AMLA : Promoted Leaders"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4565
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4581
 msgid "Learning"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4572
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4588
 msgid "Recall list"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4579
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4595
 msgid "Berserk tweaks"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4586
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4602
 msgid "Ambush tweaks"
 msgstr ""
 
 #. [option]
-#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4600
+#: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:4616
 msgid "Tools"
 msgstr ""
 
