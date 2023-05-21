@@ -60,7 +60,7 @@ Features list
 
 - *New* Berserk rounds: Change the combat rounds of standard berserk ability, making it less risky.
 
-- *Updated* Ambushed tweak - Surprise Attacks : An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. A new eye icon indicates if the surprise attack is prepared.
+- *Updated* Ambushed tweak - Surprise Attacks : An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. A new eye icon indicates if the surprise attack is prepared. To avoid free exploration, undo can be disabled for some actions all the time, or when there is at least one unit alive and in play with the ability to hide.
 
 - Ninja Wars! (Stealthy units) : Most of units will get melee back-stabs, poison arrows, diversion, skirmisher, be faster and invisible/ambushers in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes / hide&seek.
 
