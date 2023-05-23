@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-05-22 06:41 UTC\n"
+"POT-Creation-Date: 2023-05-23 18:18 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2766,10 +2766,8 @@ msgid "Ambush tweak : Disallow Undo"
 msgstr ""
 
 #. [message]: speaker=narrator
-#. [choice]: id=aww_13_undo, description=#13. 
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2135
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:325
-msgid "Disallow undo on move, recruit and recall. It can keep active always or when at least one unit with the ability to hide is alive and present, which will apply to all sides in play. This can be used to prevent free exploration on maps with hidden units."
+msgid "Disallow Undo on move, recruit and recall. It can keep active always or when at least one unit with the ability to hide is alive and present, which will apply to all sides in play. This can be used to prevent free exploration on maps with hidden units."
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -4070,6 +4068,11 @@ msgstr ""
 #. [checkbox]: id=aww_13, description=#13. 
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:317
 msgid "An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. This surprise attack has a 2-turn cooldown, but units with their surprise attack on cooldown can still ambush normally. Normal attacks add a 1-turn cooldown to the surprise attack. Surprise attack availability will be indicated by a blue eye icon."
+msgstr ""
+
+#. [choice]: id=aww_13_undo, description=#13. 
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:325
+msgid "Disallow undo on move, recruit and recall. It can keep active always or when at least one unit with the ability to hide is alive and present, which will apply to all sides in play. This can be used to prevent free exploration on maps with hidden units."
 msgstr ""
 
 #. [checkbox]: id=aww_11, description=#11. 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-05-22 06:41 UTC\n"
-"PO-Revision-Date: 2023-05-22 08:41+0200\n"
+"POT-Creation-Date: 2023-05-23 18:18 UTC\n"
+"PO-Revision-Date: 2023-05-23 20:19+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -3323,11 +3323,9 @@ msgid "Ambush tweak : Disallow Undo"
 msgstr "Emboscadas modificadas : Desactivar Deshacer"
 
 #. [message]: speaker=narrator
-#. [choice]: id=aww_13_undo, description=#13.
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2135
-#: Advance_Wesnoth_Wars_fork/mods/options.cfg:325
 msgid ""
-"Disallow undo on move, recruit and recall. It can keep active always or when "
+"Disallow Undo on move, recruit and recall. It can keep active always or when "
 "at least one unit with the ability to hide is alive and present, which will "
 "apply to all sides in play. This can be used to prevent free exploration on "
 "maps with hidden units."
@@ -3344,7 +3342,7 @@ msgid ""
 "(<span color='#00FFFF'>0</span> = Deactivated, <span color='#00FFFF'>1</"
 "span> = Unit with hides, <span color='#00FFFF'>3</span> = Always)"
 msgstr ""
-"(<span color='#00FFFF'>0</span> = Texto flotante, <span color='#00FFFF'>1</"
+"(<span color='#00FFFF'>0</span> = Desactivado, <span color='#00FFFF'>1</"
 "span> = Unidad con ocultación, <span color='#00FFFF'>2</span> = Siempre)"
 
 #. [option]
@@ -5059,6 +5057,20 @@ msgstr ""
 "extra, pero podrá emboscar como normalmente. Los ataques normales añaden 1 "
 "turno de recarga al ataque sorpresa. La disponibilidad del ataque sorpresa "
 "se indicará por un icono de ojo azul."
+
+#. [choice]: id=aww_13_undo, description=#13.
+#: Advance_Wesnoth_Wars_fork/mods/options.cfg:325
+msgid ""
+"Disallow undo on move, recruit and recall. It can keep active always or when "
+"at least one unit with the ability to hide is alive and present, which will "
+"apply to all sides in play. This can be used to prevent free exploration on "
+"maps with hidden units."
+msgstr ""
+"Desactiva Deshacer en movimiento, reclutamiento, o reincorporación. Se puede "
+"mantener activo siempre o cuando al menos una unidad con habilidad de "
+"ocultación está viva y presente, lo cual aplicará a todos los bandos en "
+"juego. Esto se puede usar para prevenir la exploración gratuita en mapas con "
+"unidades ocultas."
 
 #. [checkbox]: id=aww_11, description=#11.
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:345

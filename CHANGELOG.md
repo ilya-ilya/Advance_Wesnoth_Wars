@@ -8,6 +8,12 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Split the addon on different resources, to load only the features that interest the player.
 
 
+## [1.17.17.1] - 2023-5-XX
+
+### Fixed
+- Corrections on help menu.
+
+
 ## [1.17.17] - 2023-5-21
 
 ### Added
