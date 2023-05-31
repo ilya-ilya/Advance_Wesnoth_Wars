@@ -13,6 +13,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Fixed
 - Corrections on help menu.
 - Better leader detection for Leader AI.
+- Disallow undo on recall units with ambush icon only on LOTI, to avoid sync issues with undo+redo.
 
 
 ## [1.17.17] - 2023-5-21

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-05-30 00:48 UTC\n"
+"POT-Creation-Date: 2023-05-31 08:58 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2528,7 +2528,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1711
-msgid "Cannot be used with leaders, heroes, promoted, other special units, or with no upkeep cost. Cannot be used if there is any enemy adjacent to the unit. Sending unit to reserve will cost <span color='#00FFFF'>$aww_unrecall_gold</span> gold, and you can change this value."
+msgid "Cannot be used with leaders, heroes, promoted, other special units, or with no upkeep cost. Cannot be used if there is any enemy adjacent to the unit. Sending unit to reserve will cost <span color='#00FFFF'>$aww_unrecall_gold</span> gold (configurable)."
 msgstr ""
 
 #. [message]: speaker=narrator
