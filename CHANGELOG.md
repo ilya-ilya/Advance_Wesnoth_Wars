@@ -8,7 +8,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Split the addon on different resources, to load only the features that interest the player.
 
 
-## [1.17.17.1] - 2023-5-XX
+## [1.17.17.1] - 2023-6-2
 
 ### Changed
 - Removed unbalanced +2 HP per level on Epic trait.
