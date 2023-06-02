@@ -10,6 +10,9 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## [1.17.17.1] - 2023-5-XX
 
+### Changed
+- Removed unbalanced +2 HP per level on Epic trait.
+
 ### Fixed
 - Corrections on help menu.
 - Better leader detection for Leader AI.
@@ -22,13 +25,13 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - New Option: Ambush Tweak - Disallow Undo. Allows to disable undo of some actions always or when there is present a unit with hides.
 - New Option: Learning XP - Excluded sides. Allows to exclude any side from receiving any form of learning XP.
 
-### Fixed
-- Various corrections on help menu.
-- New [print2] tag to some sections to prevent it from appearing hidden behind the message. Only compatible with 1.17.3 and later.
-
 ### Changed
 - Increased max experience per turn for human and AI to 999
 - Added the merchant to units that do not receive Passive Experience.
+
+### Fixed
+- Various corrections on help menu.
+- New [print2] tag to some sections to prevent it from appearing hidden behind the message. Only compatible with 1.17.3 and later.
 
 
 ## [1.17.16] - 2023-5-5
