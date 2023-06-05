@@ -11,7 +11,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ## [1.17.17.2] - 2023-6-XX
 
 ### Changed
-- 
+- Ambush icon now it is not reset in each scenario, but is preserved from one scenario to another. Only the counter variables are reset.
 
 ### Fixed
 - Prevent gaining healing experience on side 1 first turn.
