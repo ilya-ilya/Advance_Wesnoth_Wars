@@ -8,7 +8,10 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Split the addon on different resources, to load only the features that interest the player.
 
 
-## [1.17.17.2] - 2023-6-XX
+## [1.17.17.3] - 2023-6-XX
+
+
+## [1.17.17.2] - 2023-6-6 on 1.16 as 1.17.17.1
 
 ### Changed
 - Ambush icon now it is not reset in each scenario, but is preserved from one scenario to another. Only the counter variables are reset.
@@ -17,7 +20,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Prevent gaining healing experience on side 1 first turn.
 
 
-## [1.17.17.1] - 2023-6-2
+## [1.17.17.1] - 2023-6-2 on 1.17 only
 
 ### Changed
 - Removed unbalanced +2 HP per level on Epic trait.
