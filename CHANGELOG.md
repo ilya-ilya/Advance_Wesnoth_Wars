@@ -10,6 +10,9 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ## [1.17.17.3] - 2023-6-XX
 
+### Fixed
+- Removed menu items on leader AI controller between scenarios.
+
 
 ## [1.17.17.2] - 2023-6-6 on 1.16 as 1.17.17.1
 
