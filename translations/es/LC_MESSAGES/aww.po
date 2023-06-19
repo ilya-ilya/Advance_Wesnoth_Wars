@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-05-31 08:58 UTC\n"
-"PO-Revision-Date: 2023-05-31 10:59+0200\n"
+"POT-Creation-Date: 2023-06-20 07:06 UTC\n"
+"PO-Revision-Date: 2023-06-20 09:07+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -831,18 +831,18 @@ msgstr ""
 "los mejores, esta unidad no tiene rival en la batalla."
 
 #. [trait]: id=aww_trait_ninja
-#: Advance_Wesnoth_Wars_fork/macros/traits.mac.cfg:87
+#: Advance_Wesnoth_Wars_fork/macros/traits.mac.cfg:82
 msgid "ninja"
 msgstr "ninja"
 
 #. [trait]: id=aww_trait_ninja
-#: Advance_Wesnoth_Wars_fork/macros/traits.mac.cfg:88
+#: Advance_Wesnoth_Wars_fork/macros/traits.mac.cfg:83
 msgid "female^ninja"
 msgstr "ninja"
 
 #. [trait]: id=aww_trait_ninja
-#: Advance_Wesnoth_Wars_fork/macros/traits.mac.cfg:89
-#: Advance_Wesnoth_Wars_fork/macros/traits.mac.cfg:90
+#: Advance_Wesnoth_Wars_fork/macros/traits.mac.cfg:84
+#: Advance_Wesnoth_Wars_fork/macros/traits.mac.cfg:85
 msgid ""
 "This unit can move very fast, hide almost everywhere and pass discretely "
 "behind enemies lines."
@@ -851,12 +851,12 @@ msgstr ""
 "pasar discretamente tras las líneas enemigas."
 
 #. [damage]: id=backstab
-#: Advance_Wesnoth_Wars_fork/macros/traits.mac.cfg:242
+#: Advance_Wesnoth_Wars_fork/macros/traits.mac.cfg:237
 msgid "backstab"
 msgstr "puñalada trapera"
 
 #. [damage]: id=backstab
-#: Advance_Wesnoth_Wars_fork/macros/traits.mac.cfg:243
+#: Advance_Wesnoth_Wars_fork/macros/traits.mac.cfg:238
 #: Advance_Wesnoth_Wars_fork/mods/09_levelup_amla_bonus.cfg:1005
 #: Advance_Wesnoth_Wars_fork/mods/09_levelup_amla_bonus.cfg:2171
 msgid ""
@@ -1195,7 +1195,7 @@ msgid "rounds of attacks have occurred."
 msgstr "rondas de ataques."
 
 #. [message]: speaker=$ambusher.id
-#: Advance_Wesnoth_Wars_fork/mods/13_tweak_ambush.cfg:561
+#: Advance_Wesnoth_Wars_fork/mods/13_tweak_ambush.cfg:577
 msgid "Surprise!"
 msgstr "¡Sorpresa!"
 
@@ -3287,20 +3287,22 @@ msgstr "Emboscadas modificadas : Ataques Sorpresa"
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2128
 msgid ""
 "An ambush will trigger a combat in which the ambushed unit can't counter-"
-"attack. This surprise attack has a <span "
-"color='#00FFFF'>$aww_ambush_cooldown</span>-turn cooldown, but units with "
-"their surprise attack on cooldown can still ambush normally. Normal attacks "
-"add a <span color='#00FFFF'>$aww_ambush_cooldown_attack</span>-turn cooldown "
-"to the surprise attack. Surprise attack availability will be indicated by a "
-"blue eye icon."
+"attack. This surprise attack uses the first ranged weapon or, in its "
+"absence, the first melee weapon, and has a <span "
+"color='#00FFFF'>$aww_ambush_cooldown</span>-turn cooldown. During this "
+"cooldown units can still ambush normally, without the surprise attack. "
+"Normal attacks add a <span color='#00FFFF'>$aww_ambush_cooldown_attack</"
+"span>-turn cooldown to the surprise attack. Surprise attack availability "
+"will be indicated by a blue eye icon."
 msgstr ""
 "Una emboscada activa un combate rápido en el que la unidad emboscada no "
-"podrá contraatacar. Este ataque sorpresa tiene una recarga de <span "
-"color='#00FFFF'>$aww_ambush_cooldown</span> turnos extra, pero podrá "
-"emboscar como normalmente. Los ataques normales añaden <span "
-"color='#00FFFF'>$aww_ambush_cooldown_attack</span> turno de recarga al "
-"ataque sorpresa. La disponibilidad del ataque sorpresa se indicará por un "
-"icono de ojo azul."
+"podrá contraatacar. Este ataque sorpresa usa la primera arma a distancia o, "
+"en su ausencia, la primera arma melé, y tiene una recarga de <span "
+"color='#00FFFF'>$aww_ambush_cooldown</span> turnos extra. Durante la recarga "
+"la unidad podrá emboscar como normalmente, sin el ataque sorpresa. Los "
+"ataques normales añaden <span color='#00FFFF'>$aww_ambush_cooldown_attack</"
+"span> turno de recarga al ataque sorpresa. La disponibilidad del ataque "
+"sorpresa se indicará por un icono de ojo azul."
 
 #. [message]: speaker=narrator
 #. [choice]: id=aww_13_undo, description=#13.

@@ -8,7 +8,10 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Split the addon on different resources, to load only the features that interest the player.
 
 
-## [1.17.17.3] - 2023-6-XX
+## [1.17.18] - 2023-6-19
+
+### Changed
+- Better detection of ranged attacks on Surprise Attack.
 
 ### Fixed
 - Removed menu items on leader AI controller between scenarios.
