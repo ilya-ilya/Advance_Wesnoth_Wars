@@ -8,6 +8,15 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Split the addon on different resources, to load only the features that interest the player.
 
 
+## [1.17.18.1] - 2023-6-XX
+
+### Changed
+- Standardized print messages colors. Green=Activate function, Red=Deactivate function, Cyan=Change value or info.
+
+### Fixed
+- Some strings now are translatable. Spanish translation included.
+
+
 ## [1.17.18] - 2023-6-19
 
 ### Changed
