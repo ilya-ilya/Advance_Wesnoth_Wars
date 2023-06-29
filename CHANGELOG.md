@@ -16,6 +16,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Fixed
 - Some strings now are translatable. Spanish translation included.
+- Desertions: Better detection of loyals.
 
 
 ## [1.17.18] - 2023-6-19
