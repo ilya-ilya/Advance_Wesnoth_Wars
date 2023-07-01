@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-06-27 18:10 UTC\n"
-"PO-Revision-Date: 2023-06-27 22:07+0200\n"
+"POT-Creation-Date: 2023-07-01 15:54 UTC\n"
+"PO-Revision-Date: 2023-07-01 17:55+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -3092,14 +3092,18 @@ msgstr ""
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2002
 msgid ""
 "(<span color='#00FFFF'>no_change</span> = Default, <span "
-"color='#00FFFF'>half</span> = Half, <span color='#00FFFF'>cost_plus_one</"
-"span> = Recruit cost +1, <span color='#00FFFF'>percentage</span> = Recruit "
-"cost percentage, <span color='#00FFFF'>free</span> = 0)"
+"color='#00FFFF'>half</span> = Half (<span "
+"color='#00FFFF'>$($aww_21_recall_real / 2)</span>), <span "
+"color='#00FFFF'>cost_plus_one</span> = Recruit cost +1, <span "
+"color='#00FFFF'>percentage</span> = Recruit cost percentage, <span "
+"color='#00FFFF'>free</span> = 0)"
 msgstr ""
 "(<span color='#00FFFF'>no_change</span> = Por defecto, <span "
-"color='#00FFFF'>half</span> = Mitad, <span color='#00FFFF'>cost_plus_one</"
-"span> = Coste de reclutamiento +1, <span color='#00FFFF'>percentage</span> = "
-"Porcentaje del coste de reclutamiento, <span color='#00FFFF'>free</span> = 0)"
+"color='#00FFFF'>half</span> = Mitad (<span "
+"color='#00FFFF'>$($aww_21_recall_real / 2)</span>), <span "
+"color='#00FFFF'>cost_plus_one</span> = Coste de reclutamiento +1, <span "
+"color='#00FFFF'>percentage</span> = Porcentaje del coste de reclutamiento, "
+"<span color='#00FFFF'>free</span> = 0)"
 
 #. [message]: speaker=narrator
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:2003
@@ -4872,17 +4876,17 @@ msgid "Tools"
 msgstr "Utilidades"
 
 #. [animate_unit]
-#: Advance_Wesnoth_Wars_fork/mods/19_deserters.cfg:92
+#: Advance_Wesnoth_Wars_fork/mods/19_deserters.cfg:109
 msgid "Deserter"
 msgstr "Desertor"
 
 #. [animate_unit]
-#: Advance_Wesnoth_Wars_fork/mods/19_deserters.cfg:93
+#: Advance_Wesnoth_Wars_fork/mods/19_deserters.cfg:110
 msgid "female^Deserter"
 msgstr "Desertora"
 
 #. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork/mods/19_deserters.cfg:110
+#: Advance_Wesnoth_Wars_fork/mods/19_deserters.cfg:127
 msgid ""
 "$pot_deserters[$rand_deserter].name has deserted to $pot_sides[$rand_side]."
 "side_name due to not receiving enough maintenance."
