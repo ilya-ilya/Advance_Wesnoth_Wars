@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-07-01 15:54 UTC\n"
+"POT-Creation-Date: 2023-07-01 16:16 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2234,7 +2234,7 @@ msgstr ""
 #. [checkbox]: id=aww_10, description=#10. 
 #: Advance_Wesnoth_Wars_fork/mods/18_help_menu.cfg:1357
 #: Advance_Wesnoth_Wars_fork/mods/options.cfg:182
-msgid "The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of their attributes and an extra 2 HP per level, making them harder to kill."
+msgid "Leaders and Heroes (gold & silver crowns) gain an increase of 20% of HP and movement, -20% of experience needed to advance, and 20% of extra damage on their basic weapons, excluding weapons obtained through objects or advancements."
 msgstr ""
 
 #. [print]
