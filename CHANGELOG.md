@@ -12,6 +12,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 
 ### Changed
 - Half cost of recall reflects exact value on Help Menu.
+- Added Solid Phoenix to Epic Heroes.
 
 
 ## [1.17.18.1] - 2023-6-30
