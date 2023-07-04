@@ -15,6 +15,9 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Added Solid Phoenix to Epic Heroes.
 - Removed regeneration on Beelzebub with Epic trait.
 
+### Fixed
+- [effect] apply_to=level compatible with LOTI,AtS,IftU and WoL
+
 
 ## [1.17.18.1] - 2023-6-30
 
