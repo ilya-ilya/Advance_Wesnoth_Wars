@@ -14,6 +14,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Half cost of recall reflects exact value on Help Menu.
 - Added Solid Phoenix to Epic Heroes.
 - Removed regeneration on Beelzebub with Epic trait.
+- Changed disallow undo with a new custom tag [deny_undo], probably more reliable on MP.
 
 ### Fixed
 - [effect] apply_to=level compatible with LOTI,AtS,IftU and WoL
