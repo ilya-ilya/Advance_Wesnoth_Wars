@@ -17,7 +17,8 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Changed disallow undo with a new custom tag [deny_undo], probably more reliable on MP.
 
 ### Fixed
-- [effect] apply_to=level compatible with LOTI,AtS,IftU and WoL
+- [effect] apply_to=level compatible with LOTI,AtS,IftU and WoL.
+- AI Controller: frozen and moving_to_target statuses changed to unit variables, to avoid deletion on advancements or others situations.
 
 
 ## [1.17.18.1] - 2023-6-30
