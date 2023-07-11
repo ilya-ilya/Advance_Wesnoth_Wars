@@ -5,7 +5,7 @@ For more clarity about compatibility, first 2 version numbers will follow base g
 So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremented for new features; Y is increment for fixes/optimisations.
 
 ## TO-DO
-- Split the addon on different resources, to load only the features that interest the player.
+- Split the addon on different resources, to load only the features that interest the player. Probably not neccesary, so far I have not received complaints of poor performance or problems for unifying all in one addon.
 
 
 ## [1.17.18.2] - 2023-X-XX
@@ -14,7 +14,6 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Half cost of recall reflects exact value on Help Menu.
 - Added Solid Phoenix to Epic Heroes.
 - Removed regeneration on Beelzebub with Epic trait.
-- Changed disallow undo with a new custom tag [deny_undo], probably more reliable on MP.
 
 ### Fixed
 - [effect] apply_to=level compatible with LOTI,AtS,IftU and WoL.
