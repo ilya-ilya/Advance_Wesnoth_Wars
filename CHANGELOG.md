@@ -8,7 +8,16 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 - Split the addon on different resources, to load only the features that interest the player. Probably not neccesary, so far I have not received complaints of poor performance or problems for unifying all in one addon.
 
 
-## [1.17.18.2] - 2023-X-XX
+## [1.17.18.3] - 2023-7-XX
+
+### Changed
+
+
+### Fixed
+- Fixed amla bonus malfunction because a typo.
+
+
+## [1.17.18.2] - 2023-7-13
 
 ### Changed
 - Half cost of recall reflects exact value on Help Menu.
@@ -18,6 +27,7 @@ So 1.14.X.Y means game was checked compatible with Wesnoth 1.14. X is incremente
 ### Fixed
 - [effect] apply_to=level compatible with LOTI,AtS,IftU and WoL.
 - AI Controller: frozen and moving_to_target statuses changed to unit variables, to avoid deletion on advancements or others situations.
+- Fixed amla bonus malfunction because a typo.
 
 
 ## [1.17.18.1] - 2023-6-30
