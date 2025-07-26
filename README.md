@@ -7,11 +7,12 @@ About
 It's a mod  for "Battle for Wesnoth" open-source videogame.
 
 * Author :  [Ruvaak](http://thomas.bondois.info)
-* Mantainer : [Toranks](http://toranks.blogspot.com/)
+* Contributor: [Toranks](http://toranks.blogspot.com/)
+* Mantainer : ilya-ilya
 * Version : see [lua/aww_status.lua:9](lua/aww_status.lua)
 * Changelog : see [CHANGELOG.md](CHANGELOG.md)
 * License : [GNU-GPL](LICENSE.md)
-* Code Repository [on GitHub](https://github.com/Toranks/Advance_Wesnoth_Wars)
+* Code Repository [on GitHub](https://github.com/ilya-ilya/Advance_Wesnoth_Wars)
 * Dedicated [forum thread](https://forums.wesnoth.org/viewtopic.php?f=15&t=49454)
 
 
@@ -25,7 +26,7 @@ But I will really appreciate to know my code is used on your project, and that y
 Description
 -----------
 
-Last Wesnoth version tested : 1.17.16
+Last Wesnoth version tested : 1.18.5
 
 A collection of the most-requested options to make the mechanics more realistic and tactic, for people curious to experiment a new gameplay.
 All theses features works for mainline Campaigns & Scenarios, Single or Multiplayer, for all sides including AI (except for special cases).

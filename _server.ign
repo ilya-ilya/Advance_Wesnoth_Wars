@@ -22,3 +22,13 @@ meta.xml
 awwicon?-?original.png
 awwicon?-?copia.png
 Battle-of-Agincourt.webp
+
+.+
+.+/
+__MACOSX/
+#*#
+*~
+*-bak
+*.swp
+*.pbl
+*.ign
